@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mvrt-website
 
 MVRT's snazzy new website.
@@ -17,3 +18,7 @@ $ git clone <git url>
 $ bundle install && npm install && bower install
 $ grunt
 ```
+=======
+MVRT_Site
+=========
+>>>>>>> ef8926f32e231c1458700e7b4b60a05ad03328a1
