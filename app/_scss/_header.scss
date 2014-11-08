@@ -1,0 +1,38 @@
+.site-header {
+
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  height: $header-height;
+  line-height: 1;
+  font-size: $header-font-size;
+  background-color: $purple;
+
+  h1 {
+    display: inline-block;
+    font-size: $header-font-size;
+    line-height: 1;
+    padding: $header-padding;
+  }
+
+}
+
+.site-nav {
+
+  padding: $header-padding;
+  float: right;
+  height: $header-height;
+
+  li {
+    display: inline-block;
+  }
+
+}
+
+.site-header a {
+  padding: 0 1em;
+  color: $light-purple;
+  &:hover {
+    color: lighten($light-purple, 20%);
+  }
+}

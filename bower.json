@@ -1,0 +1,9 @@
+{
+  "name": "mvrt-website",
+  "version": "0.0.0",
+  "dependencies": {
+    "neat": "~1.7.0",
+    "bourbon": "~4.0.2",
+    "normalize.css": "~3.0.2"
+  }
+}

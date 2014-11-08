@@ -1,0 +1,33 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: mvrt-website
+description: MVRT's snazzy new website.
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: redcarpet
+
+redcarpet:
+  extensions: ['fenced_code_blocks', 'smart']
+
+
+highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

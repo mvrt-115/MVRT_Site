@@ -1,0 +1,12 @@
+// main.scss
+
+// bourbon + neat + bitters
+@import "bourbon/dist/bourbon";
+@import "base/base";
+@import "neat/app/assets/stylesheets/neat";
+
+// layouts
+@import "header";
+
+// pages
+@import "home";
