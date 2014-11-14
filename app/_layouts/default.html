@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
 
     <!-- build:css({app,.tmp}) /css/main.css -->
     <!-- Custom CSS -->
@@ -13,11 +14,17 @@
     <!-- endbuild -->
 
   </head>
-  <body>
+  <body {% if page.categories %}class="{{ page.categories | join: ' ' }}"{% endif %}>
 
     {% include header.html %}
 
-    {{ content }}
+    {% if page.hero %}
+      {% include hero.html %}
+    {% endif %}
+
+    <main class="site-main" role="main">
+      {{ content }}
+    </main>
 
     {% include footer.html %}
 

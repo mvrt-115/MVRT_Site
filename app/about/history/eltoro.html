@@ -1,0 +1,17 @@
+---
+title: El Toro
+permalink: /about/history/eltoro/
+---
+
+{% for robot in site.data.history.eltoro %}
+  <section id="{{ robot.id }}" class="robot">
+    <h2>{{ robot.year }} — {{ robot.name }}</h2>
+    {% if robot.notes %}
+    <ul class="robot-notes">
+    {% for note in robot.notes %}
+      <li>{{ note }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+{% endfor %}

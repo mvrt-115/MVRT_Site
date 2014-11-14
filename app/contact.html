@@ -1,0 +1,24 @@
+---
+title: Contact MVRT
+permalink: /contact/
+categories: ['contact']
+---
+
+<section id="contact-main">
+  <h1>Contact Us</h1>
+  <p class="email">mvrt at mvrt</p>
+  <p class="address">21840 McClellan Road<br>Cupertino, CA 95014</p>
+</section>
+
+<section id="contact-officers">
+  <h2>Contact an Officer</h2>
+
+  <dl class="contact-officers-list">
+  {% for officer in site.data.officers %}
+    <dt>{{ officer.fname }} {{ officer.lname }}</dt>
+    <dd>{{ officer.position }}</dd>
+    <dd>{{ officer.email }} at mvrt</dd>
+  {% endfor %}
+  </dl>
+
+</section>

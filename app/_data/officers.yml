@@ -1,0 +1,95 @@
+-
+  position: President
+  fname: Archana
+  lname: Kikla
+  grade: 12
+  xp: 4
+  email: president
+
+-
+  position: VP of Engineering
+  fname: Andrew
+  lname: He
+  grade: 12
+  xp: 4
+  email: engineering
+
+-
+  position: VP of Operations
+  fname: Divek
+  lname: Toprani
+  grade: 12
+  xp: 4
+  email: operations
+
+-
+  position: Mechanical Lead
+  fname: Chirag
+  lname: Toprani
+  grade: 12
+  xp: 4
+  email: mechanical
+
+-
+  position: Electrical Lead
+  fname: Lee
+  lname: Mracek
+  grade: 11
+  xp: 3
+  email: electrical
+
+-
+  position: Engineering Data Director
+  fname: RJ
+  lname: Cunningham
+  grade: 12
+  xp: 4
+  email: engineeringdata
+
+-
+  position: Media Director
+  fname: Sophie
+  lname: Chen
+  grade: ???
+  xp: At least a year I hope
+  email: media
+
+-
+  position: Public Relations Director
+  fname: Michelle
+  lname: Danese
+  grade: 12
+  xp: 1
+  email: publicrelations
+
+-
+  position: Documentation Director
+  fname: Sydney
+  lname: Howard
+  grade: ???
+  xp: At least a year I hope
+  email: documentation
+
+-
+  position: Outreach Director
+  fname: Praxis
+  lname: Bays
+  grade: 11
+  xp: 3
+  email: outreach
+
+-
+  position: Finance Director
+  fname: Jeremy
+  lname: Chen
+  grade: 11
+  xp: 3
+  email: finance
+
+-
+  position: Webmaster
+  fname: Shovik
+  lname: Guha
+  grade: 11
+  xp: 3
+  email: webmaster

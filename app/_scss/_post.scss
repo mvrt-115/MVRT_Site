@@ -1,0 +1,26 @@
+// _post.scss
+
+.posts .hero-text h1 {
+  @include span-columns(8);
+  @include shift(2);
+}
+
+.post {
+  @include span-columns(8);
+  @include shift(2);
+  @include omega;
+  @include pad;
+}
+
+.post > p:first-of-type {
+  margin-top: $base-spacing;
+}
+
+// stupid...
+.hero + .site-main > .post > .post-title {
+  display: none;
+}
+
+.post-meta {
+  border-bottom: $base-border;
+}

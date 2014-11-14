@@ -1,0 +1,47 @@
+---
+title: Meet the Team
+permalink: /about/people/
+categories: ['people']
+---
+
+<section id="intro">
+<h1>Meet the Team</h1>
+<p>We are builders, makers, designers, writers, managers, workers, &amp;c. We are team people.</p>
+</section>
+
+<section id="officers">
+  <h2>Our Officers</h2>
+  <ul class="people-list officers-list">
+  {% for officer in site.data.officers %}
+    <li class="person officer" data-img-url="{{ officer.lname | append: ' ' | append: member.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
+      <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
+      <span class="officer-posision">{{ officer.position }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section id="team">
+  <h2>The Team</h2>
+  <ul class="people-list">
+  {% for member in site.data.members %}
+    <li class="person" data-img-url="{{ member.lname | append: ' ' | append: member.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
+      <span class="person-name">{{ member.fname | append:' ' | append:member.lname }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section id="mentors">
+  <h2>Mentors</h2>
+  <ul class="people-list mentors-list">
+  {% for mentor in site.data.mentors.current %}
+    <li class="person mentor" data-img-url="{{ mentor.lname | append: ' ' | append: mentor.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
+      <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
+      {% if mentor.job %}<span class="mentor-job">{{ mentor.job }}</span>{% endif %}
+      {% if mentor.background %}<span class="mentor-background">{{ mentor.background }}</span>{% endif %}
+      {% if mentor.years %}<span class="mentor-years">{{ mentor.years }} years</span>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</section>

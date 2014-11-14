@@ -1,27 +1,37 @@
 ---
 title: MVRT
+categories: ['index', 'home']
 ---
 
 <section id="intro" class="step intro">
-  <h1>We are MVRT</h1>
+  <div class="step-wrap">
+    <h1>We are <span class="mvrt">MVRT</span></h1>
+  </div>
 </section>
 
 <section id="first" class="step first">
-  <h2>FIRST</h2>
+  <div class="step-wrap">
+    <h2>FIRST</h2>
+  </div>
 </section>
 
 <section id="games" class="step games">
-  <h2>Games</h2>
+  <div class="step-wrap">
+    <h2>Games</h2>
+  </div>
 </section>
 
-<section id="events" class="steps events">
-  <h2>Events</h2>
+<section id="events" class="step events">
+  <div class="step-wrap">
+    <h2>Events</h2>
+  </div>
 </section>
 
 <section id="sponsors" class="sponsors">
   <h2>Sponsors</h2>
   <ul>
-    <li>Google</li>
-    <li>FUHS</li>
+    {% for sponsor in site.data.sponsors.current %}
+    <li><a rel="nofollow" href="{{ sponsor.url }}">{{ sponsor.name }}</a></li>
+    {% endfor %}
   </ul>
 </section>

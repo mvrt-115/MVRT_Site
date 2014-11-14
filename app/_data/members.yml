@@ -1,0 +1,429 @@
+-
+  fname: Suhas
+  lname: Anand
+  grade: 10
+
+-
+  fname: Heather
+  lname: Baker
+  grade: 9
+
+-
+  fname: Anirudh
+  lname: Balasubramaniam
+  grade: 9
+
+-
+  fname: Oeishi
+  lname: Banerjee
+  grade: 9
+
+-
+  fname: Praxis
+  lname: Bays
+  grade: 10
+
+-
+  fname: Scott
+  lname: Beck
+  grade: 9
+
+-
+  fname: Nadia
+  lname: Berndt
+  grade: 9
+
+-
+  fname: Aman
+  lname: Burji
+  grade: 9
+
+-
+  fname: Chris
+  lname: Carbone
+  grade: 9
+
+-
+  fname: Shivalika
+  lname: Chavan
+  grade: 9
+
+-
+  fname: Jeremy
+  lname: Chen
+  grade: 10
+
+-
+  fname: RJ
+  lname: Cunningham
+  grade: 11
+
+-
+  fname: Michelle
+  lname: Danese
+  grade: 11
+
+-
+  fname: Nicole
+  lname: Deakcon
+  grade: 10
+
+-
+  fname: Ojas
+  lname: Deshpande
+  grade: 11
+
+-
+  fname: Michael
+  lname: Ding
+  grade: 10
+
+-
+  fname: Nick
+  lname: Douhan
+  grade: 10
+
+-
+  fname: Nick
+  lname: Egan
+  grade: 11
+
+-
+  fname: Peter
+  lname: Enescu
+  grade: 10
+
+-
+  fname: Karen
+  lname: Feng
+  grade: 12
+
+-
+  fname: Sanjay
+  lname: Garimella
+  grade: 10
+
+-
+  fname: Sagar
+  lname: Godithi
+  grade: 9
+
+-
+  fname: Siddharth
+  lname: Gollapudi
+  grade: 9
+
+-
+  fname: Kevin
+  lname: Gong
+  grade: 9
+
+-
+  fname: Pramukh
+  lname: Govindaraju
+  grade: 11
+
+-
+  fname: Shovik
+  lname: Guha
+  grade: 10
+
+-
+  fname: Shivansh
+  lname: Gupta
+  grade: 9
+
+-
+  fname: Andrew
+  lname: He
+  grade: 11
+
+-
+  fname: Vincent
+  lname: Huang
+  grade: 9
+
+-
+  fname: Rahul
+  lname: Iyer
+  grade: 11
+
+-
+  fname: Glory
+  lname: Jain
+  grade: 11
+
+-
+  fname: Aashish
+  lname: Kapur
+  grade: 11
+
+-
+  fname: Alveera
+  lname: Khan
+  grade: 9
+
+-
+  fname: Archana
+  lname: Kikla
+  grade: 11
+
+-
+  fname: Chung Min
+  lname: Kim
+  grade: 9
+
+-
+  fname: Josephine
+  lname: Koe
+  grade: 9
+
+-
+  fname: Daniel
+  lname: Koh
+  grade: 9
+
+-
+  fname: Nikhil
+  lname: Kundu
+  grade: 9
+
+-
+  fname: Saketh
+  lname: Kurnool
+  grade: 9
+
+-
+  fname: Eric
+  lname: Lee
+  grade: 9
+
+-
+  fname: Thomas
+  lname: Lenihan
+  grade: 10
+
+-
+  fname: Emma
+  lname: Lewis
+  grade: 12
+
+-
+  fname: Matthew
+  lname: Li
+  grade: 10
+
+-
+  fname: David
+  lname: Liu
+  grade: 10
+
+-
+  fname: Aditya
+  lname: Mahadevan
+  grade: 9
+
+-
+  fname: Apanuba
+  lname: Mahmood
+  grade: 10
+
+-
+  fname: Sachin
+  lname: Makaram
+  grade: 12
+
+-
+  fname: Jeffery
+  lname: Min
+  grade: 10
+
+-
+  fname: Lee
+  lname: Mracek
+  grade: 10
+
+-
+  fname: Mahesh
+  lname: Murag
+  grade: 9
+
+-
+  fname: Nihil
+  lname: Muthaiah
+  grade: 10
+
+-
+  fname: Gajan
+  lname: Nagaraj
+  grade: 9
+
+-
+  fname: Ajay
+  lname: Nair
+  grade: 11
+
+-
+  fname: Prithvi
+  lname: Narasimhan
+  grade: 11
+
+-
+  fname: Akhil
+  lname: Palla
+  grade: 9
+
+-
+  fname: Jimin
+  lname: Park
+  grade: 12
+
+-
+  fname: Tyler
+  lname: Pennebaker
+  grade: 11
+
+-
+  fname: Alexander
+  lname: Pereverzev
+  grade: 10
+
+-
+  fname: Marcus
+  lname: Plutowski
+  grade: 9
+
+-
+  fname: Anand
+  lname: Rajamani
+  grade: 10
+
+-
+  fname: Atharva
+  lname: Rohatgi
+  grade: 10
+
+-
+  fname: Michael
+  lname: Sandler
+  grade: 10
+
+-
+  fname: Nikita
+  lname: Sankar
+  grade: 12
+
+-
+  fname: Nikhil
+  lname: Sathe
+  grade: 12
+
+-
+  fname: Sidharth
+  lname: Satya
+  grade: 9
+
+-
+  fname: Nilay
+  lname: Sawant
+  grade: 9
+
+-
+  fname: Gregory
+  lname: Sehr
+  grade: 11
+
+-
+  fname: Aashiq
+  lname: Shaikh
+  grade: 10
+
+-
+  fname: Sachin
+  lname: Shenoi
+  grade: 11
+
+-
+  fname: Sadhana
+  lname: Sridhar
+  grade: 10
+
+-
+  fname: William
+  lname: Su
+  grade: 10
+
+-
+  fname: Suresh
+  lname: Talapaneni
+  grade: 9
+
+-
+  fname: Lucas
+  lname: Tao
+  grade: 10
+
+-
+  fname: Naveen
+  lname: Thomas
+  grade: 9
+
+-
+  fname: Chirag
+  lname: Toprani
+  grade: 11
+
+-
+  fname: Divek
+  lname: Toprani
+  grade: 11
+
+-
+  fname: Wesley
+  lname: Tsai
+  grade: 9
+
+-
+  fname: Teeling
+  lname: Tse
+  grade: 10
+
+-
+  fname: Shantanu
+  lname: Tulshibagwale
+  grade: 11
+
+-
+  fname: Anirudh
+  lname: Vasudevan
+  grade: 9
+
+-
+  fname: Eric
+  lname: Vin
+  grade: 9
+
+-
+  fname: Sujith
+  lname: Vishwajith
+  grade: 11
+
+-
+  fname: Michelle
+  lname: Wang
+  grade: 11
+
+-
+  fname: Jason
+  lname: Xu
+  grade: 11
+
+-
+  fname: Jeremy
+  lname: Yin
+  grade: 9
+
+-
+  fname: Benjamin
+  lname: Yu
+  grade: 11

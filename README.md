@@ -17,3 +17,8 @@ $ git clone <git url>
 $ bundle install && npm install && bower install
 $ grunt
 ```
+## Hacking ##
+
+```bash
+$ grunt serve
+```

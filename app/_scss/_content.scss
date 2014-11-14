@@ -1,0 +1,26 @@
+// _content.scss
+
+.site-main {
+  background-color: $base-background-color;
+  @include outer-container;
+  :not(.home) & {
+    margin-top: $header-height;
+  }
+  .hero + & {
+    margin-top: 67vh;
+  }
+}
+
+.site-main > section {
+  @include fill-parent;
+}
+
+.section-images {
+  @include span-columns(4);
+  @include omega;
+}
+
+.section-content {
+  @include span-columns(8);
+  @include pad;
+}

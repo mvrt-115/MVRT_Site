@@ -38,6 +38,9 @@ module.exports = function (grunt) {
       }
     },
     browserSync: {
+      options: {
+        port: 4000
+      },
       server: {
         bsFiles: {
           src: [
@@ -111,6 +114,10 @@ module.exports = function (grunt) {
         bundleExec: true,
         debugInfo: false,
         lineNumbers: false,
+        require: [
+          'bourbon',
+          'neat'
+        ],
         loadPath: 'app/_bower_components'
       },
       dist: {

@@ -1,6 +1,45 @@
 // _home.scss
 
+.home .site-header {
+  position: fixed;
+}
+
+.home .site-main {
+  margin-top: 0;
+  @include outer-container(100%);
+}
+
 .step {
   position: relative;
   height: 100vh;
+  background-attachment: fixed;
+  background-color: white;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.step-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  font-weight: 400;
+  h1,
+  h2 {
+    font-weight: inherit;
+    text-transform: uppercase;
+  }
+}
+
+@each $step, $img in $steps {
+  .home .#{$step} {
+    background-image: url("/img/stock/#{$img}");
+  }
+}
+
+.mvrt {
+  color: $purple;
 }
