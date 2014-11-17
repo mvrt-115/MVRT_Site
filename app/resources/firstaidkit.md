@@ -142,40 +142,16 @@ with.
 
 ### What it should look like {#build-picture}
 
-<table>
-  <thead>
-    <tr>
-      <th>Week</th>
-      <th>What should be completed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Week 1</td>
-      <td>Ideas/Prototyping</td>
-    </tr>
-    <tr>
-      <td>Week 2</td>
-      <td>Prototyping/design review</td>
-    </tr>
-    <tr>
-      <td>Week 3</td>
-      <td>CAD model/machining/finalize design</td>
-    </tr>
-    <tr>
-      <td>Week 4</td>
-      <td>Assemble/troubleshoot any problems</td>
-    </tr>
-    <tr>
-      <td>Week 5</td>
-      <td>Code/wire/program</td>
-    </tr>
-    <tr>
-      <td>Week 3</td>
-      <td>Driver practice</td>
-    </tr>
-  </tbody>
-</table>
+|----------------------------------------------|
+| Week   | What should be completed            |
+|----------------------------------------------|
+| Week 1 | Ideas/Prototyping                   |
+| Week 2 | Prototyping/design review           |
+| Week 3 | CAD model/machining/finalize design |
+| Week 4 | Assemble/troubleshoot any problems  |
+| Week 5 | Code/wire/program                   |
+| Week 6 | Driver practice                     |
+|========|=====================================|
 
 Ideally, the team should be working for about 16-20 hours a week; how to
 distribute that chunk of time will be up to the team and their mentors. Every
