@@ -1,9 +1,8 @@
 // _document.scss
 
 .document-nav {
-  @include span-columns(4);
+  @include span-columns(4, block-collapse);
   @include pad;
-  @include omega;
   a {
     display: block;
     padding: ($base-spacing / 4) 0;
@@ -16,6 +15,6 @@
 }
 
 .document {
-  @include span-columns(8);
+  @include span-columns(8, block-collapse);
   @include pad;
 }

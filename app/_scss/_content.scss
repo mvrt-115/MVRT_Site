@@ -16,11 +16,10 @@
 }
 
 .section-images {
-  @include span-columns(4);
-  @include omega;
+  @include span-columns(4, block-collapse);
 }
 
 .section-content {
-  @include span-columns(8);
+  @include span-columns(8, block-collapse);
   @include pad;
 }
