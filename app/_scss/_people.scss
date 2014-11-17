@@ -1,0 +1,53 @@
+// _people.scss
+
+.people .site-main {
+  @include outer-container(100%);
+}
+
+.people section {
+  padding-top: $base-spacing * 2;
+  h1,
+  h2,
+  &:first-child {
+    text-align: center;
+  }
+}
+
+.people-list {
+
+  @include row;
+  @include fill-parent;
+
+  .person {
+    position: relative;
+    float: left;
+    width: (100 / $grid-columns) * 2%;
+    &:hover:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+      background-color: transparentize($light-purple, 0.5);
+      content: ' ';
+    }
+  }
+
+  .person img {
+    width: 100%;
+  }
+
+  .person-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: $base-spacing / 4;
+  }
+
+  .person-info span {
+    display: block;
+  }
+
+}

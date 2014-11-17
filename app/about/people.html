@@ -5,17 +5,20 @@ categories: ['people']
 ---
 
 <section id="intro">
-<h1>Meet the Team</h1>
-<p>We are builders, makers, designers, writers, managers, workers, &amp;c. We are team people.</p>
+  <h1>Meet the Team</h1>
+  <p>We are builders, makers, designers, writers, managers, workers, &amp;c. We are team people.</p>
 </section>
 
 <section id="officers">
   <h2>Our Officers</h2>
   <ul class="people-list officers-list">
   {% for officer in site.data.officers %}
-    <li class="person officer" data-img-url="{{ officer.lname | append: ' ' | append: member.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
-      <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
-      <span class="officer-posision">{{ officer.position }}</span>
+    <li class="person officer" data-img-url="{{ officer.lname | append: ' ' | append: officer.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
+      <img src="/img/people/generic.png" alt="">
+      <div class="person-info">
+        <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
+        <span class="officer-posision">{{ officer.position }}</span>
+      </div>
     </li>
   {% endfor %}
   </ul>
@@ -26,7 +29,10 @@ categories: ['people']
   <ul class="people-list">
   {% for member in site.data.members %}
     <li class="person" data-img-url="{{ member.lname | append: ' ' | append: member.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
-      <span class="person-name">{{ member.fname | append:' ' | append:member.lname }}</span>
+      <img src="/img/people/generic.png" alt="">
+      <div class="person-info">
+        <span class="person-name">{{ member.fname | append:' ' | append:member.lname }}</span>
+      </div>
     </li>
   {% endfor %}
   </ul>
@@ -37,10 +43,13 @@ categories: ['people']
   <ul class="people-list mentors-list">
   {% for mentor in site.data.mentors.current %}
     <li class="person mentor" data-img-url="{{ mentor.lname | append: ' ' | append: mentor.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
-      <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
-      {% if mentor.job %}<span class="mentor-job">{{ mentor.job }}</span>{% endif %}
-      {% if mentor.background %}<span class="mentor-background">{{ mentor.background }}</span>{% endif %}
-      {% if mentor.years %}<span class="mentor-years">{{ mentor.years }} years</span>{% endif %}
+      <img src="/img/people/generic.png" alt="">
+      <div class="person-info">
+        <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
+        {% if mentor.job %}<span class="mentor-job">{{ mentor.job }}</span>{% endif %}
+        {% if mentor.background %}<span class="mentor-background">{{ mentor.background }}</span>{% endif %}
+        {% if mentor.years %}<span class="mentor-years">{{ mentor.years }} years</span>{% endif %}
+      </div>
     </li>
   {% endfor %}
   </ul>
