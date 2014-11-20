@@ -7,6 +7,10 @@ body {
   line-height: $base-line-height;
 }
 
+::selection {
+  background-color: $light-purple;
+}
+
 h1,
 h2,
 h3,
