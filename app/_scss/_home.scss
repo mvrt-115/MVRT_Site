@@ -1,6 +1,59 @@
 // _home.scss
 
+.home .site-header {
+  position: fixed;
+}
+
+.home .site-main {
+  margin-top: 0;
+  @include outer-container(100%);
+}
+
 .step {
   position: relative;
   height: 100vh;
+  //background-attachment: fixed;
+  background-color: white;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.step-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2em;
+  background-color: transparentize($light-purple, 0.4);
+  @include pad;
+  h1,
+  h2 {
+    font-weight: inherit;
+    text-transform: uppercase;
+  }
+  .step-more {
+    font-weight: 700;
+    font-size: 0.8em;
+  }
+  a {
+    text-transform: uppercase;
+    color: white;
+    &:hover, &:active, &:focus {
+      color: $light-gray;
+    }
+  }
+}
+
+@each $step, $img in $steps {
+  .home .#{$step} {
+    background-image: url("/img/stock/#{$img}");
+  }
+}
+
+.mvrt {
+  //color: $purple;
 }

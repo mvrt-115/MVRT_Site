@@ -1,16 +1,16 @@
 // Typography
-$sans-serif: $helvetica;
+$sans-serif: 'Fira Sans', $helvetica;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
-$h1-font-size: $base-font-size * 2.25;
-$h2-font-size: $base-font-size * 2;
-$h3-font-size: $base-font-size * 1.75;
-$h4-font-size: $base-font-size * 1.5;
-$h5-font-size: $base-font-size * 1.25;
+$h1-font-size: $base-font-size * 2;
+$h2-font-size: $base-font-size * 1.5;
+$h3-font-size: $base-font-size * 1.1;
+$h4-font-size: $base-font-size * 1;
+$h5-font-size: $base-font-size * 1;
 $h6-font-size: $base-font-size;
 
 // Line height
@@ -31,10 +31,7 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 $purple: #6e5baa;
-//$purple: #6a1b9a;
 $light-purple: #c7c0ce;
-//$light-purple: #695db9;
-$white: #f1f1f1;
 
 // Background Color
 $base-background-color: white;
@@ -72,4 +69,22 @@ $form-font-family: $base-font-family;
 // Header
 $header-font-size: $base-font-size;
 $header-height: 4.5em;
-$header-padding: ($header-height - $header-font-size) / 2;
+$header-vertical-padding: ($header-height - $header-font-size) / 2;
+$header-horizontal-padding: 1em;
+$header-padding: $header-vertical-padding $header-horizontal-padding;
+$header-background-color: $purple;
+$header-font-color: $light-purple;
+
+// Footer
+$footer-links-number: 5;
+$footer-links-background-color: $light-purple;
+$footer-links-font-color: $base-font-color;
+$footer-links-hover-color: $purple;
+
+// Homepage Steps
+$steps: (
+  intro: "mvrt.jpg",
+  team: "stock03.jpg",
+  competition: "competition.jpg",
+  outreach: "stock07.jpg"
+);

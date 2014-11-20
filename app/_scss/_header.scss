@@ -1,38 +1,43 @@
 .site-header {
 
-  //position: absolute;
-  //top: 0;
-  //left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
   height: $header-height;
   line-height: 1;
   font-size: $header-font-size;
-  background-color: $purple;
+  background-color: $header-background-color;
 
   h1 {
     display: inline-block;
     font-size: $header-font-size;
     line-height: 1;
-    padding: $header-padding;
   }
 
+  a {
+    display: block;
+    padding: $header-padding;
+    color: $header-font-color;
+    &:hover {
+      color: lighten($light-purple, 20%);
+    }
+  }
+
+}
+
+.site-header-wrap {
+  @include outer-container;
 }
 
 .site-nav {
 
-  padding: $header-padding;
   float: right;
   height: $header-height;
 
   li {
-    display: inline-block;
+    float: left;
   }
 
-}
-
-.site-header a {
-  padding: 0 1em;
-  color: $light-purple;
-  &:hover {
-    color: lighten($light-purple, 20%);
-  }
 }

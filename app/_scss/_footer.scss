@@ -1,0 +1,52 @@
+// _footer.scss
+
+.site-footer p {
+  margin-bottom: 0;
+}
+
+.site-footer-links {
+  padding: ($base-spacing / 2) 0;
+  background-color: $footer-links-background-color;
+  color: $footer-links-font-color;
+  > ul {
+    @include outer-container;
+    > li {
+      display: block;
+      @include span-columns(12 / $footer-links-number);
+      @include omega(#{$footer-links-number}n);
+      @include pad;
+      // uh oh
+      > a {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+  }
+  a {
+    color: inherit;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $footer-links-hover-color;
+    }
+  }
+}
+
+.site-footer-other {
+  @include outer-container;
+  @include pad;
+}
+
+.site-footer-contact {
+  @include span-columns(6);
+}
+
+.site-footer-first {
+  @include span-columns(6);
+  text-align: right;
+  line-height: 1;
+  img {
+    display: inline;
+  }
+}
+

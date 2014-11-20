@@ -17,10 +17,11 @@ future: true
 show_drafts: true
 
 # Markdown library
-markdown: redcarpet
+markdown: kramdown
 
-redcarpet:
-  extensions: ['fenced_code_blocks', 'smart']
+kramdown:
+  auto_ids: true
+  use_coderay: false
 
 
 highlighter: rouge

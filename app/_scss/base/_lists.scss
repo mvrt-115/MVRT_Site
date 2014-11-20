@@ -17,11 +17,28 @@ ol {
   }
 }
 
+article ul {
+  @extend %default-ul;
+}
+
+article ol {
+  @extend %default-ol;
+}
+
+td > ul,
+td > ol {
+  margin-bottom: 0;
+}
+
 dl {
   margin-bottom: $base-spacing / 2;
 
   dt {
     font-weight: bold;
+  }
+
+  dt:first-of-type,
+  dd + dt {
     margin-top: $base-spacing / 2;
   }
 

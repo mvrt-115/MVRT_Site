@@ -7,6 +7,10 @@ body {
   line-height: $base-line-height;
 }
 
+::selection {
+  background-color: $light-purple;
+}
+
 h1,
 h2,
 h3,
@@ -43,6 +47,14 @@ h6 {
   font-size: $h6-font-size;
 }
 
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+  margin-top: $base-spacing / 2;
+}
+
 p {
   margin: 0 0 ($base-spacing / 2);
 }
@@ -72,6 +84,7 @@ hr {
 
 img,
 picture {
+  display: block;
   margin: 0;
   max-width: 100%;
 }

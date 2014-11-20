@@ -1,0 +1,32 @@
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 67vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-color: $purple;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  background-color: transparentize($light-purple, 0.4);
+  transform: translateX(-50%);
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include outer-container;
+  h1 {
+    font-size: 3em;
+    font-weight: 400;
+    line-height: inherit;
+    @include fill-parent;
+    @include pad;
+  }
+}

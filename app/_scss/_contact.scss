@@ -1,0 +1,21 @@
+// _contact.scss
+
+.contact .site-main {
+  text-align: center;
+}
+
+.contact section {
+  @include fill-parent;
+  @include pad;
+}
+
+.contact p {
+  margin-bottom: 0;
+}
+
+.contact-officers-list {
+  columns: 3;
+  :first-child {
+    margin-top: 0;
+  }
+}

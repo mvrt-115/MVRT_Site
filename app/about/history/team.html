@@ -1,0 +1,35 @@
+---
+title: Team History
+permalink: /about/history/team/
+---
+
+<h1>Team History</h1>
+
+{% for team in site.data.history.team %}
+<section id="team-{{ team.year }}" class="team">
+  <h2>{{ team.year }}</h2>
+  {% if team.awards %}
+  <h3>Awards</h3>
+  <ul class="awards">
+  {% for award in team.awards %}
+    <li>{{ award }}</li>
+  {% endfor %}
+  {% endif %}
+  <h3>Officers</h3>
+  <dl class="officers">
+  {% for officer in team.officers %}
+    <dt>{{ officer[0] }}</dt>
+    <dd>{{ officer[1] }}</dd>
+  {% endfor %}
+  </dl>
+  {% if team.drivers %}
+  <h3>Drive Team</h3>
+  <dl class="drivers">
+  {% for driver in team.drivers %}
+    <dt>{{ driver[0] }}</dt>
+    <dd>{{ driver[1] }}</dd>
+  {% endfor %}
+  </dl>
+  {% endif %}
+</section>
+{% endfor %}

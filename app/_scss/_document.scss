@@ -1,0 +1,20 @@
+// _document.scss
+
+.document-nav {
+  @include span-columns(4, block-collapse);
+  @include pad;
+  a {
+    display: block;
+    padding: ($base-spacing / 4) 0;
+    border-bottom: $base-border;
+    color: inherit;
+  }
+  li:first-of-type a {
+    border-top: $base-border;
+  }
+}
+
+.document {
+  @include span-columns(8, block-collapse);
+  @include pad;
+}
