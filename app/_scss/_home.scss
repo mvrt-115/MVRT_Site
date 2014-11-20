@@ -2,6 +2,7 @@
 
 .home .site-header {
   position: fixed;
+  z-index: 5;
 }
 
 .home .site-main {
@@ -17,33 +18,47 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  &:after {
+    @include position(absolute, 0px null null 0px);
+    z-index: 2;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: transparentize($dark-gray, 0.6);
+    content: ' ';
+  }
 }
 
 .step-wrap {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  @include position(absolute, 50% null null 50%);
   transform: translate(-50%, -50%);
+  z-index: 3;
   color: white;
   font-weight: 400;
   text-align: center;
-  font-size: 2em;
-  background-color: transparentize($light-purple, 0.4);
+  font-size: 1.2em;
   @include pad;
   h1,
   h2 {
     font-weight: inherit;
     text-transform: uppercase;
   }
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 3em;
+  }
   .step-more {
     font-weight: 700;
-    font-size: 0.8em;
   }
   a {
     text-transform: uppercase;
     color: white;
-    &:hover, &:active, &:focus {
-      color: $light-gray;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $light-purple;
     }
   }
 }
@@ -55,5 +70,8 @@
 }
 
 .mvrt {
-  //color: $purple;
+  color: $light-purple;
+  &::selection {
+    background-color: $purple;
+  }
 }
