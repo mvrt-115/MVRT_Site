@@ -5,6 +5,9 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  @include media($mega-screen-up) {
+    font-size: 1.2em;
+  }
 }
 
 ::selection {
