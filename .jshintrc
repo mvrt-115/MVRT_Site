@@ -1,6 +1,7 @@
 {
   "node": true,
   "browser": true,
+  "jquery": true,
   "esnext": true,
   "bitwise": false,
   "curly": false,
@@ -14,5 +15,7 @@
   "undef": true,
   "strict": false,
   "trailing": true,
-  "smarttabs": true
+  "smarttabs": true,
+  "asi": true,
+  "laxcomma": true
 }
