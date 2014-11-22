@@ -24,7 +24,7 @@
     display: table;
     height: 100%;
     width: 100%;
-    background-color: transparentize($dark-gray, 0.6);
+    background-color: transparentize(black, 0.5);
     content: ' ';
   }
 }
@@ -65,7 +65,7 @@
 
 @each $step, $img in $steps {
   .home .#{$step} {
-    background-image: url("/img/stock/#{$img}");
+    background-image: url("/img/hero/#{$img}");
   }
 }
 
