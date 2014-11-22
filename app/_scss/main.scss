@@ -2,8 +2,11 @@
 
 // bourbon + neat + bitters
 @import "bourbon";
-@import "base/base";
+@import "base/grid-settings";
 @import "neat";
+
+// base styles
+@import "base/base";
 
 // layouts
 @import "header";
