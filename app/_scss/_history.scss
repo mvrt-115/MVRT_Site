@@ -1,0 +1,61 @@
+// _history.scss
+
+.team-history .site-main > h1 {
+  padding-top: $base-spacing / 2;
+  text-align: center;
+}
+
+.team {
+  @include row;
+  @include pad;
+  h3 {
+    margin-top: $base-spacing;
+  }
+}
+
+.team-info {
+  font-size: 0.8em;
+}
+
+@include direction-context(left-to-right) {
+  .team:nth-of-type(2n+1) {
+    .team-picture {
+      @include span-columns(8);
+    }
+    .team-info {
+      @include span-columns(4);
+    }
+  }
+}
+
+@include direction-context(right-to-left) {
+  .team:nth-of-type(2n) {
+    .team-picture {
+      @include span-columns(8);
+    }
+    .team-info {
+      @include span-columns(4);
+    }
+  }
+}
+
+.team-officers,
+.team-drivers {
+  @include clearfix;
+  margin-top: 0;
+  margin-bottom: 0;
+  clear: both;
+  dt, dt:first-of-type {
+    margin-top: 0;
+    float: left;
+    clear: both;
+    font-weight: 400;
+  }
+  dd {
+    float: right;
+    clear: right;
+  }
+  & + h3 {
+    clear: both;
+  }
+}
