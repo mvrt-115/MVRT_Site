@@ -1,0 +1,29 @@
+---
+title: Robots
+permalink: /about/history/robots/
+categories: ['page-robots']
+---
+
+<h1>Robots</h1>
+
+{% for robot in site.data.history.robots %}
+<section id="robot-{{ robot.id }}" class="robot">
+  <img class="robot-picture" src="/img/robots/{{ robot.id }}.jpg" alt="">
+  <div class="robot-info">
+    <h2>{{ robot.name }}</h2>
+    <dl class="robot-meta">
+      <dt>Year</dt>
+      <dd>{{ robot.year }}</dd>
+      <dt>Game</dt>
+      <dd>{{ robot.game }}</dd>
+    </dl>
+    {% if robot.notes %}
+    <ul class="robot-notes">
+    {% for note in robot.notes %}
+      <li>{{ note }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</section>
+{% endfor %}
