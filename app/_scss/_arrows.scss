@@ -1,0 +1,56 @@
+// _arrow.scss
+
+.arrow {
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  background: transparent;
+  i {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 5px;
+    background-color: white;
+    border-radius: 0.25em;
+    transition: opacity 0.1s linear;
+  }
+  &:hover {
+    background: transparent;
+  }
+  // todo use mixins
+  &-left {
+    top: 50%;
+    left: 2.5%;
+    transform: translateY(-50%);
+    i {
+      transform-origin: 0% 50%;
+      left: 0;
+      &:first-child {
+        transform: translateY(-1px) rotate(45deg);
+      }
+      &:last-child {
+        transform: translateY(1px) rotate(-45deg);
+      }
+    }
+  }
+  &-right {
+    top: 50%;
+    right: 2.5%;
+    transform: translateY(-50%);
+    i {
+      transform-origin: 100% 50%;
+      right: 0;
+      &:first-child {
+        transform: translateY(-1px) rotate(-45deg);
+      }
+      &:last-child {
+        transform: translateY(1px) rotate(45deg);
+      }
+    }
+  }
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
