@@ -1,13 +1,13 @@
 // _post.scss
 
 .posts .hero-text h1 {
-  @include span-columns(8);
-  @include shift(2);
+  @include span-columns(6);
+  @include shift(3);
 }
 
 .post {
-  @include span-columns(8);
-  @include shift(2);
+  @include span-columns(6);
+  @include shift(3);
   @include omega;
   @include pad;
 }
@@ -23,4 +23,7 @@
 
 .post-meta {
   border-bottom: $base-border;
+  .post-author:not(:last-of-type) {
+    margin-bottom: 0;
+  }
 }
