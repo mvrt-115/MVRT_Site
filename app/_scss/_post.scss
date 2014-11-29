@@ -12,18 +12,18 @@
   @include pad;
 }
 
-.post > p:first-of-type {
-  margin-top: $base-spacing;
-}
-
-// stupid...
-.hero + .site-main > .post > .post-title {
-  display: none;
+.post-title {
+  // stupid...
+  .hero + .site-main > .post > & {
+    display: none;
+  }
 }
 
 .post-meta {
   border-bottom: $base-border;
-  .post-author:not(:last-of-type) {
+  padding-bottom: $base-spacing;
+  margin-bottom: $base-spacing;
+  p {
     margin-bottom: 0;
   }
 }
