@@ -18,6 +18,31 @@
     , home
     , greeting
 
+  home = (function () {
+    var isHomePage = $('.home')
+
+    function scrollStep (scrollTop) {
+      $('html, body').animate({ scrollTop: scrollTop }, 750, 'linear')
+    }
+
+    function bindUIEvents () {
+      $('.step').append('<button class="arrow arrow-down" type="button"><i></i><i></i></button>')
+      $('.step .arrow').click(function () {
+        scrollStep($(this).parent().next().position().top)
+      })
+    }
+
+    function init () {
+      if (!isHomePage)
+        return
+      bindUIEvents()
+    }
+
+    return { bindUIEvents: bindUIEvents
+           , init: init
+           }
+  })()
+
   gallery = (function () {
     var urlprefix = 'https://picasaweb.google.com/data/feed/base/user/'
       , user = 'mvrtpicasa'
@@ -160,6 +185,7 @@
   // do this when the document is ready
   $(document).ready(function () {
     greeting.init()
+    home.init()
     if (gallery)
       gallery.init()
   })

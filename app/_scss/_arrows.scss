@@ -7,6 +7,7 @@
   height: 64px;
   padding: 0;
   background: transparent;
+  z-index: 4;
   i {
     position: absolute;
     top: 50%;
@@ -47,6 +48,23 @@
       }
       &:last-child {
         transform: translateY(1px) rotate(45deg);
+      }
+    }
+  }
+  &-down {
+    bottom: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    i {
+      transform-origin: 100% 50%;
+      top: auto;
+      bottom: 0;
+      right: 50%;
+      &:first-child {
+        transform: translateX(2px) rotate(45deg);
+      }
+      &:last-child {
+        transform: translateX(-2px) rotate(135deg);
       }
     }
   }
