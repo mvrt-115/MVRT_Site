@@ -18,15 +18,6 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  &:after {
-    @include position(absolute, 0px null null 0px);
-    z-index: 2;
-    display: table;
-    height: 100%;
-    width: 100%;
-    background-color: transparentize(black, 0.5);
-    content: ' ';
-  }
 }
 
 .step-wrap {
@@ -65,7 +56,7 @@
 
 @each $step, $img in $steps {
   .home .#{$step} {
-    background-image: url("/img/hero/#{$img}");
+    @include image-solid-background("/img/hero/#{$img}");
   }
 }
 
