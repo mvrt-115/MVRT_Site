@@ -1,26 +1,29 @@
 // _post.scss
 
 .posts .hero-text h1 {
-  @include span-columns(8);
-  @include shift(2);
+  @include span-columns(6);
+  @include shift(3);
 }
 
 .post {
-  @include span-columns(8);
-  @include shift(2);
+  @include span-columns(6);
+  @include shift(3);
   @include omega;
   @include pad;
 }
 
-.post > p:first-of-type {
-  margin-top: $base-spacing;
-}
-
-// stupid...
-.hero + .site-main > .post > .post-title {
-  display: none;
+.post-title {
+  // stupid...
+  .hero + .site-main > .post > & {
+    display: none;
+  }
 }
 
 .post-meta {
   border-bottom: $base-border;
+  padding-bottom: $base-spacing;
+  margin-bottom: $base-spacing;
+  p {
+    margin-bottom: 0;
+  }
 }

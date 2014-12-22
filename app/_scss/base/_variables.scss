@@ -31,7 +31,7 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 $purple: #7b1fa2;
-$medium-purple: #ab2cfe;
+$medium-purple: #e1bee7;
 $light-purple: #f3e5f5;
 
 // Background Color
@@ -71,10 +71,11 @@ $form-font-family: $base-font-family;
 $header-font-size: $base-font-size;
 $header-height: 4.5em;
 $header-vertical-padding: ($header-height - $header-font-size) / 2;
-$header-horizontal-padding: 1em;
+$header-horizontal-padding: $base-spacing;
 $header-padding: $header-vertical-padding $header-horizontal-padding;
 $header-background-color: $purple;
-$header-font-color: $light-purple;
+$header-font-color: $medium-purple;
+$header-active-font-color: $light-purple;
 
 // Footer
 $footer-links-number: 5;

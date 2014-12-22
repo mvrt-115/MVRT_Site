@@ -1,0 +1,17 @@
+---
+title: Animations
+layout: default
+permalink: /media/animations/
+categories: ['page-animations']
+---
+
+<h1>Animations</h1>
+
+<div class="animations">
+{% for animation in site.data.animations %}
+  <article id="animation-{{ animation.id }}" class="animation">
+    <img class="thumbnail" src="/img/thumbnails/animations/{{ animation.id }}.jpg" alt="">
+    <h3><a href="#">{{ animation.name }}</a></h3>
+    <p class="description">{{ animation.description }}</p>
+  </article>
+{% endfor %}
