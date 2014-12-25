@@ -39,7 +39,8 @@ module.exports = function (grunt) {
     },
     browserSync: {
       options: {
-        port: 4000
+        port: 4000,
+        open: false
       },
       server: {
         bsFiles: {
