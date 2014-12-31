@@ -29,8 +29,7 @@
   text-align: center;
   font-size: 1.2em;
   @include pad;
-  h1,
-  h2 {
+  h1, h2, h3 {
     font-weight: inherit;
     text-transform: uppercase;
   }
@@ -39,6 +38,9 @@
   }
   h2 {
     font-size: 3em;
+  }
+  h3{
+    font-size: 1.5em;
   }
   .step-more {
     font-weight: 700;
@@ -52,6 +54,14 @@
       color: $light-purple;
     }
   }
+}
+
+#scroll_down {
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  @include position(absolute, null null 5% 50%);
+  color: white;
 }
 
 @each $step, $img in $steps {
@@ -92,7 +102,7 @@
 }
 
 .mvrt {
-  color: $light-purple;
+  color: $light-gold;
   &::selection {
     background-color: $purple;
   }
