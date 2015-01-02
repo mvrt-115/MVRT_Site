@@ -37,3 +37,17 @@ defaults:
       path: ""
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+permalink: /blog/:year/:month/:title/

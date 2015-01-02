@@ -1,37 +1,42 @@
-#blog-content{
-  @include pad;
-}
+// _blog.scss
 
-.back-to-blog{
+.back-to-blog {
   float: left;
   @include pad;
 }
 
-.post-title{
-  color: $purple;
-}
-.post-title:hover{
-  color: $medium-purple;
-}
-.post-info{
-  font-size: 80%;
-  color: #83558b;
-}
-.post-content{
-  font-size: 95%;
-  padding-top: 10px;
-}
-.pagination{
+.pagination {
+  @include span-columns(6);
+  @include shift(3);
+  @include omega;
+  @include pad;
   font-size: 90%;
   color: #888888;
 }
+
 .pagination a {
   color: $purple;
 }
-.pagination a:hover{
+
+.pagination a:hover {
   color: purple;
 }
+
 .pagination .page_number {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.page-blog .hero-text h1 {
+  @include span-columns(6);
+  @include shift(3);
+}
+
+.page-blog .post > h2 > a {
+  &:link, &:visited {
+    color: $base-font-color;
+  }
+  &:hover, &:active {
+    color: $purple;
+  }
 }
