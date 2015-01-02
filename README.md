@@ -5,7 +5,7 @@ MVRT's snazzy new website.
 ## Requirements
 
  + NodeJS
- + Grunt ``npm install -g grunt-cli``
+ + Gulp ``npm install -g gulp``
  + Ruby
  + Bundler ``gem install bundler``
  + Bower ``npm install -g bower``
@@ -15,10 +15,10 @@ MVRT's snazzy new website.
 ```bash
 $ git clone <git url>
 $ bundle install && npm install && bower install
-$ grunt
+$ gulp
 ```
 ## Hacking ##
 
 ```bash
-$ grunt serve
+$ gulp serve
 ```
