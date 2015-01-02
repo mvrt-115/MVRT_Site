@@ -1,8 +1,8 @@
 ---
 title: "El Estoque Article: Taking Flight"
 author: Richard Davis
-date: 2007-10-24
-layout: post-nolink
+date: October 24, 2007
+layout: post
 ---
 
 Senior Joy Yeh, lead teacher and ambassador of the Monta Vista Robotics team

@@ -1,8 +1,8 @@
 ---
 title: "Cupertino Courier Article: Dueling machines square off in robot games"
 author: Erin Hussey
-date: 2006-10-25
-layout: post-nolink
+date: October 25, 2006
+layout: post
 ---
 
 Students from Homestead, Lynbrook and Monta Vista high schools will compete Oct.
