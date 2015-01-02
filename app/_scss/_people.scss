@@ -51,3 +51,25 @@
   }
 
 }
+
+.people-nav {
+  border-top: $base-border;
+  border-bottom: $base-border;
+  ul {
+    display: block;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: $base-spacing / 2;
+    &:link, &:visited {
+      color: $base-font-color;
+    }
+    &:hover, &:active {
+      color: $medium-purple;
+    }
+  }
+}
