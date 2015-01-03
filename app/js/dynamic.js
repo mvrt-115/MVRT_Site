@@ -5,14 +5,15 @@ function addContent(tag, link){
   tagLocations[tag] = link;
 }
 
+function setPage(dir){
+  $('#about-content').load(dir);
+}
+
 $('document').ready(function(){
   var hash = window.location.hash;
-  if(hash === "")hash = tagLocations['#Overview'];
+  if(hash === '')hash = tagLocations['#Overview'];
   var dir = tagLocations[hash];
   if(typeof dir === 'undefined')dir = tagLocations['#Overview'];
   setPage(dir);
 });
 
-function setPage(dir){
-  $('#about-content').load(dir);
-}
