@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: blog/.htaccess
+---
+
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile "/home/www-data/MVRT_Site/dist/blog/.htpasswd"
+Require valid-user
