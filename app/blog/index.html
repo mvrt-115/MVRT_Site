@@ -1,0 +1,34 @@
+---
+layout: default
+title: MVRT Build Blog
+---
+<!-- This loops through the paginated posts -->
+{% for post in site.posts limit: 5 %}
+	<div class="post-preview">
+		<h2><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h2>
+		<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+		<div class="post-content">
+			{{ post.content | split:'<!--break-->' | first }}
+		</div>
+ 
+		{% if post.content contains '<!--break-->' %}
+			<a class="read-more" href="{{ post.url }}">read more</a>
+		{% endif %}
+	</div>
+<hr>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
