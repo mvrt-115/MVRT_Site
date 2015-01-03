@@ -1,10 +1,11 @@
 ---
 title: 'Fwd: My Awesome Post'
-date: 2015-01-03 02:59:18
+date: 2015-01-03 02:51:13
 layout: post
+author: Lee Mracek
 markup: markdown
 published: true
-tags: 
+tags:
 - awesome
 - excellent
 - spectacular

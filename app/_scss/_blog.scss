@@ -1,0 +1,15 @@
+#blog-content{
+  @include pad;
+}
+
+.back-to-blog{
+  float: left;
+  @include pad;
+}
+
+.post-title{
+  color: $purple;
+}
+.post-title:hover{
+  color: $medium-purple;
+}
