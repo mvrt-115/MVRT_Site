@@ -1,22 +1,6 @@
 ---
 title: Games
-layout: document
-permalink: /first/games/
-nav:
-  - name: "Aerial Assist"
-    id: aerial-assist
-  - name: "Ultimate Ascent"
-    id: ultimate-ascent
-  - name: "Rebound Rumble"
-    id: rebound-rumble
-  - name: "LogoMotion"
-    id: logomotion
-  - name: "Breakaway"
-    id: breakaway
-  - name: "Lunacy"
-    id: lunacy
-  - name: "Overdrive"
-    id: overdrive
+layout: plain
 ---
 
 # Games
@@ -50,8 +34,16 @@ The higher the goal in which the disc is scored, the more points the Alliance re
 
 ## Lunacy
 
+<<<<<<< HEAD:app/first/games.md
  <a href = "https://www.youtube.com/watch?v=ZnGfbGzEFrM"> Watch the animation.</a> Lunacy is a game played on a field known as the Crater. Two alliances, one red and one blue, composed of three FIRST Robotics Competition teams each, compete in each match. The objective of the game is to attain a higher score than your opponent by placing the game pieces in the trailers hitched to the opposing alliance's robots. 
 
 ## Overdrive
 
 <a href = "https://www.youtube.com/watch?v=LYnUDaEi1D8"> Watch the animation.</a> Overdrive is played on a 27' x 54' carpeted field, where two alliances with three teams each move around the track moving track balls. The alliance players, which are composed of drivers, a coach, and a robocoach, are located at the end of the field from where they control their robots. The robocoach uses the four function Infrared Board to control the robot during Hybrid mode, giving a signal the initiate a series of commands for the robot to complete. Robocoaches are located at the corners of the track. The robots start against their alliance wall. 
+=======
+ <a href = "https://www.youtube.com/watch?v=ZnGfbGzEFrM"> Watch the animation.</a>Lunacy is a game played on a field known as the Crater. Two alliances, one red and one blue, composed of three FIRST Robotics Competition teams each, compete in each match. The objective of the game is to attain a higher score than your opponent by placing the game pieces in the trailers hitched to the opposing alliance's robots.
+
+## Overdrive
+
+<a href = "https://www.youtube.com/watch?v=LYnUDaEi1D8"> Watch the animation.</a>Overdrive is played on a 27' x 54' carpeted field, where two alliances with three teams each move around the track moving track balls. The alliance players, which are composed of drivers, a coach, and a robocoach, are located at the end of the field from where they control their robots. The robocoach uses the four function Infrared Board to control the robot during Hybrid mode, giving a signal the initiate a series of commands for the robot to complete. Robocoaches are located at the corners of the track. The robots start against their alliance wall.
+>>>>>>> Fixed navigation in about page, now dynamically refreshes content:app/about/games.md

@@ -1,20 +1,6 @@
 ---
 title: Outreach
-layout: document
-permalink: /about/outreach/
-categories: ['outreach']
-hero: /img/stock/stock04.jpg
-nav:
-  - name: "FIRST Community"
-    id: first-community
-  - name: "Local Outreach"
-    id: local-outreach
-  - name: "International Outreach"
-    id: international-outreach
-  - name: "Sponsor Involvement"
-    id: sponsor-involvement
-  - name: "Girls in Engineering"
-    id: girls-in-engineering
+layout: plain
 ---
 
 # Outreach

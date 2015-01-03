@@ -1,22 +1,6 @@
 ---
 title: Divisions
-layout: document
-permalink: /about/divisions/
-nav:
-  - name: "Mechanical"
-    id: mechanical
-  - name: "Electrical"
-    id: electrical
-  - name: "Media"
-    id: media
-  - name: "Finance"
-    id: finance
-  - name: "Public Relations"
-    id: public-relations
-  - name: "Outreach"
-    id: outreach
-  - name: "Documentation"
-    id: documentation
+layout: plain
 ---
 
 # Divisions
