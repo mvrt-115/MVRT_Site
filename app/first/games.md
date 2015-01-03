@@ -24,7 +24,7 @@ nav:
 Every year, <a href="/about/#FIRST"><i>FIRST</i></a> creates a new game which challenges FRC teams to build a robot to compete in the game. Games from previous years are listed below.
 ## Aerial Assist
 
-<a href = "https://www.youtube.com/watch?v=oxp4dkMQ1Vo">Watch the animation.</a> Aerial Assist is played by two competing alliances of three robots each on a flat 27x54 foot field using large, two foot diameter excercize balls. The goal is to score points by getting the ball into the goals on the two ends of the field. There are two eleven foot wide "high" goals about seven feet off the ground which are about three feet tall. There are also two "low" goals that are small boxes on each alliance's side of the field. The high goals are worth more points than the low goals. The field also has a truss: a horizontal bar that is 5 feet off of the ground placed in the center of the field.
+<a href = "https://www.youtube.com/watch?v=oxp4dkMQ1Vo">Watch the animation.</a> Aerial Assist is played by two competing alliances of three robots each on a flat 27x54 foot field using large, two foot diameter excercize balls. The goal is to score points by getting the ball into the goals on the two ends of the field. There are two eleven foot wide "high" goals about seven feet off the ground which are about three feet tall. There are also two "low" goals that are small boxes on each alliance's side of the field. The high goals are worth more points than the low goals. The field also has a truss: a horizontal bar set 5 feet off of the ground in the center of the field.
 
 
 ## Ultimate Ascent
