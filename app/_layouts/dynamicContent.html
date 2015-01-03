@@ -34,7 +34,7 @@
       {% for subpage in page.subpages %}
         {% if subpage.embed %}
         <li><a href="#{{ subpage.name }}" onclick="setPage('{{ subpage.location }}')">{{ subpage.name }}</a></li>
-        <script>addContent("#{{ subpage.name }}", "{{ subpage.location }}");</script>
+        <script>addContent('#{{ subpage.name }}', '{{ subpage.location }}');</script>
         {% else %}
         <li><a href="{{ subpage.location }}">{{ subpage.name }}</a></li>
         {% endif %}
