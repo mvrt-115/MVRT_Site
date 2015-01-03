@@ -6,7 +6,7 @@ categories: ['contact']
 
 <section id="contact-main">
   <h1>Contact Us</h1>
-  <p class="email">mvrt at mvrt</p>
+  <a class="email" href="mailto:mvrt@mvrt.com">mvrt@mvrt.com</a>
   <p class="address">21840 McClellan Road<br>Cupertino, CA 95014</p>
 </section>
 
@@ -17,7 +17,7 @@ categories: ['contact']
   {% for officer in site.data.officers %}
     <dt>{{ officer.fname }} {{ officer.lname }}</dt>
     <dd>{{ officer.position }}</dd>
-    <dd>{{ officer.email }}@mvrt.com</dd>
+    <dd><a href="mailto:{{ officer.email }}@mvrt.com">{{ officer.email }}@mvrt.com</a></dd>
   {% endfor %}
   </dl>
 
