@@ -1,6 +1,6 @@
 ---
 title: Alumni
-layout: post
+layout: post-nolink
 permalink: /about/people/alumni/
 ---
 
