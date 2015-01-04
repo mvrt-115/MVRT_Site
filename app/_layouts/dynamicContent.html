@@ -33,8 +33,8 @@
     <ul class="document-nav">
       {% for subpage in page.subpages %}
         {% if subpage.embed %}
-        <li><a href="#{{ subpage.name }}" onclick="setPage('{{ subpage.location }}')">{{ subpage.name }}</a></li>
-        <script>addContent('#{{ subpage.name }}', '{{ subpage.location }}');</script>
+        <li><a href="#{{ subpage.name }}" data-subpage-url="{{ subpage.location }}">{{ subpage.name }}</a></li>
+        <!--<script>addContent('#{{ subpage.name }}', '{{ subpage.location }}');</script>-->
         {% else %}
         <li><a href="{{ subpage.location }}">{{ subpage.name }}</a></li>
         {% endif %}

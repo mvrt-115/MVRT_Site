@@ -1,19 +1,13 @@
-console.log('dynamic');
-var tagLocations = {};
+;(function ($, undefined) {
+  
+  $('document').ready(function () {
+    if (!$('.about').length) return;
+    $('.document-nav').on('click', 'a', function () {
+      $('#about-content').load($(this).attr('data-subpage-url'))
+    })
 
-function addContent(tag, link){
-  tagLocations[tag] = link;
-}
+    $('[href="' + (window.location.hash || '#Overview') + '"]').click()
 
-function setPage(dir){
-  $('#about-content').load(dir);
-}
+  });
 
-$('document').ready(function(){
-  var hash = window.location.hash;
-  if(hash === '')hash = tagLocations['#Overview'];
-  var dir = tagLocations[hash];
-  if(typeof dir === 'undefined')dir = tagLocations['#Overview'];
-  setPage(dir);
-});
-
+})(jQuery)
