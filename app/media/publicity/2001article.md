@@ -2,7 +2,7 @@
 title: "Cupertino Courier Article: Tech Studies"
 author: Melissa Matchak
 date: 2001-02-28
-layout: post
+layout: post-nolink
 ---
 
 Picking up small balls and placing them in a tower may not seem like a difficult

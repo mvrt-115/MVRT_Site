@@ -2,7 +2,7 @@
 title: "El Estoque Article: More than the robot to robotics team"
 author: Kriti Garg
 date: 2010-10-29
-layout: post
+layout: post-nolink
 ---
 
 The members of MV Robotics Team #115 are known for one thing—creating their

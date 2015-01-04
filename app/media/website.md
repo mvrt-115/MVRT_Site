@@ -1,6 +1,6 @@
 ---
 title: Website
-layout: post
+layout: post-nolink
 permalink: /media/website/
 ---
 

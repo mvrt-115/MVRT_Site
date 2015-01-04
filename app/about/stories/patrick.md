@@ -1,6 +1,6 @@
 ---
 title: Patrick’s Tale
-layout: post
+layout: post-nolink
 author: Patrick Wang
 permalink: /about/stories/patrick/
 hero: /img/stock/stock11.jpg

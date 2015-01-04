@@ -1,6 +1,6 @@
 ---
 title: Eric’s Tale
-layout: post
+layout: post-nolink
 author: Eric Zhou
 permalink: /about/stories/eric/
 hero: /img/stock/stock10.jpg
