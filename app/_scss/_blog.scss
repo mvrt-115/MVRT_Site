@@ -13,3 +13,25 @@
 .post-title:hover{
   color: $medium-purple;
 }
+.post-info{
+  font-size: 80%;
+  color: #83558b;
+}
+.post-content{
+  font-size: 95%;
+  padding-top: 10px;
+}
+.pagination{
+  font-size: 90%;
+  color: #888888;
+}
+.pagination a {
+  color: $purple;
+}
+.pagination a:hover{
+  color: purple;
+}
+.pagination .page_number {
+  padding-left: 5px;
+  padding-right: 5px;
+}
