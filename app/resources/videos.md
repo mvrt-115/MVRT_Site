@@ -1,6 +1,6 @@
 ---
 title: Video Resources
-layout: document
+layout: resourceDocument
 permalink: /resources/videos/
 nav:
   - name: "Electrical Tutorials"

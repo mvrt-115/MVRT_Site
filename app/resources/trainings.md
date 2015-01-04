@@ -1,6 +1,6 @@
 ---
 title: Trainings
-layout: document
+layout: resourceDocument
 permalink: /resources/trainings/
 categories: ['trainings']
 nav:
