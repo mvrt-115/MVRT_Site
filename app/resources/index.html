@@ -1,0 +1,48 @@
+---
+layout: default
+categories: ['resources']
+hero: /img/stock/stock02.jpg
+title: Resources
+nav: [
+  {
+    name: Documents,
+    location: /resources/documents/
+  },
+  {
+    name: First Aid Kit,
+    location: /resources/firstaidkit/
+  },
+  {
+    name: Trainings,
+    location: /resources/trainings/
+  },
+  {
+    name: Links,
+    location: /resources/links/
+  },
+  {
+    name: Videos,
+    location: /resources/videos/
+  }
+]
+---
+  {% if page.nav %}
+  <ul class="document-nav">
+    {% for item in page.nav %}
+      <li><a href="{{ item.location }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+
+<div class="document">
+  <p>
+    Having been an FRC team since 1997, MVRT's experience
+    has helped us develop tips for what we believe are
+    the keys to success in the FIRST Robotics Competition.
+    We have put together a collection of resources,
+    including our popular <i>FIRST Aid Kit</i>, for the use
+    of both members and other teams. Click on any of the links
+    on the left to go through our vast repository of resources.
+  </p>
+</div>
