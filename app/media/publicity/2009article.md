@@ -2,7 +2,7 @@
 title: "El Estoque Article: Robotics Team Selected to Beta Test New Material"
 author: Anandi Somasundaram
 date: 2009-11-24
-layout: post
+layout: post-nolink
 ---
 
 Over 2,000 teams in the nation. Forty chosen. Two in California. One in Northern

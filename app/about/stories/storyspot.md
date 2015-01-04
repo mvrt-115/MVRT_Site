@@ -1,6 +1,6 @@
 ---
 title: The Tale of the Missing Puppy
-layout: post
+layout: post-nolink
 author: Danica Chang, 2005–2007 Director of Engineering
 permalink: /about/stories/storyspot/
 hero: /img/stock/stock12.jpg
