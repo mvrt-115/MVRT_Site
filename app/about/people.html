@@ -26,7 +26,7 @@ categories: ['people']
       <img src="/img/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
-        <span class="officer-posision">{{ officer.position }}</span>
+        <span class="officer-position">{{ officer.position }}</span>
       </div>
     </li>
   {% endfor %}
@@ -55,9 +55,11 @@ categories: ['people']
       <img src="/img/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
+        <div class="mentor-details">
         {% if mentor.job %}<span class="mentor-job">{{ mentor.job }}</span>{% endif %}
         {% if mentor.background %}<span class="mentor-background">{{ mentor.background }}</span>{% endif %}
         {% if mentor.years %}<span class="mentor-years">{{ mentor.years }} years</span>{% endif %}
+        </div>
       </div>
     </li>
   {% endfor %}
