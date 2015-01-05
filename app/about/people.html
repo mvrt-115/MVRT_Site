@@ -23,7 +23,7 @@ categories: ['people']
   <ul class="people-list officers-list">
   {% for officer in site.data.officers %}
     <li class="person officer" data-img-url="{{ officer.lname | append: ' ' | append: officer.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
-      <img src="/img/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.png'">
+      <img src="/img/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
         <span class="officer-posision">{{ officer.position }}</span>
@@ -38,7 +38,7 @@ categories: ['people']
   <ul class="people-list">
   {% for member in site.data.members %} 
     <li class="person">
-    <img src="/img/people/{{member.fname | append: '_' | append: member.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.png'">
+    <img src="/img/people/{{member.fname | append: '_' | append: member.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name"i>{{ member.fname | append:' ' | append:member.lname }}</span>
       </div>
@@ -52,7 +52,7 @@ categories: ['people']
   <ul class="people-list mentors-list">
   {% for mentor in site.data.mentors.current %}
     <li class="person mentor" data-img-url="{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}">
-      <img src="/img/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.png'">
+      <img src="/img/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
         {% if mentor.job %}<span class="mentor-job">{{ mentor.job }}</span>{% endif %}
