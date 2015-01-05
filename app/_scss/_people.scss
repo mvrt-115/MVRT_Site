@@ -15,6 +15,7 @@
 
 .people-list {
 
+  @include pad;
   @include row;
   @include fill-parent;
 
