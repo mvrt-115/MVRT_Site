@@ -1,15 +1,35 @@
+---
+layout: null
+---
 # humanstxt.org
 # The humans responsible & technology colophon
 
-# TEAM
+# Officers
 
-  <your name> -- <your position>
+  {% for officer in site.data.officers %}{{ officer.fname }} {{ officer.lname }} -- {{ officer.position }}
+  {% endfor %}
 
-# Thanks
+# Mentors
 
-  <list of mentors or sponsors?>
+  {% for mentor in site.data.mentors.current %}{{ mentor.fname }} {{ mentor.lname }} -- {{ mentor.job }}
+  {% endfor %}
+
+# Sponsors
+
+  {% for sponsor in site.data.sponsors.current %}{{ sponsor.name }}
+  {% endfor %}
+
+# Webdev Team
+
+  {% for coder in site.data.coders.current %}{{ coder }}
+  {% endfor %}
 
 # TECHNOLOGY COLOPHON
 
   HTML5, CSS3, Javascript
-  Grunt, Jekyll, Bourbon, Neat, Normalize.css
+  Bourbon, Neat, Normalize.css
+  jQuery, Browserify
+  Gulp, Jekyll
+
+
+Last generated {{ site.time | date_to_rfc822 }}.
