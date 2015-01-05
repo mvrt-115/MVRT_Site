@@ -50,4 +50,4 @@ defaults:
     values:
       layout: "post"
 
-permalink: /blog/:year/:month/:title/
+permalink: /blog/:year/:month/:day/:title/
