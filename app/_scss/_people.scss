@@ -15,10 +15,12 @@
 
 .people-list {
 
+  @include pad;
   @include row;
   @include fill-parent;
 
   .person {
+    color: #DDDDDD;
     position: relative;
     float: left;
     width: (100 / $grid-columns) * 2%;
@@ -44,6 +46,7 @@
     left: 0;
     width: 100%;
     padding: $base-spacing / 4;
+    background: rgba(32, 32, 32, 0.7);
   }
 
   .person-info span {
@@ -72,4 +75,20 @@
       color: $medium-purple;
     }
   }
+}
+.officer-position, .mentor-details {
+    font-size: 80%;
+}
+.mentor-details {
+    max-height: 16px;
+    overflow: hidden;
+
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.person:hover .mentor-details{
+    max-height: 999px;
 }
