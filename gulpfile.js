@@ -95,7 +95,7 @@ gulp.task('js', function () {
 // jekyll
 gulp.task('jekyll', function (done) {
   if (production) {
-    exec('bundle exec jekyll build --source app --config _config.yml,_config.build.yml --destination .jekyll', done)
+    exec('bundle exec jekyll build --source app --config _config.yml,_config.build.yml --destination dist', done)
   } else {
     exec('bundle exec jekyll build --source app --config _config.yml --destination .jekyll', done)
   }
@@ -111,7 +111,7 @@ gulp.task('html', function () {
 
   var assets = $.useref.assets({ searchPath: '{.tmp,app}' })
 
-  return gulp.src('.jekyll/**/*.html')
+  return gulp.src('dist/**/*.html')
     .pipe(indexFilter) // only source from index.html
     .pipe(assets)
     .pipe(jsFilter)
@@ -153,7 +153,7 @@ gulp.task('img', function () {
 
 // copies stuff
 gulp.task('copy', function () {
-  return gulp.src(['app/img/**/*', 'app/{favicon.ico,humans.txt}'], { base: 'app' })
+  return gulp.src('app/img/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
 })
 
