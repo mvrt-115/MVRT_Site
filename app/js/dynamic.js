@@ -1,13 +1,10 @@
-;(function ($, undefined) {
-  
-  $('document').ready(function () {
-    if (!$('.about').length) return;
-    $('.document-nav').on('click', 'a', function () {
-      $('#about-content').load($(this).attr('data-subpage-url'))
-    })
+var $ = require('jquery')
 
-    $('[href="' + (window.location.hash || '#Overview') + '"]').click()
+exports.init = function () {
+  if (!$('.about').length) return;
+  $('.document-nav').on('click', 'a', function () {
+    $('#about-content').load($(this).attr('data-subpage-url'))
+  })
 
-  });
-
-})(jQuery)
+  $('[href="' + (window.location.hash || '#Overview') + '"]').click()
+}
