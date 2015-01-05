@@ -10,7 +10,9 @@ description: MVRT's snazzy new website.
 exclude: ['img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
-include: ['.htaccess']
+include: ['.htaccess', 'favicon.ico']
+
+keep_files: ['img']
 
 # _config.build.yml sets future and show_drafts to false on `gulp dist`
 future: true
