@@ -23,6 +23,7 @@ hero: /img/hero/stock03.jpg
 	<hr>
         {% endfor %}
 
+        {% if paginator.total_pages >= 1 %}
 	<!-- Pagination links -->
 	<div class="pagination">
 	  {% if paginator.previous_page %}
@@ -33,5 +34,9 @@ hero: /img/hero/stock03.jpg
 	    <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
 	  {% endif %}
 	</div>
+        {% else %}
+        <h1>Sorry!</h1><br>
+        <p>It seems like the blog is empty right now! Check back later for updates.</p>
+        {% endif %}
 
 </div>
