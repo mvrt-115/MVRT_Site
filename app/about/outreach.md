@@ -291,7 +291,3 @@ Lockheed Martin’s employees and find new mentors.
 Lockheed Martin gave a career presentation to MVRT. Members were shown possible
 jobs at Lockheed Martin that they could pursue—providing them with insight on
 how they could apply the knowledge they learn in MVRT to real life.
-
-## Girls in Engineering
-
-This part doesn't have to do with us! Why? It's just an article.
