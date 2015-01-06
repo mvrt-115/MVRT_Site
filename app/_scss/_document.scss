@@ -14,6 +14,11 @@
   }
 }
 
+.document-nav .active {
+  background-color: $light-purple;
+  padding-left: $base-spacing / 2;
+}
+
 .document {
   @include span-columns(8, block-collapse);
   @include pad;
