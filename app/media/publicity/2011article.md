@@ -1,8 +1,8 @@
 ---
 title: "Cupertino Patch Article: Robotics is More Than Rote"
 author: Sarah Ravani
-date: 2011-02-15
-layout: post-nolink
+date: December 15, 2011
+layout: post
 ---
 
 Keen on mechanical engineering when he was in middle school, Karthik Kumaravel

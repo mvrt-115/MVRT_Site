@@ -1,42 +1,38 @@
 ---
 layout: default
 title: MVRT Build Blog
+categories: ['page-blog']
 hero: /img/hero/stock03.jpg
 ---
-<div id="blog-content">
-	<!-- This loops through the paginated posts -->
-	{% for post in paginator.posts %}
-		<div class="post-preview">
-			<h2><a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h2>
-			<p class="post-info">Posted on {{ post.date | date: "%B %d, %Y" }}
-				{% if post.author %}
-					by {{ post.author }}
-				{% endif %}
-			</p>
-			<div class="post-content">
-				{{ post.content | split:'<!--break-->' | first }}
-			</div>
-			{% if post.content contains '<!--break-->' %}
-				<a class="read-more" href="{{ post.url }}">read more</a>
-			{% endif %}
-		</div>
-	<hr>
-        {% endfor %}
 
-        {% if paginator.total_pages >= 1 %}
-	<!-- Pagination links -->
-	<div class="pagination">
-	  {% if paginator.previous_page %}
-	    <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous</a>
-	  {% endif %}
-	  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	  {% if paginator.next_page %}
-	    <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
-	  {% endif %}
-	</div>
-        {% else %}
-        <h1>Sorry!</h1><br>
-        <p>It seems like the blog is empty right now! Check back later for updates.</p>
-        {% endif %}
+<div class="posts">
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="post-meta">
+        <p>Posted on <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{% if post.author %} by {{ post.author }}{% endif %}</p>
+      </div>
+
+      {{ post.content | split:'<!--break-->' | first }}
+
+      {% if post.content contains '<!--break-->' %}
+        <p><a class="read-more" href="{{ post.url }}">More…</a></p>
+      {% endif %}
+
+    </article>
+
+  {% endfor %}
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous</a>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
+    {% endif %}
+  </div>
 
 </div>

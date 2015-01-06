@@ -1,22 +1,36 @@
 ---
 layout: default
 ---
-<a href="/blog/" class="back-to-blog"><- back to blog</a>
+
 <article class="post" role="article">
   <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.author or page.date %}
   <div class="post-meta">
+  {% if page.author %}
+    <p class="post-author">By {{ page.author }}</p>
+  {% endif %}
   {% if page.date %}
-    <p class="post-info">
-      Posted on <time datetime="{{ page.date | date: '%Y-%m-%dT%H-%M-%S' }}">{{ page.date | date: '%B %-d, %Y' }}
-      {% if page.author %}
-        by {{ page.author }}
-      {% endif %}
-    </p>
+    {% assign datetime = page.date | date_to_xmlschema %}
+    <p class="post-date"><time title="{{ datetime }}" datetime="{{ datetime }}">{{ page.date | date_to_string }}</p>
+    {% endif %}
+
+  {% if page.categories %}
+  <ul class="post-categories">
+    {% for category in page.categories %}
+    <li>{{ category }}</li>
+    {% endfor %}
+  </ul>
   {% endif %}
 
-
   </div>
+  {% endif %}
 
   {{ content }}
+
+  {% if page.url | split '/' contains 'blog' %}
+  <footer>
+    <p><a rel="up" href="/blog/">« Back to the Build Blog</a></p>
+  </footer>
+  {% endif %}
 
 </article>

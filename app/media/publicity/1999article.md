@@ -1,8 +1,8 @@
 ---
 title: "Cupertino Courier Article: Inside the Machine"
 author: Michelle Ku
-date: 1999-03-10
-layout: post-nolink
+date: March 3, 1999
+layout: post
 ---
 
 The buzzer sounds and the light turns on; it's off to the races for Sparky.
