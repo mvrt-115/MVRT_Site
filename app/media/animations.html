@@ -5,13 +5,25 @@ permalink: /media/animations/
 categories: ['page-animations']
 ---
 
+<nav class="document-nav" role="navigation">
+  <ul>
+    {% for animation in site.data.animations %}
+      <li><a href="#animation-{{ animation.id }}">{{ animation.name }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+
+<article class="document" role="article">
+
 <h1>Animations</h1>
 
-<div class="animations">
 {% for animation in site.data.animations %}
   <article id="animation-{{ animation.id }}" class="animation">
-    <img class="thumbnail" src="/img/thumbnails/animations/{{ animation.id }}.jpg" alt="">
-    <h3><a href="#">{{ animation.name }}</a></h3>
+    <h2>{{ animation.name }}</h2>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/{{ animation.youtube_id }}"></iframe>
     <p class="description">{{ animation.description }}</p>
   </article>
 {% endfor %}
+
+</article>
