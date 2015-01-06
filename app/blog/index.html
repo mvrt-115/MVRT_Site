@@ -11,7 +11,7 @@ hero: /img/hero/stock03.jpg
   <article class="post">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <div class="post-meta">
-        <p>Posted on <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{% if post.author %} by {{ post.author }}{% endif %}</p>
+        <p>Posted on&nbsp;<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>{% if post.author %}&nbsp;by {{ post.author }}{% endif %}</p>
       </div>
 
       {{ post.content | split:'<!--break-->' | first }}
