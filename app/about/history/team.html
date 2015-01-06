@@ -19,6 +19,7 @@ layout: plain
       <li>{{ award }}</li>
     {% endfor %}
     {% endif %}
+    <div class="officers-div">
     <h3>Officers</h3>
     <dl class="team-officers">
     {% for officer in team.officers %}
@@ -26,6 +27,8 @@ layout: plain
       <dd>{{ officer[1] }}</dd>
     {% endfor %}
     </dl>
+</div>
+<div class = "drivers-div">
     {% if team.drivers %}
     <h3>Drive Team</h3>
     <dl class="team-drivers">
@@ -35,6 +38,8 @@ layout: plain
     {% endfor %}
     </dl>
     {% endif %}
+</div>
   </div>
 </section>
+<hr>
 {% endfor %}

@@ -13,29 +13,21 @@
   }
 }
 
-.team h2 {
-    text-align: center;
-    @include pad;
-}
-
 .team-info {
   font-size: 0.8em;
 }
-.team-info h3 {
-    padding-bottom: 10px;
-}
 
 .team-picture {
+    display: block;
     @include span-columns(12);
 }
 .team-info {
     @include span-columns(12);
 }
-.officers-div {
+.team-officers {
     @include span-columns(6);
-    padding-right: 20px;
 }
-.driver-div {
+.team-drivers {
     @include span-columns(6);
 }
 
@@ -44,16 +36,14 @@
   @include clearfix;
   margin-top: 0;
   margin-bottom: 0;
+  clear: both;
   dt, dt:first-of-type {
     margin-top: 0;
     float: left;
-    clear: right;
+    clear: both;
     font-weight: 400;
   }
-  dd, dd:first-of-type {
-    margin-top: 0;
-    float: right;
-    clear: right;
-    font-weight: 400;
-    }
+  & + h3 {
+    clear: both;
+  }
 }
