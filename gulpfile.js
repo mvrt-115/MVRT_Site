@@ -41,7 +41,7 @@ gulp.task('serve', ['jekyll', 'css', 'js'], function () {
     'app/**/*.{html,yml,md,mkd,markdown,json}',
     '!app/_bower_components/**/*'
   ], ['jekyll', reload])
-  gulp.watch([paths.css + '**/*.scss'], ['css'])
+  gulp.watch([paths.css + '/**/*.scss'], ['css'])
   gulp.watch(['app/js/**/*.js'], ['jshint'])
   // browserify watches the javascripts
 
