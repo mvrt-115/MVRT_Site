@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<a href="/media/" class="backto-media">&laquo; Back to Media page</a>
+{% if page.nav %}
+<nav class="document-nav" role="navigation">
+  <ul>
+    {% for link in page.nav %}
+    <li><a href="#{{ link.id }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{% endif %}
+
+<article class="document" role="article">
+
+  {{ content }}
+
+</article>
