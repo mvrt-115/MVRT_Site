@@ -7,9 +7,12 @@
     text-align: center;
   }
 }
-
+.page-gallery h1 {
+    @include pad;
+}
 .gallery {
   @include row;
+  list-style-type: none;
 }
 
 .gallery-album {
