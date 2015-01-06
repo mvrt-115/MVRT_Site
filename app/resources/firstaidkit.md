@@ -3,7 +3,7 @@ title: FIRST Aid Kit
 layout: resourceDocument
 permalink: /resources/firstaidkit/
 categories: ['firstaidkit']
-hero: /img/stock/stock02.jpg
+hero: /img/hero/firstaidkit.jpg
 nav:
   - name: General Management
     id: general
