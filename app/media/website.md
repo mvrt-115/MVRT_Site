@@ -1,8 +1,3 @@
----
-title: Website
-layout: post-nolink
-permalink: /media/website/
----
 
 <!-- um... a lot has changed from the original website...so... -->
 
