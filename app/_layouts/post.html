@@ -27,7 +27,7 @@ layout: default
 
   {{ content }}
 
-  {% if page.url contains 'blog' %}
+  {% if page.url | split '/' contains 'blog' %}
   <footer>
     <p><a rel="up" href="/blog/">« Back to the Build Blog</a></p>
   </footer>
