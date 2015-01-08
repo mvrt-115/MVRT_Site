@@ -1,6 +1,6 @@
 ---
 title: Kathryn’s Tale
-layout: post-nolink
+layout: post
 author: Kathryn Lowe
 permalink: /about/stories/kathryn/
 hero: /img/stock/stock09.jpg

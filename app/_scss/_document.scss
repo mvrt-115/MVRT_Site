@@ -1,5 +1,22 @@
 // _document.scss
 
+.document-back {
+  @include pad(default default 0);
+  font-size: 0.8em;
+}
+
+.document-back p {
+  @include pad($base-spacing / 2);
+  margin-bottom: 0;
+  line-height: 1;
+  a {
+    color: inherit;
+  }
+  a:hover, a:active {
+    color: $base-link-color;
+  }
+}
+
 .document-nav {
   @include span-columns(4, block-collapse);
   @include pad;
@@ -20,6 +37,6 @@
 }
 
 .document {
-  @include span-columns(8, block-collapse);
+  @include span-columns(12, block-collapse);
   @include pad;
 }

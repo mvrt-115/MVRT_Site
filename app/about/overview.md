@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: null
 ---
 
 Founded in 1997, the Monta Vista Robotics FIRST Team #115 was established
