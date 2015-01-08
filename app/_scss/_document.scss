@@ -37,6 +37,9 @@
 }
 
 .document {
-  @include span-columns(12, block-collapse);
+  @include span-columns(8, block-collapse);
   @include pad;
+  :not(.document-nav) + & {
+    @include span-columns(12)
+  }
 }
