@@ -7,7 +7,7 @@
   email: president
 
 -
-  position: VP of Engineering
+  position: Vice President of Engineering
   fname: Andrew
   lname: He
   grade: 12
@@ -15,7 +15,7 @@
   email: engineering
 
 -
-  position: VP of Operations
+  position: Vice President of Operations
   fname: Divek
   lname: Toprani
   grade: 12
@@ -23,7 +23,7 @@
   email: operations
 
 -
-  position: Mechanical Lead
+  position: Director of Mechanical
   fname: Chirag
   lname: Toprani
   grade: 12
@@ -31,7 +31,7 @@
   email: mechanical
 
 -
-  position: Electrical Lead
+  position: Director of Electrical
   fname: Lee
   lname: Mracek
   grade: 11
@@ -39,7 +39,7 @@
   email: electrical
 
 -
-  position: Engineering Data Director
+  position: Director of Engineering Data
   fname: RJ
   lname: Cunningham
   grade: 12
@@ -47,7 +47,7 @@
   email: engineeringdata
 
 -
-  position: Media Director
+  position: Director of Media
   fname: Sophie
   lname: Chen
   grade: ???
@@ -55,7 +55,7 @@
   email: media
 
 -
-  position: Public Relations Director
+  position: Director of Public Relations
   fname: Michelle
   lname: Danese
   grade: 12
@@ -63,7 +63,7 @@
   email: publicrelations
 
 -
-  position: Documentation Director
+  position: Director of Documentation
   fname: Sydney
   lname: Howard
   grade: ???
@@ -71,7 +71,7 @@
   email: documentation
 
 -
-  position: Outreach Director
+  position: Director of Outreach
   fname: Praxis
   lname: Bays
   grade: 11
@@ -79,7 +79,7 @@
   email: outreach
 
 -
-  position: Finance Director
+  position: Director of Finance
   fname: Jeremy
   lname: Chen
   grade: 11
