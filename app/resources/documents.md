@@ -9,8 +9,6 @@ nav:
     id: public-relations
   - name: "Submissions"
     id: submissions
-  - name: "Documents"
-    id: /resources/documents/
 ---
 
 # Helpful Documents
