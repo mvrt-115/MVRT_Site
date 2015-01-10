@@ -1,6 +1,9 @@
 ---
 title: Publicity
 layout: document
+back:
+  url: /media/
+  name: Media
 permalink: /media/publicity/
 nav:
   - name: 2012

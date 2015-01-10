@@ -1,6 +1,9 @@
 ---
 title: Helpful Documents
-layout: resourceDocument
+layout: document
+back:
+  url: /resources/
+  name: Resources
 permalink: /resources/documents/
 nav:
   - name: "Engineering"
