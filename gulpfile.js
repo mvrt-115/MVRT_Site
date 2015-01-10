@@ -81,6 +81,7 @@ gulp.task('js', function () {
   if (!production) b.on('update', bundle)
   function bundle () {
     return b.bundle()
+      .on('error', $.gutil.log)
       .pipe(source('script.js'))
       .pipe(buffer())
       .pipe($.sourcemaps.init({ loadMaps: true }))

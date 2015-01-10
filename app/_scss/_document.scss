@@ -20,9 +20,10 @@
 .document-nav {
   @include span-columns(4, block-collapse);
   @include pad;
+  position: relative;
   a {
     display: block;
-    padding: ($base-spacing / 4) 0;
+    padding: ($base-spacing / 4) ($base-spacing / 2);
     border-bottom: $base-border;
     color: inherit;
   }
@@ -31,9 +32,15 @@
   }
 }
 
+.document-nav .stuck {
+  @include pad($base-spacing 0 0 0);
+  position: fixed;
+  top: 0;
+  display: block;
+}
+
 .document-nav .active {
   background-color: $light-purple;
-  padding-left: $base-spacing / 2;
 }
 
 .document {

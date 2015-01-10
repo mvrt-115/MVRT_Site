@@ -7,8 +7,8 @@ back:
 permalink: /resources/trainings/
 permalink: /resources/videos/
 nav:
-  - name: "Electrical Tutorials"
-    id: eletrical-tutorials
+  - name: "Electrical Videos"
+    id: electrical-videos
   - name: "Mechanical Tutorials"
     id: mechanical-tutorials
   - name: "Media Tutorials"
