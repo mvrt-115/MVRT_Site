@@ -51,9 +51,6 @@ a chance to see how we run different aspects of our team.
 [FIRST Aid Kit]
 : The FIRST Aid Kit is our all-in-one team manual that shows how we run every aspect of our team. There are numerous tips and strategies throughout the kit that will help you jump-start your team!
 
-## Submissions
-
-Todo later.
 
 [Job Description]: /files/job-description.pptx
 [Inventor Naming Conventions]: /files/inventor-naming-conventions.pdf
