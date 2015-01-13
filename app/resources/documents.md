@@ -55,13 +55,13 @@ a chance to see how we run different aspects of our team.
 
 Todo later.
 
-[Job Description]: /files/placeholder.txt
-[Inventor Naming Conventions]: /files/placeholder.txt
-[Ordering Bosch]: /files/placeholder.txt
-[Training Schedule]: /files/placeholder.txt
-[Tool Manual]: /files/placeholder.txt
-[End of Kickoff]: /files/placeholder.txt
-[Design Review 1]: /files/placeholder.txt
+[Job Description]: /files/job-description.pptx
+[Inventor Naming Conventions]: /files/inventor-naming-conventions.pdf
+[Ordering Bosch]: /files/ordering-bosch.pdf
+[Training Schedule]: /files/training-schedule.pdf
+[Tool Manual]: /files/tool-manual.pdf
+[End of Kickoff]: /files/end-of-kickoff.pptx
+[Design Review 1]: /files/design-review-1.pptx
 
-[FLL Binder]: /files/placeholder.txt
-[FIRST Aid Kit]: /files/placeholder.txt
+[FLL Binder]: /files/fll-binder.pdf
+[FIRST Aid Kit]: /files/first-aid-kit.pdf
