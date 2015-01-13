@@ -119,43 +119,43 @@ nav:
 [Engineering Design II]
 : Covers the basics of design constraints and the design process.
 
-[Electrical Measurements]: /files/placeholder.txt
-[Electrical Measurements Worksheet]: /files/placeholder.txt
-[Wiring 1]: /files/placeholder.txt
-[Wiring 2]: /files/plachholder.txt
-[New Control System]: /files/placeholder.txt
-[Old Control System]: /files/placeholder.txt
-[Driver Station]: /files/placeholder.txt
-[Robot Sensors]: /files/placeholder.txt
-[Robot Code]: /files/placeholder.txt
-[LabVIEW I]: /files/placeholder.txt
-[Timeline for LabVIEW I Training]: /files/placeholder.txt
-[LabVIEW II]: /files/placeholder.txt
-[LabVIEW III]: /files/placeholder.txt
-[LabVIEW IV]: /files/placeholder.txt
-[Additional Programming Concepts]: /files/placeholder.txt
+[Electrical Measurements]: /files/electrical-measurements.pptx
+[Electrical Measurements Worksheet]: /files/electrical-measurements-worksheet.pdf
+[Wiring 1]: /files/wiring-1.ppt
+[Wiring 2]: /files/wiring-2.pdf
+[New Control System]: /files/new-control-system.pptx
+[Old Control System]: /files/old-control-system.pptx
+[Driver Station]: /files/driver-station.pptx
+[Robot Sensors]: /files/robot-sensors.pptx
+[Robot Code]: /files/robot-code.pptx
+[LabVIEW I]: /files/labview-1.ppt
+[Timeline for LabVIEW I Training]: /files/labview-1-training.pdf
+[LabVIEW II]: /files/labview-2.pptx
+[LabVIEW III]: /files/labview-3.pptx
+[LabVIEW IV]: /files/labview-4.pptx
+[Additional Programming Concepts]: /files/additional-programming-concepts.ppt
 
-[Tools]: /files/placeholder.txt
-[Timeline for Tools Training]: /files/placeholder.txt
-[Woodshop Tools and Safety]: /files/placeholder.txt
-[Robot Designs: Chassis and Drive-Train]: /files/placeholder.txt
-[Complex Drivetrains]: /files/placeholder.txt
-[Robot Designs: Manipulators]: /files/placeholder.txt
-[Screws, Springs, Sprockets, and Gears]: /files/placeholder.txt
-[Robot Physics]: /files/placeholder.txt
-[Physics Practice Worksheet]: /files/placeholder.txt
-[Timeline for Robot Physics Training]: /files/placeholder.txt
-[Motors]: /files/placeholder.txt
-[A Guide to Choosing the Right Motor]: /files/placeholder.txt
-[Pneumatics]: /files/placeholder.txt
-[Inventor: Parts]: /files/placeholder.txt
-[Inventor: Assemblies]: /files/placeholder.txt
-[Inventor: Drawings]: /files/placeholder.txt
+[Tools]: /files/tools.ppt
+[Timeline for Tools Training]: /files/tools-timeline.pdf
+[Woodshop Tools and Safety]: /files/woodshop.doc
+[Robot Designs: Chassis and Drive-Train]: /files/chassis-drive-train.ppt
+[Complex Drivetrains]: /files/drivetrain.wmv
+[Robot Designs: Manipulators]: /files/manipulator.pptx
+[Screws, Springs, Sprockets, and Gears]: /files/sssg.ppt
+[Robot Physics]: /files/robot-physics.ppt
+[Physics Practice Worksheet]: /files/physics-worksheet.doc
+[Timeline for Robot Physics Training]: /files/robot-physics-timeline.pdf
+[Motors]: /files/motors.ppt
+[A Guide to Choosing the Right Motor]: /files/choosing-motors.doc
+[Pneumatics]: /files/pneumatics.ppt
+[Inventor: Parts]: /files/inventor-parts.ppt
+[Inventor: Assemblies]: /files/inventor-assemblies.ppt
+[Inventor: Drawings]: /files/inventor-drawings.ppt
 
-[Safety]: /files/placeholder.txt
-[2012 Game: Rebound Rumble]: /files/placeholder.txt
-[Tools]: /files/placeholder.txt
-[Timeline for Engineering Tools Training]: /files/placeholder.txt
-[Engineering Design I]: /files/placeholder.txt
-[Timeline for Engineering Design I]: /files/placeholder.txt
-[Engineering Design II]: /files/placeholder.txt
+[Safety]: /files/safety.ppt
+[2012 Game: Rebound Rumble]: /files/2012-game.ppt
+[Tools]: /files/tools.ppt
+[Timeline for Engineering Tools Training]: /files/tools-timeline.pdf
+[Engineering Design I]: /files/design-1.ppt
+[Timeline for Engineering Design I]: /files/design-1-timeline.pdf
+[Engineering Design II]: /files/design-2.ppt
