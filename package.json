@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "description": "Yeoman workflow for mvrt-website",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp",
+    "dev": "./node_modules/.bin/gulp serve",
+    "preinstall": "bundle install && bower install",
+    "postinstall": "./node_modules/.bin/gulp"
+  },
   "browserify": {
     "transform": [
       "browserify-shim"
