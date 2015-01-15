@@ -4,15 +4,10 @@ var links = {}
 
 exports.init = function () {
 
-  if (!$('.about').length) return;
+  if (!$('.about').length) return
 
   // Populates links with href: subpageUrl sort of thing
   $('.document-nav a').each(getSubpageUrl)
-
-  // On link click, set the active link
-  $('.document-nav').on('click', 'a', function () {
-    setActive($(this).attr('href'))
-  })
 
   // on hashchange, set the active link
   $(window).on('hashchange', function () {
@@ -20,7 +15,7 @@ exports.init = function () {
   })
 
   // set active page on page load, don't scroll
-  setActive(location.hash || 'Overview', true)
+  setActive(location.hash || 'overview', true)
 
 }
 
@@ -37,9 +32,10 @@ function getSubpageUrl () {
  */
 function setActive (anchor, noScroll) {
   if (!anchor) return
-  anchor = anchor.replace(/^#/, '')
+  var link = links[anchor.replace(/^#/, '')]
+  if (!link) return
   $('.document-nav li').removeClass('active')
-  $('.document').load(links[anchor])
-  $('[data-subpage-url="' + links[anchor] + '"]').parent().addClass('active')
+  $('.document').load(link)
+  $('[data-subpage-url="' + link + '"]').parent().addClass('active')
   if (!noScroll) $('html, body').scrollTop($('.document').position().top)
 }

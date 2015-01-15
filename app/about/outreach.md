@@ -1,6 +1,6 @@
 ---
 title: Outreach
-layout: plain
+layout: null
 ---
 
 # Outreach

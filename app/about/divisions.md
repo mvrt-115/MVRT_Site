@@ -1,6 +1,6 @@
 ---
 title: Divisions
-layout: plain
+layout: null
 ---
 
 # Divisions
