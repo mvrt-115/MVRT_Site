@@ -48,10 +48,10 @@
 
 -
   position: Director of Media
-  fname: Sophie
-  lname: Chen
-  grade: ???
-  xp: At least a year I hope
+  fname: Sophia
+  lname: Cao
+  grade: null
+  xp: null
   email: media
 
 -
@@ -66,8 +66,8 @@
   position: Director of Documentation
   fname: Sydney
   lname: Howard
-  grade: ???
-  xp: At least a year I hope
+  grade: null
+  xp: null
   email: documentation
 
 -
