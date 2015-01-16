@@ -43,14 +43,12 @@ current:
     prefix: Mr.
     fname: Ryan
     lname: Lee
-    job: Mentor
     background: College student
     years: 7
   -
     prefix: null
     fname: Ashwin
     lname: Mathur
-    job: Mentor
     background: Finance and Business Operations Analyst at TrialPay
     years: 9
   -
@@ -62,58 +60,84 @@ current:
     prefix: Mr.
     fname: Patrick
     lname: Wang
-    job: Mentor
     background: Director of Operations at LeadQual LLC
     years: 13
   -
     prefix: Mr.
     fname: Rod
     lname: Sinks
-    job: Mentor
     background: Cupertino City Councilman
     years: 2
   -
     prefix: Mr.
     fname: Dilip
     lname: Kikla
-    job: Mentor
     background: Data Management Evangelist at IBM
     years: 7
   -
     prefix: Mr.
     fname: Jaiom
     lname: Sambyal
-    job: Mentor
     background: Engineer at OEM Squared Inc.
     years: 13
+  -
+    prefix: Mr.
+    fname: Peter
+    lname: Easton
+  -
+    fname: Vinay
+    lname: Venkatesh
+  -
+    prefix: Ms.
+    fname: Ching
+    lname: Bays
+  -
+    fname: Galen
+    lname: Embry
+  -
+    prefix: Mr.
+    fname: Umesh
+    lname: Toprani
+  -
+    prefix: Mr.
+    fname: Philip
+    lname: Stolzman
+  -
+    prefix: Mr.
+    fname: Mark
+    lname: Carbone
+  -
+    fname: Abhijaat
+    lname: Kelkar
+  -
+    prefix: Mr.
+    fname: Steve
+    lname: Rock
+  -
+    fname: Cristian
+    lname: Porter
+  -
+    prefix: Mr.
+    fname: Micholas
+    lname: Baker
 
 past:
   -
     prefix: Mr.
     fname: Jeff
     lname: Lou
-    job: Mentor
     background: Chemical Engineer
     years: 2
   -
     prefix: Mr.
     fname: Edwin
     lname: Datu
-    job: Mentor
     background: Software Engineer
     years: 4
   -
     prefix: Mr.
-    fname: Steve
-    lname: Rock
-    job: Mentor
-    background: Stanford Professor
-    years: 16
-  -
-    prefix: Mr.
     fname: Ken
     lname: Leung
-    job: Mentor
     background: Mechanical Engineer at Google
     years: 4
 
