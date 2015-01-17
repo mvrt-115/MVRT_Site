@@ -1,6 +1,9 @@
 ---
 title: Helpful Links
-layout: resourceDocument
+layout: document
+back:
+  url: /resources/
+  name: Resources
 permalink: /resources/links/
 nav:
   - name: "General Information"

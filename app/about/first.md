@@ -1,10 +1,9 @@
 ---
 title: About FIRST
-layout: post
-permalink: /about/first/
-categories: ['posts']
+layout: null
 ---
 
+# About FIRST
 
 > FIRST is an opportunity to come together as a group and share little
 > pieces of our imagination to achieve something great.
@@ -74,4 +73,3 @@ while competing, so teams can teach each other, promoting mutual learning.
 
 To learn more about gracious professionalism and coopertition, refer to [<i
 class="first">FIRST</i>'s website](http://www.usfirst.org/).
-

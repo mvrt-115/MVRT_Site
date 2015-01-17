@@ -1,6 +1,6 @@
 ---
 title: Alumni
-layout: post-nolink
+layout: post
 permalink: /about/people/alumni/
 ---
 
@@ -10,7 +10,7 @@ started and mentored new teams, volunteered at FIRST regionals, and inspired
 kids across the country to join robotics.
 
 If you are an MVRT alumni and you are not listed below, please send an email to
-mvrt@mvrt.com. <!-- or submit an issue/PR at github.com/shovikguha/MVRT_Site -->
+mvrt@mvrt.com. <!-- or submit an issue/PR at github.com/mvrt-115/MVRT_Site -->
 
 {% for group in site.data.alumni %}
   {% assign year = group[0] %}

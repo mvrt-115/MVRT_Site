@@ -1,6 +1,6 @@
 ---
 title: Games
-layout: plain
+layout: null
 ---
 
 # Games

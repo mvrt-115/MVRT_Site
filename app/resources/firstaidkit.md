@@ -1,6 +1,9 @@
 ---
 title: FIRST Aid Kit
-layout: resourceDocument
+layout: document
+back:
+  url: /resources/
+  name: Resources
 permalink: /resources/firstaidkit/
 categories: ['firstaidkit']
 hero: /img/hero/firstaidkit.jpg

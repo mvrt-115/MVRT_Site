@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: null
 ---
 
 Founded in 1997, the Monta Vista Robotics FIRST Team #115 was established
@@ -41,20 +41,3 @@ differences.
 + To promote the vision of <i class="first">FIRST</i> in the
 community.
 + To ensure equal opportunity for all.
-
-# About FIRST
-
-## What is It?
-
-<i class="first">FIRST</i>is an acronym which stands for "For Inspiration and
-Recognition of Science and Technology". Their goal is to promote STEM to
-children of all ages and backgrounds. You can find out more at [their
-website](http://www.usfirst.org/).
-
-
-## Games
-
-MVRT competes in FRC, which stands for FIRST Robotics Competition.  Every year,
-the <i class="first">FIRST</i> organization creates a new game which our robot
-must play. For this years game and and see the games of previous years, go to
-our games page.

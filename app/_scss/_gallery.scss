@@ -2,17 +2,15 @@
 
 .page-gallery > .site-main {
   @include outer-container(100%);
-  & > h1 {
-    padding: $base-spacing;
+  & h1 {
+    @include pad;
     text-align: center;
   }
-}
-.page-gallery h1 {
-    @include pad;
 }
 .gallery {
   @include row;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .gallery-album {

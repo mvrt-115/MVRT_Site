@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if page.url contains 'blog' %}
+  {% assign blog_page = true %}
+{% endif %}
+
 <article class="post" role="article">
   <h1 class="post-title">{{ page.title }}</h1>
   {% if page.author or page.date %}
@@ -14,7 +18,7 @@ layout: default
     <p class="post-date"><time title="{{ datetime }}" datetime="{{ datetime }}">{{ page.date | date_to_string }}</p>
     {% endif %}
 
-  {% if page.categories %}
+  {% if page.categories and blog_page %}
   <ul class="post-categories">
     {% for category in page.categories %}
     <li>{{ category }}</li>
@@ -27,7 +31,7 @@ layout: default
 
   {{ content }}
 
-  {% if page.url contains 'blog' %}
+  {% if blog_page %}
   <footer>
     <p><a rel="up" href="/blog/">« Back to the Build Blog</a></p>
   </footer>
