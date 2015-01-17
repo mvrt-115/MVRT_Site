@@ -100,26 +100,8 @@ current:
     lname: Toprani
   -
     prefix: Mr.
-    fname: Philip
-    lname: Stolzman
-  -
-    prefix: Mr.
     fname: Mark
     lname: Carbone
-  -
-    fname: Abhijaat
-    lname: Kelkar
-  -
-    prefix: Mr.
-    fname: Steve
-    lname: Rock
-  -
-    fname: Cristian
-    lname: Porter
-  -
-    prefix: Mr.
-    fname: Micholas
-    lname: Baker
 
 past:
   -
@@ -140,4 +122,9 @@ past:
     lname: Leung
     background: Mechanical Engineer at Google
     years: 4
-
+  -
+    prefix: Mr.
+    fname: Steve
+    lname: Rock
+    background: Stanford Professor
+    years: 16
