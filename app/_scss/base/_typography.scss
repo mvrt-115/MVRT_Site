@@ -92,6 +92,13 @@ picture {
   max-width: 100%;
 }
 
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: ($base-spacing / 2) auto;
+  vertical-align: middle;
+}
+
 blockquote {
   border-left: 2px solid $base-border-color;
   color: lighten($base-font-color, 15);
