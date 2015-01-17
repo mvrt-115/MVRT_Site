@@ -12,6 +12,31 @@ FIRST’s vision, all participating teams are encouraged to instill an
 appreciation of the real-life rewards and career opportunities to others within
 their supportive community.
 
+
+## Community Outreach Achievements
+
++ 2012 Received FLL Peninsula District Championship Outstanding Volunteer Award - Ryan Lee
++ 2012 Received FLL Peninsula District Championship Outstanding Coach Award - Jimin Park
++ 2011 Kennedy and Lawson LEGO League led by Jimin Park, Patricia Xu, Benjamin Yu, and Jonathan La Plain
++ 2011 Held FIRST workshop for teams
++ 2011 Founded Future Stars Robotics Program
++ 2011 Received Silicon Valley Regional Judge’s Award
++ 2010 Received Silicon Valley Regional Chairman’s Award
++ 2010 Held workshops for community and beta tested new control system and Labview
++ 2009 Participated in JAVAone keynote presentation and promoted Congressman Mike Honda's eSTEM Bill
++ 2008 Mentor of: Cupertino Robotics, Mission San Jose Robotics, and St. Francis Robotics
++ 2008 Lawson LEGO League led by Ryan Lee and Victor Shu
++ 2007 thinkFIRST campaign begins
++ 2007 Congressional Recognition
++ 2006 Kennedy LEGO League led by Pavan and Brij Datta
++ 2005 Kennedy LEGO League continued by Shrenik Shah
++ 2004 Kennedy LEGO League led by Shrenik Shah
++ 2003 Mentor of: Harker Upper School and Kehillah High
++ 2002 Mentor of: Lynbrook high School Robotics Team
++ 2000 Founded Kennedy Middle School's LEGO League
++ 2000 Mentor of: Saratoga and homestead high School
++ 1999 Awarded Mayor's Award of Community Excellence from the Cupertino Mayor, Wally Dean
+
 ## <i class="first">FIRST</i> Community {#first-community}
 
 ### <i class="first">FIRST</i> Workshop {#first-workshop}
