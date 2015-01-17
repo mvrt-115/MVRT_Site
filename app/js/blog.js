@@ -93,7 +93,7 @@ function post (title, author, categories, text) {
     },
     function (done) {
       repo.deleteRef('heads/' + branch, function (err) {
-        if (err) done(err)
+        if (err) return done(err)
         done()
       })
     }
