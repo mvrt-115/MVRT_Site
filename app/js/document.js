@@ -3,12 +3,19 @@ var $ = require('jquery')
   , sticky = require('sticky')
 
 
-var $nav, $navUl, $navLinks, stickyNav, anchors, anchorTimeout
+var $nav
+  , $navUl
+  , $navLinks
+  , $footer
+  , stickyNav
+  , anchors
+  , anchorTimeout
 
 function bindElements () {
   $nav = $('.document-nav')
   $navUl = $('.document-nav ul')
   $navLinks = $('.document-nav a')
+  $footer = $('.site-footer')
 }
 
 function setNavWidth () {
@@ -22,6 +29,14 @@ function bindUIEvents () {
   stickyNav = new Waypoint.Sticky({
     element: $navUl[0],
     wrapper: null
+  })
+
+  $(window).scroll(function () {
+    var navHeight = $nav[0].clientHeight
+      , footerTop = $footer[0].getBoundingClientRect().top
+    if (navHeight > footerTop) {
+      $navUl.css('top', footerTop - navHeight + 'px')
+    } else $navUl.css('top', '0px')
   })
 
   $(window).on('resize', setNavWidth)
