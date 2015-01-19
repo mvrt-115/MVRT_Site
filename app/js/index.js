@@ -4,6 +4,7 @@ var $ = require('jquery')
   , dynamic = require('./dynamic')
   , doc = require('./document')
   , redirect = require('./redirect')
+  , blog = require('./blog')
 
 $(function () {
   redirect()
@@ -11,4 +12,5 @@ $(function () {
   dynamic.init()
   gallery.init()
   doc.init()
+  blog.init()
 })
