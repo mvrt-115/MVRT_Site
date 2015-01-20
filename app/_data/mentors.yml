@@ -46,13 +46,13 @@ current:
     background: College student
     years: 7
   -
-    prefix: null
+    prefix: Mr.
     fname: Ashwin
     lname: Mathur
     background: Finance and Business Operations Analyst at TrialPay
     years: 9
   -
-    prefix: null
+    prefix: Mrs.
     fname: Debra
     lname: Hara
     job: Trip Coordinator
@@ -85,6 +85,7 @@ current:
     fname: Peter
     lname: Easton
   -
+    prefix: Mr.
     fname: Vinay
     lname: Venkatesh
   -
@@ -92,6 +93,7 @@ current:
     fname: Ching
     lname: Bays
   -
+    prefix: Mr.
     fname: Galen
     lname: Embry
   -

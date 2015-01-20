@@ -84,6 +84,7 @@
   - name: Parag Kikla
     college: Embry Riddle
   - name: Arun Kuchibhotla
+    college: ASU
   - name: Vinay Venkatesh
     college: UC San Diego
   - name: Mike He
@@ -107,9 +108,11 @@
   - name: Madula Ramabathiran
     college: San Jose State
   - name: Preethi Kandhalu
+    college: UC Berkeley
   - name: Samir Bhatt
     college: UC Santa Barbara
   - name: Tushar Alladi
+    college: University of Washington
 
 2009:
   - name: Jean Feng
@@ -156,6 +159,7 @@
   - name: Sherry Chin
     college: Ohio State
   - name: Rijuta Ravichandran
+    college: UC Davis
 
 2007:
   - name: Pavan Datta
@@ -246,7 +250,7 @@
   - name: Catherine Chen
     college: John Hopkins
   - name: Albert Ye
-    college: Stanfod
+    college: Stanford
   - name: Sujay Karve
     college: UC Berkeley
   - name: Theodore Wu
