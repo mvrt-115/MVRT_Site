@@ -4,9 +4,8 @@
   game: Aerial Assist
   id: eltoro17
   notes:
-    - First non-bosch robot, using West Coast Drive
     - Cypress-based driver station with sliders to control the launch mechanism
-    - Autonomous capable of earning 20 points max
+    - Hot goal autonomous mode with mobility bonus
     - Winch with pneumatic piston for release/loading of launch mechanism
     - Arm with roller to bring the ball into the robot
 
