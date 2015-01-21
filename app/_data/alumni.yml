@@ -1,3 +1,15 @@
+2014:
+  - name: Namrata Ramani
+    college: UCLA
+  - name: Jimin Park
+    college: Georgia Institute of Technology
+  - name: Karen Feng
+    college: Princeton
+  - name: Emma Lewis
+    college: Swarthmore
+  - name: Sachin Makaram
+    college: University of Washington
+
 2013:
   - name: Evelyn Ding
     college: Princeton
@@ -32,7 +44,7 @@
   - name: Nupur Garg
     college: Cal Poly SLO
   - name: Daniel Tan
-    college: University of Pennsyllvania
+    college: University of Pennsylvania
   - name: Dahyoung Yoon
     college: UC Davis
   - name: Patricia Xu

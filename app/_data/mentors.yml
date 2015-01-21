@@ -104,6 +104,14 @@ current:
     prefix: Mr.
     fname: Mark
     lname: Carbone
+  -
+    prefix: Mr.
+    fname: Anant
+    lname: Singhania
+  -
+    prefix: Ms.
+    fname: Karen
+    lname: Feng
 
 past:
   -
