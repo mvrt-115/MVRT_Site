@@ -25,8 +25,8 @@ categories: ['people']
   <h2>Mentors</h2>
   <ul class="people-list mentors-list">
   {% for mentor in site.data.mentors.current %}
-    <li class="person mentor" data-img-url="{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}">
-      <img src="/img/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
+    <li class="person mentor">
+      <img src="/img/people/{{ mentor.fname | append: ' ' | append: mentor.lname | slugify | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
         <div class="mentor-details">
@@ -44,8 +44,8 @@ categories: ['people']
   <h2>Past Mentors</h2>
   <ul class="people-list mentors-list">
   {% for mentor in site.data.mentors.past %}
-    <li class="person mentor" data-img-url="{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}">
-      <img src="/img/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
+    <li class="person mentor">
+      <img src="/img/people/{{ mentor.fname | append: ' ' | append: mentor.lname | slugify | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
       <div class="person-info">
         <span class="person-name mentor-name">{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</span>
         <div class="mentor-details">
