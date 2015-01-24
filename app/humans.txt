@@ -11,7 +11,7 @@ layout: null
 
 # Mentors
 
-  {% for mentor in site.data.mentors.current %}{{ mentor.fname }} {{ mentor.lname }} -- {{ mentor.job }}
+  {% for mentor in site.data.mentors.current %}{{ mentor.fname }} {{ mentor.lname }}{% if mentor.job %} -- {{ mentor.job }}{% endif %}
   {% endfor %}
 
 # Sponsors
