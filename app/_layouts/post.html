@@ -37,4 +37,10 @@ layout: default
   </footer>
   {% endif %}
 
+  {% if page.back %}
+  <footer>
+    <p><a href="{{ page.back.url }}">« Back to {{ page.back.name }}</a></p>
+  </footer>
+  {% endif %}
+
 </article>
