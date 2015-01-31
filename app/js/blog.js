@@ -2,7 +2,7 @@ var yaml = require('js-yaml')
   , Github = require('github-api')
   , ghMerge = require('./gh-merge')
   , async = require('async')
-  , slug = require('slug')
+  , slug = require('to-slug-case')
   , $ = require('jquery')
 
 exports.init = init
@@ -121,10 +121,10 @@ function createPost (title, author, categories, text) {
 function createTitle (title) {
   if (!title) throw new Error()
   return new Date().toJSON().replace(/T.*$/, '') + '-' +
-    slug(title.toLowerCase()) + '.md'
+    slug(title) + '.md'
 }
 
 function createBranchName (title) {
   if (!title) throw new Error()
-  return 'post-' + slug(title.toLowerCase())
+  return 'post-' + slug(title)
 }
