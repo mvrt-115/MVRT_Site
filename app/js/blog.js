@@ -4,6 +4,7 @@ var yaml = require('js-yaml')
   , async = require('async')
   , slug = require('to-slug-case')
   , $ = require('jquery')
+  , dateformat = require('dateformat')
 
 exports.init = init
 
@@ -110,7 +111,7 @@ function createPost (title, author, categories, text) {
       yaml.safeDump({
       title: title.trim(),
       author: author.trim(),
-      date: new Date().toJSON(),
+      date: dateformat('isoDateTime'),
       categories: categories.split(' ')
                     .filter(function (cat) { return cat.length })
     }) +
@@ -120,7 +121,7 @@ function createPost (title, author, categories, text) {
 
 function createTitle (title) {
   if (!title) throw new Error()
-  return new Date().toJSON().replace(/T.*$/, '') + '-' +
+  return dateformat('isoDate') + '-' +
     slug(title) + '.md'
 }
 
