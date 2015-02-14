@@ -36,6 +36,9 @@
       background-color: transparentize($light-purple, 0.5);
       content: ' ';
     }
+    &:nth-child(#{ceil($grid-columns / 2)}n + 1) {
+      clear: left;
+    }
   }
 
   .person img {
