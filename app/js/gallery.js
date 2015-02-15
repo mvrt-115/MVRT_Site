@@ -8,18 +8,20 @@ var PICASA_USER = 'mvrtpicasa'
   , PICASA_ALBUM_FIELDS = 'title,icon,openSearch:totalResults,openSearch:itemsPerPage,entry(media:group(media:content,media:thumbnail,media:title))'
   , PICASA_USER_URL = picasaUrl({ userId: PICASA_USER, fields: PICASA_USER_FIELDS })
 
-// jquery's promise implementation (aka 'deferred') is terrible
-$.getJSON(PICASA_USER_URL)
-  .then(function (data) {
-    $('.gallery').remove() // delete the old node
-    data.feed.entry
-      .map(getAlbumInfo)
-      .map($ifyAlbumThumbnail)
-      .reduce(appendToGallery, $('<ul class="gallery"></ul>'))
-      .appendTo($('.document'))
-  }, function (jqXHR, textStatus, err) {
-    console.error(textStatus)
-  })
+module.exports.init = function init () {
+  // jquery's promise implementation (aka 'deferred') is terrible
+  $.getJSON(PICASA_USER_URL)
+    .then(function (data) {
+      $('.gallery').remove() // delete the old node
+      data.feed.entry
+        .map(getAlbumInfo)
+        .map($ifyAlbumThumbnail)
+        .reduce(appendToGallery, $('<ul class="gallery"></ul>'))
+        .appendTo($('.document'))
+    }, function (jqXHR, textStatus, err) {
+      console.error(textStatus)
+    })
+}
 
 /**
  * Creates a thing?
