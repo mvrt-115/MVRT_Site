@@ -72,3 +72,18 @@
     opacity: 0.5;
   }
 }
+
+// i know its not supposed to be here but here's a temporary close button
+.button-close {
+  @extend .arrow;
+  top: 2.5%;
+  right: 2.5%;
+  font-size: 72px;
+  font-weight: 300;
+  opacity: 0.8;
+  transition: 0.25s opacity linear;
+  &:hover {
+    opacity: 1;
+    transition: 0.25s opacity linear;
+  }
+}

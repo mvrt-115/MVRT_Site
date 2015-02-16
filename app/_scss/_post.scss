@@ -1,13 +1,29 @@
 // _post.scss
 
+%post-wrap {
+  @include media($mobile-vertical-up) {
+    @include span-columns(1);
+  }
+  @include media($medium-screen-up) {
+    @include span-columns(3);
+    @include shift(0.5);
+  }
+  @include media($large-screen-up) {
+    @include span-columns(4);
+    @include shift(2);
+  }
+  @include media($mega-screen-up) {
+    @include span-columns(6);
+    @include shift(3);
+  }
+}
+
 .posts .hero-text h1 {
-  @include span-columns(6);
-  @include shift(3);
+  @extend %post-wrap;
 }
 
 .post {
-  @include span-columns(6);
-  @include shift(3);
+  @extend %post-wrap;
   @include omega;
   @include pad;
 }
