@@ -18,6 +18,7 @@ function Carousel (options) {
     , $element = options.element instanceof $ ? options.element : $(options.element)
     , $left = $(arrows.left).on('click', prev)
     , $right = $(arrows.right).on('click', next)
+    , $close = $('<button type="button" class="button-close">×</button>').on('click', destroy)
     , $main = $('<div class="gallery-photos-main"></div>')
     , $photos = photos.map($ifyPhotoThumbnail)
     , $thumbs = $('<ul></ul>').append($photos)
@@ -27,6 +28,7 @@ function Carousel (options) {
   $element
     .append($left)
     .append($right)
+    .append($close)
     .append($main)
     .append($thumbsWrap)
 
@@ -65,11 +67,9 @@ function Carousel (options) {
 
   function setArrows (idx) {
     if (idx === 0) $left.prop('disabled', true)
-    else if (idx === numPhotos - 1) $right.prop('disabled', true)
-    else {
-      $left.prop('disabled', false)
-      $right.prop('disabled', false)
-    }
+    else $left.prop('disabled', false)
+    if (idx === numPhotos - 1) $right.prop('disabled', true)
+    else $right.prop('disabled', false)
   }
 
   function setThumb (idx) {
@@ -79,6 +79,10 @@ function Carousel (options) {
 
   function getElement () {
     return $element
+  }
+
+  function destroy () {
+    $element.remove()
   }
 
   /**
@@ -102,7 +106,8 @@ function Carousel (options) {
     next: next,
     prev: prev,
     init: init,
-    getElement: getElement
+    getElement: getElement,
+    destroy: destroy
   }
 
 }

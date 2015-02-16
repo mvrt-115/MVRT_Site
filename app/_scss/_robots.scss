@@ -32,23 +32,27 @@
 }
 
 @include direction-context(left-to-right) {
-  .robot:nth-of-type(2n+1) {
-    .robot-picture {
-      @include span-columns(8);
-    }
-    .robot-info {
-      @include span-columns(4);
+  @include media($large-screen-up) {
+    .robot:nth-of-type(2n+1) {
+      .robot-picture {
+        @include span-columns(5);
+      }
+      .robot-info {
+        @include span-columns(3);
+      }
     }
   }
 }
 
 @include direction-context(right-to-left) {
-  .robot:nth-of-type(2n) {
-    .robot-picture {
-      @include span-columns(8);
-    }
-    .robot-info {
-      @include span-columns(4);
+  @include media($large-screen-up) {
+    .robot:nth-of-type(2n) {
+      .robot-picture {
+        @include span-columns(5);
+      }
+      .robot-info {
+        @include span-columns(3);
+      }
     }
   }
 }
