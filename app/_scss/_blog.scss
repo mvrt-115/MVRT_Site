@@ -6,8 +6,7 @@
 }
 
 .pagination {
-  @include span-columns(6);
-  @include shift(3);
+  @extend %post-wrap;
   @include omega;
   @include pad;
   font-size: 90%;
@@ -28,8 +27,7 @@
 }
 
 .page-blog .hero-text h1 {
-  @include span-columns(6);
-  @include shift(3);
+  @extend %post-wrap;
 }
 
 .page-blog .post > h2 > a {

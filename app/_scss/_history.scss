@@ -31,12 +31,19 @@
 .team-info {
     @include span-columns(12);
 }
-.officers-div {
-    @include span-columns(6);
-    padding-right: 20px;
-}
+
+.officers-div,
 .driver-div {
+  padding-bottom: $base-spacing;
+  @include media($mobile-vertical-up) {
+    @include span-columns(1);
+  }
+  @include media($large-screen-up) {
+    @include span-columns(4);
+  }
+  @include media($mega-screen-up) {
     @include span-columns(6);
+  }
 }
 
 .team-officers,

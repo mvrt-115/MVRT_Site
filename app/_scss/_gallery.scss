@@ -30,6 +30,21 @@
   &:hover:before {
     background-image: none;
   }
+  @include media($mobile-vertical-up) {
+    width: 33.33%;
+  }
+  @include media($mobile-horizontal-up) {
+    width: 20%;
+  }
+  @include media($medium-screen-up) {
+    width: 16.66%;
+  }
+  @include media($large-screen-up) {
+    width: 12.5%;
+  }
+  @include media($mega-screen-up) {
+    width: 10%;
+  }
 }
 
 .gallery-album-preview {
@@ -89,7 +104,7 @@
     @include clearfix;
   }
   li {
-    width: 5%;
+    width: 48px;
     margin: 0.5em;
     display: inline-block;
   }

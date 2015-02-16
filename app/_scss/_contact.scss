@@ -14,8 +14,10 @@
 }
 
 .contact-officers-list {
-  columns: 3;
-  :first-child {
-    margin-top: 0;
+  @include media($medium-screen-up) {
+    columns: 3;
+    :first-child {
+      margin-top: 0;
+    }
   }
 }
