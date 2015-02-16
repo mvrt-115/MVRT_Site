@@ -68,7 +68,7 @@
     "mousetrap": "^1.4.6",
     "ramda": "^0.8.0",
     "run-sequence": "^1.0.2",
-    "slug": "^0.8.0",
+    "to-slug-case": "^0.1.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.2.1"

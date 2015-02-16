@@ -70,7 +70,7 @@ gulp.task('css', function () {
     .pipe($.if(!production, $.sourcemaps.write()))
     .pipe(gulp.dest('.tmp/css'))
     .pipe($.if(!production, reload({ stream: true })))
-    .pipe($.if(!production, $.size({ title: 'styles' })))
+    .pipe($.size({ title: 'styles preminification' }))
 })
 
 // javascripts with browserify
@@ -88,7 +88,7 @@ gulp.task('js', function () {
       .pipe($.if(!production, $.sourcemaps.write()))
       .pipe(gulp.dest('.tmp/js'))
       .pipe($.if(!production, reload({ stream: true })))
-      .pipe($.if(!production, $.size({ title: 'javascripts' })))
+      .pipe($.size({ title: 'javascripts preminification' }))
   }
   return bundle()
 })
@@ -117,9 +117,11 @@ gulp.task('html', function () {
     .pipe(assets)
     .pipe(jsFilter)
     .pipe($.uglify())
+    .pipe($.size({ title: 'scripts postminification' }))
     .pipe(jsFilter.restore())
     .pipe(cssFilter)
     .pipe($.minifyCss())
+    .pipe($.size({ title: 'styles postminification' }))
     .pipe(cssFilter.restore())
     .pipe($.rev())
     .pipe(assets.restore())
@@ -127,10 +129,11 @@ gulp.task('html', function () {
     .pipe($.useref())
     .pipe($.revReplace())
     .pipe(htmlFilter)
+    .pipe($.size({ title: 'html preminification' }))
     .pipe($.minifyHtml())
+    .pipe($.size({ title: 'html postminification' }))
     .pipe(htmlFilter.restore())
     .pipe(gulp.dest('dist'))
-    .pipe($.size({ title: 'html' }))
 
 })
 
@@ -141,11 +144,13 @@ gulp.task('img', function () {
 
   return gulp.src('dist/**/*')
     .pipe(imgFilter)
+    .pipe($.size({ title: 'images preminification' }))
     .pipe($.imagemin({
       progressive: true,
       svgoplugins: [{ removeViewBox: false }],
       use: [require('imagemin-pngquant')()]
     }))
+    .pipe($.size({ title: 'images postminification' }))
     .pipe($.rev())
     .pipe(imgFilter.restore())
     .pipe($.revReplace())
