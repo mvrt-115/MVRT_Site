@@ -1,3 +1,5 @@
+require('dotenv').load()
+
 var gulp = require('gulp')
   , $ = require('gulp-load-plugins')({
       rename: {
@@ -78,6 +80,8 @@ gulp.task('js', function () {
   var bOptions = { entries: [paths.js], debug: true }
   var b = production ? browserify(bOptions) :
     watchify(browserify(bOptions), watchify.args)
+  b.transform('envify')
+  b.transform('browserify-shim')
   if (!production) b.on('update', bundle)
   function bundle () {
     return b.bundle()
