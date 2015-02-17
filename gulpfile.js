@@ -15,7 +15,7 @@ var gulp = require('gulp')
   , buffer = require('vinyl-buffer')
   , browserSync = require('browser-sync')
   , reload = browserSync.reload
-  , spawn = require('win-spawn')
+  , spawn = require('cross-spawn')
   , dargs = require('dargs')
   , merge = require('merge-stream')
 
