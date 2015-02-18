@@ -5,9 +5,7 @@
   "description": "Yeoman workflow for mvrt-website",
   "scripts": {
     "build": "gulp",
-    "dev": "gulp serve",
-    "preinstall": "bundle install && bower install",
-    "postinstall": "npm run build"
+    "dev": "gulp serve"
   },
   "browser": {
     "waypoints": "./app/_bower_components/waypoints/lib/jquery.waypoints.js",
