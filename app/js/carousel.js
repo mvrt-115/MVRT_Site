@@ -138,7 +138,9 @@ function Carousel (options = {}) {
    * @public
    */
   function destroy () {
-    $element.remove()
+    $element
+      .trigger('destroy')
+      .remove()
   }
 
   /**

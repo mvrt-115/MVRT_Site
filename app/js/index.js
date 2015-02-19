@@ -1,6 +1,9 @@
 // ES6 Polyfills
 require('babelify/polyfill')
 
+// Fetch Polyfill
+require('whatwg-fetch')
+
 // redirect as early as possible
 require('./redirect')()
 

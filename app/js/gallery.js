@@ -1,3 +1,4 @@
+/* global fetch */
 var $ = require('jquery')
   , picasaUrl = require('./picasa-url')
   , carousel = require('./carousel')
@@ -9,16 +10,20 @@ const PICASA_ALBUM_FIELDS = 'title,icon,openSearch:totalResults,openSearch:items
 const PICASA_USER_URL = picasaUrl({ userId: PICASA_USER, fields: PICASA_USER_FIELDS })
 
 module.exports.init = function init () {
-  // jquery's promise implementation (aka 'deferred') is terrible
-  $.getJSON(PICASA_USER_URL)
-    .then(function (data) {
+  fetch(PICASA_USER_URL)
+    .then(data => data.json())
+    .then(data => {
       $('.gallery').remove() // delete the old node
-      data.feed.entry
+      return data.feed.entry
         .map(getAlbumInfo)
         .map($ifyAlbumThumbnail)
-        .reduce(($gallery, $thumb) => $gallery.append($thumb), $('<ul class="gallery"></ul>'))
+    })
+    .then(data => {
+      return $('<ul class="gallery"></ul>')
+        .append(data)
         .appendTo($('.document'))
-    }, (jqXHR, textStatus, err) => console.error(textStatus))
+    })
+    .then(null, err => console.error(err))
 }
 
 /**
@@ -30,26 +35,27 @@ function createGallery (options) {
     .then(data => data.json())
     .then(data => {
       let photos = data.feed.entry.map(getPhotoInfo)
-        , gallery = carousel({ photos: photos })
-      gallery.init().getElement().appendTo(document.body)
-      $('html, body').css('overflow', 'hidden')
+      return carousel({ photos })
+    })
+    .then(gallery => {
+      gallery.init().getElement()
+        .on('destroy', () => {
+          $('html, body').css('overflow', 'auto')
+          $(window).off('keyup', control)
+        })
+        .appendTo(document.body)
       $(window).on('keyup', control)
+      $('html, body').css('overflow', 'hidden')
       function control (e) {
         switch (e.keyCode) {
-          case 27:
-            gallery.destroy()
-            $('html, body').css('overflow', 'auto')
-            $(window).off('keyup', control)
-            break
-          case 37:
-            gallery.prev()
-            break
-          case 39:
-            gallery.next()
-            break
+          case 27: gallery.destroy(); break
+          case 37: gallery.prev(); break
+          case 39: gallery.next(); break
         }
       }
-    }, (jqXHR, textStatus, err) => console.error(textStatus))
+      return gallery
+    })
+    .then(null, err => console.error(err))
 }
 
 /**

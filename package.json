@@ -65,7 +65,8 @@
     "to-slug-case": "^0.1.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^2.4.0"
+    "watchify": "^2.4.0",
+    "whatwg-fetch": "^0.7.0"
   },
   "engines": {
     "node": ">=0.10.0"
