@@ -1,15 +1,18 @@
 exports.arrow = arrow
 
-// really wish there was easy currying...
+/**
+ * Returns a terrible markup of an arrow.
+ * @param {String} direction left|right|up|down
+ * @param {Boolean} disabled If the arrow should be disabled
+ */
 function arrow (direction, disabled) {
   if (!/left|right|up|down/.test(direction)) {
     throw new Error('Wrong direction...')
   }
-
-  return '<button class="arrow arrow-' + direction + '" type="button"' +
-    (disabled ? ' disabled' : '') + '><i></i><i></i></button>'
+  return `<button class="arrow arrow-${direction}" type="button" ${disabled ? 'disabled' : ''}><i></i><i></i></button>`
 }
 
+// Handy Aliases
 exports.left = arrow('left')
 exports.right = arrow('right')
 exports.up = arrow('up')

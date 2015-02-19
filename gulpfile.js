@@ -85,9 +85,11 @@ function javascripts () {
   var b = production
     ? browserify(opts)
     : watchify(browserify(opts), watchify.args).on('update', bundle)
+  b
+    .transform('babelify')
+    .transform('browserify-shim')
   function bundle () {
     return b
-      .transform('browserify-shim')
       .bundle()
       .on('error', function (err) { $.util.log('Browserify Error:', err.message) })
       .pipe(source('script.js'))

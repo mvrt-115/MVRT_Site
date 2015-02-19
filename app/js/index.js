@@ -1,18 +1,24 @@
+// ES6 Polyfills
+require('babelify/polyfill')
+
+// redirect as early as possible
+require('./redirect')()
+
+// And now load the dependencies
 var $ = require('jquery')
   , homepage = require('./homepage')
   , gallery = require('./gallery')
   , dynamic = require('./dynamic')
   , doc = require('./document')
-  , redirect = require('./redirect')
   , nav = require('./nav')
   , blog = require('./blog')
 
+// Wait until DOMContentLoaded
 $(function () {
-  redirect()
   nav.init()
-  homepage.init()
-  dynamic.init()
+  if ($('.home').length) homepage.init()
+  if ($('.about').length) dynamic.init()
   if ($('.gallery').length) gallery.init()
-  doc.init()
+  if ($('.document').length) doc.init()
   blog.init()
 })

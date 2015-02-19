@@ -21,4 +21,3 @@ module.exports = function ghMerge (options, cb) {
     cb(err)
   })
 }
-
