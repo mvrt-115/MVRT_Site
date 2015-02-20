@@ -2,6 +2,9 @@
 // Most of the build tasks go in here.
 // See https://github.com/gulpjs/gulp/tree/master/docs
 
+// Load the environment.
+require('dotenv').load()
+
 // Dependencies/Plugins
 // Gulp plugins are prefixed with a `$`
 var gulp = require('gulp')
@@ -88,6 +91,7 @@ function javascripts () {
   b
     .transform('babelify')
     .transform('browserify-shim')
+    .transform('envify')
   function bundle () {
     return b
       .bundle()
