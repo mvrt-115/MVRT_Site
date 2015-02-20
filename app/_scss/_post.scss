@@ -1,51 +1,36 @@
 // _post.scss
 
-%post-wrap {
-  @include media($mobile-vertical-up) {
-    @include span-columns(1);
-  }
-  @include media($medium-screen-up) {
-    @include span-columns(3);
-    @include shift(0.5);
-  }
-  @include media($large-screen-up) {
-    @include span-columns(4);
-    @include shift(2);
-  }
-  @include media($mega-screen-up) {
-    @include span-columns(6);
-    @include shift(3);
-  }
-}
-
+// If there is hero text, wrap it to post length
 .posts .hero-text h1 {
   @extend %post-wrap;
 }
 
+// Post box thingy
 .post {
   @extend %post-wrap;
-  @include omega;
-  @include pad;
+  @include pad(default 0);
 }
 
 .post-title {
-  // stupid...
+  // If there is a hero, then hide the article post title.
+  // This is really stupid.
   .hero + .site-main > .post > & {
     display: none;
   }
 }
 
+// meta stuff
 .post-meta {
   border-bottom: $base-border;
-  padding-bottom: $base-spacing;
-  margin-bottom: $base-spacing;
-  font-size: 90%;
+  padding-bottom: flex-gutter();
+  margin-bottom: flex-gutter();
   p {
     margin-bottom: 0;
   }
 }
 
 // oh come on
+// leave this alone since no one ever uses it
 .post-categories {
   margin: 0;
   padding: 0;

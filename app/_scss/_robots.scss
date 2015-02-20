@@ -1,18 +1,22 @@
 // _robots.scss
 
-.page-robots > .site-main > h1 {
-  padding-top: $base-spacing / 2;
-  text-align: center;
-}
-
+// TODO mixin this
+// but no need to rush that :)
+// it's not even used
+// so hey lets comment it out!
+//.page-robots > .site-main > h1 {
+//  padding-top: $base-spacing / 2;
+//  text-align: center;
+//}
 
 .robot {
-  @include row;
-  @include pad;
+  @include clearfix;
+  margin-top: $base-spacing;
 }
 
 .robot-info {
-  font-size: 0.8em;
+  margin-top: $base-spacing;
+  font-size: modular-scale(-1);
   ul {
     @extend %default-ul;
   }
@@ -31,6 +35,7 @@
   }
 }
 
+// every odd one reads LTR
 @include direction-context(left-to-right) {
   @include media($large-screen-up) {
     .robot:nth-of-type(2n+1) {
@@ -44,6 +49,7 @@
   }
 }
 
+// every even one reads RTL
 @include direction-context(right-to-left) {
   @include media($large-screen-up) {
     .robot:nth-of-type(2n) {

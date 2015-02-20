@@ -2,27 +2,51 @@
 
 .people .site-main {
   @include outer-container(100%);
+  @include pad(0);
 }
 
 .people section {
-  padding-top: $base-spacing * 2;
+  @include pad;
   h1,
   h2,
   &:first-child {
     text-align: center;
-    max-width: 800px;
-    margin: auto;
+  }
+}
+
+.people #intro {
+  max-width: 640px;
+  margin: auto;
+}
+
+.people-nav {
+  border-top: $base-border;
+  border-bottom: $base-border;
+  ul {
+    display: block;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: $base-spacing / 2;
+    &:link, &:visited {
+      color: $base-font-color;
+    }
+    &:hover, &:active {
+      color: $medium-purple;
+    }
   }
 }
 
 .people-list {
 
-  @include pad;
-  @include row;
-  @include fill-parent;
+  @include clearfix;
 
   .person {
-    color: #DDDDDD;
+    color: $light-gray;
     position: relative;
     float: left;
     width: (100 / $grid-columns) * 2%;
@@ -57,7 +81,7 @@
     left: 0;
     width: 100%;
     padding: $base-spacing / 4;
-    background: rgba(32, 32, 32, 0.7);
+    background: transparentize($dark-gray, 0.3);
   }
 
   .person-info span {
@@ -66,40 +90,25 @@
 
 }
 
-.people-nav {
-  border-top: $base-border;
-  border-bottom: $base-border;
-  ul {
-    display: block;
-    text-align: center;
-  }
-  li {
-    display: inline-block;
-  }
-  a {
-    display: block;
-    padding: $base-spacing / 2;
-    &:link, &:visited {
-      color: $base-font-color;
-    }
-    &:hover, &:active {
-      color: $medium-purple;
-    }
-  }
-}
-.officer-position, .mentor-details {
-    font-size: 80%;
-}
+.officer-position,
 .mentor-details {
-    max-height: 23px;
-    overflow: hidden;
-
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+  font-size: modular-scale(-1);
 }
-.person:hover .mentor-details{
-    max-height: 150px;
+
+// Mentor hiding sliding thing
+// Kinda cheating, but whatever
+.mentor {
+  .mentor-background,
+  .mentor-years {
+    max-height: 0px;
+    transition: max-height 0.5s linear; // note there is a slight delay
+    overflow: hidden;
+  }
+}
+
+.mentor:hover {
+  .mentor-background,
+  .mentor-years {
+    max-height: 200px; // a random number
+  }
 }

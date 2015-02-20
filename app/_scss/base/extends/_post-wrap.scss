@@ -1,0 +1,17 @@
+// _post-wrap.scss
+// Basically it wraps posts, I guess?
+// Usage: @extends %post-wrap
+
+%post-wrap {
+  @include media($mobile-vertical-up) {
+    @include span-columns(1);
+  }
+  @include media($medium-screen-up) {
+    @include span-columns(3);
+    @include shift(0.5);
+  }
+  @include media($large-screen-up) {
+    @include span-columns(4);
+    @include shift(2);
+  }
+}
