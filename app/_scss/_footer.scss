@@ -62,21 +62,23 @@
 // Really great name...
 // This is the container for the other content
 .site-footer-other {
+  font-size: modular-scale(-1);
+  color: $medium-gray;
   @include outer-container;
   @include pad;
+  @include media($medium-screen-up) {
+    font-size: modular-scale(0);
+  }
 }
 
 // The two divs in .site-footer-other
 // Just grid them up
 .site-footer-contact,
 .site-footer-first {
+  text-align: center;
   @include media($mobile-vertical-up) {
     @include span-columns(1);
-    text-align: center;
-  }
-  @include media($large-screen-up) {
-    @include span-columns(4);
-    text-align: left;
+    @include omega;
   }
 }
 
@@ -87,7 +89,18 @@
   img {
     display: inline;
   }
-  @include media($large-screen-up) {
-    text-align: right;
+}
+
+// medias
+@include media($mobile-horizontal-up) {
+  @include display-context(table) {
+    .site-footer-contact {
+      @include span-columns(0.75);
+      text-align: left;
+    }
+    .site-footer-first {
+      @include span-columns(0.25);
+      text-align: right;
+    }
   }
 }
