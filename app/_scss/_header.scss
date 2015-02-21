@@ -26,18 +26,15 @@
     display: block;
     padding-top: $header-vertical-padding;
     padding-bottom: $header-vertical-padding;
-    margin-left: $header-horizontal-padding;
     color: $header-font-color;
     &:hover,
     &:focus,
     &:active {
       color: $header-active-font-color;
     }
-  }
-
-  // TODO a .logo class?
-  h1 > a {
-    margin-left: 0;
+    & + a {
+      margin-left: $header-horizontal-padding;
+    }
   }
 
 }
