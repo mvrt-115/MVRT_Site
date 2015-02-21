@@ -1,4 +1,4 @@
-var yaml = require('js-yaml')
+var yaml = require('json2yaml')
   , Octokat = require('octokat')
   , slug = require('to-slug-case')
   , $ = require('jquery')
@@ -44,14 +44,14 @@ function createBlobContent (options = {}) {
   if (!options.title) throw new Error('no title')
   if (!options.author) throw new Error('no author')
   if (!options.text) throw new Error('no text')
-  let front = yaml.safeDump({
+  let front = yaml.stringify({
         title: options.title.trim(),
         author: options.author.trim(),
         categories: options.categories.trim().split(' ').filter(cat => cat.length),
         date: dateformat('isoDateTime')
       })
     , text = options.text.trim()
-  return `---\n${front}---\n${text}\n`
+  return `${front}---\n${text}\n`
 }
 
 /**
