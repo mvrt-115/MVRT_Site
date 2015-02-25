@@ -18,8 +18,6 @@
 }
 
 .document-nav {
-  @include span-columns(4, block-collapse);
-  @include pad;
   position: relative;
   a {
     display: block;
@@ -30,13 +28,16 @@
   li:first-of-type a {
     border-top: $base-border;
   }
+  @include pad;
 }
 
 .document-nav .stuck {
-  @include pad($base-spacing 0 0 0);
-  position: fixed;
-  top: 0;
-  display: block;
+  @include media($medium-screen-up) {
+    @include pad($base-spacing 0 0 0);
+    position: fixed;
+    top: 0;
+    display: block;
+  }
 }
 
 .document-nav .active {
@@ -44,9 +45,45 @@
 }
 
 .document {
-  @include span-columns(8, block-collapse);
   @include pad;
   :not(.document-nav) + & {
-    @include span-columns(12)
+    width: 100% !important;
+  }
+}
+
+@include media($mobile-vertical-up) {
+  .document-nav,
+  .document {
+    float: right;
+    width: 100%;
+  }
+}
+
+@include media($medium-screen-up) {
+  @include direction-context(left-to-right) {
+    .document-nav {
+      @include span-columns(1, block-collapse);
+    }
+    .document {
+      @include span-columns(3, block-collapse);
+    }
+  }
+}
+
+@include media($large-screen-up) {
+  .document-nav {
+    @include span-columns(2, block-collapse);
+  }
+  .document {
+    @include span-columns(6, block-collapse);
+  }
+}
+
+@include media($mega-screen-up) {
+  .document-nav {
+    @include span-columns(4, block-collapse);
+  }
+  .document {
+    @include span-columns(8, block-collapse);
   }
 }

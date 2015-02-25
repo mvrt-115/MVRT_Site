@@ -30,6 +30,21 @@
   &:hover:before {
     background-image: none;
   }
+  @include media($mobile-vertical-up) {
+    width: 33.33%;
+  }
+  @include media($mobile-horizontal-up) {
+    width: 20%;
+  }
+  @include media($medium-screen-up) {
+    width: 16.66%;
+  }
+  @include media($large-screen-up) {
+    width: 12.5%;
+  }
+  @include media($mega-screen-up) {
+    width: 10%;
+  }
 }
 
 .gallery-album-preview {
@@ -68,19 +83,33 @@
 .gallery-photos-carousel {
   @include position(absolute, null null 0px 0px);
   width: 100%;
-  opacity: 0;
-  overflow: hidden;
-  transition: opacity 0.2s linear;
+  max-height: 5%;
+  overflow-y: hidden;
+  opacity: 0.2;
+  transition: opacity 0.3s linear 0.5s, max-height 0.3s linear 0.5s, overflow 0.3s linear;
+  background-color: black;
+  border-top: 4px solid $medium-gray;
   &:hover {
-    opacity: 1;
-    transition: opacity 0.2s linear;
+    opacity: 0.9;
+    max-height: 40%;
+    overflow-y: auto;
+    transition: opacity 0.3s linear, max-height 0.3s linear, overflow 0.3s linear 0.5s;
   }
   ul {
-    position: relative;
+    width: 75%;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
     @include clearfix;
-    width: 20000em;
   }
   li {
-    float: left;
+    width: 48px;
+    margin: 0.5em;
+    display: inline-block;
   }
+}
+
+.js-active-thumb {
+  border: 2px solid $light-purple;
 }

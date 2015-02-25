@@ -36,6 +36,15 @@
       background-color: transparentize($light-purple, 0.5);
       content: ' ';
     }
+    @include media($mobile-vertical-up) {
+      width: 50%;
+    }
+    @include media($mobile-horizontal-up) {
+      width: 25%;
+    }
+    @include media($medium-screen-up) {
+      width: 16.66%;
+    }
   }
 
   .person img {

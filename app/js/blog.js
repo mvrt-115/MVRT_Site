@@ -2,8 +2,9 @@ var yaml = require('js-yaml')
   , Github = require('github-api')
   , ghMerge = require('./gh-merge')
   , async = require('async')
-  , slug = require('slug')
+  , slug = require('to-slug-case')
   , $ = require('jquery')
+  , dateformat = require('dateformat')
 
 exports.init = init
 
@@ -110,7 +111,7 @@ function createPost (title, author, categories, text) {
       yaml.safeDump({
       title: title.trim(),
       author: author.trim(),
-      date: new Date().toJSON(),
+      date: dateformat('isoDateTime'),
       categories: categories.split(' ')
                     .filter(function (cat) { return cat.length })
     }) +
@@ -120,11 +121,11 @@ function createPost (title, author, categories, text) {
 
 function createTitle (title) {
   if (!title) throw new Error()
-  return new Date().toJSON().replace(/T.*$/, '') + '-' +
-    slug(title.toLowerCase()) + '.md'
+  return dateformat('isoDate') + '-' +
+    slug(title) + '.md'
 }
 
 function createBranchName (title) {
   if (!title) throw new Error()
-  return 'post-' + slug(title.toLowerCase())
+  return 'post-' + slug(title)
 }
