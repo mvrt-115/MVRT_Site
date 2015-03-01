@@ -83,7 +83,3 @@ nav:
 
 [Animating Transforms](http://www.youtube.com/watch?v=juUQapKj-6w)
 : This video shows how to animate a jeep, a gate, and a helicopter. You can animate the position and rotation of these objects using Auto Key and Set Key, and edit the animation in the Curves Editor.
-
-## Submission Videos
-
-Todo.
