@@ -1,3 +1,12 @@
+---
+title: Breakout Boards
+layout: document
+back:
+  url: /breakoutboards/
+  name: Breakout Boards
+permalink: /resources/breakoutboards/
+---
+
 MVRT Talon SRX Breakout
 =======================
 Features
