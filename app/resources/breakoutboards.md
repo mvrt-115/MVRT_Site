@@ -10,7 +10,6 @@ permalink: /resources/breakoutboards/
 MVRT Talon SRX Breakout
 =======================
 Features
--------
 
 * Two limit switches with status-indicating LEDs (red or yellow)
 * Quadrature and Analog Encoder
