@@ -2,8 +2,8 @@
 title: Breakout Boards
 layout: document
 back:
-  url: /breakoutboards/
-  name: Breakout Boards
+  url: /resources/
+  name: Resources
 permalink: /resources/breakoutboards/
 ---
 
