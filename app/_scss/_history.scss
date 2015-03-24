@@ -1,35 +1,30 @@
 // _history.scss
+// everything here is prefixed with a .team- ...
 
+// TODO mixin this
+// (Although it doesn't actually apply on this page)
 .team-history .site-main > h1 {
   padding-top: $base-spacing / 2;
   text-align: center;
 }
 
 .team {
-  @include row;
-  @include pad;
-  h3 {
-    margin-top: $base-spacing;
-  }
+  @include pad(default 0);
+  font-size: modular-scale(-1);
 }
 
 .team h2 {
-    text-align: center;
-    @include pad;
+  text-align: center;
+  margin-top: $base-spacing;
 }
 
-.team-info {
-  font-size: 0.8em;
-}
-.team-info h3 {
-    padding-bottom: 10px;
+.team h3 {
+  margin-top: $base-spacing;
 }
 
-.team-picture {
-    @include span-columns(12);
-}
+.team-picture,
 .team-info {
-    @include span-columns(12);
+  @include fill-parent;
 }
 
 .officers-div,
@@ -40,9 +35,6 @@
   }
   @include media($large-screen-up) {
     @include span-columns(4);
-  }
-  @include media($mega-screen-up) {
-    @include span-columns(6);
   }
 }
 

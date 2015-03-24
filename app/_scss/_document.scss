@@ -1,24 +1,24 @@
 // _document.scss
 
+// TODO mixin this
 .document-back {
-  @include pad(default default 0);
   font-size: 0.8em;
-}
-
-.document-back p {
-  @include pad($base-spacing / 2);
-  margin-bottom: 0;
-  line-height: 1;
-  a {
+  padding-top: flex-gutter();
+  p {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  a:link,
+  a:visited {
     color: inherit;
   }
-  a:hover, a:active {
-    color: $base-link-color;
-  }
 }
 
+// Styles the document nav thing
 .document-nav {
   position: relative;
+  margin-top: flex-gutter();
+  margin-bottom: flex-gutter();
   a {
     display: block;
     padding: ($base-spacing / 4) ($base-spacing / 2);
@@ -28,62 +28,56 @@
   li:first-of-type a {
     border-top: $base-border;
   }
-  @include pad;
 }
 
+// When stuck fix the position too
 .document-nav .stuck {
   @include media($medium-screen-up) {
-    @include pad($base-spacing 0 0 0);
+    padding-top: flex-gutter() / 2;
     position: fixed;
     top: 0;
     display: block;
   }
 }
 
+// A good background color for the active nav
 .document-nav .active {
   background-color: $light-purple;
 }
 
+// Style the document itself too
 .document {
-  @include pad;
+  margin-top: flex-gutter();
+  margin-bottom: flex-gutter();
   :not(.document-nav) + & {
     width: 100% !important;
   }
 }
 
+// Document layouts for different viewport sizes
 @include media($mobile-vertical-up) {
   .document-nav,
   .document {
-    float: right;
-    width: 100%;
+    @include span-columns(1);
   }
 }
 
+// This one does math weirdly, but doesn't matter
 @include media($medium-screen-up) {
-  @include direction-context(left-to-right) {
-    .document-nav {
-      @include span-columns(1, block-collapse);
-    }
-    .document {
-      @include span-columns(3, block-collapse);
-    }
+  .document-nav {
+    @include span-columns(1.3333);
+  }
+  .document {
+    @include span-columns(2.6666);
   }
 }
 
+// but because it does math weirdly we need this
 @include media($large-screen-up) {
   .document-nav {
-    @include span-columns(2, block-collapse);
+    @include span-columns(2.6666);
   }
   .document {
-    @include span-columns(6, block-collapse);
-  }
-}
-
-@include media($mega-screen-up) {
-  .document-nav {
-    @include span-columns(4, block-collapse);
-  }
-  .document {
-    @include span-columns(8, block-collapse);
+    @include span-columns(5.3333);
   }
 }

@@ -12,6 +12,7 @@
 @import "extends/errors";
 @import "extends/flashes";
 @import "extends/hide-text";
+@import "extends/post-wrap";
 
 // Mixins
 @import "mixins/image-backgrounds";
@@ -22,3 +23,6 @@
 @import "tables";
 @import "lists";
 @import "buttons";
+
+// z-indexes
+@import "z-index";

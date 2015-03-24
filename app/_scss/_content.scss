@@ -1,25 +1,13 @@
 // _content.scss
 
 .site-main {
-  background-color: $base-background-color;
   @include outer-container;
+  @include pad(0 default);
+  // TODO rename this to .page-home
   :not(.home) & {
     margin-top: $header-height;
   }
   .hero + & {
-    margin-top: 57vh;
+    margin-top: $hero-height;
   }
-}
-
-.site-main > section {
-  @include fill-parent;
-}
-
-.section-images {
-  @include span-columns(4, block-collapse);
-}
-
-.section-content {
-  @include span-columns(8, block-collapse);
-  @include pad;
 }

@@ -1,19 +1,18 @@
 // _contact.scss
-
-.contact .site-main {
-  text-align: center;
-}
+// The geometry here is super complicated...
+// TODO will probably have to change the markup
 
 .contact section {
-  @include fill-parent;
-  @include pad;
-}
-
-.contact p {
-  margin-bottom: 0;
+  //@extend %post-wrap;
+  text-align: center;
+  h1,
+  h2 {
+    padding-top: ($base-spacing / 2);
+  }
 }
 
 .contact-officers-list {
+  margin-bottom: $base-spacing;
   @include media($medium-screen-up) {
     columns: 3;
     :first-child {

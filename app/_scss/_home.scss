@@ -1,56 +1,64 @@
 // _home.scss
+// Homepage styles
+// NOTE The usage of page specific styles is not a good one.
 
+// The nav bar should be focused on the homepage
+// TODO rename to .page-home later
 .home .site-header {
   position: fixed;
-  z-index: 5;
 }
 
+// .site-main should be maxed out, no margins
 .home .site-main {
-  margin-top: 0;
   @include outer-container(100%);
+  @include pad(0);
+  margin-top: 0;
 }
 
+// A step is one of those giant backgrounds with text
 .step {
   position: relative;
   height: 100vh;
   //background-attachment: fixed;
-  background-color: white;
+  background-color: $purple;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+// Step wrap is the text inside each step
 .step-wrap {
-  @include position(absolute, 50% null null 50%);
-  transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 640px; // arbituary
-  z-index: 3;
+
+  @include pad;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   color: white;
   font-weight: 400;
   text-align: center;
-  @include pad;
+
+  @extend %post-wrap;
+
   @include media($medium-screen-up) {
-    font-size: 1.2em;
+    font-size: modular-scale(1);
   }
-  h1, h2, h3 {
+
+  h1,
+  h2,
+  h3 {
     font-weight: inherit;
     text-transform: uppercase;
+    line-height: 1;
   }
   h1 {
-    font-size: 4em;
-    line-height: 1.1;
+    font-size: modular-scale(4);
   }
   h2 {
-    font-size: 3em;
-    line-height: 1.1;
+    font-size: modular-scale(2);
   }
   h3 {
-    font-size: 1.5em;
-    line-height: 1.1;
-  }
-  .step-more {
-    font-weight: 700;
+    font-size: modular-scale(1);
   }
   a {
     text-transform: uppercase;
@@ -61,8 +69,15 @@
       color: $light-purple;
     }
   }
+
 }
 
+// The "more" information thing
+.step-more {
+  font-weight: 700;
+}
+
+// TODO rename this
 #scroll_down {
   margin-left: auto;
   margin-right: auto;
@@ -71,18 +86,20 @@
   color: white;
 }
 
+// Ugly code - basically adds an image background for the steps...
 @each $step, $img in $steps {
-  .home .#{$step} {
+  .home .step-#{$step} {
     @include image-solid-background("/img/hero/#{$img}");
   }
 }
 
-// no!!
-
+// NOTE try not to use ids
 #sponsors {
   padding: $base-spacing 0;
 }
 
+// Horribly specific
+// TODO restyle this?
 #sponsors > h2 {
   font-size: 3em;
   font-weight: 400;
@@ -90,6 +107,7 @@
   text-align: center;
 }
 
+// Styles the sponsors list on the home page
 .home-sponsors-list {
   text-align: center;
   max-width: $max-width;
@@ -116,6 +134,7 @@
   }
 }
 
+// The ever so unique thing
 .mvrt {
   color: $light-gold;
   &::selection {

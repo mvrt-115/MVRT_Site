@@ -1,11 +1,14 @@
+// _header.scss
+// Header styling.
+
+// The site header element itself.
 .site-header {
 
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5;
+  @include position(absolute, 0 null null 0);
+  z-index: $site-header-z-index;
   width: 100%;
   height: $header-height;
+  // TODO typography styles?
   line-height: 1;
   font-size: $header-font-size;
   background-color: $header-background-color;
@@ -14,36 +17,88 @@
   h1 {
     float: left;
     font-size: inherit;
-    line-height: 1;
+    line-height: inherit;
   }
 
+  // Link styles
   a {
     position: relative;
     display: block;
-    margin: ($header-vertical-padding / 2) ($header-horizontal-padding / 2);
-    padding: ($header-vertical-padding / 2) ($header-horizontal-padding / 2);
+    padding-top: $header-vertical-padding;
+    padding-bottom: $header-vertical-padding;
     color: $header-font-color;
     &:hover,
     &:focus,
     &:active {
       color: $header-active-font-color;
     }
-
+    & + a {
+      margin-left: $header-horizontal-padding;
+    }
   }
 
 }
 
+// The header wrap
 .site-header-wrap {
   @include outer-container;
+  @include pad(0 default);
 }
 
+// Site navigation styling.
 .site-nav {
+
   float: right;
   height: $header-height;
-  li {
-    float: left;
+
+  // This block is for small screen
+  // Crappy menu-dropdown sort of thing.
+  a {
+    margin-left: 0;
+    margin-right: -$header-horizontal-padding;
+    padding: ($header-vertical-padding / 2) $header-vertical-padding;
+    background-color: lighten($header-background-color, 5);
+    text-align: right;
   }
-  .site-nav-btn {
+  li {
+    float: none;
+  }
+  ul {
+    display: none;
+    &.js-active {
+      display: block;
+    }
+  }
+
+  // No menu button on a large screen.
+  @include media($large-screen-up) {
+    a {
+      margin-left: $header-horizontal-padding;
+      margin-right: 0;
+      padding: $header-vertical-padding 0;
+      background-color: inherit;
+      text-align: left;
+    }
+    li {
+      float: left;
+    }
+    ul {
+      display: block;
+    }
+  }
+
+}
+
+// The button of the site nav.
+// Don't show on a large screen.
+.site-nav-btn {
+  display: block;
+  padding: $header-vertical-padding ($header-horizontal-padding / 2) $header-vertical-padding 0;
+  margin-right: (-$header-horizontal-padding / 2);
+  color: $header-font-color;
+  text-align: right;
+  cursor: pointer;
+  @include media($large-screen-up) {
     display: none;
   }
 }

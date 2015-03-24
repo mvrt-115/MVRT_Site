@@ -70,9 +70,9 @@ $form-font-family: $base-font-family;
 
 // Header
 $header-font-size: $base-font-size;
-$header-height: 4.5em;
+$header-height: modular-scale(5);
 $header-vertical-padding: ($header-height - $header-font-size) / 2;
-$header-horizontal-padding: $base-spacing;
+$header-horizontal-padding: modular-scale(2);
 $header-padding: $header-vertical-padding $header-horizontal-padding;
 $header-background-color: $purple;
 $header-font-color: $medium-purple;
@@ -84,10 +84,13 @@ $footer-links-background-color: $light-purple;
 $footer-links-font-color: $base-font-color;
 $footer-links-hover-color: $purple;
 
+// Hero
+$hero-height: 57vh;
+
 // Homepage Steps
 $steps: (
   intro: "mvrt.jpg",
-  FIRST: "first.jpg",
+  first: "first.jpg",
   team: "team.jpg",
   competition: "competition.jpg",
   outreach: "outreach.jpg"

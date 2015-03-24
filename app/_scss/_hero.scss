@@ -1,16 +1,20 @@
+// _hero.scss
+// Hero styling
+
 .hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  height: 57vh;
+  @include position(absolute, 0 null null 0);
+  z-index: $hero-z-index;
+  height: $hero-height;
   width: 100%;
+  // TODO parallax? (requires js)
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   background-color: $purple;
+  // The dark overlay
+  // This is necessary b/c we set the image directly on the HTML
   &:after {
-    @include position(absolute, 0px null null 0px);
+    @include position(absolute, 0 null null 0);
     display: block;
     width: 100%;
     height: 100%;
@@ -19,23 +23,23 @@
   }
 }
 
+// Hero text styles
 .hero-text {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
+  @include position(absolute, null null 0 50%);
+  @include outer-container;
+  @include pad;
   width: 100%;
   transform: translateX(-50%);
+  z-index: $hero-text-z-index;
+  // Typography
   color: white;
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
-  z-index: 5;
-  @include outer-container;
   h1 {
-    font-size: 3em;
-    font-weight: 400;
+    // font size has to be specified here else it becomes wonky
+    font-size: modular-scale(4);
+    font-weight: inherit;
     line-height: inherit;
-    @include fill-parent;
-    @include pad;
   }
 }
