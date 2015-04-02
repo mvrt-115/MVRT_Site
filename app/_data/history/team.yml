@@ -1,4 +1,29 @@
 -
+  year: 2015
+  robot:
+    name: El Toro XIII
+    id: eltoro18
+  officers:
+    "President": Archana Kikla
+    "Director of Engineering": Andrew He
+    "Mechanical Director": Chirag Toprani
+    "Electrical Director": Lee Mracek   
+    "Engineering Documentation": RJ Cunningham
+    "Director of Operations": Divek Toprani
+    "Media Director": Sophie Cao
+    "Public Relations Director": Michelle Danese
+    "Outreach": Praxis Bays
+    "Finance Director": Jeremy Chen
+    "Documentation Director": Sydney Howard
+    "Webmaster": Shovik Guha
+  drivers:
+    "Driver": Daniel Koh
+    "Alternative Driver": Praxis Bays
+    "Operator": Heather Baker
+    "Coach": Lee Mracek
+    "Human Player": Aashish Kapur
+
+-
   year: 2014
   robot:
     name: El Toro XII
