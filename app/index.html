@@ -65,4 +65,11 @@ categories: ['index', 'home']
   <ul class="home-sponsors-list">
     {% for sponsor in site.data.sponsors.current %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
   </ul>
+  {% assign day = site.time | date: '%j' | plus: 0 %}
+  {% assign comp_day = 112 %} {% comment %} date --date='2015-04-22' +%j {% endcomment %}
+  {% if day < comp_day and site.time | date: '%Y' == 2015 %}
+  <div class="gofundme" style="text-align:center;">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="258" height="338" title="Click Here to donate!" type="application/x-shockwave-flash"><param name="movie" value="//funds.gofundme.com/Widgetflex.swf" /><param name="quality" value="high" /><param name="flashvars" value="page=mvrt115&template=3" /><param name="wmode" value="transparent" /><embed allowScriptAccess="always" src="//funds.gofundme.com/Widgetflex.swf" quality="high" flashVars="page=mvrt115&template=3" type="application/x-shockwave-flash" wmode="transparent" width="258" height="338"></embed></object>
+  </div>
+  {% endif %}
 </section>
