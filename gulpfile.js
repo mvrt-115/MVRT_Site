@@ -96,9 +96,13 @@ gulp.task('js', function () {
 // jekyll
 gulp.task('jekyll', function (done) {
   if (production) {
-    exec('bundle exec jekyll build --source app --config _config.yml,_config.build.yml --destination dist', done)
+    exec('bundle exec jekyll build --source app --config _config.yml,_config.build.yml --destination dist', d)
   } else {
-    exec('bundle exec jekyll build --source app --config _config.yml --destination .jekyll', done)
+    exec('bundle exec jekyll build --source app --config _config.yml --destination .jekyll', d)
+  }
+  function d (err, stdout, stderr) {
+    if (stderr) console.log(stderr)
+    done()
   }
 })
 
