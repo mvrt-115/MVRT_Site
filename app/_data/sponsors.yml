@@ -3,32 +3,27 @@ current:
     name: Google
     id: google
     url: https://www.google.com/about/
-    
   -
     name: Brin Wocicki Foundation
     id: brin
     url: https://fdo.foundationcenter.org/grantmaker-profile?key=RINF001
-    
   -
     name: Intel
     id: intel
     url: http://www.intel.com/
-    
   -
     name: Microsoft
     id: microsoft
     url: https://www.microsoft.com
-    
   -
     name: Solidworks
     id: solidworks
     url: https://www.solidworks.com/
-    
   -
     name: Autodesk
     id: autodesk
     url: http://www.autodesk.com/
- -
+  -
     name: Cupertino Rotary Club
     id: cupertino
     url: cupertinorotary.org
