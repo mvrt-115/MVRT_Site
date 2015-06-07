@@ -8,7 +8,7 @@ hero: /img/stock/stock05.jpg
 
 ## Upcoming Events
 
-### Build Schedule
+### Summer Schedule
 
 
 |---
