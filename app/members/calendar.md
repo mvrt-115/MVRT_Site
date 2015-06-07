@@ -14,11 +14,11 @@ hero: /img/stock/stock05.jpg
 |---
 | Day | Time |
 |---
-| Sunday | 1--6 pm |
-| Monday | 3--6 pm |
-| Tuesday | 3--6 pm |
-| Wednesday | No build |
-| Thursday | 3--6 pm |
-| Friday | 3--7 pm |
-| Saturday | 1--6 pm |
+| Sunday | Cleanup: 1-4 PM |
+| Monday | Officer Meeting: 1-3 PM|
+| Tuesday | None |
+| Wednesday | None |
+| Thursday | None |
+| Friday | None |
+| Saturday | Cleanup TBD |
 |===
