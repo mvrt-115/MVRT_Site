@@ -13,7 +13,7 @@ in order to join the team. The deadline for completing all parts is September
 29, the day of our second team meeting.
 
 1. Fill out the online application available [here][1].
-2. Pay the $135 membership fee (or $160 with a polo). Polos will have the MVRT
+2. Pay the $135 membership donation (or $160 with a polo). Polos will have the MVRT
    logo on one side, and your name embroidered on the other side. If you have
    any personal financial issues with paying the membership fee, please talk to
    us! We are more than willing to accommodate to your situation and we don’t
