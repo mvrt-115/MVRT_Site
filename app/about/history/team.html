@@ -40,6 +40,17 @@ layout: null
     </dl>
     {% endif %}
 </div>
+<div class = "awards-div">
+    {% if team.awards %}
+    <h3>Team Awards</h3>
+    <dl class="team-awards">
+    {% for driver in team.awards %}
+      <dt>{{ award[0] }}</dt>
+      <dd>{{ award[1] }}</dd>
+    {% endfor %}
+    </dl>
+    {% endif %}
+</div>
   </div>
 </section>
 <hr>
