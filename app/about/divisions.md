@@ -80,3 +80,12 @@ newsletter that is distributed to members, parents, sponsors, and mentors. In
 addition, we work closely with the Public Relations Division to create the
 Chairman’s Video during build and the Media Division to create posters, flyers
 and more.
+
+## Web
+
+The Web division is responsible for updating the website periodically and being
+able to set up team communications. The web division helps keep the team
+updated and in the know. The web division publishes the work from all the other
+divisions throughout the year. Members of the web division learn basic web
+programming such as HTML, CSS, and JS. In addition, the team will be looking
+to implement Ruby on Rails to provide a backend for the website.
