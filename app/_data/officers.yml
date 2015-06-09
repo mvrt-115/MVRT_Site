@@ -1,95 +1,95 @@
-   -
+-
   position: President
-  fname: Archana
-  lname: Kikla
+  fname: Praxis
+  lname: Bays
   grade: 12
   xp: 4
   email: president
 
 -
   position: Vice President of Engineering
-  fname: Andrew
-  lname: He
+  fname: Nihil
+  lname: Muthaiah
   grade: 12
   xp: 4
   email: engineering
 
 -
   position: Vice President of Operations
-  fname: Divek
-  lname: Toprani
+  fname: Namrata
+  lname: Subramanian
   grade: 12
   xp: 4
   email: operations
 
 -
   position: Director of Mechanical
-  fname: Chirag
-  lname: Toprani
+  fname: Anand
+  lname: Rajamani
   grade: 12
   xp: 4
   email: mechanical
 
 -
   position: Director of Electrical
-  fname: Lee
-  lname: Mracek
+  fname: Marcus
+  lname: Plutowski
   grade: 11
   xp: 3
   email: electrical
 
 -
   position: Director of Engineering Data
-  fname: RJ
-  lname: Cunningham
-  grade: 12
-  xp: 4
+  fname: Akhil
+  lname: Palla
+  grade: 11
+  xp: 3
   email: engineeringdata
 
 -
-  position: Director of Media
-  fname: Sophia
-  lname: Cao
-  grade: null
-  xp: null
-  email: media
+  position: Webmaster
+  fname: Aditya
+  lname: Kalari
+  grade: 11
+  xp: 3
+  email: webmaster
 
 -
   position: Director of Public Relations
-  fname: Michelle
-  lname: Danese
-  grade: 12
-  xp: 1
+  fname: Sameer
+  lname: Kapur
+  grade: 10
+  xp: 2
   email: publicrelations
 
 -
   position: Director of Documentation
   fname: Sydney
   lname: Howard
-  grade: null
-  xp: null
+  grade: 12
+  xp: 4
   email: documentation
 
 -
   position: Director of Outreach
-  fname: Praxis
-  lname: Bays
+  fname: Arushi
+  lname: Rai
   grade: 11
-  xp: 3
+  xp: 2
   email: outreach
 
 -
   position: Director of Finance
-  fname: Jeremy
-  lname: Chen
-  grade: 11
-  xp: 3
+  fname: Kingsley Wang &
+  lname: Saurav Pahadia
+  grade: 10
+  xp: 2
   email: finance
 
 -
-  position: Webmaster
-  fname: Shovik
-  lname: Guha
-  grade: 11
-  xp: 3
-  email: webmaster
+  position: Director of Media
+  fname: Sophia
+  lname: Cao
+  grade: 12
+  xp: 4
+  email: media
