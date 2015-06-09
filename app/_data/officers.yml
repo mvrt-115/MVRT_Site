@@ -80,16 +80,8 @@
 
 -
   position: Director of Finance
-  fname: Saurav
-  lname: Pahadia
-  grade: 10
-  xp: 2
-  email: finance
-  
--
-  position: Director of Finance
-  fname: Kingsley (Han Yang)
-  lname: Wang
+  fname: Kingsley Wang &
+  lname: Saurav Pahadia
   grade: 10
   xp: 2
   email: finance
@@ -101,3 +93,5 @@
   grade: 11
   xp: 3
   email: webmaster
+
+-
