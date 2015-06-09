@@ -1,47 +1,47 @@
--
+   -
   position: President
-  fname: Praxis
-  lname: Bays
+  fname: Archana
+  lname: Kikla
   grade: 12
   xp: 4
   email: president
 
 -
   position: Vice President of Engineering
-  fname: Nihil
-  lname: Muthaiah
+  fname: Andrew
+  lname: He
   grade: 12
   xp: 4
   email: engineering
 
 -
   position: Vice President of Operations
-  fname: Namrata
-  lname: Subramanian
+  fname: Divek
+  lname: Toprani
   grade: 12
   xp: 4
   email: operations
 
 -
   position: Director of Mechanical
-  fname: Anand
-  lname: Rajamani
+  fname: Chirag
+  lname: Toprani
   grade: 12
   xp: 4
   email: mechanical
 
 -
   position: Director of Electrical
-  fname: Marcus
-  lname: Plutowski
+  fname: Lee
+  lname: Mracek
   grade: 11
   xp: 3
   email: electrical
 
 -
   position: Director of Engineering Data
-  fname: Akhil
-  lname: Palla
+  fname: RJ
+  lname: Cunningham
   grade: 12
   xp: 4
   email: engineeringdata
@@ -50,48 +50,46 @@
   position: Director of Media
   fname: Sophia
   lname: Cao
-  grade: 12
-  xp: 4
+  grade: null
+  xp: null
   email: media
 
 -
   position: Director of Public Relations
-  fname: Sameer
-  lname: Kapur
-  grade: 10
-  xp: 2
+  fname: Michelle
+  lname: Danese
+  grade: 12
+  xp: 1
   email: publicrelations
 
 -
   position: Director of Documentation
   fname: Sydney
   lname: Howard
-  grade: 12
-  xp: 4
+  grade: null
+  xp: null
   email: documentation
 
 -
   position: Director of Outreach
-  fname: Arushi
-  lname: Rai
+  fname: Praxis
+  lname: Bays
   grade: 11
-  xp: 2
+  xp: 3
   email: outreach
 
 -
   position: Director of Finance
-  fname: Kingsley Wang &
-  lname: Saurav Pahadia
-  grade: 10
-  xp: 2
+  fname: Jeremy
+  lname: Chen
+  grade: 11
+  xp: 3
   email: finance
-  
+
 -
   position: Webmaster
-  fname: Aditya
-  lname: Kalari
+  fname: Shovik
+  lname: Guha
   grade: 11
   xp: 3
   email: webmaster
-
--
