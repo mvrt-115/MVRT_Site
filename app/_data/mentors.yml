@@ -4,11 +4,13 @@ current:
     fname: Lee
     lname: Mracek
     job: Student Advisor
+    background: Student
   -
     prefix: Mr.
     fname: David
     lname: Greenstein
     job: Teacher Advisor
+    background: APCS/Math Teacher
   -
     prefix: Mr.
     fname: Mauri
