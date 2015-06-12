@@ -3,7 +3,7 @@ title: Calendar
 layout: post
 permalink: /members/calendar/
 categories: ['posts', 'members']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/calendar.jpg
 ---
 
 ## Upcoming Events
