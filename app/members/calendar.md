@@ -12,7 +12,7 @@ hero: /img/stock/stock05.jpg
 
 
 |---
-| Day | Date | Event | Time |
+| Day | Date | Event    | Time |
 |---
 | Sunday | 6/7 | Cleanup |  1-4 PM |
 | Monday| 6/8 | Officers | 1-3 PM|
