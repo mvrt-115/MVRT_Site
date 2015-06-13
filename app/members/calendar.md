@@ -14,11 +14,11 @@ hero: /img/hero/calendar.jpg
 |---
 | Day | Date | Event    | Time |
 |---
-| Sunday | 6/7 | Cleanup |  1-4 PM |
-| Monday| 6/8 | Officers | 1-3 PM|
-| Tuesday| 6/9 | None | N/A |
-| Wednesday| 6/10 | None | N/A |
-| Thursday | 6/11 | None | N/A |
-| Friday | 6/12 | Ops Video Call | 5:30 - 8:30 PM |
-| Saturday | 6/13| None | N/A | 
+| Sunday | 6/14 | None | N/A |
+| Monday| 6/15 | None | N/A |
+| Tuesday| 6/16 | None | N/A |
+| Wednesday| 6/17 | None | N/A |
+| Thursday | 6/18 | None | N/A |
+| Friday | 6/19 | None | N/A |
+| Saturday | 6/20 | Cleanup TBD | TBD | 
 |===
