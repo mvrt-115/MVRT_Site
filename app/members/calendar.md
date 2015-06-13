@@ -20,5 +20,5 @@ hero: /img/hero/calendar.jpg
 | Wednesday| 6/10 | None | N/A |
 | Thursday | 6/11 | None | N/A |
 | Friday | 6/12 | Ops Video Call | 5:30 - 8:30 PM |
-| Saturday | 6/13| Fun Cleanup | 1 - 2:30 PM | 
+| Saturday | 6/13| None | N/A | 
 |===
