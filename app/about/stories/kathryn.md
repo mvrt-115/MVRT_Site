@@ -3,7 +3,7 @@ title: Kathryn’s Tale
 layout: post
 author: Kathryn Lowe
 permalink: /about/stories/kathryn/
-hero: /img/stock/stock09.jpg
+hero: /img/hero/kathryn.jpg
 categories: ['posts', 'stories']
 ---
 

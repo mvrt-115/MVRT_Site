@@ -3,7 +3,7 @@ title: Eric’s Tale
 layout: post
 author: Eric Zhou
 permalink: /about/stories/eric/
-hero: /img/stock/stock10.jpg
+hero: /img/hero/eric.jpg
 categories: ['posts', 'stories']
 ---
 

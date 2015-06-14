@@ -3,7 +3,7 @@ title: Patrick’s Tale
 layout: post
 author: Patrick Wang
 permalink: /about/stories/patrick/
-hero: /img/stock/stock11.jpg
+hero: /img/hero/patrick.jpg
 categories: ['posts', 'stories']
 ---
 
