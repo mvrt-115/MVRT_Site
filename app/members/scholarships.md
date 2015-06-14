@@ -3,7 +3,7 @@ title: Scholarships
 layout: post
 permalink: /members/scholarships/
 categories: ['posts', 'members']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/scholarships.jpg
 ---
 
 Colleges, universities, corporations, and associations make almost $14 millions

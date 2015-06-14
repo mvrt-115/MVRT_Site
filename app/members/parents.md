@@ -3,7 +3,7 @@ title: Parents
 layout: post
 permalink: /members/parents/
 categories: ['posts', 'members']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/parents.jpg
 ---
 
 > Dear parents,
