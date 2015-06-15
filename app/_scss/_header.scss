@@ -31,7 +31,23 @@
 
   }
 
+  // hackish
+  .logo {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img {
+    display: inline;
+    width: auto;
+    height: $header-height - $header-vertical-padding;
+    margin-top: ($header-vertical-padding / 2);
+    margin-right: 8px;
+    vertical-align: (-$header-vertical-padding / 2);
+  }
+
 }
+
 
 .site-header-wrap {
   @include outer-container;
