@@ -119,6 +119,23 @@ nav:
 [Engineering Design II]
 : Covers the basics of design constraints and the design process.
 
+## Web
+
+[HTML]
+: Hypertext Markup Language and its overview. How it is used and how to use it.
+
+[CSS]
+: Cascading Style Sheets. How to design a page using various functions.
+
+[JS]
+: Overview of how to use JavaScript to make your webpages interactive.
+
+[Ruby]
+: More advanced. Deals with programming a backend to manage accounts and logins.
+
+[Git]
+: How to use a git repository and overview of command line for git.
+
 [Electrical Measurements]: /files/electrical-measurements.pptx
 [Electrical Measurements Worksheet]: /files/electrical-measurements-worksheet.pdf
 [Wiring 1]: /files/wiring-1.ppt
