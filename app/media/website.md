@@ -1,6 +1,12 @@
 
 <!-- um... a lot has changed from the original website...so... -->
 
+----
+-title: Website
+-layout: post-nolink
+-permalink: /media/website/
+----
+
 ## Original Design by Students
 
 The design of this website was put together by our very own members. It was
