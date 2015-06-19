@@ -14,11 +14,13 @@ hero: /img/hero/calendar.jpg
 |---
 | Day | Date | Event    | Time |
 |---
-| Sunday | 6/14 | None | N/A |
-| Monday| 6/15 | None | N/A |
-| Tuesday| 6/16 | None | N/A |
-| Wednesday| 6/17 | None | N/A |
-| Thursday | 6/18 | None | N/A |
-| Friday | 6/19 | None | N/A |
-| Saturday | 6/20 | Cleanup TBD | TBD | 
+| Sunday | 6/21 | None | N/A |
+| Monday| 6/22 | None | N/A |
+| Tuesday| 6/23 | None | N/A |
+| Wednesday| 6/24 | None | N/A |
+| Thursday | 6/25 | None | N/A |
+| Friday | 6/26 | None | N/A |
+| Saturday | 6/27 | Cleanup TBD | TBD | 
 |===
+
+No events taking place in the week of 6/14.
