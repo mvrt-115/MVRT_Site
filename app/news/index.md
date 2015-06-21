@@ -1,7 +1,7 @@
 ---
 title: Team News
 layout: post
-permalink: /testnews/
+permalink: /news/
 categories: ['tests', 'blog']
 hero: /img/stock/stock02.jpg
 ---
