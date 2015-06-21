@@ -1,5 +1,5 @@
 ---
-title: Trainings
+title: Team News
 layout: document
 back:
   url: /news/
@@ -10,8 +10,6 @@ nav:
   - name: "2015"
     id: recyclerush
 ---
-
-# Newsletters
 
 ## Recycle Rush News
 
