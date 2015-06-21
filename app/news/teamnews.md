@@ -1,0 +1,9 @@
+[Newsletter #1]: /files/newsletters2015/MVRT-Newsletter-1.pdf
+[Newsletter #2]: /files/newsletters2015/MVRT-Newsletter-2.pdf
+[Newsletter #3]: /files/newsletters2015/MVRT-Newsletter-3.pdf
+[Newsletter #4]: /files/newsletters2015/MVRT-Newsletter-4.pdf
+[Newsletter #5]: /files/newsletters2015/MVRT-Newsletter-5.pdf
+[Newsletter #6]: /files/newsletters2015/MVRT-Newsletter-6.pdf
+[Newsletter #7]: /files/newsletters2015/MVRT-Newsletter-7.pdf
+[Newsletter #8]: /files/newsletters2015/MVRT-Newsletter-8.pdf
+[Newsletter #9]: /files/newsletters2015/MVRT-Newsletter-9.pdf
