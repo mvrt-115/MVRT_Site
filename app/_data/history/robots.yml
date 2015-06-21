@@ -4,10 +4,10 @@
   game: Recycle Rush
   id: eltoro18
   notes:
-    - Cypress-based driver station with sliders to control the pickup mechanism
-    - 6-tote stack ability
-    - Ramp Carrying Ability
-    - Landfill feeding specialty
+    - New west coast drive that has more maneuverability than previous designs
+    - 6-tote stack ability with trash can on top
+    - Has autonomous period movement and tote stacking
+    - Landfill feeding creates time for other robots at the loading station
 
 -
   year: 2014
