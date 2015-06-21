@@ -6,8 +6,6 @@ categories: ['posts']
 hero: /img/hero/join.jpg
 ---
 
-Hi everyone!
-
 There are five steps to become a member of MVRT. All five steps are mandatory
 in order to join the team. The deadline for completing all parts is September
 29, the day of our second team meeting.
