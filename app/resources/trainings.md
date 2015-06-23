@@ -11,7 +11,7 @@ nav:
     id: electrical
   - name: "Mechanical"
     id: mechanical
-  - name: "Enginnering"
+  - name: "Engineering"
     id: engineering
   - name: "Math"
   	id: math
@@ -188,9 +188,5 @@ nav:
 [Engineering Design II]: /files/design-2.ppt
 
 [HTML]: /files/HTML.ppt
-[CSS]: 
-[JS]:
-[Ruby]:
-[Git]:
 
 [Calculus]: /files/calcsyllabus.pdf
