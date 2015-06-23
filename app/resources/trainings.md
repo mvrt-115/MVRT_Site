@@ -13,6 +13,8 @@ nav:
     id: mechanical
   - name: "Enginnering"
     id: engineering
+  - name: "Math"
+  	id: math
 ---
 
 # Trainings
@@ -135,6 +137,13 @@ nav:
 
 [Git]
 : How to use a git repository and overview of command line for git.
+ 
+
+## Math
+
+[Calculus]
+: A basic overview of calculus, from limits to transforms.
+
 
 [Electrical Measurements]: /files/electrical-measurements.pptx
 [Electrical Measurements Worksheet]: /files/electrical-measurements-worksheet.pdf
@@ -151,6 +160,7 @@ nav:
 [LabVIEW III]: /files/labview-3.pptx
 [LabVIEW IV]: /files/labview-4.pptx
 [Additional Programming Concepts]: /files/additional-programming-concepts.ppt
+
 
 [Tools]: /files/tools.ppt
 [Timeline for Tools Training]: /files/tools-timeline.pdf
@@ -179,3 +189,8 @@ nav:
 
 [HTML]: /files/HTML.ppt
 [CSS]: 
+[JS]:
+[Ruby]:
+[Git]:
+
+[Calculus]: /files/calcsyllabus.pdf
