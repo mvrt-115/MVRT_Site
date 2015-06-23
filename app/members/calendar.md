@@ -14,7 +14,7 @@ hero: /img/hero/calendar.jpg
 |---
 | Day | Date | Event    | Time |
 |---
-| Sunday | 6/21 | Fathers Day | N/A |
+| Sunday | 6/21 | Fathers Day | All Day |
 | Monday| 6/22 | None | N/A |
 | Tuesday| 6/23 | Math Training | 1 - 5 PM |
 | Wednesday| 6/24 | None | N/A |
