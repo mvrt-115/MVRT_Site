@@ -15,8 +15,8 @@ categories: ['contact']
 
   <dl class="contact-officers-list">
   {% for officer in site.data.officers %}
-    <dt>{{ officer.fname }} {{ officer.lname }}</dt>
-    <dd>{{ officer.position }}</dd>
+    <dt>{{ officer.position }}</dt>
+    <dd>{{ officer.fname }} {{ officer.lname }}</dd>
     <dd><a href="mailto:{{ officer.email }}@mvrt.com">{{ officer.email }}@mvrt.com</a></dd>
   {% endfor %}
   </dl>
