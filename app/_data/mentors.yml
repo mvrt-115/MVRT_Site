@@ -5,12 +5,14 @@ current:
     lname: Mracek
     job: Student Advisor
     background: Student
+    email: lee.mracek@gmail.com
   -
     prefix: Mr.
     fname: David
     lname: Greenstein
     job: Teacher Advisor
     background: APCS/Math Teacher
+    email: david_greenstein@fuhsd.org
   -
     prefix: Mr.
     fname: Mauri
@@ -18,6 +20,7 @@ current:
     job: Advisor
     background: Retired Software Developer
     years: 9
+    email: mdl@laitinen.com
   -
     prefix: Mrs.
     fname: Connie
@@ -25,6 +28,7 @@ current:
     job: Advisor
     background: Retired Midwife
     years: 9
+    email: mdl@sierra.net
   -
     prefix: Mr.
     fname: John
@@ -32,6 +36,7 @@ current:
     job: Advisor
     background: Retired VP of Sales
     years: 2
+    email: johnyelinek@gmail.com
   -
     prefix: Mr.
     fname: Steve
@@ -39,6 +44,7 @@ current:
     job: Liason to FIRST
     background: Technology Consultant at Smart WebParts
     years: 14
+    email: sbronstein@smarttimeapps.com
   -
     prefix: Mr.
     fname: Ted
@@ -46,18 +52,21 @@ current:
     job: Advisor and Machine Trainer
     background: Monta Vista Woodshop Teacher
     years: 13
+    email: ted_shinta@fuhsd.org
   -
     prefix: Mr.
     fname: Ryan
     lname: Lee
     background: College student
     years: 7
+    email: yoda92@gmail.com
   -
     prefix: Mr.
     fname: Ashwin
     lname: Mathur
     background: Finance and Business Operations Analyst at TrialPay
     years: 9
+    email: ashwinmathur@gmail.com
   -
     prefix: Mrs.
     fname: Debra
@@ -75,12 +84,14 @@ current:
     lname: Sinks
     background: Cupertino City Councilman
     years: 2
+    email: rsinks@cupertino.org
   -
     prefix: Mr.
     fname: Dilip
     lname: Kikla
     background: Data Management Evangelist at IBM
     years: 7
+    email: dilipak@hotmail.com
   -
     prefix: Mr.
     fname: Jaiom
@@ -99,6 +110,7 @@ current:
     prefix: Ms.
     fname: Ching
     lname: Bays
+    email: chingbays@gmail.com
   -
     prefix: Mr.
     fname: Galen
@@ -107,10 +119,12 @@ current:
     prefix: Mr.
     fname: Umesh
     lname: Toprani
+    email: utoprani@gmail.com
   -
     prefix: Mr.
     fname: Mark
     lname: Carbone
+    email: mcarbone@yahoo.com
   -
     prefix: Mr.
     fname: Anant
@@ -119,6 +133,7 @@ current:
     prefix: Ms.
     fname: Karen
     lname: Feng
+    email: karenfeng.us@gmail.com
 
 past:
   -
