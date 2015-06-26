@@ -19,8 +19,9 @@ hero: /img/hero/calendar.jpg
 | Tuesday| 6/23 | Math Training | 1 - 5 PM |
 | Wednesday| 6/24 | None | N/A |
 | Thursday | 6/25 | Ops Meeting | 3:30 - 5:00 |
-| Friday | 6/26 | None | N/A |
-| Saturday | 6/27 | Cleanup | TBD | 
+| Friday | 6/26 | Enspire | 5:30 PM |
+| Saturday | 6/27 | Wiring Trainings | 2 - 5 PM |
 |===
 
-No events taking place in the week of 6/14.
+Electrical Trainings will be continuing throughout the summer.
+Anand will be hosting CAD trainings until school starts.
