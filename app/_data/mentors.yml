@@ -1,20 +1,6 @@
 current:
   -
     prefix: Mr.
-    fname: Aashish
-    lname: Kapur
-    job: Alumni Mentor
-    background: Student
-    email: aashish97@gmail.com
-  -
-    prefix: Mr.
-    fname: Lee
-    lname: Mracek
-    job: Student Advisor
-    background: Student
-    email: lee.mracek@gmail.com
-  -
-    prefix: Mr.
     fname: David
     lname: Greenstein
     job: Teacher Advisor
