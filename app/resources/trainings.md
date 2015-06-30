@@ -4,7 +4,7 @@ layout: document
 back:
   url: /resources/
   name: Resources
-permalink: /resources/trainings/
+permalink: /resources/trainings-new/
 categories: ['trainings']
 nav:
   - name: "Electrical"
@@ -137,7 +137,7 @@ nav:
 
 [Git]
 : How to use a git repository and overview of command line for git.
- 
+
 
 ## Math
 

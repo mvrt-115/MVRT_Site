@@ -4,7 +4,6 @@ layout: document
 back:
   url: /resources/
   name: Resources
-permalink: /resources/trainings/
 permalink: /resources/videos/
 nav:
   - name: "Electrical Videos"
