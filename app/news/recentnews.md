@@ -1,9 +1,6 @@
 ---
 title: Recent News
 layout: post
-back:
-  url: /news/
-  name: Team News
 permalink: /news/recentnews/
 categories: ['team news']
 hero: /img/hero/stock/stock05.jpg
