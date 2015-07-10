@@ -21,6 +21,9 @@ nav:
 
 ## Electrical
 
+
+blabiitaldfjhalsdjfnasdkljfbalksdjbflaksjdbflasjdbf
+
 [Electrical Measurements]
 [Electrical Measurements Worksheet]
 : An overview of how to measure electricity and the science behind it plus some safety notes.
