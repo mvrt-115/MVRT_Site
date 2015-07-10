@@ -21,7 +21,6 @@ nav:
 
 ## Electrical
 
-
 blabiitaldfjhalsdjfnasdkljfbalksdjbflaksjdbflasjdbf
 
 [Electrical Measurements]
