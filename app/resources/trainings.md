@@ -4,7 +4,7 @@ layout: document
 back:
   url: /resources/
   name: Resources
-permalink: /resources/trainings-new/
+permalink: /resources/trainings/
 categories: ['trainings']
 nav:
   - name: "Electrical"
