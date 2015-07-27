@@ -30,9 +30,10 @@ hero: /img/hero/calendar.jpg
 | Thursday | 7/2 | None | N/A |
 | Friday | 7/3 | None | N/A |
 | Saturday | 7/4 | None | N/A |
->>>>>>> e4c32b6ed4976f423d25f3beb27bf97e4ec8914c
 |===
 
 Math Trainings are being hosted for those who are interested in control theory.
 Electrical Trainings will be continuing throughout the summer.
 Anand will be hosting CAD trainings until school starts.
+
+Testing new LocalForking process through GitHub app.
