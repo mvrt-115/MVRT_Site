@@ -14,9 +14,7 @@ nav:
   - name: "Engineering"
     id: engineering
   - name: "Math"
-<<<<<<< HEAD
     id: engineering
-=======
 ---
 
 # Trainings
