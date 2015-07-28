@@ -114,7 +114,12 @@ function jekyll () {
     destination: '.jekyll'
   }))
   spawn(cmd.shift(), cmd, { stdio: 'inherit' })
-    .on('close', function () { gulp.src('./.jekyll/**/{.*,*}').pipe(tr) })
+    .on('close', function (code) {
+      if (production && code !== 0) {
+        throw new $.util.PluginError('jekyll', 'jekyll had an error')
+      }
+      gulp.src('./.jekyll/**/{.*,*}').pipe(tr)
+    })
   return tr
     .pipe(gulp.dest('./.tmp'))
 }
