@@ -96,3 +96,5 @@ field from where they control their robots. The robocoach uses the four function
 Infrared Board to control the robot during Hybrid mode, giving a signal the
 initiate a series of commands for the robot to complete. Robocoaches are located
 at the corners of the track. The robots start against their alliance wall.
+
+<br><br>
