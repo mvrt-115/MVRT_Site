@@ -4,7 +4,14 @@ layout: document
 permalink: /divisions/outreach/events/
 categories: ['outreach']
 hero: /img/hero/outreach.jpg
+back:
+  name: Operations
+  url: /deivision
 ---
+
+<br>
+These are some of the events MVRT Participates in.
+<br>
 
 ## <i class="first">FIRST</i> Community {#first-community}
 
