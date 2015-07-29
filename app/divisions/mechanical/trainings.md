@@ -1,3 +1,11 @@
+---
+title: Mech Trainings
+layout: document
+permalink: /divisions/mechanical/trainings/
+categories: ['trainings']
+hero: img/stock/stock05.jpg
+---
+
 <br>
 
 These are detailed guides on how work in mechanical.
