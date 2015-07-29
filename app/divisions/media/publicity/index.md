@@ -2,7 +2,7 @@
 title: Publicity
 layout: document
 back:
-  url: /media/
+  url: /divisions/media/
   name: Media
 permalink: /divisions/media/publicity/
 nav:

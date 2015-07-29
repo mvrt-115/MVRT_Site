@@ -1,11 +1,14 @@
 ---
 title: Games
-layout: null
+permalink: /divisions/engineering/robotgame/
+categories: ['robots', 'games']
+hero: /img/stock/stock05.jpg
+back:
+  url: /divisions/engineering/
+  name: Engineering
 ---
-
-# Games
-
-Every year, <i class="first">FIRST</i> creates a new game which challenges FRC
+<br><br>
+Every year, <b><i class="first">FIRST</i></b> creates a new game which challenges FRC
 teams to build a robot to compete in the game. Games from previous years are
 listed below.
 
