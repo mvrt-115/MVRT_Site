@@ -4,7 +4,7 @@ layout: document
 back:
   url: /media/
   name: Media
-permalink: /media/publicity/
+permalink: /divisions/media/publicity/
 nav:
   - name: 2012
     id: articles-2012
