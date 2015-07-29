@@ -163,7 +163,7 @@ gulp.task('img', function () {
 gulp.task('copy', function () {
   var images = gulp.src('app/img/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
-  var htaccess = gulp.src('app/.htaccess')
+  var htaccess = gulp.src('app/**/*.htaccess', { base: 'app'})
     .pipe(gulp.dest('dist'))
   return merge(htaccess, images)
 })
