@@ -1,10 +1,19 @@
 ---
 title: Recent News
-layout: post
+layout: document
+back:
+  url: /news/
+  name: Back
 permalink: /news/recentnews/
-categories: ['team news']
-hero: /img/hero/stock/stock05.jpg
+categories: ['recent news']
 ---
+
+## STEAMFEST Demo
+
+MVRT attended the STEAMFEST demo, to connect with the community.
+We demonstrated the Recycle-Rush robot to various adults and children.
+This was a great way to give back to the community that has given so
+much to us.
 
 ## Google Demo
 
@@ -13,3 +22,5 @@ to show our sponsors what we have been able to accomplish.
 The club interested many Googlers and gave the team a unique
 experience. We were able to spread FIRST throughout the Googlers,
 and had a great time. Photos coming soon.
+
+![alt tag](/img/outreach/googledemo.jpg)

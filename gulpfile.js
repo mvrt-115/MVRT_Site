@@ -16,6 +16,8 @@ var gulp = require('gulp')
   , runSequence = require('run-sequence')
   , exec = require('child_process').exec
 
+var merge = require('merge-stream')
+
 var paths = {
   css: './app/_scss', // no globbing
   images: ['./app/img/**/*'], // doesnt really matter
@@ -159,8 +161,11 @@ gulp.task('img', function () {
 
 // copies stuff
 gulp.task('copy', function () {
-  return gulp.src('app/img/**/*', { base: 'app' })
+  var images = gulp.src('app/img/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
+  var htaccess = gulp.src('app/**/*.htaccess', { base: 'app'})
+    .pipe(gulp.dest('dist'))
+  return merge(htaccess, images)
 })
 
 gulp.task('production', ['clean'], function (cb) {

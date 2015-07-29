@@ -4,7 +4,7 @@
 ----
 -title: Website
 -layout: post-nolink
--permalink: /media/website/
+-permalink: /divisions/media/website/
 ----
 
 ## Original Design by Students
