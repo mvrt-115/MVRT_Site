@@ -2,7 +2,7 @@
 title: Apps
 permalink: /divisions/web/apps/
 categories: ['apps', 'web']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/web.jpg
 ---
 <br>
 <br>
