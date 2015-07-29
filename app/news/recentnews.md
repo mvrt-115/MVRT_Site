@@ -1,9 +1,11 @@
 ---
 title: Recent News
-layout: post
+layout: document
+back:
+  url: /news/
+  name: Back
 permalink: /news/recentnews/
-categories: ['team news']
-hero: /img/hero/stock/stock05.jpg
+categories: ['recent news']
 ---
 
 ## STEAMFEST Demo
