@@ -6,6 +6,13 @@ categories: ['team news']
 hero: /img/hero/stock/stock05.jpg
 ---
 
+## STEAMFEST Demo
+
+MVRT attended the STEAMFEST demo, to connect with the community.
+We demonstrated the Recycle-Rush robot to various adults and children.
+This was a great way to give back to the community that has given so
+much to us.
+
 ## Google Demo
 
 MVRT recently attended a demo at the Google Campus, seeking
