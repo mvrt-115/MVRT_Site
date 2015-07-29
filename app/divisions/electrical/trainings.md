@@ -1,7 +1,7 @@
 ---
 title: electrical Trainings
 layout: document
-permalink: /divisions/mechanical/trainings/
+permalink: /divisions/electrical/trainings/
 categories: ['trainings']
 hero: img/stock/stock05.jpg
 ---
