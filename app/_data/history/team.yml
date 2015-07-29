@@ -1,30 +1,4 @@
 -
-  year: 2016
-  robot:
-    name: El Toro IX
-    id: eltoro19
-  officers:
-    "President": Praxis Bays
-    "Director of Engineering": Nihil Muthaiah
-    "Mechanical Director": Anand Rajamani
-    "Electrical Director": Marcus Plutowski   
-    "Engineering Documentation": Akhil Palla
-    "Director of Operations": Namrata Subramaniam
-    "Media Director": Sophie Cao
-    "Public Relations Director": Sameer Kapur
-    "Outreach": Arushi Rai
-    "Finance Co-Director": Saurav Pahadia
-    "Finance Co-Director": Kingsley Wang
-    "Documentation Director": Sydney Howard
-    "Webmaster": Aditya Kalari
-  drivers:
-    "Driver": Daniel Koh
-    "Alternative Driver": Praxis Bays
-    "Operator": Heather Baker
-    "Coach": Lee Mracek
-    "Human Player": Aashish Kapur
-
--
   year: 2015
   robot:
     name: El Toro XIII
@@ -33,7 +7,7 @@
     "President": Archana Kikla
     "Director of Engineering": Andrew He
     "Mechanical Director": Chirag Toprani
-    "Electrical Director": Lee Mracek   
+    "Electrical Director": Lee Mracek
     "Engineering Documentation": RJ Cunningham
     "Director of Operations": Divek Toprani
     "Media Director": Sophie Cao
