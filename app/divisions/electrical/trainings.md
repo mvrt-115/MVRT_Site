@@ -1,9 +1,9 @@
 ---
-title: electrical Trainings
+title: Electrical Trainings
 layout: document
 permalink: /divisions/electrical/trainings/
 categories: ['trainings']
-hero: img/stock/stock05.jpg
+hero: /img/hero/electrical.jpg
 ---
 
 <br>

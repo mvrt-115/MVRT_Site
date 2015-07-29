@@ -3,10 +3,7 @@ title: Public Relations
 layout: document
 permalink: /divisions/pr/submissions/
 categories: ['outreach']
-hero: /img/stock/stock05.jpg
-back:
-  url: /divisions/pr/
-  name: PR
+hero: /img/hero/pr.jpg
 ---
 <br>
 

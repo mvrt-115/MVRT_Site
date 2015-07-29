@@ -2,10 +2,7 @@
 title: Games
 permalink: /divisions/engineering/trainings/
 categories: ['engineering', 'training']
-hero: /img/stock/stock05.jpg
-back:
-  url: /divisions/engineering/
-  name: Engineering
+hero: /img/hero/engineering.jpg
 ---
 <br><br>
 [Safety]

@@ -2,7 +2,7 @@
 title: Trainings
 permalink: /divisions/web/trainings/
 categories: ['trainings', 'web']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/web.jpg
 ---
 <br>
 <br>

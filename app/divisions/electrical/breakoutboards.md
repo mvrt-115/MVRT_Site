@@ -1,7 +1,8 @@
 ---
 title: Breakout Boards
 layout: document
-permalink: /divisions/electrical/breakoutboards
+permalink: /divisions/electrical/breakoutboards/
+hero: /img/hero/electrical.jpg
 ---
 
 MVRT Talon SRX Breakout

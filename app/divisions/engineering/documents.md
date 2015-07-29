@@ -2,7 +2,7 @@
 title: Documents
 permalink: /divisions/engineering/documents/
 categories: ['engineering', 'documents']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/engineering.jpg
 ---
 <br><br>
 [Job Description]

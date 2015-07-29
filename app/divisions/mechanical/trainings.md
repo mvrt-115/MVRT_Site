@@ -3,7 +3,7 @@ title: Mech Trainings
 layout: document
 permalink: /divisions/mechanical/trainings/
 categories: ['trainings']
-hero: img/stock/stock05.jpg
+hero: /img/hero/mechanical.jpg
 ---
 
 <br>

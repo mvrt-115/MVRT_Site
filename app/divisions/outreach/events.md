@@ -4,9 +4,6 @@ layout: document
 permalink: /divisions/outreach/events/
 categories: ['outreach']
 hero: /img/hero/outreach.jpg
-back:
-  name: Operations
-  url: /deivision
 ---
 
 <br>

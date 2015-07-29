@@ -2,7 +2,7 @@
 title: Coders
 permalink: /divisions/web/coders/
 categories: ['coders', 'web']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/web.jpg
 ---
 <br>
 <br>

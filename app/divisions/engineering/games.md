@@ -2,7 +2,7 @@
 title: Games
 permalink: /divisions/engineering/robotgame/
 categories: ['robots', 'games']
-hero: /img/stock/stock05.jpg
+hero: /img/hero/engineering.jpg
 back:
   url: /divisions/engineering/
   name: Engineering
