@@ -1,13 +1,14 @@
 ---
 title: Public Relations
 layout: document
-permalink: /divisions/pr/
+permalink: /divisions/pr/submissions/
 categories: ['outreach']
 hero: /img/stock/stock05.jpg
+back:
+  url: /divisions/pr/
+  name: PR
 ---
 <br>
-
-Here you can find some of our submissions to FIRST to connect with out team.
 
 [FLL Binder]
 : This is a comprehensive binder made by the FLL coaches themselves on helpful links, advises, and tips on how to start, mentor, and volunteer with the FLL program. This document includes competition information, FLL values, judging rubrics, and much more to help everyone on their way to success with FLL.

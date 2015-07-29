@@ -1,16 +1,15 @@
 ---
-title: Operations
+title: Submissions
+permalink: /divisions/operations/submissions/
 layout: document
-permalink: /divisions/operations/
-categories: ['operations']
-hero: /img/stock/stock05.jpg
+back:
+  name: Operations
+  url: /divisions/operations/
 ---
 
 <br>
 
-The operations division manages and writes all the awards
-for the build season. It also develops the Chairman's submissions
-for the season.
+Here are some of the submissions we have done in the past.
 
 <br>
 
@@ -31,8 +30,6 @@ for the season.
 
 [2004 Winning Woodie Flowers Award Essay: Mr. Ted Shinta][2004wfa]
 : Mr. Shinta's story is about wealth, riches, and accumulating and growing assets. However, the Mr. Shinta we are talking about has a salary below median earnings. He drives a ten-year-old white pickup truck and lives in a small apartment. Mr. Shinta...
-
-<br>
 
 [2010chairmans]: /resources/submissions/chairmans2010/
 [2010wfa]: /resources/submissions/wfa2010/
