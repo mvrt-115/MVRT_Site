@@ -4,6 +4,9 @@ layout: document
 permalink: /divisions/electrical/trainings/
 categories: ['trainings']
 hero: /img/hero/electrical.jpg
+back:
+  name: Electrical
+  url: /divisions/electrical/
 ---
 
 <br>

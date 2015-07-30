@@ -3,8 +3,12 @@ title: Documents
 permalink: /divisions/engineering/documents/
 categories: ['engineering', 'documents']
 hero: /img/hero/engineering.jpg
+layout: document
+back:
+  url: /divisions/engineering/
+  name: Engineering
 ---
-<br><br>
+<br>
 [Job Description]
 : An overview of the job description for the mechanical build leads.
 

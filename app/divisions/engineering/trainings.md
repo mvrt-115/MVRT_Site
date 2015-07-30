@@ -3,8 +3,12 @@ title: Games
 permalink: /divisions/engineering/trainings/
 categories: ['engineering', 'training']
 hero: /img/hero/engineering.jpg
+layout: document
+back:
+  url: /divisions/engineering/
+  name: Engineering
 ---
-<br><br>
+<br>
 [Safety]
 : Safety practices when in robotics.
 
