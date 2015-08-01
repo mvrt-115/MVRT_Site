@@ -12,9 +12,36 @@ FIRST’s vision, all participating teams are encouraged to instill an
 appreciation of the real-life rewards and career opportunities to others within
 their supportive community.
 
+
+## Community Outreach Achievements
+
++ 2012 Received FLL Peninsula District Championship Outstanding Volunteer Award - Ryan Lee
++ 2012 Received FLL Peninsula District Championship Outstanding Coach Award - Jimin Park
++ 2011 Kennedy and Lawson LEGO League led by Jimin Park, Patricia Xu, Benjamin Yu, and Jonathan La Plain
++ 2011 Held FIRST workshop for teams
++ 2011 Founded Future Stars Robotics Program
++ 2011 Received Silicon Valley Regional Judge’s Award
++ 2010 Received Silicon Valley Regional Chairman’s Award
++ 2010 Held workshops for community and beta tested new control system and Labview
++ 2009 Participated in JAVAone keynote presentation and promoted Congressman Mike Honda's eSTEM Bill
++ 2008 Mentor of: Cupertino Robotics, Mission San Jose Robotics, and St. Francis Robotics
++ 2008 Lawson LEGO League led by Ryan Lee and Victor Shu
++ 2007 thinkFIRST campaign begins
++ 2007 Congressional Recognition
++ 2006 Kennedy LEGO League led by Pavan and Brij Datta
++ 2005 Kennedy LEGO League continued by Shrenik Shah
++ 2004 Kennedy LEGO League led by Shrenik Shah
++ 2003 Mentor of: Harker Upper School and Kehillah High
++ 2002 Mentor of: Lynbrook high School Robotics Team
++ 2000 Founded Kennedy Middle School's LEGO League
++ 2000 Mentor of: Saratoga and homestead high School
++ 1999 Awarded Mayor's Award of Community Excellence from the Cupertino Mayor, Wally Dean
+
 ## <i class="first">FIRST</i> Community {#first-community}
 
 ### <i class="first">FIRST</i> Workshop {#first-workshop}
+
+![An FRC Workshop](/img/outreach/frc-workshop.jpg)
 
 The Monta Vista Robotics Team (MVRT) held a workshop in December of 2011,
 hosting nine different teams, on how we have sustained ourselves for the last
@@ -29,12 +56,16 @@ our team made for all FIRST teams in need.
 
 ### Beta Testing
 
+![Two students Beta Testing things](/img/outreach/beta-testing.jpg)
+
 Selected to Beta Test for the 2010 FRC Season for 10 weeks, MVRT hosted series
 of workshops, held both in Cupertino and Sacramento for local FRC Teams. Mentor
 Mauri Laitinen went further to host a booth at the Silicon Valley Regional,
 serving as a local resource for the NI Control System.
 
 ### Mentoring Other Teams
+
+![Mentoring another team](/img/outreach/mentoring-teams.jpg)
 
 MVRT provides help to teams around the community, in state, and out of country.
 We provide help by keeping in contact with teams with email and video chats.
@@ -59,6 +90,8 @@ award-winning website.
 
 ### Kickoff
 
+![An alumni giving a speech on the game](/img/outreach/kickoff.jpg)
+
 MVRT hosts its own annual Kickoff every year for its members and local teams.
 Aside from playing the Kickoff video streamed on NASA’s website, MVRT adds its
 own twist to the Kickoff event by inviting experienced alumni as guest speakers
@@ -72,6 +105,8 @@ teams (a record number of teams hosted) for an audience of over two hundred.
 
 ### FLL
 
+![The Lawson FLL Team](/img/outreach/fll.jpg)
+
 FLL strives to inspire engineering to middle school students by arranging teams
 to build NXT Mindstorm robots that completes a series of challenges. MVRT has
 been responsible for mentoring FIRST Lego League teams in Lawson Middle School
@@ -84,6 +119,8 @@ championships.
 
 ### FTC
 
+![The FTC Team discussing.](/img/outreach/ftc.jpg)
+
 FTC (FIRST Tech Challenge) is another high school level competition that FIRST
 offers. FTC works with tetrix parts to build and program a mini robot to compete
 in competitions, and is considered a bridge between FLL and FRC. MVRT has
@@ -95,6 +132,8 @@ to the semi-finals as the 7th seed team.
 
 ### School Demos
 
+![Demoing LogoMotion](/img/outreach/demo.jpg)
+
 MVRT reaches out to the school community to promote STEM education and to
 recruit members for the upcoming build season. We hold two robot demos for the
 students during our school’s club promotion week, one robot demo for the parents
@@ -104,6 +143,8 @@ year. MVRT also provides mechanical help during homecoming week with its
 interactive floats and decorations.
 
 ### Fall Festival Demo
+
+![MVRT at it's Fall Festival Booth](/img/outreach/fall-fest.jpg)
 
 At Cupertino’s annual Fall Festival we expose the next generation to the
 excitement and learning experiences of FRC, FTC, and FLL. Last year, we not only
@@ -115,6 +156,8 @@ children to the ideals and competition of FIRST.
 
 ### San Jose Tech Museum Demo
 
+![Demoing at the Tech Museum](/img/outreach/tech-museum.jpg)
+
 MVRT demoed its robot during downtown San Jose Tech Museum’s “Robot Week”. We
 spoke to the museum’s staff, volunteers, and visitors about FIRST and the impact
 it has on our community. We spoke to hundreds of Tech Museum guests at this
@@ -122,11 +165,15 @@ event to show the applications of science and technology that students learn.
 
 ### BAE Zero1 Art Show
 
+![MVRT's robot at the BAE Zero1 Art Show](/img/outreach/art-show.jpg)
+
 MVRT was invited by BAE Systems (one of our major sponsors) to a robotics event
 at San Jose Art Museum. MVRT demoed its robot with other teams in the Bay Area
 and spoke to the public about FIRST and its impact on the world.
 
 ### E-Waste Drive
+
+![A pile of electronic waste](/img/outreach/e-waste.jpg)
 
 MVRT, in partnership with our school (Monta Vista High School), developed an
 environmental project called the E-Waste Drive. People from the community
@@ -135,6 +182,8 @@ delivered it to places that could use the used parts to make other electronic
 parts.
 
 ### ThinkFIRST
+
+![The ThinkFIRST program.](/img/outreach/thinkfirst.jpg)
 
 ThinkFIRST is an after school program at Lincoln Elementary School, and teaches
 basic physics concepts to elementary school students through creative
@@ -148,6 +197,8 @@ roller coasters to demonstrate kinetic and potential energy.
 
 ### Future Stars Robotics Program
 
+![Future stars](/img/outreach/future-stars.jpg)
+
 MVRT partnered up with Future Stars, a college preparatory program for
 underprivileged minority students, and two other FIRST teams (846 and 1868) to
 create a robotics summer camp. We held two sessions, with each session meeting
@@ -159,6 +210,8 @@ teams competed with each other on a friendly competition with the FIRST Lego
 League challenges.
 
 ### E-Stem
+
+![MVRT with Mike Honda](/img/outreach/e-stem.jpg)
 
 In August 2008, we supported Mike Honda’s STEM initiative and bill by speaking
 at a press event and demoing our robot to an audience of over a hundred. Student
@@ -199,6 +252,8 @@ inother countries.
 
 ### Empower Kids Foundation
 
+![MVRT with the EmpowerKids Foundation](/img/outreach/empowerkids.jpg)
+
 EmpowerKids Foundation is a non-profit organization that aims to support
 underprivileged children in rural northern India by providing them with
 educational supplies. It launched its School Adoption Program in February 2010
@@ -213,11 +268,15 @@ the foundation through fundraisers and donations.
 
 ### Haiti One Dollar for Life
 
+![A poster of the 2010 Haiti Earthquake](/img/outreach/haiti.jpg)
+
 MVRT teamed up with the other clubs in our school to organize a fundraising
 program for the Earthquake disaster in Haiti 2010. We advertised the event on
 our website and during school. We were the top contributor to this fundraiser.
 
 ### Hope for Japan
+
+![HOPE](/img/outreach/hopeforjapan.png)
 
 MVRT, along with other clubs in school, organized a fundraising program for the
 Tsunami/Earthquake disaster in Japan 2011. Students pledged to donate money and
