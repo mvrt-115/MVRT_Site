@@ -4,6 +4,9 @@ layout: document
 permalink: /divisions/pr/submissions/
 categories: ['outreach']
 hero: /img/hero/pr.jpg
+back:
+  name: Public Relations
+  url: /divisions/pr/
 ---
 <br>
 

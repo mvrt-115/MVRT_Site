@@ -3,8 +3,11 @@ title: Coders
 permalink: /divisions/web/coders/
 categories: ['coders', 'web']
 hero: /img/hero/web.jpg
+layout: document
+back:
+  name: Web
+  url: /divisions/web/
 ---
-<br>
 <br>
 
 Our website is coded by the following people:

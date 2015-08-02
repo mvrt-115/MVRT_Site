@@ -3,6 +3,9 @@ title: Submissions
 permalink: /divisions/operations/submissions/
 layout: document
 hero: /img/hero/operations.jpg
+back:
+  name: Operations
+  url: /divisions/operations/
 ---
 
 <br>

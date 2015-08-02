@@ -3,8 +3,11 @@ title: Apps
 permalink: /divisions/web/apps/
 categories: ['apps', 'web']
 hero: /img/hero/web.jpg
+layout: document
+back:
+  name: Web
+  url: /divisions/web/
 ---
-<br>
 <br>
 
 ## Scouting 2015

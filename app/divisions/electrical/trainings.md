@@ -9,8 +9,6 @@ back:
   url: /divisions/electrical/
 ---
 
-<br>
-
 These are detailed guides on how to work in electrical.
 Marcus will be teaching these in the fall.
 
