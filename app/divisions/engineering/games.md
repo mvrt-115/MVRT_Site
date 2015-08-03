@@ -8,7 +8,7 @@ back:
   url: /divisions/engineering/
   name: Engineering
 ---
-<br>
+
 Every year, <b><i class="first">FIRST</i></b> creates a new game which challenges FRC
 teams to build a robot to compete in the game. Games from previous years are
 listed below.

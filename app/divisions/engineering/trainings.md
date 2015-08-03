@@ -8,7 +8,7 @@ back:
   url: /divisions/engineering/
   name: Engineering
 ---
-<br>
+
 [Safety]
 : Safety practices when in robotics.
 

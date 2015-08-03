@@ -1,6 +1,6 @@
 ---
 title: Upcoming Events
-layout: document
+layout: post
 back:
   url: /news/
   name: Back

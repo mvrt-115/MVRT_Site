@@ -8,7 +8,7 @@ back:
   url: /divisions/engineering/
   name: Engineering
 ---
-<br>
+
 [Job Description]
 : An overview of the job description for the mechanical build leads.
 
