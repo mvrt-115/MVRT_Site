@@ -1,6 +1,8 @@
 ---
-title: About FIRST
-layout: null
+title: FIRST
+layout: document
+permalink: /about/first/
+hero: /img/hero/first.jpg
 ---
 
 # About FIRST
