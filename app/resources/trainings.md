@@ -4,7 +4,7 @@ layout: document
 back:
   url: /resources/
   name: Resources
-permalink: /resources/trainings/
+permalink: /resources/trainings-new/
 categories: ['trainings']
 nav:
   - name: "Electrical"
@@ -12,8 +12,6 @@ nav:
   - name: "Mechanical"
     id: mechanical
   - name: "Engineering"
-    id: engineering
-  - name: "Math"
     id: engineering
 ---
 
@@ -92,15 +90,6 @@ nav:
 
 [Pneumatics]
 : An introduction to how Pneumatics work, its different components as well as the advantages and disadvantages of using pneumatics.
-
-[Inventor: Parts]
-: A step-by-step tutorial on how to make a simple part in Autodesk Inventor. Includes making extrusions and holes.
-
-[Inventor: Assemblies]
-: A step-by-step tutorial on how to make a basic assembly of parts in Autodesk Inventor by making Mate and Flush constraints.
-
-[Inventor: Drawings]
-: A step-by-step tutorial on how to make a drawing in Autodesk Inventor.
 
 ## Engineering
 

@@ -6,6 +6,12 @@ layout: default
   {% assign blog_page = true %}
 {% endif %}
 
+{% if page.back %}
+<div class="document-back">
+  <p><a rel="up" href="{{ page.back.url }}">« {{ page.back.name }}</a></p>
+</div>
+{% endif %}
+
 <article class="post" role="article">
   <h1 class="post-title">{{ page.title }}</h1>
   {% if page.author or page.date %}
@@ -34,12 +40,6 @@ layout: default
   {% if blog_page %}
   <footer>
     <p><a rel="up" href="/blog/">« Back to the Build Blog</a></p>
-  </footer>
-  {% endif %}
-
-  {% if page.back %}
-  <footer>
-    <p><a href="{{ page.back.url }}">« Back to {{ page.back.name }}</a></p>
   </footer>
   {% endif %}
 

@@ -2,9 +2,9 @@
 title: Video Resources
 layout: document
 back:
-  url: /divisions/media/
+  url: /media/
   name: Media
-permalink: /divisions/media/videos/
+permalink: /media/videos/
 ---
 
 [Touring the User Interface](http://mvrt.com/?videos&v76)

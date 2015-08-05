@@ -1,6 +1,6 @@
 ---
 title: Recent News
-layout: document
+layout: post
 back:
   url: /news/
   name: Back

@@ -2,9 +2,9 @@
 title: Publicity
 layout: document
 back:
-  url: /divisions/media/
+  url: /media/
   name: Media
-permalink: /divisions/media/publicity/
+permalink: /media/publicity/
 nav:
   - name: 2012
     id: articles-2012
