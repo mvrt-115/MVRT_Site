@@ -8,8 +8,11 @@ permalink: /news/upcoming/
 categories: ['upcoming eventsg']
 ---
 
-## County Fair
+## Chezy Champs
 
-The County fair is this weekend, we will demo our Rebound Rumble
-robot at the fair. If you would like to participate please email
-operations@mvrt.com.
+Chezy Champs is an annual preseason competition held at
+Bellarmine High School, MVRT will attend the Competition
+on September 18th - 20th. The full list of days to prep
+for the competition is available at <a href = "/members/">MVRT Members</a>.
+
+For more information, contact engineering@mvrt.com
