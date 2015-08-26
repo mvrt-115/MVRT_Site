@@ -17,5 +17,6 @@
   "trailing": true,
   "smarttabs": true,
   "asi": true,
-  "laxcomma": true
+  "laxcomma": true,
+  "laxbreak": true
 }
