@@ -8,7 +8,7 @@ var yaml = require('js-yaml')
 
 exports.init = init
 
-var GH_TOKEN = 'a2af087c98412c3a61b097613b10ca889a887c99' // plz dont steal
+var GH_TOKEN = process.env.GH_TOKEN
   , GH_USER = 'mvrt-115'
   , GH_REPO = 'MVRT_Site'
   , GH_BRANCH = 'master'
