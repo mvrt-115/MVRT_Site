@@ -1,10 +1,9 @@
 var $ = require('jquery')
 
-var $btn = $('.site-nav-btn')
+let $btn = $('.site-nav-btn')
   , $navUl = $('.site-nav ul')
 
+// Should be very obvious
 exports.init = function () {
-  $btn.click(function () {
-    $navUl.toggleClass('js-active')
-  })
+  $btn.click(() => $navUl.toggleClass('js-active'))
 }

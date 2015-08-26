@@ -1,18 +1,14 @@
 var $ = require('jquery')
 
-var links = {}
+let links = {}
 
 exports.init = function () {
-
-  if (!$('.about').length) return
 
   // Populates links with href: subpageUrl sort of thing
   $('.document-nav a').each(getSubpageUrl)
 
   // on hashchange, set the active link
-  $(window).on('hashchange', function () {
-    setActive(location.hash)
-  })
+  $(window).on('hashchange', () => setActive(location.hash))
 
   // set active page on page load, don't scroll
   setActive(location.hash || 'overview', true)
@@ -26,16 +22,15 @@ function getSubpageUrl () {
 
 /**
  * sets active page based on anchor
- *
  * @param {string} anchor - anchor name
  * @param {boolean=} noScroll - should the page scroll?
  */
 function setActive (anchor, noScroll) {
   if (!anchor) return
-  var link = links[anchor.replace(/^#/, '')]
+  let link = links[anchor.replace(/^#/, '')]
   if (!link) return
   $('.document-nav li').removeClass('active')
   $('.document').load(link)
-  $('[data-subpage-url="' + link + '"]').parent().addClass('active')
+  $(`[data-subpage-url="${link}"]`).parent().addClass('active')
   if (!noScroll) $('html, body').scrollTop($('.document').position().top)
 }

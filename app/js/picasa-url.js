@@ -1,14 +1,12 @@
 var url = require('url')
   , path = require('path')
-//  , xtend = require('xtend')
-//  , filter = require('filter-values')
 
-var PROTOCOL = 'https'
-var HOST = 'picasaweb.google.com'
-var BASE_PATH = '/data/feed'
-var QUERY = { alt: 'json', imgmax: '1600', thumbsize: '160c' }
-var DEFAULT_PROJECTION = 'base'
-var PARAMETERS = /^(?:access|bbox|fields|imgmax|kind|l|max-results|prettyprint|q|start-index|tag|thumbsize)$/
+const PROTOCOL = 'https'
+const HOST = 'picasaweb.google.com'
+const BASE_PATH = '/data/feed'
+const QUERY = { alt: 'json', imgmax: '1600', thumbsize: '160c' }
+const DEFAULT_PROJECTION = 'base'
+const PARAMETERS = /^(?:access|bbox|fields|imgmax|kind|l|max-results|prettyprint|q|start-index|tag|thumbsize)$/
 
 /**
  * Returns a Picasa Web Album API URL, JSON style
@@ -18,14 +16,10 @@ var PARAMETERS = /^(?:access|bbox|fields|imgmax|kind|l|max-results|prettyprint|q
  */
 module.exports = function picasaUrl (options) {
   if (!options) throw new Error('no options')
-  if (!options.userId) {
-    throw new Error('no userid')
-  }
-  if (!options.albumId && options.photoId) {
-    throw new Error('no albumid')
-  }
-  var pathname = path.join(BASE_PATH, options.projection || DEFAULT_PROJECTION)
-    , query = xtend(QUERY, filter(options, getParameters))
+  if (!options.userId) throw new Error('no userid')
+  if (!options.albumId && options.photoId) throw new Error('no albumid')
+  let pathname = path.join(BASE_PATH, options.projection || DEFAULT_PROJECTION)
+    , query = Object.assign(QUERY, filter(options, (val, param) => PARAMETERS.test(param)))
   if (options.userId) {
     pathname = path.join(pathname, 'user', options.userId)
     if (options.albumId) {
@@ -38,25 +32,9 @@ module.exports = function picasaUrl (options) {
   return url.format({
     protocol: PROTOCOL,
     host: HOST,
-    pathname: pathname,
-    query: query
+    pathname,
+    query
   })
-}
-
-function getParameters (val, param) {
-  return PARAMETERS.test(param)
-}
-
-// just because im not sure how the build script works
-function xtend (obj) {
-  for (var i = 1, l = arguments.length; i < l; i++) {
-    for (var prop in arguments[i]) {
-      if (arguments[i].hasOwnProperty(prop)) {
-        obj[prop] = arguments[i][prop]
-      }
-    }
-  }
-  return obj
 }
 
 function filter (obj, fn) {

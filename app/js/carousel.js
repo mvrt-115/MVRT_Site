@@ -3,16 +3,20 @@ var $ = require('jquery')
 
 module.exports = Carousel
 
-function Carousel (options) {
+/**
+ * The Carousel.
+ * Basically a factory for a jQuery gallery slideshow thing.
+ * @param {Object} Options { photos = [], element = $(el) }
+ * @returns Carousel
+ */
+function Carousel (options = {}) {
 
   if (!(this instanceof Carousel)) return new Carousel(options)
-
-  options = options || {}
 
   if (!options.photos) return
   if (!options.element) options.element = $('<div class="gallery-photos"></div>')
 
-  var photos = options.photos
+  let photos = options.photos
     , index = 0
     , numPhotos = options.photos.length
     , $element = options.element instanceof $ ? options.element : $(options.element)
@@ -32,82 +36,128 @@ function Carousel (options) {
     .append($main)
     .append($thumbsWrap)
 
+  /**
+   * Sets the index if possible. Returns null if it fails.
+   * @param {Number|String} idx index
+   * @returns Number The index
+   * @private
+   */
   function setIndex (idx) {
     if (idx < 0 || idx >= numPhotos) return
     index = idx
-    return index
+    return idx
   }
 
+  /**
+   * Moves to a photo. Does not move if out of range.
+   * @param {Number|String} idx index of the photo
+   * @returns Carousel
+   * @public
+   */
   function move (idx) {
     if (setIndex(idx) == null) return
     displayPhoto(idx)
     setArrows(idx)
     setThumb(idx)
-    return idx
+    return this
   }
 
+  /**
+   * Moves to the next photo.
+   * @returns Carousel
+   * @public
+   */
   function next () {
-    return move(index + 1)
+    move(index + 1)
+    return this
   }
 
+  /**
+   * Moves left.
+   * @returns Carousel
+   * @public
+   */
   function prev () {
-    return move(index - 1)
+    move(index - 1)
+    return this
   }
 
+  /**
+   * Initializes the Carousel.
+   * @returns Carousel
+   * @public
+   */
   function init () {
     move(index)
     return this
   }
 
+  /**
+   * Sets the main photo.
+   * @param {Number|String} idx index of the photo
+   * @private
+   */
   function displayPhoto (idx) {
-    var photo = photos[idx]
-    $main.empty()
-    $main.append(photo.medium === 'video' ? '<video controls src=' + photo.src + '>' : '<img src=' + photo.src + '>')
+    let photo = photos[idx]
+    $main
+      .empty()
+      .append(photo.medium === 'video' ? `<video controls src=${photo.src}>` : `<img src=${photo.src}>`)
   }
 
+  /**
+   * Sets the state of the arrows.
+   * @param {Number|String} idx index of the photo
+   * @private
+   */
   function setArrows (idx) {
-    if (idx === 0) $left.prop('disabled', true)
-    else $left.prop('disabled', false)
-    if (idx === numPhotos - 1) $right.prop('disabled', true)
-    else $right.prop('disabled', false)
+    $left.prop('disabled', idx <= 0 ? true : false)
+    $right.prop('disabled', idx >= numPhotos - 1 ? true : false)
   }
 
+  /**
+   * Sets the current thumbnail
+   * @param {Number|String} idx index of the photo
+   * @private
+   */
   function setThumb (idx) {
     if ($currThumb) $currThumb.removeClass('js-active-thumb')
     $currThumb = $photos[idx].addClass('js-active-thumb')
   }
 
+  /**
+   * Returns the jQuery element of the "Carousel"
+   * @returns jQuery The "Carousel" element
+   * @public
+   */
   function getElement () {
     return $element
   }
 
+  /**
+   * Removes the gallery element from it's context.
+   * @public
+   */
   function destroy () {
-    $element.remove()
+    $element
+      .trigger('destroy')
+      .remove()
   }
 
   /**
-   * jQueryify the thumbnailish again
+   * jQueryify the thumbnailish
    * @param {Object} photo { src, thumb }
    * @returns {jQuery} jQuery object of the photo thumb
+   * @private
    */
   function $ifyPhotoThumbnail (photo, index) {
-    var $thumb = $('<li></li>')
-      , $img = $('<img src=' + photo.thumb + '>')
+    let $thumb = $('<li></li>')
+      , $img = $(`<img src=${photo.thumb}>`)
     return $thumb
       .append($img)
       .attr('data-photo-src', photo.src)
-      .on('click', function () {
-        move(index)
-      })
+      .on('click', () => move(index))
   }
 
-  return {
-    move: move,
-    next: next,
-    prev: prev,
-    init: init,
-    getElement: getElement,
-    destroy: destroy
-  }
+  return { move, next, prev, init, getElement, destroy }
 
 }

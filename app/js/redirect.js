@@ -1,7 +1,7 @@
 module.exports = redirect
 
 // paths to migrate
-var paths = {
+let paths = {
 
   'first': '/about/',
   'games': '/about/#robot-game',
@@ -67,7 +67,6 @@ var paths = {
 
 // redirects if there is a corresponding page to redirect to
 function redirect () {
-  var path = location.search.toLowerCase().replace(/^\?/, '')
+  let path = location.search.toLowerCase().replace(/^\?/, '')
   if (paths[path]) location.href = paths[path]
 }
-

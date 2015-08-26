@@ -2,8 +2,7 @@ var $ = require('jquery')
   , Waypoint = require('waypoints')
   , sticky = require('sticky')
 
-
-var $nav
+let $nav
   , $navUl
   , $navLinks
   , $footer
@@ -11,6 +10,9 @@ var $nav
   , anchors
   , anchorTimeout
 
+/**
+ * Assign variables to elements
+ */
 function bindElements () {
   $nav = $('.document-nav')
   $navUl = $('.document-nav ul')
@@ -18,11 +20,17 @@ function bindElements () {
   $footer = $('.site-footer')
 }
 
+/**
+ * Fixes the nav > ul width on scroll
+ */
 function setNavWidth () {
-  var navWidth = $nav.width()
+  let navWidth = $nav.width()
   $navUl.width(navWidth)
 }
 
+/**
+ * Binds UI Events
+ */
 function bindUIEvents () {
 
   if (!$navUl[0]) return
@@ -31,32 +39,29 @@ function bindUIEvents () {
     wrapper: null
   })
 
-  $(window).scroll(function () {
-    var navHeight = $nav[0].clientHeight
-      , footerTop = $footer[0].getBoundingClientRect().top
-    if (navHeight > footerTop) {
-      $navUl.css('top', footerTop - navHeight + 'px')
-    } else $navUl.css('top', '0px')
-  })
+  $(window)
+    .on('scroll', function () {
+      let navHeight = $nav[0].clientHeight
+        , footerTop = $footer[0].getBoundingClientRect().top
+        , diff = footerTop - navHeight
+      $navUl.css('top', `${diff < 0 ? diff : 0}px`)
+    })
+    .on('resize', setNavWidth)
 
-  $(window).on('resize', setNavWidth)
-
-  anchors = $navLinks.map(function () {
-    return $(this).attr('href')
-  }).filter(function () {
-    return /^#/.test(this)
-  }).map(function (index, element) {
-    return $(element)[0]
-  }).waypoint({
-    handler: function () {
-      setActive($('[href="#' + this.element.id + '"]').parent())
-    }
-  })
+  anchors = $navLinks
+    .map((idx, el) => $(el).attr('href'))
+    .filter((idx, el) => /^#/.test(el))
+    .map((index, element) => $(element)[0])
+    .waypoint({
+      handler: function () {
+        setActive($(`[href="#${this.element.id}"]`).parent())
+      }
+    })
 
   $nav.on('click', 'a', function (e) {
     if ($(this).attr('data-subpage-url')) return
     clearTimeout(anchorTimeout)
-    var $target = $($(this).attr('href'))
+    let $target = $($(this).attr('href'))
     e.preventDefault() // this removes the anchorlinks
     $('html, body').animate({
       scrollTop: $target.position().top
@@ -68,26 +73,35 @@ function bindUIEvents () {
 
 }
 
+/**
+ * Set active element
+ * @param {jQuery} el Element to set active
+ * @returns el The element
+ */
 function setActive ($el) {
   $('.active').removeClass('active')
-  $el.addClass('active')
+  return $el.addClass('active')
 }
 
+/**
+ * Disable anchors
+ */
 function disableAnchors () {
-  anchors.forEach(function (anchor) {
-    anchor.disable()
-  })
+  anchors.forEach(anchor => anchor.disable())
 }
 
+/**
+ * Enable anchors
+ */
 function enableAnchors () {
-  anchors.forEach(function (anchor) {
-    anchor.enable()
-  })
+  anchors.forEach(anchor => anchor.enable())
 }
 
 
+/**
+ * Initializes everything.
+ */
 exports.init = function init () {
-  if (!$('.document').length) return
   bindElements()
   if (!$nav.length) return
   bindUIEvents()
