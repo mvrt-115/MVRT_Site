@@ -14,7 +14,9 @@ MVRT's snazzy new website.
 
 ```bash
 $ git clone <git url>
-$ bundle install && npm install && bower install
+$ bundle install
+$ npm install
+$ bower install
 $ gulp
 ```
 ## Hacking ##
