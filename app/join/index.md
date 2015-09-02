@@ -1,6 +1,6 @@
 ---
 title: Join MVRT
-layout: post
+layout: document
 permalink: /join/
 categories: ['posts']
 hero: /img/hero/join.jpg
