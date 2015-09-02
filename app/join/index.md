@@ -29,6 +29,8 @@ in order to join the team. The deadline for completing all parts is September
 4. Print out, complete, and sign the MVRT Charter available [here][3].
 <br><br>
 5. Print out, complete, and sign the MVRT Medical Form available [here][4].
+<br><br.
+6. Submit your forms to any officer of MVRT.
 
 [2]: /join/application.pdf
 [3]: /join/charter.pdf
