@@ -1,4 +1,4 @@
-# mvrt-website
+# MONTA VISTA ROBOTICS WEBSITE
 
 MVRT's snazzy new website.
 
