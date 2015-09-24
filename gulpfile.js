@@ -20,7 +20,7 @@ var merge = require('merge-stream')
 
 var paths = {
   css: './app/assets/css', // no globbing
-  images: ['./app/assets/images/**/*'], // doesnt really matter
+  images: ['./app/images/**/*'], // doesnt really matter
   svg: ['./app/img/svg/**/*'], // once there will be some
   fonts: ['./app/fonts'], // will come later
   js: ['./app/assets/js/main.js'] // browserify
