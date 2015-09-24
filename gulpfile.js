@@ -161,7 +161,7 @@ gulp.task('img', function () {
 
 // copies stuff
 gulp.task('copy', function () {
-  var images = gulp.src('app/img/**/*', { base: 'app' })
+  var images = gulp.src('app/images/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
   var htaccess = gulp.src('app/**/*.htaccess', { base: 'app'})
     .pipe(gulp.dest('dist'))
