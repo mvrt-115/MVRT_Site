@@ -19,7 +19,7 @@ var gulp = require('gulp')
 var merge = require('merge-stream')
 
 var paths = {
-  css: './app/assets/scss', // no globbing
+  css: './app/assets/css', // no globbing
   images: ['./app/assets/img/**/*'], // doesnt really matter
   svg: ['./app/img/svg/**/*'], // once there will be some
   js: ['./app/assets/js/main.js'] // browserify
