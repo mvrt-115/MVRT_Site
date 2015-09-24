@@ -29,7 +29,6 @@ paginate: 5
 paginate_path: "blog/page:num/"
 highlighter: rouge
 
-permalink: /blog/:year/:month/:day/:title/
 
 defaults:
   -
@@ -49,5 +48,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-permalink: /blog/:year/:month/:day/:title/
