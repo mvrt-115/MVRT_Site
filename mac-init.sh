@@ -1,6 +1,8 @@
 # Running commands as sudo means you need the administrator login
 
 echo "Make sure that you are root on your computer (Administrator)"
+echo "Creating Write Permissions"
+chmod +x mac-init.sh
 
 # Bundler
 echo "Installing bundler"
