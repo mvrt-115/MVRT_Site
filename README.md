@@ -1,26 +1,13 @@
-# MONTA VISTA ROBOTICS WEBSITE
+# BEN AND DOHYUN'S BRANCH
 
-MVRT's snazzy new website.
+Our work for the new MVRT website.
 
-## Requirements
+##About
+We are currently working on mvrt.com/join. 
 
- + NodeJS
- + Gulp ``npm install -g gulp``
- + Ruby
- + Bundler ``gem install bundler``
- + Bower ``npm install -g bower``
+##Contact Us
+Ben @ Ben.Cuan@gmail.com
+Dohyun @ dohyunk314@gmail.com
 
-## Installation
-
-```bash
-$ git clone <git url>
-$ bundle install
-$ npm install
-$ bower install
-$ gulp
-```
-## Hacking ##
-
-```bash
-$ gulp serve
-```
+##MVRT
+Visit the origin branch @ https://github.com/mvrt-115/MVRT_Site
