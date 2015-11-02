@@ -1,64 +1,175 @@
----
-title: MVRT
-categories: ['index', 'home']
----
+<!DOCTYPE HTML>
+<!--
+	MVRT: Monta Vista Robotics
+-->
+<html>
+	<head>
+		<title>MVRT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="landing">
 
-<section id="intro" class="step intro">
-  <div class="step-wrap">
-    <h1>We are <span class="mvrt">MVRT</span></h1>
-    <h3>MONTA VISTA ROBOTICS TEAM</h3>
-  </div>
-  <p id="scroll_down">Click or scroll to learn more...</p>
-</section>
-<section id="competition" class="step competition">
-  <div class="step-wrap">
-    <h2>Team News</h2>
-    <p>MVRT recently attended a demo at the STEAM Fest Silicon Valley. Visit
-      the team news page to learn more.
-    </p>
-    <ul class="step-more">
-      <li><a href="/news/">Team News</a></li>
-    </ul>
-  </div>
-</section>
-<section id="team" class="step team">
-  <div class="step-wrap">
-    <h2>Our Team</h2>
-    <p>MVRT is a student-run high school robotics team that participates
-       in the annual <i class="first">FIRST</i> Robotics Competition (FRC).</p>
-    <ul class="step-more">
-      <li><a href="/about/">About Us</a></li>
-    </ul>
-  </div>
-</section>
-<section id="FIRST" class="step FIRST">
-  <div class="step-wrap">
-    <h2><i class="first">FIRST</i></h2>
-    <p><i>FIRST</i> is an organization whose goal is to spread STEM values, and
-    inspire and enable students to be innovative thinkers. Their programs
-    also challenge students's teamworking and problem-solving abilities, giving them
-    a "sneak peek" into the professional world.
-    </p>
-    <ul class="step-more">
-      <li><a href="/about/first/">More about <i class="first">FIRST</i></a></li>
-    </ul>
-  </div>
-</section>
-<section id="outreach" class="step outreach">
-  <div class="step-wrap">
-    <h2>Outreach</h2>
-    <p>In addition to building and programming robots, MVRT also actively
-      reaches out to others by constantly giving back to the community,
-      and by spreading STEM and <i>FIRST</i> values.</p>
-    <ul class="step-more">
-      <li><a href="/about/#outreach">Our Contributions</a></li>
-    </ul>
-  </div>
-</section>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-<section id="sponsors" class="sponsors">
-  <h2>Our Sponsors</h2>
-  <ul class="home-sponsors-list">
-    {% for sponsor in site.data.sponsors.current %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
-  </ul>
-</section>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">MVRT</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="join.html">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>MVRT</h2>
+							<p>Monta Vista Robotics<br />
+							is a high school club<br />
+							that participates in the FRC.</p>
+							<ul class="actions">
+								<li><a href="#" class="button special">About Us</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>The mission of FIRST is to spread<br/>
+								STEM in the community</h2>
+								<p>MVRT tries to give back to the community by connecting<br />
+								with others both in and outside of academic environments.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-code major style3"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style1"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Build the Robot</h2>
+								<p>MVRT builds our robot from scratch, and programs it using JAVA, and the robotics FRC library.
+									 No prior knowledge is required for the team.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Compete with Others</h2>
+								<p>MVRT takes its robot to competitions around the nation to play the robot game against other
+								   high school robotics teams.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pico4.jpg" alt="" /></div><div class="content">
+								<h2>Outreach and Community</h2>
+								<p>MVRT values the community around us, and connects to it with the power of STEM, through activites such
+									 as Eduspire, FLL, and ThinkFIRST.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Explore MVRT Divisions</h2>
+								<p>MVRT has many different engineering and operations divisions.<br />
+								These options give our members variety to choose when they join the team.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-wrench">
+									<h3>Mechanical</h3>
+									<p>The Mechanical division is responsible for construction of the robot, excluding wiring. We use aluminum frames and power tools
+									for building the robot.</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>Electrical</h3>
+									<p>The Electrical division codes the robot using the FRC library in JAVA. They also deal with the wiring of the robot.</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Web and Engineering Documentation</h3>
+									<p>These divisions are responsible for coding the website of MVRT. We also create apps during the season for Robotics as well as hackathons.</p>
+								</li>
+								<li class="icon fa-dollar">
+									<h3>Finance</h3>
+									<p>The Finance division writes grants to various companies in order to get enough money for MVRT to attend competitions, and build the robot.</p>
+								</li>
+								<li class="icon fa-camera">
+									<h3>Documentation and Media</h3>
+									<p>These divisions document the progress of MVRT, and release videos throughout the season, including the Chairmans Award Showcase Video.<p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Outreach and Public Relations</h3>
+									<p>These divisions are responsible for connecting to our community, through demos as well as programs to teach kids about STEM.</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Interested in Joining?</h2>
+								<p>Just fill out the forms, and turn them in to any MVRT Officer!</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="join.html" class="button fit special">Join</a></li>
+								<li><a href="contact.html" class="button fit">Contact Us</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; 2015 MVRT</li><li>Coded by: <a href="http://github.com/akalari/">Aditya Kalari</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
