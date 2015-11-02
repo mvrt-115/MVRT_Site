@@ -3812,3 +3812,37 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* Speical CSS for Resources Page */
+div.resindex {
+	background-color: #e3e1e1;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+	padding: 14px;
+	position: relative;
+	text-align: center;
+	width: 250px;
+  display: table-cell;
+  white-space: nowrap;
+}
+
+div.resimg {
+	display: table-cell;
+	vertical-align: middle;
+	horizontal-align: middle;
+	width: 50%;
+  margin: 0 auto;
+}
+
+div.hrspace {
+	background-color: #ffffff;
+	-webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+	padding: 14px;
+	position: relative;
+	text-align: center;
+  display: table-cell;
+  white-space: nowrap;
+}

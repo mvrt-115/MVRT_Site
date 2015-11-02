@@ -7,12 +7,12 @@ name: mvrt-website
 description: MVRT's snazzy new website.
 
 # Gulp handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
+exclude: ['images', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
 include: ['.htaccess', 'favicon.ico']
 
-keep_files: ['img']
+keep_files: ['images']
 
 # _config.build.yml sets future and show_drafts to false on `gulp dist`
 future: true
