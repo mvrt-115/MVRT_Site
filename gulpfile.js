@@ -174,7 +174,7 @@ gulp.task('production', ['clean'], function (cb) {
   production = true
   runSequence(
     'jshint',
-    ['css', 'js', 'jekyll', 'copy'],
+    ['css','js','jekyll','copy'],
     'html',
     'img',
     cb
