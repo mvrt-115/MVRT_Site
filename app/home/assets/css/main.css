@@ -1471,7 +1471,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h5, h6 {
+	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 800;
 		letter-spacing: 0.225em;
@@ -1480,18 +1480,8 @@
 		text-transform: uppercase;
 	}
 
-	h4 {
-		color: #f65200;
-		font-weight: 700;
-	}
-	
-		h1 a, h2 a, h3 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
-			text-decoration: none;
-		}
-		
-		h4 a{
-			color: #f65200;
 			text-decoration: none;
 		}
 
@@ -1526,7 +1516,6 @@
 	h4 {
 		font-size: 1em;
 		line-height: 1.5em;
-		color: #f65200;
 	}
 
 	h5 {
@@ -2660,12 +2649,8 @@
 				color: #ffffff;
 			}
 
-			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h5, .wrapper.style1 h6 {
+			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #ffffff;
-			}
-			
-			.wrapper.style1 h4 {
-				color: #f65200;
 			}
 
 			.wrapper.style1 hr {
@@ -2814,7 +2799,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: rgba(229,247,255,0.3);
+			background-color: #505393;
 			color: #d3d4e4;
 		}
 
@@ -2822,12 +2807,8 @@
 				color: #ffffff;
 			}
 
-			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h5, .wrapper.style3 h6 {
+			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #ffffff;
-			}
-			
-			.wrapper.style3 h4 {
-				color: #f65200;
 			}
 
 			.wrapper.style3 hr {
@@ -2984,12 +2965,8 @@
 				color: #2E3842;
 			}
 
-			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h5, .wrapper.style5 h6 {
+			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
 				color: #2E3842;
-			}
-			
-			.wrapper.style5 h4 {
-				color: #F65200;
 			}
 
 			.wrapper.style5 hr {
@@ -3124,8 +3101,7 @@
 				.wrapper.style5 .button:active {
 					background-color: rgba(0, 0, 0, 0.1);
 				}
-				
-				
+
 			@media screen and (max-width: 736px) {
 
 				.wrapper.style5 .features li {
