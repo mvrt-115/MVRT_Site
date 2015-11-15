@@ -1,0 +1,2 @@
+- Include basic pdfs and other things for joining.
+- Make sure to integrate form using npm forms.
