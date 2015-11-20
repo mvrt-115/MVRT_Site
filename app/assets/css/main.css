@@ -1449,7 +1449,6 @@
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -3846,3 +3845,41 @@ div.hrspace {
   display: table-cell;
   white-space: nowrap;
 }
+
+div.horizontal {
+    width: 100%;
+    height: 43px;
+    background-color: #2e3842;
+}
+div.horizontal ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+div.horizontal li
+{
+float:left;
+}
+div.horizontal a
+{
+display:block;
+width:100%;
+}
+div.horizontal a:link,div.horizontal a:visited
+{
+
+color:#FFFFFF;
+background-color:#2e3842;
+text-align:center;
+padding-right: 8px;
+padding-left: 8px;
+text-decoration:none;
+text-transform:uppercase;
+font-size: 100%;
+}
+div.horizontal a:hover,div.horizontal a:active
+{
+background-color:#546478;
+}
+
