@@ -3846,3 +3846,155 @@ div.hrspace {
   display: table-cell;
   white-space: nowrap;
 }
+
+/*Sponsors */
+div.sponsorscontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 120px;
+}
+
+.sponsorscontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.apprioncontainer {
+	display : block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+	height: 134px;
+}
+
+.apprioncontainer img{
+	width: 100%;
+	height: auto;
+}
+
+div.microsoftcontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 120px;
+}
+
+.microsoftcontainer img {
+	width: 100%;
+	height: auto;
+}
+
+
+div.solidworkscontainer {
+	display : block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+	height: 107px;
+}
+
+.solidworkscontainer img{
+	width: 100%;
+	height: auto;
+}
+
+div.rotaryclubcontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 165px;
+}
+
+.rotaryclubcontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.autodeskcontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 178px;
+}
+
+.autodeskcontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.lockheedcontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 107px;
+}
+
+.lockheedcontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.ibmcontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 133px;
+}
+
+.ibmcontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.smarttimecontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 133px;
+}
+
+.smarttimecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.intuitivecontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 135px;
+}
+
+.intuitivecontainer img {
+	width: 100%;
+	height: auto;
+}
+
+div.drexelcontainer {
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+	width: 200px;
+  height: 107px;
+}
+
+.drexelcontainer img {
+	width: 100%;
+	height: auto;
+}
+
+p.sponsorscontent {
+	word-wrap:break-all;
+	white-space:normal;
+	text-align:center;
+	height:150px;
+}
