@@ -3997,3 +3997,41 @@ p.sponsorscontent {
 	text-align:center;
 	height:150px;
 }
+
+div.horizontal {
+    width: 100%;
+    height: 43px;
+    background-color: #2e3842;
+}
+div.horizontal ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+div.horizontal li
+{
+	float:left;
+}
+div.horizontal a
+{
+	display:block;
+	width:100%;
+}
+div.horizontal a:link,div.horizontal a:visited
+{
+
+	color:#FFFFFF;
+	background-color:#2e3842;
+	text-align:center;
+	padding-right: 8px;
+	padding-left: 8px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size: 100%;
+}
+div.horizontal a:hover,div.horizontal a:active
+{
+	background-color:#546478;
+}
+
