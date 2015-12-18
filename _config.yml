@@ -4,8 +4,9 @@
 # 3. config.yml
 
 name: mvrt-website
-description: MVRT's snazzy new website.
+description: MVRTs snazzy new website.
 
+source: app/
 # Gulp handles images and assets.
 exclude: ['images', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
