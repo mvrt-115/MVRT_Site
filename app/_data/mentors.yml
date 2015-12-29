@@ -49,6 +49,7 @@
     prefix: Mr.
     fname: Ryan
     lname: Lee
+    job: Advisor
     background: College student
     years: 7
     email: yoda92@gmail.com
@@ -56,6 +57,7 @@
     prefix: Mr.
     fname: Ashwin
     lname: Mathur
+    job: Advisor
     background: Finance and Business Operations Analyst at TrialPay
     years: 9
     email: ashwinmathur@gmail.com
@@ -68,12 +70,14 @@
     prefix: Mr.
     fname: Patrick
     lname: Wang
+    job: Advisor
     background: Director of Operations at LeadQual LLC
     years: 13
   -
     prefix: Mr.
     fname: Rod
     lname: Sinks
+    job: Advisor
     background: Cupertino City Councilman
     years: 2
     email: rsinks@cupertino.org
@@ -81,6 +85,7 @@
     prefix: Mr.
     fname: Dilip
     lname: Kikla
+    job: Advisor
     background: Data Management Evangelist at IBM
     years: 7
     email: dilipak@hotmail.com
@@ -88,16 +93,19 @@
     prefix: Mr.
     fname: Jaiom
     lname: Sambyal
+    job: Advisor
     background: Engineer at OEM Squared Inc.
     years: 13
   -
     prefix: Mr.
     fname: Peter
     lname: Easton
+    job: Advisor
   -
     prefix: Mr.
     fname: Vinay
     lname: Venkatesh
+    job: Advisor
   -
     prefix: Ms.
     fname: Ching
@@ -107,22 +115,27 @@
     prefix: Mr.
     fname: Galen
     lname: Embry
+    job: Advisor
   -
     prefix: Mr.
     fname: Umesh
     lname: Toprani
+    job: Advisor
     email: utoprani@gmail.com
   -
     prefix: Mr.
     fname: Mark
     lname: Carbone
+    job: Advisor
     email: mcarbone@yahoo.com
   -
     prefix: Mr.
     fname: Anant
     lname: Singhania
+    job: Advisor
   -
     prefix: Ms.
     fname: Karen
     lname: Feng
+    job: Advisor
     email: karenfeng.us@gmail.com

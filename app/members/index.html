@@ -36,18 +36,19 @@ permalink: /members/
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-                <h3>The Officers</h3>
-                <% for officer in site.data.officers %}
-                <div class="card-12" style="width:30%"><br>
-                  <img src="../images/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" alt="Officer" class="card-image">
-                  <div class="card-container">
-                    <hr>
-                    <h4 class="card-h4">{{ officer.fname | append:' ' | append:officer.lname }}</h4>
-                    <p class="card-p">{{ officer.description }}</p>
+                <center><h3>The Officers</h3></center>
+                {% for officer in site.data.officers %}
+                  <div class="card-12" style="width:30%"><br>
+                    <img src="/images/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/images/people/generic.jpg'" class="card-image-plain">
+                    <div class="card-container">
+                      <hr>
+                      <center><h4>{{ officer.fname | append:' ' | append:officer.lname }}</h4></center>
+                      <p class="card-p">{{ officer.description }}</p>
+                    </div>
                   </div>
-                </div>
+                {% endfor %}
                 <br><br>
-                <h3>The Team</h3>
+                <center><h3>The Team</h3></center>
                 {% for member in site.data.members %}
                   <div class="card-12" style="width:30%"><br>
                     <img src="/images/people/{{member.fname | append: '_' | append: member.lname | append: '.jpg' }}" onerror="this.src='/images/people/generic.jpg'" class="card-image-plain">
