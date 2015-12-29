@@ -3863,6 +3863,16 @@
 		filter:alpha(opacity=50);
 	}
 
+	.card-image-plain {
+		width: 50%;
+		vertical-align: middle;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 7%;
+	}
+
+
 	.card-image:hover {
 		opacity:1;
 		filter:alpha(opacity=100);
