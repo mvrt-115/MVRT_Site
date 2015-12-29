@@ -5,7 +5,8 @@
     job: Teacher Advisor
     background: APCS/Math Teacher
     email: david_greenstein@fuhsd.org
-  -
+
+-
     prefix: Mr.
     fname: Mauri
     lname: Laitinen
@@ -13,7 +14,8 @@
     background: Retired Software Developer
     years: 9
     email: mdl@laitinen.com
-  -
+
+-
     prefix: Mrs.
     fname: Connie
     lname: Laitinen
@@ -21,7 +23,8 @@
     background: Retired Midwife
     years: 9
     email: mdl@sierra.net
-  -
+
+-
     prefix: Mr.
     fname: John
     lname: Yelinek
@@ -29,7 +32,8 @@
     background: Retired VP of Sales
     years: 2
     email: johnyelinek@gmail.com
-  -
+
+-
     prefix: Mr.
     fname: Steve
     lname: Bronstein
@@ -37,7 +41,8 @@
     background: Technology Consultant at Smart WebParts
     years: 14
     email: sbronstein@smarttimeapps.com
-  -
+
+-
     prefix: Mr.
     fname: Ted
     lname: Shinta
@@ -45,97 +50,99 @@
     background: Monta Vista Woodshop Teacher
     years: 13
     email: ted_shinta@fuhsd.org
-  -
+
+-
     prefix: Mr.
     fname: Ryan
     lname: Lee
-    job: Advisor
     background: College student
     years: 7
     email: yoda92@gmail.com
-  -
+
+-
     prefix: Mr.
     fname: Ashwin
     lname: Mathur
-    job: Advisor
     background: Finance and Business Operations Analyst at TrialPay
     years: 9
     email: ashwinmathur@gmail.com
-  -
+
+-
     prefix: Mrs.
     fname: Debra
     lname: Hara
     job: Trip Coordinator
-  -
+
+-
     prefix: Mr.
     fname: Patrick
     lname: Wang
-    job: Advisor
     background: Director of Operations at LeadQual LLC
     years: 13
-  -
+
+-
     prefix: Mr.
     fname: Rod
     lname: Sinks
-    job: Advisor
     background: Cupertino City Councilman
     years: 2
     email: rsinks@cupertino.org
-  -
+
+-
     prefix: Mr.
     fname: Dilip
     lname: Kikla
-    job: Advisor
     background: Data Management Evangelist at IBM
     years: 7
     email: dilipak@hotmail.com
-  -
+
+-
     prefix: Mr.
     fname: Jaiom
     lname: Sambyal
-    job: Advisor
     background: Engineer at OEM Squared Inc.
     years: 13
-  -
+
+-
     prefix: Mr.
     fname: Peter
     lname: Easton
-    job: Advisor
-  -
+
+-
     prefix: Mr.
     fname: Vinay
     lname: Venkatesh
-    job: Advisor
-  -
+
+-
     prefix: Ms.
     fname: Ching
     lname: Bays
     email: chingbays@gmail.com
-  -
+
+-
     prefix: Mr.
     fname: Galen
     lname: Embry
-    job: Advisor
-  -
+
+-
     prefix: Mr.
     fname: Umesh
     lname: Toprani
-    job: Advisor
     email: utoprani@gmail.com
-  -
+
+-
     prefix: Mr.
     fname: Mark
     lname: Carbone
-    job: Advisor
     email: mcarbone@yahoo.com
-  -
+
+-
     prefix: Mr.
     fname: Anant
     lname: Singhania
-    job: Advisor
-  -
+
+-
     prefix: Ms.
     fname: Karen
     lname: Feng
-    job: Advisor
     email: karenfeng.us@gmail.com

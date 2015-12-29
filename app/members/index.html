@@ -48,6 +48,22 @@ permalink: /members/
                   </div>
                 {% endfor %}
                 <br><br>
+                <center><h3>The Mentors</h3></center>
+                {% for officer in site.data.mentors %}
+                  <div class="card-12" style="width:30%">
+                    <br>
+                    <img src="/images/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
+                    <div class="card-container">
+                      <hr>
+                      <center><h4>{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</h4></center>
+                      {% if mentor.job %}<p class="card-p">{{ mentor.job }}</p>{% endif %}
+                      {% if mentor.background %}<p class="card-p">{{ mentor.background }}</p>{% endif %}
+                      {% if mentor.years %}<p class="card-p">{{ mentor.years }} years</p>{% endif %}
+                      {% if mentor.email %}<p class="card-p">{{mentor.email}}</p>{% endif%}
+                    </div>
+                  </div>
+                {% endfor %}
+                <br><br>
                 <center><h3>The Team</h3></center>
                 {% for member in site.data.members %}
                   <div class="card-12" style="width:30%"><br>
