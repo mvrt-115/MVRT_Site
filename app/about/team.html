@@ -61,37 +61,48 @@ permalink: /team/
                 <li>MVRT meetings are <u>not</u> mandatory, but it is important to remember that members who put in more to the team
                   will learn more and have greater opportunity to participate in team activities</li>
                 <br><hr><br>
+								<center>
                 <p style="font-size:250%">TIMELINE</p>
                 <!-- YEAR -->
-                <div class="caption-card" style="width:50%;">
-                  <header class="card-container" style="background-color: #9c27b0">
-                    <br>
-                    <h1>YEAR</h1>
-                  </header>
-                  <div class="card-container">
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, dicant utinam accusamus et sit, nam ex doming vocent. Te mel
-                      gloriatur temporibus signiferumque. His an salutandi euripidis. Ei legere facete quaeque ius,
-                      vim habeo dicta delicatissimi in, quodsi latine commodo te quo. Magna neglegentur qui et, duo
-                      an legimus laoreet.</p>
-                  </div>
-                </div>
-                <span class="image right"><img src="../images/team/team.jpg" alt="" /></span>
-                <!-- YEAR -->
-                <div class="caption-card" style="width:50%; float:right;">
-                  <header class="card-container" style="background-color: #9c27b0">
-                    <br>
-                    <h1>YEAR</h1>
-                  </header>
-                  <div class="card-container">
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, dicant utinam accusamus et sit, nam ex doming vocent. Te mel
-                      gloriatur temporibus signiferumque. His an salutandi euripidis. Ei legere facete quaeque ius,
-                      vim habeo dicta delicatissimi in, quodsi latine commodo te quo. Magna neglegentur qui et, duo
-                      an legimus laoreet.</p>
-                  </div>
-                </div>
-                <span class="image left"><img src="../images/team/team.jpg" alt="" /></span>
+								{% for team in site.data.teams %}
+	                <div class="caption-card">
+	                  <header class="card-container" style="background-color: #9c27b0">
+	                    <br>
+	                    <h1>{{ team.year }}</h1>
+	                  </header>
+	                  <div class="card-container">
+	                    <br>
+											{% if team.awards %}
+    										<h3>Awards</h3>
+    										{% for award in team.awards %}
+      										<p>{{ award }}</p>
+    										{% endfor %}
+											{% endif %}
+										</div>
+										<div class="card-container">
+											{% if team.drivers %}
+	 											<h3>Drive Team</h3>
+	 											<dl>
+												{% for driver in team.drivers %}
+		 											<dt>{{ driver[0] }}</dt>
+		 											<dd>{{ driver[1] }}</dd>
+	 											{% endfor %}
+	 										</dl>
+	 										{% endif %}
+	                  </div>
+										<div class="card-container">
+	                    <br>
+											<h3>Officers</h3>
+    									<dl class="team-officers">
+    										{% for officer in team.officers %}
+      										<dt>{{ officer[0] }}</dt>
+      										<dd>{{ officer[1] }}</dd>
+    										{% endfor %}
+    									</dl>
+	                  </div>
+	                </div>
+								{% endfor %}
+								</center>
 							<div style="clear:both;"></div>
 							</div>
 						</section>
