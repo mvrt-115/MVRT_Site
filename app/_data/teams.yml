@@ -274,7 +274,7 @@
     "Coach": Brij Datta
     "Human Player": Viraaj Marathe
   description: "In 2006, MVRT had a fantastic robot and was able to win awards at both regionals that we attended. We won the Best Website Award at the Silicon Valley
-  Regional
+  Regional, and were also the Semi-Finalists at the Sacramento Regional."
 
 -
   year: 2005
@@ -301,7 +301,8 @@
     "Driver": Danica Chang
     "Strategist": Shrenik Shah
     "Coach": Patrick Wang
-
+  description: "In 2005, MVRT won 6 different awards, not only for the FRC, but for our outreach programs as well. MVRT was a quaterfinalist at both the Sacramento and the Silicon Valley Regions, and we won the Judges' Award at the Silicon Valley Regional. In outreach, MVRT's coached an FLL team which Qualified for the state tournament and also won the Programming Award for FLL Teams. Their mentor and our president, Shrenik Shah, won the Outstanding Mentor Award at the NorCal FLL Tournament."
+  
 -
   year: 2004
   robot:
@@ -325,6 +326,7 @@
     "Strategist": Shrenik Shah
     "Coach": Patrick Wang
     "Human Player": Tom Clegg
+  description: "In 2004, MVRT won some prizes for our outstanding robot, and also won the Woodie Flowers Award for our mentor, Ted Shinta, who has devoted a significant part of his life to helping Team 115 progress and grow throughout the year. We won the Engineering Inspiratoin Award at SVR, where we were also Quarter-Finalists."
 
 -
   year: 2003
@@ -352,6 +354,7 @@
     "Driver": Patrick Wang
     "Electrical Representative": Shrenik Shah
     "Human Player": Albert Ye
+  description: "In 2003, MVRT won a host of award at the Sacramento and Silicon Valley Regionals. We were the winners of the Silicon Valley Regional, where we won the Website Design Award, and the Xerox Creativity award for the spectacular efforts of our team. We fared nearly as well at the Scaramento Regional, where we were Semi-Finalists, and won the General Motor's Industrial Design Award."
 
 -
   year: 2002
@@ -373,6 +376,7 @@
   drivers:
     "Driver": Patrick Wang
     "Human Player": Matt Rock
+  description: "2002 was a relatively dry year for MVRT, and we had some issues with officer terms this year. For this reason, our only award was Second Plage at the Silicon Valley Regional, but MVRT took the defeat to heart and came back bigger and better than before."
 
 -
   year: 2001
@@ -395,6 +399,7 @@
     "Finance Director": Helen Wang
   drivers:
     "Driver": Travis Covington
+  description: "MVRT had our best year on record in 2001, where we won the HoneyWell Leadershipp in Control Award at the West Coast Regional for the second consecutive year. We also placed second at the Silicon Valley West Coast Regional, and traveled to the St Louis Championships. There, we place Third nationwide at the National Competition, and were selected in the top ranking alliance for the Curie Division. These impressive achievements allowed MVRT to gain more sponsorships, and put down a record year for the team."
 
 -
   year: 2000
@@ -417,6 +422,7 @@
     "Finance and Public Relations Director": Helen Wang
   drivers:
     "Driver": Travis Covington
+  description: "In 2000, MVRT put up a good show, winning many award for our robot. We won Fifth at the NASA Ames West Coast Regional, and Second at the SoCal Los Angeles Invitational. We also won the HoneyWell Leadership in Control Award at the West Coast Regionals. In addition, MVRT won the 'Most Unconventional' Award in the Whimsy Division at the Sandhill Challenge modern soap-box derby in Menlo Park. MVRT rounded off the season with Second overall and 1st place in the speed Division at the Western Region Robotics Forum/FIRST California Robotics Games."
 
 -
   year: 1999
@@ -434,3 +440,4 @@
     "Mechanical Director": Rajesh Nishtala
     "Electrical Director": Tom Lauwers
     "Animation Director": Einoville Talvala
+  description: "MVRT put up a fantastic performance in our early year, winning Fourth at the NASA Ames West Coast Regional, and the Outstanding Defensive Play Award at the same venue, for our fantastic use of our robot in blocking the oposition. We also recieved the Mayos Award of Community Excellence from the Cupertino Mayor, Wally Dean, for our efforts to spread STEM in the Community."
