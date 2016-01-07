@@ -49,10 +49,10 @@ permalink: /members/
                 {% endfor %}
                 <br><br>
                 <center><h3>The Mentors</h3></center>
-                {% for officer in site.data.mentors %}
+                {% for mentor in site.data.mentors %}
                   <div class="card-12" style="width:30%">
                     <br>
-                    <img src="/images/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
+                    <img src="/images/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/images/people/generic.jpg'" class="card-image-plain">
                     <div class="card-container">
                       <hr>
                       <center><h4>{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</h4></center>
