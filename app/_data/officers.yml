@@ -49,26 +49,11 @@
     description: Kingsley is a sophomore, Co-Director of Finance. He is in charge of managing our money, and writing grants.
 
 -
-<<<<<<< HEAD
-  position: Director of Finance
-  fname: Kingsley (Han Yang)
-  lname: Wang
-  grade: 10
-  xp: 2
-  email: finance
 
--
-  position: Director of Finance
   fname: Saurav
   lname: Pahadia
-  grade: 10
-  xp: 2
-  email: finance
-=======
-    fname: Saurav
-    lname: Pahadia
-    description: Saurav is a sophomore, Co-Director of Finance. He is in charge of managing our money, and writing grants.
->>>>>>> origin/develop
+  description: Saurav is a sophomore, Co-Director of Finance. He is in charge of managing our money, and writing grants.
+
 
 -
     fname: Sophia
