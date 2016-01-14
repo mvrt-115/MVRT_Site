@@ -1,0 +1,443 @@
+-
+  year: 2015
+  robot:
+    name: El Toro XIII
+    id: eltoro18
+  officers:
+    "President": Archana Kikla
+    "Director of Engineering": Andrew He
+    "Mechanical Director": Chirag Toprani
+    "Electrical Director": Lee Mracek
+    "Engineering Documentation": RJ Cunningham
+    "Director of Operations": Divek Toprani
+    "Media Director": Sophie Cao
+    "Public Relations Director": Michelle Danese
+    "Outreach": Praxis Bays
+    "Finance Director": Jeremy Chen
+    "Documentation Director": Sydney Howard
+    "Webmaster": Shovik Guha
+  drivers:
+    "Driver": Daniel Koh
+    "Alternative Driver": Praxis Bays
+    "Operator": Heather Baker
+    "Coach": Lee Mracek
+    "Human Player": Aashish Kapur
+  description: "In 2015, MVRT fielded an impressive robot that built stacks of 6 totes and a bin on top. However,
+  the team was unfortunately not able to win a regional, but MVRT progressed to the St. Louis Championship, where
+  we unfortunately struck out in the early rounds. MVRT came away from the season with the Entrepreneurship Award
+  at the Utah Regional."
+
+
+-
+  year: 2014
+  robot:
+    name: El Toro XII
+    id: eltoro17
+  officers:
+    "President": Karen Feng
+    "Director of Engineering": Jimin Park
+    "Mechanical Director": Chirag Toprani
+    "Electrical Director": Andrew He
+    "Engineering Documentation": RJ Cunningham
+    "Director of Operations": Archana Kikla
+    "Media Director": Emma Lewis
+    "Public Relations Director": Saachin Makaram
+    "Outreach": Praxis Bays
+    "Finance Director": Namrata Ramani
+    "Documentation Director": Nikita Sankar
+    "Webmaster": Shovik Guha
+  drivers:
+    "Driver": Daniel Koh
+    "Alternative Driver": Praxis Bays
+    "Operator": Andrew He
+    "Coach": Karen Feng
+    "Human Player": Aashish Kapur
+  description: "In 2014, MVRT switched to using a West Coast Drive chassis, and moved from using Bosch to 2 by 1.
+  The switch opened up new engineering opportunities, and was important for the future of MVRT. While MVRT had a
+  rather fruitless season in terms of awards, we gained a lot from the season."
+
+-
+  year: 2013
+  robot:
+    name: El Toro XVI
+    id: eltoro16
+  awards:
+    - Team Spirit Award sponsored by Chrysler at Silicon Valley Regional
+  officers:
+    "President": Evelyn Ding
+    "Director of Engineering": Kumar Veeravel
+    "Mechanical Director ": Mark Sinks
+    "Electrical Director": Karen Feng
+    "Director of Operations": Joyce Yan
+    "Media Director": Emma Lewis
+    "Public Relations Director": Sachin Makaram
+    "Finance Director": Namrata Ramani
+    "Documentation Director": Jessica Chen
+  drivers:
+    "Driver": Evelyn Ding
+    "Operator": Andrew He
+    "Coach": Mark Sinks
+    "Human Players": Jimin Park and Divek Toprani
+  description: "In 2013, MVRT built a tall robot that had good levels of success throughout the season. We also
+  managed to win the Team Spirit Award sponsored by Chrysler at the Silicon Valley Regional, which was an important
+  accomplishment for the year."
+
+-
+  year: 2012
+  robot:
+    name: El Toro XV
+    id: eltoro15
+  awards:
+    - Championship Best Website Award
+    - Johnson & Johnson Gracious Professionalism Award at the Silicon Valley Regional
+    - Best Website Award at the Sacramento Regional
+  officers:
+    "President": Anant Singhania
+    "Director of Engineering": Nupur Garg
+    "Mechanical Director": Kumar Veeravel
+    "Electrical Director": Karen Feng
+    "Director of Operations": Evelyn Ding
+    "Media Director": Daniel Tan
+    "Public Relations Director": Dahyoung Yoon
+    "Documentation Director": Jessica Chen
+  drivers:
+    "Driver": Evelyn Ding
+    "Secondary Driver": Benjamin Yu
+    "Coach": Anant Singhania
+    "Human Players": Mark Sinks and Kumar Veeravel
+  description: "In 2012, MVRT had a great season, and won 3 awards over the course of the season. After a good run
+  at the Silicon Valley Regional, MVRT progresses to the Championships, where we won the Championship best Website award,
+  like we had done at SV and the Sacramento Regionals."
+
+-
+  year: 2011
+  robot:
+    name: El Toro XIV
+    id: eltoro14
+  awards:
+    - Judges’ Award at the Silicon Velley Regional
+    - Best Website Award at the Silicon Valley Regional
+    - Excellence in Design Award and the Seattle Cascade Regional
+    - Best Website Award at the Seattle Cascade Regional
+  officers:
+    "President": Helena Qin
+    "Director of Engineering": Karthik Kumaravel
+    "Mechanical Director": Abhijaat Kelkar
+    "Electrical Director": Nupur Garg
+    "Director of Operations": Rohan Gupta
+    "Media Director": Daniel Tan
+    "Public Relations Director": Anant Singhania
+    "Fianace Director": Evelyn Ding
+  drivers:
+    "Driver": Helena Qin
+    "Secondary Driver": Evelyn Ding
+    "Coach": Karthik Kumarevel
+    "Human Player": Kumar Veeravel
+  description: "In 2011, MVRT won 4 awards and had a good season after competing in both the Silicon Valley and the
+  Seattle Cascade Regionals. We won the best website award in both regionals, whivh was a great accomplishment. In
+  addition, MVRT won the Judges Award at the Silicon Valley Regional, and the Excellence in Design Award at the
+  Seattle Cascade Regional, to cap off a fantastic competition season."
+
+-
+  year: 2010
+  robot:
+    name: El Toro XIII
+    id: eltoro13
+  awards:
+    - Regional Chairman’s Award at the Silicon Valley Regional
+    - Best Website Award at the San Diego Regional
+    - Second at the Dan Diego Regional
+  officers:
+    "President": Parag Kikla
+    "Director of Engineering": Karthik Kumaravel
+    "Mechanical Director": Abhijaat Kelkar
+    "Electrical Director": Make He
+    "Director of Operations": Arun Kuchibhotla
+    "Media Director": Rohan Gupta
+    "Public Relations Director": Vinay Venkatesh
+    "Finance Director": Helena Qin
+  drivers:
+    "Driver": Christopher Lin
+    "Secondary Driver": Helena Qin
+    "Coach": Arun Kuchibhotla
+    "Human Player": Keerthana Sankar
+  description: "In 2010, MVRT had a great season in terms of robot and outreach, when we won the Best Website Award at the
+  San Diego Regional, and continued our season with more awards. We won Second at the San Diego Regional and also claimed
+  the Regional Chairman's Award at the Silicon Valley Regional. This allowed us to progress to the St. Louis Championships,
+  where the team had a great time competing with all the other teams."
+
+-
+  year: 2009
+  robot:
+    name: El Toro XII
+    id: eltoro12
+  awards:
+    - Best Website Award at the Davis Regional
+    - Engineering Inspiration Award at the Davis Regional
+  officers:
+    "President": Jean Feng
+    "Director of Enginnering": Ashwin Mathur
+    "Mechanical Director": Karthik Kumaravel
+    "Electrical Director": Make He
+    "Director of Operations": Prashanth Vijay
+    "Media Director": Arun Kuchibhotla
+    "Public Relations Director": Aravindh Dorai
+    "Finance Director": Parag Kikla
+  drivers:
+    "Driver": Christopher Lin
+    "Secondary Driver": Helena Qin
+    "Coach": Ashwin Mathur
+    "Human Player": Sriram Cherukupalli
+  description: "In 2009, MVRT was able to attend the Davis Regional, where we did well, claiming 2 awards at the regional. We continued
+  our domination of winning the Best Website Award at the Davis Regional, and also won the Engineering Inspiration Award at the
+  Davis Regional, adding to our trophy haul for the season. MVRT enjoyed the season and looked ahead to more success in the coming years."
+
+-
+  year: 2008
+  robot:
+    name: El Toro XI
+    id: eltoro11
+  awards:
+    - Champion at the Davis Regional
+    - Best Website Award at the Davis Regional
+    - Champion at the Silicon Valley Regional
+    - Nationals Website Award
+    - Johnson & Johnson gracious Professionalism at the Silicon Valley Regional
+    - Best Website Award at the Silicon Valley Regional
+  officers:
+    "President": Brij Datta
+    "Director of Engineering": Humphrey Hu
+    "Mechanical Director": Ashwin Mathur
+    "Electrical Director": Christine Chen
+    "Director of Operations": Schott Chen
+    "Media Director": Jeremy Le
+    "Public Relations Director": Rijuta Ravichandran
+    "Finance Director": Rosalind Lee
+  drivers:
+    "Driver": Christopher Lin
+    "Operator": Ashwin Mathur
+    "Coach": Brij Datta
+    "Robo Coach/Human Player": Christine Chen
+  description: "In 2008, MVRT had one of our best ever seasons in team history, winning 6 awards over the course of the season. Our website continued its fine form, as
+  MVRT claimed the prize for the Website Award at the Davis Regional, SVR, and National Championships. We also won the Johnson & Johnson Gracious Professionalism award at
+  the Silicon Valley Regional, and won the Davis Regional, qualifying for champs. Unfortunately, the team could not advance to the final championship rounds, but was
+  still able to have a fantastic season."
+
+-
+  year: 2007
+  robot:
+    name: El Toro X
+    id: eltoro10
+  awards:
+    - Quarter-finalist at the Davis Sacramento Regional
+    - Kleiner Perkins Caufield & Byers Entrepreneurship Award at the Davis Sacramento Regional
+    - Best Website Award at the Davis Sacramental Regional
+    - WRRF Volunteer Award
+  officers:
+    "President": Pavan Datta
+    "Director of Engineering": Danica Chang
+    "Mechanical Director": Humphrey Hu
+    "Electrical Director": Christine Chen
+    "Director of Operations": Brij Datta
+    "Media Director": Jerry Chen
+    "Public Relations Director": Rijuta Ravichandran
+    "Finance Director": Rosalind Lee
+  drivers:
+    "Driver": Danica Chang
+    "Operator": Ashwin Mathur
+    "Coaches": Pavan Datta and Brij Datta
+    "Human Player": Viraaj Marathe
+  description: "In 2007, MVRT had a good season, winning many operations awards for the team. We were Quarter-Finalists at the Davis Sacramento Regional, but failed to
+  win a regional. However, we were able to claim the best webite award there and the Kleiner Perkins Caufield and Byers Entrepeneurship Award at the same venue. In
+  addition, MVRT won the WRRF Vilunteer Award, rounding off a good season for the team."
+
+-
+  year: 2006
+  robot:
+    name: El Toro IX
+    id: eltoro9
+  awards:
+    - Semi-Finalist at the Sacramento Regional
+    - Best Website Awards at te Silicon Valley Regional
+  officers:
+    "President": Pavan Datta
+    "Director of Engineering": Danica Chang
+    "Mechanical Director": Humphrey Hu
+    "Electrical Director": Christine Chen
+    "Director of Operations": Brij Datta
+    "Media Director": Eileen Laitinen
+    "Public Relations Director": Vannett Li
+    "Finance Director": Rosalind Lee
+  drivers:
+    "Driver": Danica Chang
+    "Strategist": Pavan Datta
+    "Coach": Brij Datta
+    "Human Player": Viraaj Marathe
+  description: "In 2006, MVRT had a fantastic robot and was able to win awards at both regionals that we attended. We won the Best Website Award at the Silicon Valley
+  Regional, and were also the Semi-Finalists at the Sacramento Regional."
+
+-
+  year: 2005
+  robot:
+    name: El Toro VIII
+    id: eltoro08
+  awards:
+    - Quarter-finalist at the Sacramento Regional
+    - Quarter-finalist at the Silicon Valley Regional
+    - Judges’ Award at the Silicon Valley Regional
+    - Coached a FIRST Lego League Team which Qualified for the State Tournament
+    - Programming Award to the FIRST Lego Team
+    - Outstanding Mentor Award at Northern California State Tournament, for Shrenik Shah
+  officers:
+    "President": Shrenik Shah
+    "Director of Engineering": Eric Zhou
+    "Mechanical Director": Tom Clegg
+    "Electrical Director": Stephanie Lin
+    "Director of Operations": Siyu Song
+    "Media Director": Jeffery Lee
+    "Pubblic Relations Director": Uta Gou
+    "Finance Director": Irem Mertol
+  drivers:
+    "Driver": Danica Chang
+    "Strategist": Shrenik Shah
+    "Coach": Patrick Wang
+  description: "In 2005, MVRT won 6 different awards, not only for the FRC, but for our outreach programs as well. MVRT was a quaterfinalist at both the Sacramento and the Silicon Valley Regions, and we won the Judges' Award at the Silicon Valley Regional. In outreach, MVRT's coached an FLL team which Qualified for the state tournament and also won the Programming Award for FLL Teams. Their mentor and our president, Shrenik Shah, won the Outstanding Mentor Award at the NorCal FLL Tournament."
+  
+-
+  year: 2004
+  robot:
+    name: El Toro VII
+    id: null
+  awards:
+    - Engineering Inspiration Award at the Silicon Valley Regional
+    - Woodie Flowers Award to Ted Shinta
+    - Quarter-finalist at the Silicon Valley Regionals
+  officers:
+    "President": Akshay Dodeja
+    "Director of Engineering": Shrenik Shah
+    "Mechanical Director": Eric Zhou
+    "Electrical Director": Rebecca Illowsky
+    "Director of Operations": Jennifer Tse
+    "Media Director": Siyu Song
+    "Public Relations Director": Uta Gou
+    "Finance Director": Irem Mertol
+  drivers:
+    "Driver": Akshay Dodeja
+    "Strategist": Shrenik Shah
+    "Coach": Patrick Wang
+    "Human Player": Tom Clegg
+  description: "In 2004, MVRT won some prizes for our outstanding robot, and also won the Woodie Flowers Award for our mentor, Ted Shinta, who has devoted a significant part of his life to helping Team 115 progress and grow throughout the year. We won the Engineering Inspiratoin Award at SVR, where we were also Quarter-Finalists."
+
+-
+  year: 2003
+  robot:
+    name: El Toro VI
+    id: eltoro04
+  awards:
+    - Semi-Finalist at the Sacramento Regional
+    - Website Design Award at the Sacramento Regional
+    - General Motor’s Industrial Design Award at the Sacramento Regional
+    - Champion at the Silicon Valley Regional
+    - Website Design Award at the Silicon Valley Regional
+    - Xerox Creativity Award at the Silicon Valley Regional
+  officers:
+    "President": Patrick Wang
+    "Director of Engineering": Jonathan Liang
+    "Mechanical Director": Shrenik Shah
+    "Electrical Director": Rebecca Illowsky
+    "Director of Operations": Jennifer Tse
+    "Animation Director": Siyu Song
+    "Graphic Director": Akshay Dodeja
+    "Public Relations Director": Uta Gou
+    "Finance Director": Catherine Chen
+  drivers:
+    "Driver": Patrick Wang
+    "Electrical Representative": Shrenik Shah
+    "Human Player": Albert Ye
+  description: "In 2003, MVRT won a host of award at the Sacramento and Silicon Valley Regionals. We were the winners of the Silicon Valley Regional, where we won the Website Design Award, and the Xerox Creativity award for the spectacular efforts of our team. We fared nearly as well at the Scaramento Regional, where we were Semi-Finalists, and won the General Motor's Industrial Design Award."
+
+-
+  year: 2002
+  robot:
+    name: El Toro V
+    id: eltoro05
+  awards:
+    - Second at the Silicon Valley Regional
+  officers:
+    "President": Patrick Wang
+    "Vice President (term incomplete)": Jonathan Liang
+    "Executive Officer": Matt Rock
+    "Mechanical Director (term incomplete)": Paul Marshall
+    "Electrical Director (term incomplete)": Frank Wang
+    "Animation Director": Katherine Lai
+    "Graphics Director": Lisa Warner
+    "Finance Director (term incomplete)": Abby Chen
+    "Finance Director (mid-season entry)": Catherine Chen
+  drivers:
+    "Driver": Patrick Wang
+    "Human Player": Matt Rock
+  description: "2002 was a relatively dry year for MVRT, and we had some issues with officer terms this year. For this reason, our only award was Second Plage at the Silicon Valley Regional, but MVRT took the defeat to heart and came back bigger and better than before."
+
+-
+  year: 2001
+  robot:
+    name: El Toro IV
+    id: eltoro04
+  awards:
+    - Third nationwide at the National Competition, selected in the top ranking alliance for the Curie Division
+    - Second at the Silicon Valley West Coast Regional
+    - Honeywell Leadership in Control Award at the West Coast Regional for the second consecutive year
+  officers:
+    "President": Henry Chen
+    "Vice President": Thomas Fong
+    "Executive Officer": Matt Rock
+    "Mechanical Director": Travis Covington
+    "Electrical Director": Frank Wang
+    "Animation Director": Katherine Lai
+    "Graphics Director": Lisa Warner
+    "Public Relations Director": Aya Maeda
+    "Finance Director": Helen Wang
+  drivers:
+    "Driver": Travis Covington
+  description: "MVRT had our best year on record in 2001, where we won the HoneyWell Leadershipp in Control Award at the West Coast Regional for the second consecutive year. We also placed second at the Silicon Valley West Coast Regional, and traveled to the St Louis Championships. There, we place Third nationwide at the National Competition, and were selected in the top ranking alliance for the Curie Division. These impressive achievements allowed MVRT to gain more sponsorships, and put down a record year for the team."
+
+-
+  year: 2000
+  robot:
+    name: El Toro III
+    id: eltoro03
+  awards:
+    - Second at the Southern California Los Angeles Invitational
+    - Fifth at the NASA Ames West Coast Regionals
+    - Honeywell Leadership in Control Award at West Coast Regionals
+    - “Most Unconventional” Award in Whimsy Division at the Sandhill Challenge modern soap-box derby in Menlo Par
+    - Second overall and won the Speed Division at the Western Region Robotics Forum/FIRST California Robotics Games
+  officers:
+    "President": Aya Maeda
+    "Vice President": Henry Chen
+    "Executive Officer": Thomas Fong
+    "Mechanical Director": Travis Covington
+    "Electrical Director": Amol
+    "Animation Director": Patrick and Henrick Shyu
+    "Finance and Public Relations Director": Helen Wang
+  drivers:
+    "Driver": Travis Covington
+  description: "In 2000, MVRT put up a good show, winning many award for our robot. We won Fifth at the NASA Ames West Coast Regional, and Second at the SoCal Los Angeles Invitational. We also won the HoneyWell Leadership in Control Award at the West Coast Regionals. In addition, MVRT won the 'Most Unconventional' Award in the Whimsy Division at the Sandhill Challenge modern soap-box derby in Menlo Park. MVRT rounded off the season with Second overall and 1st place in the speed Division at the Western Region Robotics Forum/FIRST California Robotics Games."
+
+-
+  year: 1999
+  robot:
+    name: El Toro II
+    id: eltoro02
+  awards:
+    - Fourth at the NASA Ames West Coast Regionals
+    - Outstanding Defensive Play Award at the West
+    - Mayor's Award of Community Excellence from the Cupertino Mayor, Wally Dean
+  officers:
+    "President": Shirley Lai
+    "Vice President": Janice Chen
+    "Executive Officer": Ben Doyle
+    "Mechanical Director": Rajesh Nishtala
+    "Electrical Director": Tom Lauwers
+    "Animation Director": Einoville Talvala
+  description: "MVRT put up a fantastic performance in our early year, winning Fourth at the NASA Ames West Coast Regional, and the Outstanding Defensive Play Award at the same venue, for our fantastic use of our robot in blocking the oposition. We also recieved the Mayos Award of Community Excellence from the Cupertino Mayor, Wally Dean, for our efforts to spread STEM in the Community."

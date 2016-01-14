@@ -1,84 +1,55 @@
 -
-  position: President
-  fname: Praxis
-  lname: Bays
-  grade: 12
-  xp: 4
-  email: president
+    fname: Praxis
+    lname: Bays
+    description: Praxis is a senior, and the president of our club. She was previously the Director of Outreach.
 
 -
-  position: Vice President of Engineering
-  fname: Nihil
-  lname: Muthaiah
-  grade: 12
-  xp: 4
-  email: engineering
+    fname: Namrata
+    lname: Subramanian
+    description: Namrata is a senior, and the VP of OPS of our club. She oversees all our outreach, and is also in charge of our Chairman's award submission.
 
 -
-  position: Vice President of Operations
-  fname: Namrata
-  lname: Subramanian
-  grade: 12
-  xp: 4
-  email: operations
+    fname: Nihil
+    lname: Muthaiah
+    description: Nihil is a senior, and the VP of ENG of our club. He oversees the production of the robot.
 
 -
-  position: Director of Mechanical
-  fname: Nadia
-  lname: Berndt
-  grade: 11
-  xp: 3
-  email: mechanical
+    fname: Marcus
+    lname: Plutowski
+    description: Marcus is a junior, Director of Electrical. He is in charge of robot code and wiring.
 
 -
-  position: Director of Electrical
-  fname: Marcus
-  lname: Plutowski
-  grade: 11
-  xp: 3
-  email: electrical
+    fname: Akhil
+    lname: Palla
+    description: Akhil is a junior, Director of Engineering Data. He is in charge of documentation and team strategy.
 
 -
-  position: Director of Engineering Data
-  fname: Akhil
-  lname: Palla
-  grade: 11
-  xp: 3
-  email: engineeringdata
+    fname: Aditya
+    lname: Kalari
+    description: Kalari is a junior, Director of Web Development. He is in charge of coding the website and scouting apps.
 
 -
-  position: Webmaster
-  fname: Aditya
-  lname: Kalari
-  grade: 11
-  xp: 3
-  email: webmaster
+    fname: Sydney
+    lname: Howard
+    description: Sydney is a senior, Director of Documentation. She is in charge of keeping careful records about our team.
 
 -
-  position: Director of Public Relations
-  fname: Sameer
-  lname: Kapur
-  grade: 10
-  xp: 2
-  email: publicrelations
+    fname: Arushi
+    lname: Rai
+    description: Arushi is a junior, Director of Outreach. She is in charge of managing our outreach activities.
 
 -
-  position: Director of Documentation
-  fname: Sydney
-  lname: Howard
-  grade: 12
-  xp: 4
-  email: documentation
+    fname: Sameer
+    lname: Kapur
+    description: Sameer is a sophomore, Director of Public Relations. He is in charge managing our community relations.
 
 -
-  position: Director of Outreach
-  fname: Arushi
-  lname: Rai
-  grade: 11
-  xp: 2
-  email: outreach
+    fname: Kingsley (Han Yang)
+    lname: Wang
+    description: Kingsley is a sophomore, Co-Director of Finance. He is in charge of managing our money, and writing grants.
 
 -
+<<<<<<< HEAD
   position: Director of Finance
   fname: Kingsley (Han Yang)
   lname: Wang
@@ -93,11 +64,13 @@
   grade: 10
   xp: 2
   email: finance
+=======
+    fname: Saurav
+    lname: Pahadia
+    description: Saurav is a sophomore, Co-Director of Finance. He is in charge of managing our money, and writing grants.
+>>>>>>> origin/develop
 
 -
-  position: Director of Media
-  fname: Sophia
-  lname: Cao
-  grade: 12
-  xp: 4
-  email: media
+    fname: Sophia
+    lname: Cao
+    description: Sophie is a senior, Director of Media. She is in charge of making team animations, such as the safety animations.

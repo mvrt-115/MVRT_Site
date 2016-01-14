@@ -1,0 +1,96 @@
+---
+title: About Us
+permalink: /members/
+---
+
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MVRT Members</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="../assets/js/loadincludes.js"></script>
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<div id="header"></div>
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Our Members</h2>
+							<p>We are builders, makers, designers, writers, managers, workers, &amp; creators.</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+                <center><h3>The Officers</h3></center>
+                {% for officer in site.data.officers %}
+                  <div class="card-12" style="width:30%"><br>
+                    <img src="/images/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/images/people/generic.jpg'" class="card-image-plain">
+                    <div class="card-container">
+                      <hr>
+                      <center><h4>{{ officer.fname | append:' ' | append:officer.lname }}</h4></center>
+                      <p class="card-p">{{ officer.description }}</p>
+                    </div>
+                  </div>
+                {% endfor %}
+                <br><br>
+                <center><h3>The Mentors</h3></center>
+                {% for mentor in site.data.mentors %}
+                  <div class="card-12" style="width:30%">
+                    <br>
+                    <img src="/images/people/{{ mentor.fname | append: '_' | append: mentor.lname | append: '.jpg' }}" onerror="this.src='/images/people/generic.jpg'" class="card-image-plain">
+                    <div class="card-container">
+                      <hr>
+                      <center><h4>{% if mentor.prefix %}{{ mentor.prefix }}{% endif %} {{ mentor.fname }} {{ mentor.lname }}</h4></center>
+                      {% if mentor.job %}<p class="card-p">{{ mentor.job }}</p>{% endif %}
+                      {% if mentor.background %}<p class="card-p">{{ mentor.background }}</p>{% endif %}
+                      {% if mentor.years %}<p class="card-p">{{ mentor.years }} years</p>{% endif %}
+                      {% if mentor.email %}<p class="card-p">{{mentor.email}}</p>{% endif%}
+                    </div>
+                  </div>
+                {% endfor %}
+                <br><br>
+                <center><h3>The Team</h3></center>
+                {% for member in site.data.members %}
+                  <div class="card-12" style="width:30%"><br>
+                    <img src="/images/people/{{member.fname | append: '_' | append: member.lname | append: '.jpg' }}" onerror="this.src='/images/people/generic.jpg'" class="card-image-plain">
+                    <div class="card-container">
+                      <hr>
+                      <p class="card-h4">{{ member.fname | append:' ' | append:member.lname }}</p>
+                    </div>
+                  </div>
+                {% endfor %}
+							  <div style="clear:both;"></div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<div id="footer"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

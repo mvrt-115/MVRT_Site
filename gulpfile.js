@@ -19,11 +19,11 @@ var gulp = require('gulp')
 var merge = require('merge-stream')
 
 var paths = {
-  css: './app/_scss', // no globbing
-  images: ['./app/img/**/*'], // doesnt really matter
-  svg: ['./app/img/svg/**/*'], // once there will be some
+  css: './app/assets/css', // no globbing
+  images: ['./app/images/**/*'], // doesnt really matter
+  svg: ['./app/assets/css/images/*'], // once there will be some
   fonts: ['./app/fonts'], // will come later
-  js: ['./app/js/index.js'] // browserify
+  js: ['./app/assets/js/main.js'] // browserify
 }
 
 var production = false // set true if in production mode
@@ -161,18 +161,20 @@ gulp.task('img', function () {
 
 // copies stuff
 gulp.task('copy', function () {
-  var images = gulp.src('app/img/**/*', { base: 'app' })
+  var images = gulp.src('app/images/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
   var htaccess = gulp.src('app/**/*.htaccess', { base: 'app'})
     .pipe(gulp.dest('dist'))
-  return merge(htaccess, images)
+  var css = gulp.src('app/assets/css/images/**/*', { base: 'app'})
+    .pipe(gulp.dest('dist'))
+  return merge(htaccess, images, css)
 })
 
 gulp.task('production', ['clean'], function (cb) {
   production = true
   runSequence(
     'jshint',
-    ['css', 'js', 'jekyll', 'copy'],
+    ['css','js','jekyll','copy'],
     'html',
     'img',
     cb

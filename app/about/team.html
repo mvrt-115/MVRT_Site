@@ -1,0 +1,100 @@
+---
+title: Our Team
+permalink: /team/
+---
+
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>About Us</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="../assets/js/loadincludes.js"></script>
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<div id="header"></div>
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>The Team</h2>
+							<p>MVRT prepares its members for a lifetime of success</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+                <p><span class="image left"><img src="../images/team/team.jpg" alt="" /></span>
+                  Team 115 has been competing in the <i>FIRST</i> Robotics Competition for going on 18 years, starting with
+                  the 1997 FRC game. We have competed in the annual Silicon Valley Regional and taken the honors at
+                  this regional and various other competitions. MVRT has attended the <i>FIRST</i> Championships in St. Louis
+                  almost every other year.<br><br>In addition, MVRT connects with the community through various outreach
+                  activities including but not limited to FLL, ThinkFIRST, and Eduspire.</p>
+                <blockquote>
+                  <br>
+                  <h4>Who We Are</h4>
+                  <p>In 1997, MVRT 115 was founded by eager and enthusiastic students interested in FIRST and its mission. One of
+                    the early "first generation teams," MVRT has stood strong for over 15 years as one of the 5000 FRC teams worldwide.
+                    MVRT is made up and run by students attending Monta Vista High School.
+                </blockquote>
+                <h3><em>Our Mission<em></h3>
+                <p>Dedicated to fostering a passion in science and technology within our community, the Monta Vista Robotics Team
+                  inspires students and develops interpersonal skills through team-based engineering challenges.</p>
+                <br>
+                <b>Important things to remember</b>
+                <li>Students work for 6 weeks on designing and building a robot to take to, and compete in, regional and
+                  international competitions</li>
+                <li>Volunteers and mentors from across the community teach and help students with the intensive design
+                  process and build season</li>
+                <li>MVRT meetings are  <u>not</u>  mandatory, but it is important to remember that members who put in more to the team
+                  will learn more and have greater opportunity to participate in team activities</li>
+                <br><hr><br>
+								<center>
+                <p style="font-size:250%">TIMELINE</p>
+                <!-- YEAR -->
+								{% for team in site.data.teams %}
+	                <div class="caption-card" style="width:50%">
+	                  <header class="card-container" style="background-color: #9c27b0">
+	                    <br>
+	                    <h1>{{ team.year }}</h1>
+	                  </header>
+                    <br>
+	                  <div class="card-container">
+	                    <p>{{ team.description }}
+	                  </div>
+	                </div>
+                  <br><br><br>
+								{% endfor %}
+								</center>
+							<div style="clear:both;"></div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<div id="footer"></div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

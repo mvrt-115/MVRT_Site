@@ -1,8 +1,0 @@
-// _image-backgrounds.scss
-// various image background mixins
-
-@mixin image-solid-background($image, $color: rgba(0,0,0,0.5)) {
-  background-image:
-    linear-gradient($color, $color),
-    url("#{$image}");
-}
