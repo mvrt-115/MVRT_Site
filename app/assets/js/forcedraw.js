@@ -1,4 +1,6 @@
 function forceredraw() {
-  document.getElementById('page-wrapper').style.display = 'none';
-  document.getElementById('page-wrapper').style.display = 'block';
+  var banner = document.getElementById('banner');
+  banner.style.display='none';
+  banner.offsetHeight;
+  banner.style.display='block';
 }
