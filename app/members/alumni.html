@@ -1,0 +1,69 @@
+---
+title: MVRT Alumni
+permalink: /alumni/
+---
+
+<!DOCTYPE HTML>
+<!--
+	MVRT: Monta Vista Robotics
+-->
+<html>
+	<head>
+		<title>MVRT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="../assets/js/loadincludes.js"></script>
+		<script src="../assets/js/forcedraw.js"></script>
+	</head>
+
+  <body class="landing">
+    <div id="page-wrapper">
+			<div id="header"></div>
+      <article id="main">
+        <header>
+          <h2>MVRT Alumni</h2>
+          <p>MVRT Alumni are ready for anything</p>
+        </header>
+        <section class="wrapper style5">
+          <div class="inner">
+            <p>After graduating from Monta Vista High School, MVRT members take their
+            knowledge, experience, and passion wherever they go. Many MVRT alumni have
+            started and mentored new teams, volunteered at FIRST regionals, and inspired
+            kids across the country to join robotics.</p>
+						<br>
+						<p> If you are an MVRT alumni and you are not listed below, please send an email to
+            mvrt@mvrt.com.</p>
+						<br>
+            {% for group in site.data.alumni %}
+              {% assign year = group[0] %}
+              {% assign alumni = group[1] %}
+            	<h3>Class of {{ year }}</h3>
+							<ul>
+  							{% for alumnus in alumni %}
+    							<li>{{ alumnus.name }}{% if alumnus.college %}({{ alumnus.college }}){% endif %}</li>
+  							{% endfor %}
+							</ul>
+            {% endfor %}
+            <div style="clear:both;"></div>
+          </div>
+        </section>
+      </article>
+			<!-- Footer -->
+			<div id="footer"></div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../assets/js/jquery.scrolly.min.js"></script>
+		<script src="../assets/js/skel.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
