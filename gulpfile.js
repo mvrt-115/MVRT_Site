@@ -159,7 +159,6 @@ gulp.task('img', function () {
     .pipe(gulp.dest('dist'))
 })
 
-// copies stuff
 gulp.task('copy', function () {
   var images = gulp.src('app/images/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
@@ -181,7 +180,6 @@ gulp.task('production', ['clean'], function (cb) {
   )
 })
 
-// clean
 gulp.task('clean', function (done) {
   del(['.tmp', '.jekyll', 'dist'], done)
 })
