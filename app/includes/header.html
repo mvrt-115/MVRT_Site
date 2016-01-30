@@ -1,9 +1,11 @@
 <head>
+  <link rel="stylesheet" href="../assets/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="../assets/js/main.js"></script>
 
 <nav class="navbar navbar-default navbar-inverse" style="width:100%; border: none">
   <div class="container-fluid">
@@ -11,9 +13,29 @@
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
+        <!--
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>-->
+        <header id="header" class="alt">
+          <h1><a href="/">MVRT</a></h1>
+          <nav id="nav">
+            <ul>
+              <li class="special">
+                <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                <div id="menu">
+                  <ul>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/calendar/">Calendar</a></li>
+                    <li><a href="/robots/">Robots</a></li>
+                    <li><a href="/members/">Members</a></li>
+                    <li><a href="/resources/">Resources</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
       </button>
       <a class="navbar-brand" href="/"><b style="font-weight:900%">MVRT</b></a>
     </div>
