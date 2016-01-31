@@ -3380,7 +3380,7 @@
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;		
+		display: flex;
 		-webkit-flex-direction: column;
 	  	-moz-flex-direction: column;
 		    -ms-flex-direction: column;
@@ -3907,8 +3907,7 @@
 		0 17px 50px 0
 		rgba(0,0,0,0.19);
 		!important;
-		/*float: left;*/
-		width: 30%;
+		width: 325px;
 		margin-left: 3%;
 		margin-top: 5%;
 		display: inline-block;
@@ -3920,7 +3919,8 @@
 		rgba(0,0,0,0.2),
 		0 6px 20px 0
 		rgba(0,0,0,0.19)
-		!important
+		!important;
+		width: 325px;
 		margin-left: 3%;
 		display: inline-block;
 		vertical-align:top;
