@@ -3398,7 +3398,8 @@
 	}
 
 		#banner h2 {
-		  -webkit-transform: scale(1);
+			/*
+			-webkit-transform: scale(1);
 			  -moz-transform: scale(1);
 			    -ms-transform: scale(1);
 			transform: scale(1);
@@ -3406,6 +3407,7 @@
 			  -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 			    -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
+			*/
 			display: inline-block;
 			font-size: 1.75em;
 			opacity: 1;
@@ -3415,7 +3417,8 @@
 		}
 
 			#banner h2:before, #banner h2:after {
-			  -webkit-transition: width 0.85s ease;
+				/*
+				-webkit-transition: width 0.85s ease;
 				  -moz-transition: width 0.85s ease;
 				    -ms-transition: width 0.85s ease;
 				transition: width 0.85s ease;
@@ -3423,6 +3426,7 @@
 				  -moz-transition-delay: 0.25s;
 				    -ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
+				*/
 				background: #fff;
 				content: '';
 				display: block;
@@ -3451,6 +3455,7 @@
 			}
 
 		#banner .more {
+			/*
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
   			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
   		  	-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3462,6 +3467,7 @@
 			-webkit-transform: translateY(0);
 			  -moz-transform: translateY(0);
 			    -ms-transform: translateY(0);
+			*/
 			transform: translateY(0);
 			border: none;
 			bottom: 0;
@@ -3497,6 +3503,7 @@
 			}
 
 		#banner:after {
+			/*
 		  -webkit-pointer-events: none;
 		  	-moz-pointer-events: none;
 			    -ms-pointer-events: none;
@@ -3509,6 +3516,7 @@
 			  -moz-transition-delay: 1.25s;
 			    -ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
+			*/
 			content: '';
 			background: #2e3842;
 			display: block;
