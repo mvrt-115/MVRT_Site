@@ -1,0 +1,18 @@
+var $ = require('jquery')
+  , homepage = require('./homepage')
+  , gallery = require('./gallery')
+  , dynamic = require('./dynamic')
+  , doc = require('./document')
+  , redirect = require('./redirect')
+  , nav = require('./nav')
+  , blog = require('./blog')
+
+$(function () {
+  redirect()
+  nav.init()
+  homepage.init()
+  dynamic.init()
+  if ($('.gallery').length) gallery.init()
+  doc.init()
+  blog.init()
+})

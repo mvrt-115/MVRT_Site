@@ -1,0 +1,65 @@
+---
+title: MVRT
+categories: ['index', 'home']
+---
+
+<section id="intro" class="step intro">
+  <div class="step-wrap">
+    <h1>We are <span class="mvrt">MVRT</span></h1>
+    <h3>MONTA VISTA ROBOTICS TEAM</h3>
+  </div>
+  <p id="scroll_down">Click or scroll to learn more...</p>
+</section>
+<section id="competition" class="step competition">
+  <div class="step-wrap">
+    <h2>Team News</h2>
+    <p>MVRT recently attended a demo at Google, to reach out to our sponsors
+      and show them what we have been able to do. Visit the team news page for
+      the full story.
+    </p>
+    <ul class="step-more">
+      <li><a href="/news/">Team News</a></li>
+    </ul>
+  </div>
+</section>
+<section id="team" class="step team">
+  <div class="step-wrap">
+    <h2>Our Team</h2>
+    <p>MVRT is a student-run high school robotics team that participates
+       in the annual <i class="first">FIRST</i> Robotics Competition (FRC).</p>
+    <ul class="step-more">
+      <li><a href="/about/">About Us</a></li>
+    </ul>
+  </div>
+</section>
+<section id="FIRST" class="step FIRST">
+  <div class="step-wrap">
+    <h2><i class="first">FIRST</i></h2>
+    <p><i>FIRST</i> is an organization whose goal is to spread STEM values, and
+    inspire and enable students to be innovative thinkers. Their programs
+    also challenge students's teamworking and problem-solving abilities, giving them
+    a "sneak peek" into the professional world.
+    </p>
+    <ul class="step-more">
+      <li><a href="/about/#first">More about <i class="first">FIRST</i></a></li>
+    </ul>
+  </div>
+</section>
+<section id="outreach" class="step outreach">
+  <div class="step-wrap">
+    <h2>Outreach</h2>
+    <p>In addition to building and programming robots, MVRT also actively
+      reaches out to others by constantly giving back to the community,
+      and by spreading STEM and <i>FIRST</i> values.</p>
+    <ul class="step-more">
+      <li><a href="/about/#outreach">Our Contributions</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="sponsors" class="sponsors">
+  <h2>Our Sponsors</h2>
+  <ul class="home-sponsors-list">
+    {% for sponsor in site.data.sponsors.current %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
+  </ul>
+</section>
