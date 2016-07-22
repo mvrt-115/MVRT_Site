@@ -41,3 +41,9 @@ differences.
 + To promote the vision of <i class="first">FIRST</i> in the
 community.
 + To ensure equal opportunity for all.
+
+## Local Teams
++ [Fremont Robotics](https://www.fremontrobotics.com)
++ [Lynbrook Robotics](http://lynbrookrobotics.com)
++ [Homestead Robotics](http://homesteadrobotics.com)
++ [Cupertino Robotics](http://tinorobotics.org)
