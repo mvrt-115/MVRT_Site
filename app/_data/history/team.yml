@@ -7,7 +7,7 @@
     "President": Praxis Bays
     "Director of Engineering": Nihil Muthaiah
     "Mechanical Director": Anand Rajamani
-    "Electrical Director": Marcus Plutowski   
+    "Electrical Director": Marcus Plutowski
     "Engineering Documentation": Akhil Palla
     "Director of Operations": Namrata Subramaniam
     "Media Director": Sophie Cao
@@ -18,12 +18,10 @@
     "Documentation Director": Sydney Howard
     "Webmaster": Aditya Kalari
   drivers:
-    "Driver": Daniel Koh
-    "Alternative Driver": Praxis Bays
-    "Operator": Heather Baker
-    "Coach": Lee Mracek
-    "Human Player": Aashish Kapur
-
+    "Driver": Ishan Mitra
+    "Operator": Rithin Venkatesh
+    "Coach": Akhil Palla
+    "Human Player": Heather Baker
 -
   year: 2015
   robot:
@@ -33,7 +31,7 @@
     "President": Archana Kikla
     "Director of Engineering": Andrew He
     "Mechanical Director": Chirag Toprani
-    "Electrical Director": Lee Mracek   
+    "Electrical Director": Lee Mracek
     "Engineering Documentation": RJ Cunningham
     "Director of Operations": Divek Toprani
     "Media Director": Sophie Cao
@@ -44,7 +42,6 @@
     "Webmaster": Shovik Guha
   drivers:
     "Driver": Daniel Koh
-    "Alternative Driver": Praxis Bays
     "Operator": Heather Baker
     "Coach": Lee Mracek
     "Human Player": Aashish Kapur
@@ -69,7 +66,6 @@
     "Webmaster": Shovik Guha
   drivers:
     "Driver": Daniel Koh
-    "Alternative Driver": Praxis Bays
     "Operator": Andrew He
     "Coach": Karen Feng
     "Human Player": Aashish Kapur
