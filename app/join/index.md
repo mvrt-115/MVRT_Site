@@ -1,8 +1,8 @@
 ---
 title: Join MVRT
-layout: post
+layout: document
 permalink: /join/
-categories: ['posts']
+categories: ['join']
 hero: /img/hero/join.jpg
 ---
 
@@ -14,7 +14,7 @@ There are three easy steps to become a member of MVRT. The deadline for completi
 
 <br>
 
-####2. Print out, complete, and sign the [MVRT Medical Form][2].
+####2. Print out, complete, and sign the [Membership Agreement & Medical Form][2].
 
 > Turn forms in to any MVRT Officer, or stop by at one of our meetings.
 
@@ -28,5 +28,5 @@ We are more than willing to accommodate to your situation and we don’t want mo
 ###Questions? [Contact Us][3]!
 
 [1]: /join/survey.html
-[2]: /join/waiver.pdf
+[2]: /join/membership-forms.pdf
 [3]: mailto:mvrt@mvrt.com
