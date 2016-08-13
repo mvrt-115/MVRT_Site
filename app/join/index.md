@@ -6,6 +6,7 @@ categories: ['join']
 hero: /img/hero/join.jpg
 ---
 
+Registration for the 2016-2017 season is now live!
 There are three easy steps to become a member of MVRT. The deadline for completing all parts is (TBD) in late September.
 
 -----
