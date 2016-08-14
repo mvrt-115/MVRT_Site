@@ -65,6 +65,7 @@
     "imagemin-pngquant": "^5.0.0",
     "jquery": "^3.1.0",
     "js-yaml": "^3.2.5",
+    "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.1",
     "mousetrap": "^1.4.6",
     "ramda": "^0.22.1",
