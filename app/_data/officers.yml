@@ -1,87 +1,64 @@
--
-  position: Vice President of Engineering
-  fname: Nihil
-  lname: Muthaiah
+- 
+  position: President
+  fname: Akhil
+  lname: Palla
   grade: 12
   xp: 4
-  email: engineering
+  email: president 
+-
+  position: Vice President of Engineering
+  fname: Ninaad
+  lname: Sridharan
+  grade: 11
+  xp: 4
 
 -
   position: Vice President of Operations
-  fname: Namrata
-  lname: Subramanian
-  grade: 12
-  xp: 4
-  email: operations
-
--
-
-  position: Director of Electrical
-  fname: Marcus
-  lname: Plutowski
-  grade: 11
-  xp: 3
-  email: electrical
-
--
-  position: Director of Engineering Data
-  fname: Akhil
-  lname: Palla
-  grade: 11
-  xp: 3
-  email: engineeringdata
-
--
-  position: Webmaster
   fname: Aditya
   lname: Kalari
-  grade: 11
-  xp: 3
-  email: webmaster
-
--
-  position: Director of Public Relations
-  fname: Sameer
-  lname: Kapur
-  grade: 10
-  xp: 2
-  email: publicrelations
-
--
-  position: Director of Documentation
-  fname: Sydney
-  lname: Howard
   grade: 12
   xp: 4
-  email: documentation
+
+-
+
+  position: Director of Electrical Engineering
+  fname: Ishan
+  lname: Mitra
+  grade: 11
+  xp: 3
+
+-
+
+  position: Director of Mechanical
+  fname: Rithin
+  lname: Venkatesh
+  grade: 11
+  xp: 3
 
 -
   position: Director of Outreach
-  fname: Arushi
-  lname: Rai
+  fname: Sameer
+  lname: Kapur
   grade: 11
   xp: 2
-  email: outreach
 
 -
   position: Director of Finance
   fname: Saurav
   lname: Pahadia
-  grade: 10
-  xp: 2
-  email: finance
-
--
-  position: Director of Finance
-  fname: Kingsley (Han Yang)
-  lname: Wang
-  grade: 10
+  grade: 11
   xp: 2
 
 -
-  position: Director of Media
-  fname: Sophia
-  lname: Cao
+  position: Director of Marketing
+  fname: Benjamin
+  lname: Danek
   grade: 12
   xp: 4
-  email: media
+
+-
+  position: Supreme Commander-in-Chief The Lord Almighty
+  fname: Rithvik
+  lname: Chuppala
+  grade: 10
+  xp: 4
