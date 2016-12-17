@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - "5.11"
-before_script:
+before_install:
   - gem install bundler
   - bundle install
   - npm install -g gulp
