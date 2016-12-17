@@ -17,7 +17,7 @@ var gulp = require('gulp')
   , exec = require('child_process').exec
 
 var paths = {
-  css: './app/_scss', // no globbing
+  css: ['./app/scss/**/*'], // no globbing
   images: ['./app/img/**/*'], // doesnt really matter
   svg: ['./app/img/svg/**/*'], // once there will be some
   fonts: ['./app/fonts'], // will come later
@@ -105,34 +105,30 @@ gulp.task('jekyll', function (done) {
 // Compiles HTML
 gulp.task('html', function () {
 
-  var jsFilter = $.filter('**/*.js')
-    , cssFilter = $.filter('**/*.css')
-    , htmlFilter = $.filter('**/*.html')
-    , indexFilter = $.filter('index.html')
-
-  var assets = $.useref.assets({ searchPath: '{.tmp,app}' })
+  var jsFilter = $.filter('**/*.js', {restore: true})
+    , cssFilter = $.filter('**/*.css', {restore: true})
+    , htmlFilter = $.filter('**/*.html', {restore: true})
+    , indexFilter = $.filter('index.html', {restore: true})
 
   return gulp.src('dist/**/*.html')
     .pipe(indexFilter) // only source from index.html
-    .pipe(assets)
     .pipe(jsFilter)
     .pipe($.uglify())
     .pipe($.size({ title: 'scripts postminification' }))
-    .pipe(jsFilter.restore())
+    .pipe(jsFilter.restore)
     .pipe(cssFilter)
     .pipe($.minifyCss())
     .pipe($.size({ title: 'styles postminification' }))
-    .pipe(cssFilter.restore())
+    .pipe(cssFilter.restore)
     .pipe($.rev())
-    .pipe(assets.restore())
-    .pipe(indexFilter.restore()) // now useref on on all the files
-    .pipe($.useref())
+    .pipe(indexFilter.restore) // now useref on on all the files
+    .pipe($.useref({ searchPath: '{.tmp,app}' }))
     .pipe($.revReplace())
     .pipe(htmlFilter)
     .pipe($.size({ title: 'html preminification' }))
     .pipe($.minifyHtml())
     .pipe($.size({ title: 'html postminification' }))
-    .pipe(htmlFilter.restore())
+    .pipe(htmlFilter.restore)
     .pipe(gulp.dest('dist'))
 
 })
@@ -140,7 +136,7 @@ gulp.task('html', function () {
 // Revs images, replace links in other files
 gulp.task('img', function () {
 
-  var imgFilter = $.filter('**/*.{jpg,png,gif,svg,webp}')
+  var imgFilter = $.filter('**/*.{jpg,png,gif,svg,webp}', {restore: true})
 
   return gulp.src('dist/**/*')
     .pipe(imgFilter)
@@ -152,7 +148,7 @@ gulp.task('img', function () {
     }))
     .pipe($.size({ title: 'images postminification' }))
     .pipe($.rev())
-    .pipe(imgFilter.restore())
+    .pipe(imgFilter.restore)
     .pipe($.revReplace())
     .pipe(gulp.dest('dist'))
 })
@@ -176,7 +172,8 @@ gulp.task('production', ['clean'], function (cb) {
 
 // clean
 gulp.task('clean', function (done) {
-  del(['.tmp', '.jekyll', 'dist'], done)
+  del.sync(['.tmp', '.jekyll', 'dist'])
+  done()
 })
 
 gulp.task('jshint', function () {
