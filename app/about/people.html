@@ -36,7 +36,7 @@ categories: ['people']
 
 <section id="managers">
   <h2>Our Managers</h2>
-  <ul class="people-list officers-list">
+  <ul class="people-list managers-list">
   {% for officer in site.data.managers %}
     <li class="person officer" data-img-url="{{ officer.lname | append: ' ' | append: officer.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
       <img src="/img/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
