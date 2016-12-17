@@ -7,22 +7,44 @@ back:
 permalink: /resources/trainings/
 categories: ['trainings']
 nav:
+  - name: "General"
+    id: general
   - name: "Electrical"
     id: electrical
   - name: "Mechanical"
     id: mechanical
-  - name: "Engineering"
-    id: engineering
-  - name: "Math"
-    id: engineering
+  - name: "Archives"
+    id: archives
 ---
 
-# Trainings
+# 2016-2017 Trainings
+
+## General
+
+[MVRT Intro]
+: Introduction to MVRT and FRC.
+
+[Design and Strategy]
+: An introduction to design and strategy that goes over Developing Strategies, 5-Step Design Process, Manipulators, Robot Subsystems, and Robots from 2015-2016 Season
 
 ## Electrical
 
-[Electrical Measurements]
-[Electrical Measurements Worksheet]
+[Electrical Trainings]
+: A comprehensive overview of electrical engineering and programming in MVRT. Includes Control Systems, Main Components, Sensors, Pneumatics, Wiring, Java, WPILib, and Strongback. 
+
+## Mechanical
+
+[Mechanical Trainings]
+: A comprehensive overview of mechanical engineering in MVRT. Topics include Safety, Facilities, Machinery, Hand Tools, Materials, Prototyping, and Resources
+
+[CAD Trainings]
+: A basic introduction to CAD that goes over SolidWorks, 3-Step Designing Process, 2D Sketches, West Coast Drive Practice
+
+## Archives 
+
+Electrical
+
+[Electrical Measurements][Electrical Measurements Worksheet]
 : An overview of how to measure electricity and the science behind it plus some safety notes.
 
 [Wiring][Wiring 1]
@@ -62,9 +84,9 @@ nav:
 [Additional Programming Concepts]
 : A tutorial on additional programming concepts including case structures, loops and clusters.
 
-## Mechanical
+Mechanical
 
-[Tools]
+
 [Timeline for Tools Training]
 : A brief introduction to the many tools common in a robotics workshop, including calipers, files, hacksaws, power drills, wrenches and allen keys.
 
@@ -86,7 +108,7 @@ nav:
 [Timeline for Robot Physics Training]
 : A quick lesson about basic physics concepts needed to build a successful robot. Topics include velocity, acceleration, force, friction, work, power and torque.
 
-[Motors]
+
 [A Guide to Choosing the Right Motor]
 : An introduction to the different motors provided by <i class="first">FIRST</i>.
 
@@ -102,7 +124,7 @@ nav:
 [Inventor: Drawings]
 : A step-by-step tutorial on how to make a drawing in Autodesk Inventor.
 
-## Engineering
+Engineering
 
 [Safety]
 : Safety practices when in robotics.
@@ -120,6 +142,17 @@ nav:
 
 [Engineering Design II]
 : Covers the basics of design constraints and the design process.
+
+
+[MVRT Intro]: /files/MVRT_intro_2016-2017.pptx
+[Design and Strategy]: /files/Strategy_2016-2017.pptx
+
+
+[Electrical Trainings]: /files/Electrical_Trainings_2016-2017.pptx
+
+
+[Mechanical Trainings]: /files/Mechanical_Trainings_2016-2017.pptx
+[CAD Trainings]: /files/CAD_Trainings_2016-2017.pptx
 
 
 [Electrical Measurements]: /files/electrical-measurements.pptx
