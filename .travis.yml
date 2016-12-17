@@ -6,4 +6,4 @@ before_install:
   - bundle install
   - npm install -g gulp
   - npm install -g bower
-script: npm install
+script: gulp
