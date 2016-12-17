@@ -22,11 +22,21 @@ categories: ['index', 'home']
 </section>
 <section id="calendar" class="step events">
   <div class="step-wrap">
-    <h2>Events</h2>
+    <h2>Events and Trainings</h2>
     <p>We've got a busy season coming up. Check out all of our upcoming events.
     </p>
     <ul class="step-more">
       <li><a href="/events/">Calendar</a></li>
+    </ul>
+    <p> </p>
+    <ul>
+    	<li><h3>LIDAR Trainings:</h3> Tuesdays | 5:00 p.m. - 6:00 p.m. | F108/P5</li>
+    	<p></p>
+    	<li><h3>Mechanical Trainings:</h3> Tuesdays | 6:00 p.m. - 9:00 p.m. | F108/P5</li>
+    	<p></p>
+    	<li><h3>Electrical Trainings:</h3> Fridays | 3:00 p.m. - 6:00 p.m. | F108/P5</li>
+    	<p></p>
+    	<li><h3>Veteran Trainings:</h3> Saturdays | 3:00 p.m. - 6:00 p.m. | F108/P5</li>
     </ul>
   </div>
 </section>
@@ -62,3 +72,4 @@ categories: ['index', 'home']
     {% for sponsor in site.data.sponsors.current %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
   </ul>
 </section>
+

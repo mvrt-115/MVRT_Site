@@ -1,28 +1,13 @@
 current:
-  -
-    prefix: Mr.
-    fname: David
-    lname: Greenstein
-    job: Teacher Advisor
-    background: APCS/Math Teacher
-    email: david_greenstein@fuhsd.org
-  -
-    prefix: Mr.
-    fname: Mauri
-    lname: Laitinen
-    job: Advisor
-    background: Retired Software Developer
-    years: 9
-    email: mdl@laitinen.com
-  -
+-
     prefix: Mrs.
     fname: Connie
     lname: Laitinen
     job: Advisor
     background: Retired Midwife
     years: 9
-    email: mdl@sierra.net
-  -
+    email: mcdhl@laitinen.com
+-
     prefix: Mr.
     fname: John
     lname: Yelinek
@@ -30,7 +15,7 @@ current:
     background: Retired VP of Sales
     years: 2
     email: johnyelinek@gmail.com
-  -
+-
     prefix: Mr.
     fname: Steve
     lname: Bronstein
@@ -38,7 +23,7 @@ current:
     background: Technology Consultant at Smart WebParts
     years: 14
     email: sbronstein@smarttimeapps.com
-  -
+-
     prefix: Mr.
     fname: Ted
     lname: Shinta
@@ -46,95 +31,84 @@ current:
     background: Monta Vista Woodshop Teacher
     years: 13
     email: ted_shinta@fuhsd.org
-  -
+-
     prefix: Mr.
     fname: Ryan
     lname: Lee
     background: College student
     years: 7
     email: yoda92@gmail.com
-  -
+-
     prefix: Mr.
     fname: Ashwin
     lname: Mathur
     background: Finance and Business Operations Analyst at TrialPay
     years: 9
     email: ashwinmathur@gmail.com
-  -
-    prefix: Mrs.
-    fname: Debra
-    lname: Hara
-    job: Trip Coordinator
-  -
-    prefix: Mr.
-    fname: Patrick
-    lname: Wang
-    background: Director of Operations at LeadQual LLC
-    years: 13
-  -
+-
     prefix: Mr.
     fname: Rod
     lname: Sinks
     background: Cupertino City Councilman
     years: 2
     email: rsinks@cupertino.org
-  -
-    prefix: Mr.
-    fname: Dilip
-    lname: Kikla
-    background: Data Management Evangelist at IBM
-    years: 7
-    email: dilipak@hotmail.com
-  -
+-
     prefix: Mr.
     fname: Jaiom
     lname: Sambyal
     background: Engineer at OEM Squared Inc.
     years: 13
-  -
+    email: sambyal@pacbell.net
+-
     prefix: Mr.
     fname: Peter
     lname: Easton
-  -
+    email: peter@whizoo.com
+-
     prefix: Mr.
     fname: Vinay
     lname: Venkatesh
-  -
-    prefix: Ms.
-    fname: Ching
-    lname: Bays
-    email: chingbays@gmail.com
-  -
-    prefix: Mr.
-    fname: Galen
-    lname: Embry
-  -
+    email: vinayvenkatesh115@gmail.com
+-
     prefix: Mr.
     fname: Umesh
     lname: Toprani
     email: utoprani@gmail.com
-  -
-    prefix: Mr.
-    fname: Mark
-    lname: Carbone
-    email: mcarbone@yahoo.com
-  -
+-
     prefix: Mr.
     fname: Anant
     lname: Singhania
-  -
+    email: anant.singhania12@gmail.com
+-
     prefix: Mr.
     fname: Bhaven
     lname: Toprani
-  -
+    email: bhaven_toprani@yahoo.com
+-
     prefix: Mr.
     fname: Arun
     lname: Kuchibotla
-  -
-    prefix: Ms.
-    fname: Karen
-    lname: Feng
-    email: karenfeng.us@gmail.com
+    email: arunraj1991@gmail.com
+-
+    prefix: Mr.
+    fname: Karthik
+    lname: Kumaravel
+    email: ndnkaratekid@gmail.com
+-
+    prefix: Mr.
+    fname: Nick
+    lname: Baker
+    email: nbaker@nbaker.org
+-
+    prefix: Mrs.
+    fname: Alice
+    lname: Chang
+    email: achang@nbaker.org
+-
+    prefix: Mr.
+    fname: Patrick
+    lname: Yang
+    email: patrickzwang@gmail.com
 
 past:
   -
