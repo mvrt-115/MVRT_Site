@@ -3,19 +3,21 @@
   robot:
     name: El Toro IX
     id: eltoro19
+  awards:
+    - Akhil Palla awarded Dean's List Finalist 
+    - Semi-Finalist at the Utah Regional
   officers:
     "President": Praxis Bays
-    "Director of Engineering": Nihil Muthaiah
-    "Mechanical Director": Anand Rajamani
-    "Electrical Director": Marcus Plutowski
-    "Engineering Documentation": Akhil Palla
-    "Director of Operations": Namrata Subramaniam
-    "Media Director": Sophie Cao
-    "Public Relations Director": Sameer Kapur
-    "Outreach": Arushi Rai
-    "Finance Co-Director": Saurav Pahadia
-    "Finance Co-Director": Kingsley Wang
-    "Documentation Director": Sydney Howard
+    "Vice President of Engineering": Nihil Muthaiah
+    "Director of Mechanical Engineering": Anand Rajamani
+    "Director of Electrical Engineering": Marcus Plutowski
+    "Director of Engineering Data": Akhil Palla
+    "Vice President of Operations": Namrata Subramaniam
+    "Director of Media": Sophie Cao
+    "Director of Public Relations": Sameer Kapur
+    "Director of Outreach": Arushi Rai
+    "Finance Co-Director": Kingsley Wang/Saurav Pahadia
+    "Director of Documentation": Sydney Howard
     "Webmaster": Aditya Kalari
   drivers:
     "Driver": Ishan Mitra
@@ -27,18 +29,21 @@
   robot:
     name: El Toro XIII
     id: eltoro18
+  awards:
+    - Entrepreneurship Award at the Utah Regional  
+    - Quarter-finalist at the Silicon Valley Regional
   officers:
     "President": Archana Kikla
-    "Director of Engineering": Andrew He
-    "Mechanical Director": Chirag Toprani
-    "Electrical Director": Lee Mracek
-    "Engineering Documentation": RJ Cunningham
-    "Director of Operations": Divek Toprani
-    "Media Director": Sophie Cao
-    "Public Relations Director": Michelle Danese
-    "Outreach": Praxis Bays
+    "Vice President of Engineering": Andrew He
+    "Director of Mechanical Engineering": Chirag Toprani
+    "Director of Electrical Engineering": Lee Mracek
+    "Director of Engineering Data": RJ Cunningham
+    "Vice President of Operations": Divek Toprani
+    "Director of Media": Sophie Cao
+    "Director of Public Relations": Michelle Danese
+    "Director of Outreach": Praxis Bays
     "Finance Director": Jeremy Chen
-    "Documentation Director": Sydney Howard
+    "Director of Documentation": Sydney Howard
     "Webmaster": Shovik Guha
   drivers:
     "Driver": Daniel Koh
@@ -51,18 +56,20 @@
   robot:
     name: El Toro XII
     id: eltoro17
+  awards:
+    - Quarter-finalist at the Sacramento Regional
   officers:
     "President": Karen Feng
-    "Director of Engineering": Jimin Park
-    "Mechanical Director": Chirag Toprani
-    "Electrical Director": Andrew He
-    "Engineering Documentation": RJ Cunningham
-    "Director of Operations": Archana Kikla
-    "Media Director": Emma Lewis
-    "Public Relations Director": Saachin Makaram
-    "Outreach": Praxis Bays
+    "Vice President of Engineering": Jimin Park
+    "Director of Mechanical Engineering": Chirag Toprani
+    "Director of Electrical Engineering": Andrew He
+    "Director of Engineering Data": RJ Cunningham
+    "Vice President of Operations": Archana Kikla
+    "Director of Media": Emma Lewis
+    "Director of Public Relations": Saachin Makaram
+    "Director of Outreach": Praxis Bays
     "Finance Director": Namrata Ramani
-    "Documentation Director": Nikita Sankar
+    "Director of Documentation": Nikita Sankar
     "Webmaster": Shovik Guha
   drivers:
     "Driver": Daniel Koh
@@ -79,14 +86,14 @@
     - Team Spirit Award sponsored by Chrysler at Silicon Valley Regional
   officers:
     "President": Evelyn Ding
-    "Director of Engineering": Kumar Veeravel
-    "Mechanical Director ": Mark Sinks
-    "Electrical Director": Karen Feng
-    "Director of Operations": Joyce Yan
-    "Media Director": Emma Lewis
-    "Public Relations Director": Sachin Makaram
+    "Vice President of Engineering": Kumar Veeravel
+    "Director of Mechanical Engineering ": Mark Sinks
+    "Director of Electrical Engineering": Karen Feng
+    "Vice President of Operations": Joyce Yan
+    "Director of Media": Emma Lewis
+    "Director of Public Relations": Sachin Makaram
     "Finance Director": Namrata Ramani
-    "Documentation Director": Jessica Chen
+    "Director of Documentation": Jessica Chen
   drivers:
     "Driver": Evelyn Ding
     "Operator": Andrew He
@@ -104,13 +111,13 @@
     - Best Website Award at the Sacramento Regional
   officers:
     "President": Anant Singhania
-    "Director of Engineering": Nupur Garg
-    "Mechanical Director": Kumar Veeravel
-    "Electrical Director": Karen Feng
-    "Director of Operations": Evelyn Ding
-    "Media Director": Daniel Tan
-    "Public Relations Director": Dahyoung Yoon
-    "Documentation Director": Jessica Chen
+    "Vice President of Engineering": Nupur Garg
+    "Director of Mechanical Engineering": Kumar Veeravel
+    "Director of Electrical Engineering": Karen Feng
+    "Vice President of Operations": Evelyn Ding
+    "Director of Media": Daniel Tan
+    "Director of Public Relations": Dahyoung Yoon
+    "Director of Documentation": Jessica Chen
   drivers:
     "Driver": Evelyn Ding
     "Secondary Driver": Benjamin Yu
@@ -129,12 +136,12 @@
     - Best Website Award at the Seattle Cascade Regional
   officers:
     "President": Helena Qin
-    "Director of Engineering": Karthik Kumaravel
-    "Mechanical Director": Abhijaat Kelkar
-    "Electrical Director": Nupur Garg
-    "Director of Operations": Rohan Gupta
-    "Media Director": Daniel Tan
-    "Public Relations Director": Anant Singhania
+    "Vice President of Engineering": Karthik Kumaravel
+    "Director of Mechanical Engineering": Abhijaat Kelkar
+    "Director of Electrical Engineering": Nupur Garg
+    "Vice President of Operations": Rohan Gupta
+    "Director of Media": Daniel Tan
+    "Director of Public Relations": Anant Singhania
     "Fianace Director": Evelyn Ding
   drivers:
     "Driver": Helena Qin
@@ -150,15 +157,15 @@
   awards:
     - Regional Chairman’s Award at the Silicon Valley Regional
     - Best Website Award at the San Diego Regional
-    - Second at the Dan Diego Regional
+    - Second at the San Diego Regional
   officers:
     "President": Parag Kikla
-    "Director of Engineering": Karthik Kumaravel
-    "Mechanical Director": Abhijaat Kelkar
-    "Electrical Director": Make He
-    "Director of Operations": Arun Kuchibhotla
-    "Media Director": Rohan Gupta
-    "Public Relations Director": Vinay Venkatesh
+    "Vice President of Engineering": Karthik Kumaravel
+    "Director of Mechanical Engineering": Abhijaat Kelkar
+    "Director of Electrical Engineering": Make He
+    "Vice President of Operations": Arun Kuchibhotla
+    "Director of Media": Rohan Gupta
+    "Director of Public Relations": Vinay Venkatesh
     "Finance Director": Helena Qin
   drivers:
     "Driver": Christopher Lin
@@ -176,12 +183,12 @@
     - Engineering Inspiration Award at the Davis Regional
   officers:
     "President": Jean Feng
-    "Director of Enginnering": Ashwin Mathur
-    "Mechanical Director": Karthik Kumaravel
-    "Electrical Director": Make He
-    "Director of Operations": Prashanth Vijay
-    "Media Director": Arun Kuchibhotla
-    "Public Relations Director": Aravindh Dorai
+    "Vice President of Engineering": Ashwin Mathur
+    "Director of Mechanical Engineering": Karthik Kumaravel
+    "Director of Electrical Engineering": Make He
+    "Vice President of Operations": Prashanth Vijay
+    "Director of Media": Arun Kuchibhotla
+    "Director of Public Relations": Aravindh Dorai
     "Finance Director": Parag Kikla
   drivers:
     "Driver": Christopher Lin
@@ -203,12 +210,12 @@
     - Best Website Award at the Silicon Valley Regional
   officers:
     "President": Brij Datta
-    "Director of Engineering": Humphrey Hu
-    "Mechanical Director": Ashwin Mathur
-    "Electrical Director": Christine Chen
-    "Director of Operations": Schott Chen
-    "Media Director": Jeremy Le
-    "Public Relations Director": Rijuta Ravichandran
+    "Vice President of Engineering": Humphrey Hu
+    "Director of Mechanical Engineering": Ashwin Mathur
+    "Director of Electrical Engineering": Christine Chen
+    "Vice President of Operations": Schott Chen
+    "Director of Media": Jeremy Le
+    "Director of Public Relations": Rijuta Ravichandran
     "Finance Director": Rosalind Lee
   drivers:
     "Driver": Christopher Lin
@@ -228,12 +235,12 @@
     - WRRF Volunteer Award
   officers:
     "President": Pavan Datta
-    "Director of Engineering": Danica Chang
-    "Mechanical Director": Humphrey Hu
-    "Electrical Director": Christine Chen
-    "Director of Operations": Brij Datta
-    "Media Director": Jerry Chen
-    "Public Relations Director": Rijuta Ravichandran
+    "Vice President of Engineering": Danica Chang
+    "Director of Mechanical Engineering": Humphrey Hu
+    "Director of Electrical Engineering": Christine Chen
+    "Vice President of Operations": Brij Datta
+    "Director of Media": Jerry Chen
+    "Director of Public Relations": Rijuta Ravichandran
     "Finance Director": Rosalind Lee
   drivers:
     "Driver": Danica Chang
@@ -252,12 +259,12 @@
     - Best Website Awards at te Silicon Valley Regional
   officers:
     "President": Pavan Datta
-    "Director of Engineering": Danica Chang
-    "Mechanical Director": Humphrey Hu
-    "Electrical Director": Christine Chen
-    "Director of Operations": Brij Datta
-    "Media Director": Eileen Laitinen
-    "Public Relations Director": Vannett Li
+    "Vice President of Engineering": Danica Chang
+    "Director of Mechanical Engineering": Humphrey Hu
+    "Director of Electrical Engineering": Christine Chen
+    "Vice President of Operations": Brij Datta
+    "Director of Media": Eileen Laitinen
+    "Director of Public Relations": Vannett Li
     "Finance Director": Rosalind Lee
   drivers:
     "Driver": Danica Chang
@@ -279,11 +286,11 @@
     - Outstanding Mentor Award at Northern California State Tournament, for Shrenik Shah
   officers:
     "President": Shrenik Shah
-    "Director of Engineering": Eric Zhou
-    "Mechanical Director": Tom Clegg
-    "Electrical Director": Stephanie Lin
-    "Director of Operations": Siyu Song
-    "Media Director": Jeffery Lee
+    "Vice President of Engineering": Eric Zhou
+    "Director of Mechanical Engineering": Tom Clegg
+    "Director of Electrical Engineering": Stephanie Lin
+    "Vice President of Operations": Siyu Song
+    "Director of Media": Jeffery Lee
     "Pubblic Relations Director": Uta Gou
     "Finance Director": Irem Mertol
   drivers:
@@ -302,12 +309,12 @@
     - Quarter-finalist at the Silicon Valley Regionals
   officers:
     "President": Akshay Dodeja
-    "Director of Engineering": Shrenik Shah
-    "Mechanical Director": Eric Zhou
-    "Electrical Director": Rebecca Illowsky
-    "Director of Operations": Jennifer Tse
-    "Media Director": Siyu Song
-    "Public Relations Director": Uta Gou
+    "Vice President of Engineering": Shrenik Shah
+    "Director of Mechanical Engineering": Eric Zhou
+    "Director of Electrical Engineering": Rebecca Illowsky
+    "Vice President of Operations": Jennifer Tse
+    "Director of Media": Siyu Song
+    "Director of Public Relations": Uta Gou
     "Finance Director": Irem Mertol
   drivers:
     "Driver": Akshay Dodeja
@@ -329,13 +336,13 @@
     - Xerox Creativity Award at the Silicon Valley Regional
   officers:
     "President": Patrick Wang
-    "Director of Engineering": Jonathan Liang
-    "Mechanical Director": Shrenik Shah
-    "Electrical Director": Rebecca Illowsky
-    "Director of Operations": Jennifer Tse
+    "Vice President of Engineering": Jonathan Liang
+    "Director of Mechanical Engineering": Shrenik Shah
+    "Director of Electrical Engineering": Rebecca Illowsky
+    "Vice President of Operations": Jennifer Tse
     "Animation Director": Siyu Song
     "Graphic Director": Akshay Dodeja
-    "Public Relations Director": Uta Gou
+    "Director of Public Relations": Uta Gou
     "Finance Director": Catherine Chen
   drivers:
     "Driver": Patrick Wang
@@ -353,8 +360,8 @@
     "President": Patrick Wang
     "Vice President (term incomplete)": Jonathan Liang
     "Executive Officer": Matt Rock
-    "Mechanical Director (term incomplete)": Paul Marshall
-    "Electrical Director (term incomplete)": Frank Wang
+    "Director of Mechanical Engineering (term incomplete)": Paul Marshall
+    "Director of Electrical Engineering (term incomplete)": Frank Wang
     "Animation Director": Katherine Lai
     "Graphics Director": Lisa Warner
     "Finance Director (term incomplete)": Abby Chen
@@ -376,11 +383,11 @@
     "President": Henry Chen
     "Vice President": Thomas Fong
     "Executive Officer": Matt Rock
-    "Mechanical Director": Travis Covington
-    "Electrical Director": Frank Wang
+    "Director of Mechanical Engineering": Travis Covington
+    "Director of Electrical Engineering": Frank Wang
     "Animation Director": Katherine Lai
     "Graphics Director": Lisa Warner
-    "Public Relations Director": Aya Maeda
+    "Director of Public Relations": Aya Maeda
     "Finance Director": Helen Wang
   drivers:
     "Driver": Travis Covington
@@ -400,10 +407,10 @@
     "President": Aya Maeda
     "Vice President": Henry Chen
     "Executive Officer": Thomas Fong
-    "Mechanical Director": Travis Covington
-    "Electrical Director": Amol
+    "Director of Mechanical Engineering": Travis Covington
+    "Director of Electrical Engineering": Amol
     "Animation Director": Patrick and Henrick Shyu
-    "Finance and Public Relations Director": Helen Wang
+    "Finance and Director of Public Relations": Helen Wang
   drivers:
     "Driver": Travis Covington
 
@@ -420,6 +427,6 @@
     "President": Shirley Lai
     "Vice President": Janice Chen
     "Executive Officer": Ben Doyle
-    "Mechanical Director": Rajesh Nishtala
-    "Electrical Director": Tom Lauwers
+    "Director of Mechanical Engineering": Rajesh Nishtala
+    "Director of Electrical Engineering": Tom Lauwers
     "Animation Director": Einoville Talvala
