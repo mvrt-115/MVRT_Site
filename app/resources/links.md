@@ -75,8 +75,8 @@ nav:
 [Team 254](http://www.team254.com/){: rel="external"}
 : The Cheesy Poofs
 
-[Team 368](http://www.mckinleyrobotics.org/){: rel="external"}
-: Kika Mana (dead link)
+[Team 971](http://frc971.org/){: rel="external"}
+: Spartan Robotics
 
 [Team 604](http://604robotics.com/){: rel="external"}
 : Leland Robotics

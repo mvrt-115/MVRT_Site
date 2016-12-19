@@ -24,13 +24,31 @@ nav:
 [MVRT Intro]
 : Introduction to MVRT and FRC.
 
-[Design and Strategy]
+[Design and Strategy Part I]
 : An introduction to design and strategy that goes over Developing Strategies, 5-Step Design Process, Manipulators, Robot Subsystems, and Robots from 2015-2016 Season
+
+[Design and Strategy Part II]
+: A continuation off the previous design and strategy powerpoint that presents a fun and interesting challenge at the end!
+
+[Design and Strategy Part III]
+: A continuation off the previous design and strategy powerpoints that presents a second challenge at the end!
 
 ## Electrical
 
 [Electrical Trainings]
-: A comprehensive overview of electrical engineering and programming in MVRT. Includes Control Systems, Main Components, Sensors, Pneumatics, Wiring, Java, WPILib, and Strongback. 
+: A comprehensive overview of electrical engineering and programming in MVRT. Includes Control Systems, Main Components, Sensors, Pneumatics, Wiring, Java, WPILib, and Strongback.
+
+[Electrical Components Training]
+:  An overview of the major components used. Includes Control Systems, Main Components, Sensors, Pneumatics, and Wiring. 
+
+[Intro to Java]
+: A basic introduction to the Java Programming Language. Goes over Datatypes, Operators, Methods, Classes, Inheritance, Constructors, and Overloading
+
+[Intro to WPILib]
+: A basic overview of WPILib, the Java library we use to program the robot. This powerpoint includes information on Subsystems, OI, Commands, Robot, and controlling various aspects of the robot using code. 
+
+[Advanced Coding Topics]
+: An introduction to some advanced coding topics. This powerpoint goes over strongback, a WPILib framework, and git.
 
 ## Mechanical
 
@@ -145,10 +163,16 @@ Engineering
 
 
 [MVRT Intro]: /files/MVRT_intro_2016-2017.pptx
-[Design and Strategy]: /files/Strategy_2016-2017.pptx
+[Design and Strategy Part I]: /files/Strategy_2016-2017.pptx
+[Design and Strategy Part II]: /files/Strategy_Challenge_2016.pptx
+[Design and Strategy Part III]: /files/2015Design_2016-2017.pptx
 
 
 [Electrical Trainings]: /files/Electrical_Trainings_2016-2017.pptx
+[Electrical Components Training]: /files/Main_Components_2016-2017.pptx
+[Intro to Java]: /files/Intro_To_Java2016-2017.pptx
+[Intro to WPILib]: /files/WPILib2016-2017.pptx
+[Advanced Coding Topics]: /files/Advanced_Coding2016-2017.pptx
 
 
 [Mechanical Trainings]: /files/Mechanical_Trainings_2016-2017.pptx
