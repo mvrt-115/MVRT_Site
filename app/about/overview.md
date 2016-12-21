@@ -6,7 +6,7 @@ Founded in 1997, the Monta Vista Robotics FIRST Team #115 was established
 by a few friends looking for a way to venture into the the technological
 world through creative innovation.
 
-Over the last seventeen years, MVRT has taken great strides in technology
+Over the last twenty years, MVRT has taken great strides in technology
 and leadership by encouraging its members to further pursue their
 imaginations beyond the mundane world and into the extraordinary realm.
 However, none of the achievements and advancements in technology would have
@@ -47,3 +47,6 @@ community.
 + [Lynbrook Robotics](http://lynbrookrobotics.com)
 + [Homestead Robotics](http://homesteadrobotics.com)
 + [Cupertino Robotics](http://tinorobotics.org)
+
+##Current Members
++ [Current Members](/about/people/)
