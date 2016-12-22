@@ -6,6 +6,8 @@ layout: null
 ---
 
 <h1>Team History</h1>
+<p>MVRT prides itself for its long and successful history. Here is a brief history of the team.</p>
+<a href="/about/people/">Current Members</a>
 
 {% for team in site.data.history.team %}
 <section id="team-{{ team.year }}" class="team">
@@ -36,17 +38,6 @@ layout: null
     {% for driver in team.drivers %}
       <dt>{{ driver[0] }}</dt>
       <dd>{{ driver[1] }}</dd>
-    {% endfor %}
-    </dl>
-    {% endif %}
-</div>
-<div class = "awards-div">
-    {% if team.awards %}
-    <h3>Team Awards</h3>
-    <dl class="team-awards">
-    {% for driver in team.awards %}
-      <dt>{{ award[0] }}</dt>
-      <dd>{{ award[1] }}</dd>
     {% endfor %}
     </dl>
     {% endif %}

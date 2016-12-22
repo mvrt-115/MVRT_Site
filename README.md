@@ -47,9 +47,9 @@ $ # Built (production) source is available at `dist/`
 ####To add dev and dev1 as remotes:
 ```bash
 $ # adding dev
-$ git remote add dev git@dev.mvrt.com
+$ git remote add dev git@dev.mvrt.com:dev.git
 $ # adding dev1
-$ git remote add dev1 git@dev1.mvrt.com
+$ git remote add dev1 git@dev1.mvrt.com:dev1.git
 ```
 
 ####Pushing to dev and dev1:
