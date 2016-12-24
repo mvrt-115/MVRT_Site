@@ -81,7 +81,7 @@
 }
 
 .site-footer-sm {
-  padding: ($base-spacing / 2) 0;
+  padding: 0px;
   background-color: $footer-sm-background-color;
   color: $footer-sm-font-color;
 }
@@ -91,7 +91,7 @@
 }
 
 .site-footer-sm > ul > li {
-  @include pad;
+  padding: 20px 130px 15px;
   > a {
     text-transform: uppercase;
     font-weight: 700;
@@ -112,7 +112,7 @@
   }
   @include media($medium-screen-up) {
     display: inline-block;
-    width: 98% / $footer-sm-number;
+    width: 98.8% / ($footer-sm-number);
   }
 }
 
