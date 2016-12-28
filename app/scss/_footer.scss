@@ -91,7 +91,7 @@
 }
 
 .site-footer-sm > ul > li {
-  padding: 20px 130px 15px;
+  padding: 20px 75px 15px;
   > a {
     text-transform: uppercase;
     font-weight: 700;
@@ -104,10 +104,8 @@
       }
     }
     @include media($medium-screen-up) {
-      display: block;
-      & + li:before {
-        content: ''
-      }
+      display: inline-block;
+      width: 98.8% / ($footer-sm-number);
     }
   }
   @include media($medium-screen-up) {
