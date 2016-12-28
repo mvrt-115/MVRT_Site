@@ -21,7 +21,7 @@ mvrt@mvrt.com. <!-- or submit an issue/PR at github.com/mvrt-115/MVRT_Site -->
 <ul>
   {% for alumnus in alumni %}
 
-    <li>{% if alumnus.story %}<a href="{{ alumnus.story }}">{% endif %}{{ alumnus.name }}{% if alumnus.story %}</a>{% endif %} {% if alumnus.college %}({{ alumnus.college }}){% endif %}</li>
+    <li>{{ alumnus.name }}{% if alumnus.story %}</a>{% endif %} {% if alumnus.college %}({{ alumnus.college }}){% endif %}</li>
 
   {% endfor %}
 </ul>
