@@ -1,4 +1,15 @@
 -
+  year: 2016
+  name: El Toro XIX
+  game: Stronghold
+  id: eltoro19
+  notes:
+    - Dual flywheel high goal and low goal shooter
+    - Low-bar robot
+    - Mechanum Intake
+    - Capable of breaking all defenses except portcullis
+
+-
   year: 2015
   name: El Toro XVIII
   game: Recycle Rush

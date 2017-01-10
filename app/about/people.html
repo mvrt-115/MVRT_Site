@@ -12,6 +12,7 @@ categories: ['people']
 <nav class="people-nav">
   <ul>
     <li><a href="#officers">Officers</a></li>
+    <li><a href="#managers">Managers</a></li>
     <li><a href="#team">Team</a></li>
     <li><a href="/about/people/mentors/">Mentors</a></li>
     <li><a href="/about/people/alumni/">Alumni</a></li>
@@ -27,6 +28,21 @@ categories: ['people']
       <div class="person-info">
         <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
         <span class="officer-position">{{ officer.position }}</span>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section id="managers">
+  <h2>Our Managers</h2>
+  <ul class="people-list managers-list">
+  {% for manager in site.data.managers %}
+    <li class="person manager" data-img-url="{{ manager.lname | append: ' ' | append: manager.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
+      <img src="/img/people/{{manager.fname | append: '_' | append: manager.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
+      <div class="person-info">
+        <span class="person-name manager-name">{{ manager.fname }} {{ manager.lname }}</span>
+        <span class="manager-position">{{ manager.position }}</span>
       </div>
     </li>
   {% endfor %}
