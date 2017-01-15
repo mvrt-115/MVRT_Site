@@ -4,6 +4,21 @@
   lname: Chuppala
   grade: 10
 -
+  position: Machining Coordinator, Subsystem Lead
+  fname: Gautham 
+  lname: Gujjula
+  grade: 11
+-
+  position: Subsystem Lead
+  fname: Tyler
+  lname: Smithline
+  grade: 11
+-
+  position: Subsystem Lead
+  fname: Andy
+  lname: Ding
+  grade: 10
+-
   position: Software Development Lead, LIDAR Team Lead 
   fname: Heather
   lname: Baker
@@ -14,7 +29,7 @@
   lname: Agrawal
   grade: 12
 -
-  position: Finance Lead
+  position: Scouting Lead
   fname: Nidhin
   lname: Madhu
   grade: 11
@@ -24,7 +39,7 @@
   lname: Gupta
   grade: 11
 -
-  position: LIDAR Student Lead, Safety Manager
+  position: LIDAR Student Lead, Subsystem Lead, Coordinator of Engineering Protocol
   fname: Josephine
   lname: Koe
   grade: 12
