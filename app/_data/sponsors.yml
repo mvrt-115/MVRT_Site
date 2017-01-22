@@ -1,5 +1,9 @@
 current:
   -
+    name: Apple
+    id: apple  
+    url: http://www.apple.com/
+  -
     name: Brin Wocicki Foundation
     id: brin
     url: https://fdo.foundationcenter.org/grantmaker-profile?key=RINF001
@@ -31,6 +35,14 @@ current:
     name: Solidworks
     id: solidworks
     url: https://www.solidworks.com/
+  -
+    name: HSC Electronic Supply
+    id: hsc  
+    url: http://www.halted.com/
+  -
+    name: Sticker Mule
+    id: sticker  
+    url: https://www.stickermule.com/
   -
     name: Autodesk
     id: autodesk
