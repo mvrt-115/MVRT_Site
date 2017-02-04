@@ -18,7 +18,7 @@ $ git clone http://github.com/mvrt-115/MVRT_Site.git
  + Ruby
  + Bundler ``gem install bundler``
  + Bower ``npm install -g bower``
- + `` bunde install ``
+ + `` bundle install ``
 
 #### 3. Install Source Dependencies
 
