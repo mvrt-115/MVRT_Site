@@ -3,8 +3,12 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: mvrt-website
-description: MVRT's snazzy new website.
+title: MVRT Blog
+email: mvrt@mvrt.com
+description: > # MVRT's snazzy new blog.
+baseurl: ""
+url: ""
+github_username: mvrt-115
 
 # Gulp handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
@@ -23,13 +27,20 @@ markdown: kramdown
 
 kramdown:
   auto_ids: true
-  use_coderay: false
+  enable_coderay: false
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
 
 paginate: 5
 paginate_path: "blog/page:num/"
 highlighter: rouge
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /events/blog/:year/:month/:day/:title/
 
 defaults:
   -
@@ -49,5 +60,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-permalink: /blog/:year/:month/:day/:title/
