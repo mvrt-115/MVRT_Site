@@ -1,5 +1,10 @@
 // _blog.scss
 
+
+.post-thumbnail {
+    width: 200px;
+}
+
 .back-to-blog {
   float: left;
   @include pad;
