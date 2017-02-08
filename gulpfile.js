@@ -32,7 +32,7 @@ gulp.task('serve', ['jekyll', 'css', 'js'], function () {
     server: {
       baseDir: ['.jekyll', '.tmp', 'app'],
     },
-    port: 4000
+    port: 970
   })
 
   // watch and recompiles files
