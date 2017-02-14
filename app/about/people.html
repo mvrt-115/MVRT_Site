@@ -24,7 +24,7 @@ categories: ['people']
   <ul class="people-list officers-list">
   {% for officer in site.data.officers %}
     <li class="person officer" data-img-url="{{ officer.lname | append: ' ' | append: officer.fname | replace: ' ','-' | downcase | append: '.jpg' }}">
-      <img src="/img/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.jpg'">
+      <img src="/img/people/{{officer.fname | append: '_' | append: officer.lname | append: '.jpg' }}" onerror="this.src='/img/people/generic.xcf'">
       <div class="person-info">
         <span class="person-name officer-name">{{ officer.fname }} {{ officer.lname }}</span>
         <span class="officer-position">{{ officer.position }}</span>
