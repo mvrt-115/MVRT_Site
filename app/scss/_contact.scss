@@ -15,7 +15,7 @@
 
 .contact-officers-list {
   @include media($medium-screen-up) {
-    columns: 4;
+    columns: 5;
     :first-child {
       margin-top: 0;
     }
