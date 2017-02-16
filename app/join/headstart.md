@@ -6,7 +6,7 @@ categories: ['headstart']
 hero: /img/hero/join.jpg
 ---
 
-#Headstart
+# Headstart
 
 Founded in 1997, the Monta Vista Robotics FIRST Team #115 was established by a few friends looking for a way to venture into the the technological world through creative innovation.
 
