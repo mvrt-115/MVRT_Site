@@ -6,9 +6,13 @@ categories: ['join']
 hero: /img/hero/join.jpg
 ---
 
-Registration for the 2016-2017 season is now live!
+Registration for the 2016-2017 season is now closed.
 There are [three easy steps](#join-us) to become a member of MVRT.
 **The deadline for completing all parts is is October 1st.**
+
+## Are you interested in joining our team for the 2017-2018 season?
+
+*[Learn more here.](/join/headstart/)*
 
 -----
 

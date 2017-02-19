@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction Blog"
-author: "Ranya Pendyala and Rithvik Chuppala"
+author: "Rithvik Chuppala, Jananni Rathnagiri, & Ranya Pendyala"
 date:   2017-02-18 22:13:00 -0800
 thumbnail: "/img/thumbnails/blog/introduction.JPG"
 categories: introduction
