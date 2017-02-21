@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Introduction Blog"
-author: "Rithvik Chuppala, Jananni Rathnagiri, & Ranya Pendyala"
+author: "Rithvik Chuppala, Jananni Rathnagiri & Ranya Pendyala"
 date:   2017-02-18 22:13:00 -0800
 thumbnail: "/img/thumbnails/blog/introduction.JPG"
 categories: introduction
 ---
 Hi all,
 
-This is the Monta Vista Robotics Team. We are coming to the end of build season and we are starting a blog to record all our progress. We have all worked hard on each aspect of the robot and we hope after reading this, you realize how hard we worked on it. 
+This is the Monta Vista Robotics Team. We are coming to the end of build season and we are starting a blog to record all our progress. We have all worked hard on each aspect of the robot and we hope after reading this, you realize how hard we worked on it.
 
 <img src="/img/thumbnails/blog/introduction.JPG" alt="Smiley face" width="420" height="420">
 
@@ -19,4 +19,3 @@ In the past five weeks, we have been working on a prototype robot to use for dri
 After noticing some discrepancies in gender in the past years we have decided to focus more of our attention on gender equality.  We held a Women's Symposium before build to get freshmen girls more comfortable to robotics and have a big sister program called SiSTEM where younger female members have an older member with similar experiences guiding them through the season.  MVRT also added another officer position meant to maintain diversity on the team, Director of Diversity Management.
 
 Monta Vista Robotics Team #115
-
