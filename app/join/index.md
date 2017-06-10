@@ -10,6 +10,10 @@ Registration for the 2016-2017 season is now closed.
 There are [three easy steps](#join-us) to become a member of MVRT.
 **The deadline for completing all parts is is October 1st.**
 
+## Interested in joining one of our FLL teams for the 2017-2018 season?
+
+*[Learn more here.](/join/fll/)*
+
 ## Are you interested in joining our team for the 2017-2018 season?
 
 *[Learn more here.](/join/headstart/)*
