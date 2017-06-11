@@ -24,7 +24,7 @@
 
 -
 
-  position: Director of Electrical Engineering
+  position: Director of Electrical
   fname: Ishan
   lname: Mitra
   grade: 11
@@ -38,6 +38,15 @@
   grade: 11
   xp: 3
   email: mechanical
+
+-
+  position: Director of Diversity Management
+  fname: Deeksha
+  lname: Manjunath
+  grade: 11
+  xp: 2
+  email: diversity
+
 -
   position: Director of Outreach
   fname: Sameer
@@ -47,7 +56,7 @@
   email: outreach
 
 -
-  position: Director of Finance
+  position: Director of Finance and Corporate Relations
   fname: Saurav
   lname: Pahadia
   grade: 11
@@ -61,11 +70,3 @@
   grade: 12
   xp: 4
   email: marketing
-
--
-  position: Director of Diversity Management
-  fname: Deeksha
-  lname: Manjunath
-  grade: 11
-  xp: 2
-  email: diversity

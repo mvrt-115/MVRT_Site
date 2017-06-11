@@ -1,5 +1,30 @@
 // _blog.scss
 
+.post-list {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.post-meta {
+  display: inline-block;
+  font-size: 90%;
+  font-color: gray;
+  width: 250px;
+}
+
+.post-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 400px;
+}
+
+.post-thumbnail {
+    width: 250px;
+}
+
 .back-to-blog {
   float: left;
   @include pad;

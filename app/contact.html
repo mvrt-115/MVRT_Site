@@ -11,7 +11,7 @@ categories: ['contact']
 </section>
 
 <section id="contact-officers">
-  <h2>Contact an Officer</h2>
+  <h2>Contact an Officer. Find any issues? Contact the webmaster</h2>
 
   <dl class="contact-officers-list">
   {% for officer in site.data.officers %}
@@ -19,6 +19,9 @@ categories: ['contact']
     <dd>{{ officer.fname }} {{ officer.lname }}</dd>
     <dd><a href="mailto:{{ officer.email }}@mvrt.com">{{ officer.email }}@mvrt.com</a></dd>
   {% endfor %}
+    <dt>Webmaster</dt>
+    <dd>Rithvik Chuppala</dd>
+    <dd><a href="mailto:rithvik.chuppala@gmail.com">rithvik.chuppala@gmail.com</a></dd>
   </dl>
 
 </section>

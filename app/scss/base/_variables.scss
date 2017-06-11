@@ -31,20 +31,21 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-gold: #FFD54F;
 $light-green: #E6EFC2;
-$purple: #7b1fa2;
+$purple:  #662D91;
 $medium-purple: #e1bee7;
 $light-purple: #f3e5f5;
+$yellow: #FBB03B;
 
 // Background Color
 $base-background-color: white;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-accent-color: $purple;
 
 // Link Colors
 $base-link-color: $base-accent-color;
-$hover-link-color: darken($base-accent-color, 15);
+$hover-link-color: $yellow;
 $base-button-color: $base-link-color;
 $hover-button-color: $hover-link-color;
 

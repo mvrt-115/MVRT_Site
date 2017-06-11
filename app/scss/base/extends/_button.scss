@@ -1,6 +1,6 @@
 %button {
   border-radius: $base-border-radius;
-  background-color:$blue;
+  background-color:$purple;
   font-color: white;
   color: white;
   display: inline-block;
@@ -11,7 +11,7 @@
   text-decoration: none;
 
   &:hover {
-    background-color: $purple;
+    background-color: $yellow;
     color: white;
   }
 
