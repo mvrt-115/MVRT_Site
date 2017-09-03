@@ -1,72 +1,55 @@
 -
   position: President
-  fname: Akhil
-  lname: Palla
+  fname: Ishan
+  lname: Mitra
   grade: 12
-  xp: 4
   email: president
 
 -
   position: Vice President of Engineering
   fname: Ninaad
   lname: Sridharan
-  grade: 11
-  xp: 4
+  grade: 12
   email: engineering
 
 -
   position: Vice President of Operations
-  fname: Aditya
-  lname: Kalari
+  fname: Saurav
+  lname: Pahadia
   grade: 12
-  xp: 4
   email: operations
 
 -
-
   position: Director of Electrical
-  fname: Ishan
-  lname: Mitra
-  grade: 11
-  xp: 3
+  fname: Michael
+  lname: Wan
+  grade: 12
   email: electrical
 
 -
   position: Director of Mechanical
-  fname: Rithin
-  lname: Venkatesh
-  grade: 11
-  xp: 3
+  fname: Gautham
+  lname: Gujjula
+  grade: 12
   email: mechanical
 
 -
-  position: Director of Diversity Management
-  fname: Deeksha
-  lname: Manjunath
-  grade: 11
-  xp: 2
-  email: diversity
-
--
   position: Director of Outreach
-  fname: Sameer
-  lname: Kapur
-  grade: 11
-  xp: 2
+  fname: Ranya
+  lname: Pendyala
+  grade: 10
   email: outreach
 
 -
   position: Director of Finance and Corporate Relations
-  fname: Saurav
-  lname: Pahadia
+  fname: Isha
+  lname: Chakraborty
   grade: 11
-  xp: 2
   email: finance
 
 -
   position: Director of Marketing
-  fname: Benjamin
-  lname: Danek
-  grade: 12
-  xp: 4
+  fname: Sophie
+  lname: Ye
+  grade: 10
   email: marketing

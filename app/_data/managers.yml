@@ -1,55 +1,61 @@
 -
-  position: Webmaster, ThinkFIRST Program Coordinator, LIDAR Team Lead 
+  position: ThinkFIRST Program Coordinator, LIDAR Team Lead
   fname: Rithvik
   lname: Chuppala
-  grade: 10
+  grade: 11
 -
   position: Machining Coordinator, Subsystem Lead
-  fname: Gautham 
+  fname: Gautham
   lname: Gujjula
-  grade: 11
+  grade: 12
 -
   position: Subsystem Lead
   fname: Tyler
   lname: Smithline
-  grade: 11
+  grade: 12
 -
   position: Subsystem Lead
   fname: Andy
   lname: Ding
-  grade: 10
--
-  position: Software Development Lead, LIDAR Team Lead 
-  fname: Heather
-  lname: Baker
   grade: 12
--
-  position: Vision Processing Lead 
-  fname: Michael
-  lname: Wan
-  grade: 11
--
-  position: Wiring Lead
-  fname: Sankalp
-  lname: Agrawal
-  grade: 12
+# -
+#   position: Software Development Lead, LIDAR Team Lead
+#   fname: Heather
+#   lname: Baker
+#   grade: 12
+# Upgraded to officer
+# -
+#   position: Vision Processing Lead
+#   fname: Michael
+#   lname: Wan
+#   grade: 11
+# -
+#   position: Wiring Lead
+#   fname: Sankalp
+#   lname: Agrawal
+#   grade: 12
 -
   position: Scouting Lead
   fname: Nidhin
   lname: Madhu
-  grade: 11
+  grade: 12
 -
   position: Finance Lead
   fname: Arnav
   lname: Gupta
-  grade: 11
--
-  position: LIDAR Student Lead, Subsystem Lead, Coordinator of Engineering Protocol
-  fname: Josephine
-  lname: Koe
   grade: 12
+# -
+#   position: LIDAR Student Lead, Subsystem Lead, Coordinator of Engineering Protocol
+#   fname: Josephine
+#   lname: Koe
+#   grade: 12
 -
   position: Ohana Program Coordinator
   fname: Hannah
   lname: Kan
-  grade: 11
+  grade: 12
+-
+  position: Webmaster
+  fname: Tej
+  lname: Nair
+  grade: 10

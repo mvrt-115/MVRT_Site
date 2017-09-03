@@ -1,5 +1,7 @@
-- fname: Sankalp
-  lname: Agrawal
+# TODO update members list with a real list
+
+# - fname: Sankalp
+#   lname: Agrawal
 
 - fname: Vivek
   lname: Agrawal
@@ -19,8 +21,8 @@
 - fname: Aki
   lname: Baidya
 
-- fname: Heather
-  lname: Baker
+# - fname: Heather
+#   lname: Baker
 
 - fname: Pranesh
   lname: Balasubramanian
@@ -82,8 +84,8 @@
 - fname: Grace
   lname: Chyu
 
-- fname: Benjamin
-  lname: Danek
+# - fname: Benjamin
+#   lname: Danek
 
 - fname: Surya
   lname: Dantuluri
@@ -157,8 +159,8 @@
 - fname: Esha
   lname: Junankar
 
-- fname: Aditya
-  lname: Kalari
+# - fname: Aditya
+#   lname: Kalari
 
 - fname: Richa
   lname: Kale
@@ -175,8 +177,8 @@
 - fname: Sean
   lname: Kim
 
-- fname: Josephine
-  lname: Koe
+# - fname: Josephine
+#   lname: Koe
 
 - fname: Hanna
   lname: Kotesova
@@ -262,8 +264,8 @@
 - fname: Saurav
   lname: Pahadia
 
-- fname: Akhil
-  lname: Palla
+# - fname: Akhil
+#   lname: Palla
 
 - fname: Kreena
   lname: Parikh

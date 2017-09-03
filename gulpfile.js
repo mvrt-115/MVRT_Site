@@ -138,15 +138,26 @@ gulp.task('img', function () {
 
   var imgFilter = $.filter('**/*.{jpg,png,gif,svg,webp}', {restore: true})
 
+  // used to resize /img/people
+  var peopleFilter = $.filter('**/img/people/**/*.{jpg,png,gif,svg,webp}', {restore: true});
+
   return gulp.src('dist/**/*')
     .pipe(imgFilter)
-    .pipe($.size({ title: 'images preminification' }))
+    .pipe($.size({ title: 'images original' }))
+    .pipe(peopleFilter)
+    .pipe($.responsive({
+      '**/*': {
+        width: 350
+      }
+    }))
+    .pipe($.size({ title: 'images post-resize' }))
+    .pipe(peopleFilter.restore)
     .pipe($.imagemin({
       progressive: true,
       svgoplugins: [{ removeViewBox: false }],
       use: [require('imagemin-pngquant')()]
     }))
-    .pipe($.size({ title: 'images postminification' }))
+    .pipe($.size({ title: 'images post-minification' }))
     .pipe($.rev())
     .pipe(imgFilter.restore)
     .pipe($.revReplace())
