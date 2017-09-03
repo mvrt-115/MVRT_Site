@@ -147,7 +147,8 @@ gulp.task('img', function () {
     .pipe(peopleFilter)
     .pipe($.responsive({
       '**/*': {
-        width: 350
+        width: 350,
+        height: 525
       }
     }))
     .pipe($.size({ title: 'images post-resize' }))
