@@ -12,56 +12,34 @@ categories: ['index', 'home']
 </section>
 <section id="team" class="step team">
   <div class="step-wrap">
-    <h2>Our Team</h2>
+    <h2><a href="/about/">Our Team</a></h2>
     <p>MVRT is a student-run high school robotics team that participates
        in the annual <i class="first">FIRST</i> Robotics Competition (FRC).</p>
-    <ul class="step-more">
-      <li><a href="/about/"><button>About Us</button></a>  |  <a href="/join/"><button>Join Us</button></a></li>
-    </ul>
-    <br></br>
-    <p>Get a headstart on robotics by joining our summer camp, MVRT Headstart</p>
-    <ul class="step-more">
-    	<li><a href="/join/headstart/"><button>Interested in Joining?</button></a></li>
-    </ul>
   </div>
 </section>
 <section id="calendar" class="step events">
   <div class="step-wrap">
-    <h2>Events/Blog</h2>
-    <p>Our blog is back! We have brought back the blog to keep our members, mentors, followers, and parents up-to-date on all things Robotics! Be sure to check it out!</p> 
-    <ul class="step-more">
-      <li><a href="/events/blog"><button>The Blog</button></a></li>
-    </ul>
-    <p> </p>
-    <p>Build Season is in full swing! Check out all of our upcoming events.</p>
-    <ul class="step-more">
-      <li><a href="/events/"><button>Events</button></a></li>
-    </ul>
+    <h2><a href="/events/">Events</a></h2>
+    <p>Keep up with MVRT's events here!</p>
   </div>
 </section>
 
 <section id="FIRST" class="step FIRST">
   <div class="step-wrap">
-    <h2><i class="first">FIRST</i></h2>
+    <h2><a href="/about/#first"><i class="first">FIRST</i></a></h2>
     <p><i>FIRST</i> is an organization whose goal is to spread STEM values, and
     inspire and enable students to be innovative thinkers. Their programs
     also challenge students's teamworking and problem-solving abilities, giving them
     a "sneak peek" into the professional world.
     </p>
-    <ul class="step-more">
-      <li><a href="/about/#first"><button>FIRST</button></i></a></li>
-    </ul>
   </div>
 </section>
 <section id="outreach" class="step outreach">
   <div class="step-wrap">
-    <h2>Outreach</h2>
+    <h2><a href="/about/#outreach">Outreach</a></h2>
     <p>In addition to building and programming robots, MVRT actively
       reaches out to others by constantly giving back to the community,
       by spreading STEM and <i>FIRST</i> values.</p>
-    <ul class="step-more">
-      <li><a href="/about/#outreach"><button>Our Contributions</button></a></li>
-    </ul>
   </div>
 </section>
 
@@ -71,6 +49,3 @@ categories: ['index', 'home']
     {% for sponsor in site.data.sponsors.current %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
   </ul>
 </section>
-
-
-
