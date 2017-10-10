@@ -1,6 +1,7 @@
 ---
 title: About FIRST
 layout: null
+permalink: /about/first/
 ---
 
 # About FIRST

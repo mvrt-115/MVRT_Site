@@ -1,5 +1,7 @@
 ---
+title: MVRT Overview
 layout: null
+permalink: /about/overview/
 ---
 
 Founded in 1997, the Monta Vista Robotics FIRST Team #115 was established
