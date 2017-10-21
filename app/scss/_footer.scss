@@ -24,7 +24,7 @@
     @include media($mobile-vertical-up) {
       display: inline;
       & + li:before {
-        content: " • "
+        content: " \2022  "
       }
     }
     @include media($medium-screen-up) {
