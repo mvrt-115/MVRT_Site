@@ -1,4 +1,16 @@
 -
+  year: 2017
+  name: El Toro XX
+  game: Steamworks
+  id: eltoro20
+  notes:
+    - Sheet metal chassis
+    - Passive gear manipulator
+    - Piston controlled flaps to improve gear intake
+    - Winch with velcro spool and ratchet for climbing the rope
+    - 5 second climb time
+    
+-
   year: 2016
   name: El Toro XIX
   game: Stronghold

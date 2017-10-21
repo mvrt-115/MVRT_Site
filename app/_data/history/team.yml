@@ -1,10 +1,34 @@
 -
+  year: 2017
+  robot:
+    name: El Toro X
+    id: eltoro20
+  awards:
+    - Winners at Arizona North Regional
+    - Semi-finalist at Silicon Valley Regional
+    - Roebling Division finalist at Houston Championships
+  officers:
+    - "President": Akhil Palla
+    - "Vice President of Engineering": Ninaad Sridharan
+    - "Director of Mechanical Engineering": Rithin Venkatesh
+    - "Director of Electrical Engineering": Ishan Mitra
+    - "Vice President of Operations": Aditya Kalari
+    - "Director of Marketing and Public Relations": Benjamin Danek
+    - "Director of Finance and Corporate Relations": Saurav Pahadia
+    - "Director of Outreach": Sameer Kapur
+  drivers:
+    "Driver": Ishan Mitra
+    "Coach": Akhil Palla
+    "Coach": Heather Baker
+    "Pilot": Gautham Gujjula
+    "Human Player": Veronica Hui
+-
   year: 2016
   robot:
     name: El Toro IX
     id: eltoro19
   awards:
-    - Akhil Palla awarded Dean's List Finalist 
+    - Akhil Palla awarded Dean's List Finalist
     - Semi-Finalist at the Utah Regional
   officers:
     "President": Praxis Bays
@@ -30,7 +54,7 @@
     name: El Toro XIII
     id: eltoro18
   awards:
-    - Entrepreneurship Award at the Utah Regional  
+    - Entrepreneurship Award at the Utah Regional
     - Quarter-finalist at the Silicon Valley Regional
   officers:
     "President": Archana Kikla
