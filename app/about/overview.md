@@ -48,7 +48,7 @@ community.
 + [Fremont Robotics](https://www.fremontrobotics.com)
 + [Lynbrook Robotics](http://lynbrookrobotics.com)
 + [Homestead Robotics](http://homesteadrobotics.com)
-+ [Cupertino Robotics](http://tinorobotics.org)
++ <!--[-->Cupertino Robotics<!-- ](http://tinorobotics.org) XXX WEBSITE DOWN -->
 
 ##Current Members
 + [Current Members](/about/people/)
