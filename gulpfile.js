@@ -7,6 +7,8 @@ var gulp = require('gulp')
         'gulp-image-resize': 'resize'
       }
     })
+  , concurrent = require('concurrent-transform')
+  , os = require('os')
   , del = require('del')
   , browserify = require('browserify')
   , watchify = require('watchify')
@@ -146,12 +148,15 @@ gulp.task('img', function () {
     .pipe(imgFilter)
     .pipe($.size({ title: 'images original' }))
     .pipe(peopleFilter)
-    .pipe($.resize({
-      width: 350,
-      height: 525,
-      crop: true,
-      noProfile: true
-    }))
+    .pipe(concurrent(
+      $.resize({
+        width: 350,
+        height: 525,
+        crop: true,
+        noProfile: true
+      }),
+      os.cpus().length
+    ))
     .pipe($.size({ title: 'images post-resize' }))
     .pipe(peopleFilter.restore)
     .pipe($.imagemin({
