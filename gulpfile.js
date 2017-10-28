@@ -4,6 +4,7 @@ var gulp = require('gulp')
         'gulp-util': 'gutil',
         'gulp-autoprefixer': 'prefix',
         'gulp-ruby-sass': 'sass',
+        'gulp-image-resize': 'resize'
       }
     })
   , del = require('del')
@@ -145,11 +146,11 @@ gulp.task('img', function () {
     .pipe(imgFilter)
     .pipe($.size({ title: 'images original' }))
     .pipe(peopleFilter)
-    .pipe($.responsive({
-      '**/*': {
-        width: 350,
-        height: 525
-      }
+    .pipe($.resize({
+      width: 350,
+      height: 525,
+      crop: true,
+      noProfile: true
     }))
     .pipe($.size({ title: 'images post-resize' }))
     .pipe(peopleFilter.restore)

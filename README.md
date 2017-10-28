@@ -18,6 +18,7 @@ $ git clone http://github.com/mvrt-115/MVRT_Site.git
  + Ruby
  + Bundler ``gem install bundler``
  + Bower ``npm install -g bower` `
+ + [GraphicsMagick](http://www.graphicsmagick.org)
  + `` bundle install `` & ``bower install``
 
 #### 3. Install Source Dependencies
@@ -70,7 +71,7 @@ $ git remote add [yourForkName] https://github.com/[yourUsername]/MVRT_Site.git
 ```
 
 #### 2. Create a branch
- 
+
 Branch off of the `develop` branch, creating a new branch for each individual change proposed.
 Name your branch something reasonable, like `feature/blog` or `hotfix/buildScripts`
 
