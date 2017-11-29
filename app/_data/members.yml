@@ -1,436 +1,413 @@
-# TODO update members list with a real list
-
-# - fname: Sankalp
-#   lname: Agrawal
-
-- fname: Vivek
-  lname: Agrawal
-
-- fname: Kishan
-  lname: Aryasomayajula
-
-- fname: Taiga
-  lname: Asanuma
-
-- fname: Hrushi
-  lname: Athreya
-
-- fname: Varun
-  lname: Ayyappan
-
-- fname: Aki
-  lname: Baidya
-
-# - fname: Heather
-#   lname: Baker
-
-- fname: Pranesh
-  lname: Balasubramanian
-
-- fname: Saicharan
-  lname: Bandikallu
-
-- fname: Grisha
-  lname: Bandodkar
-
-- fname: Deepak
-  lname: Bharadwaj
-
-- fname: Sachi
-  lname: Bhatkar
-
-- fname: Ravi
-  lname: Bhatt
-
-- fname: Army
-  lname: Bigler
-
-- fname: Isha
-  lname: Chakraborty
-
-- fname: Varna
-  lname: Chandar
-
-- fname: Kevin
-  lname: Chandran
-
-- fname: Ling-Jet
-  lname: Chee
-
-- fname: Stanley
-  lname: Chen
-
-- fname: Wenyu
-  lname: Chen
-
-- fname: Xin
-  lname: Chen
-
-- fname: Alice
-  lname: Cheng
-
-- fname: Robert
-  lname: Cheng
-
-- fname: Hannah
-  lname: Cho
-
-- fname: Heewon
-  lname: Chung
-
-- fname: Rithvik
-  lname: Chuppala
-
-- fname: Grace
-  lname: Chyu
-
-# - fname: Benjamin
-#   lname: Danek
-
-- fname: Surya
-  lname: Dantuluri
-
-- fname: Gaurav
-  lname: Datta
-
-- fname: Glen
-  lname: Dean
-
-- fname: Sreyas
-  lname: Dhulipala
-
-- fname: Andy
-  lname: Ding
-
-- fname: Jason
-  lname: Fu
-
-- fname: Ameya
-  lname: Gaitonde
-
-- fname: Manasa
-  lname: Ganesh
-
-- fname: Krishna
-  lname: Girkar
-
-- fname: Aryan
-  lname: Goyal
-
-- fname: Neel
-  lname: Griddalur
-
-- fname: Gautham
-  lname: Gujjula
-
-- fname: Arnav
-  lname: Gupta
-
-- fname: Ankit
-  lname: Gupta
-
-- fname: Steve
-  lname: Ho
-
-- fname: Omar
-  lname: Hossain
-
-- fname: Jeremy
-  lname: Huang
-
-- fname: Veronica
-  lname: Hui
-
-- fname: Rohan
-  lname: Inampudi
-
-- fname: Ashvin
-  lname: Irrinki
-
-- fname: Vishruth
-  lname: Iyer
-
-- fname: Pratyush
-  lname: Iyer
-
-- fname: Joel
-  lname: Johnson
-
-- fname: Esha
-  lname: Junankar
-
-# - fname: Aditya
-#   lname: Kalari
-
-- fname: Richa
-  lname: Kale
-
-- fname: Pavan
-  lname: Kalla
-
-- fname: Sameer
-  lname: Kapur
-
-- fname: Ajay
-  lname: Keshava
-
-- fname: Sean
-  lname: Kim
-
-# - fname: Josephine
-#   lname: Koe
-
-- fname: Hanna
-  lname: Kotesova
-
-- fname: Pranav
-  lname: Kumar
-
-- fname: Saumya
-  lname: Kumaran
-
-- fname: Gahan
-  lname: Lahiri
-
-- fname: Audrey
-  lname: Lai
-
-- fname: Eric
-  lname: Lee
-
-- fname: Jeffrey
-  lname: Leu
-
-- fname: Morgan
-  lname: Li
-
-- fname: Brandon
-  lname: Lin
-
-- fname: Steven
-  lname: Long
+- fname: Aaron
+  lname: Xu
 
 - fname: Aaron
-  lname: Lopes
+  lname: Tsang
 
-- fname: Katherine
-  lname: Ma
-
-- fname: Nidhin
-  lname: Madhu
-
-- fname: Aditya
-  lname: Mahadevan
-
-- fname: Manasalahari
-  lname: Malavathula
-
-- fname: Deeksha
-  lname: Manjunath
-
-- fname: Lalit
-  lname: Mavuduri
-
-- fname: Chirag
-  lname: Mehta
-
-- fname: Ishan
-  lname: Mitra
-
-- fname: Nadaa
-  lname: Moharram
-
-- fname: Jedwin
-  lname: Mok
-
-- fname: Sayalee
-  lname: Mylavarapu
-
-- fname: Mitesh
-  lname: Mylvaganan
-
-- fname: Tej
-  lname: Nair
+- fname: Abhishek
+  lname: Karnik
 
 - fname: Aditi
   lname: Narasimhan
 
-- fname: Abhinav
-  lname: Nimbalkar
+- fname: Aditi
+  lname: Phatak
 
-- fname: Natalia
-  lname: Osorio
+- fname: Aditya
+  lname: Phatak
 
-- fname: Saurav
-  lname: Pahadia
+- fname: Adrianna
+  lname: Koppes
 
-# - fname: Akhil
-#   lname: Palla
+- fname: Akash
+  lname: Palla
 
-- fname: Kreena
-  lname: Parikh
+- fname: Akash
+  lname: Dubey
 
-- fname: Niel
-  lname: Paul
-
-- fname: Ranya
-  lname: Pendyala
-
-- fname: Arman
-  lname: Pithwala
-
-- fname: Sraavya
-  lname: Pradeep
-
-- fname: Charlie
-  lname: Qin
-
-- fname: Gautham
-  lname: Raghupathi
-
-- fname: Arushi
-  lname: Rai
-
-- fname: Manogna
-  lname: Rajanala
-
-- fname: Deepak
-  lname: Ramalingam
-
-- fname: Jananni
-  lname: Rathnagiri
-
-- fname: Divya
-  lname: Satrawada
-
-- fname: Nilay
-  lname: Sawant
-
-- fname: Andrew
-  lname: Sehr
-
-- fname: Hari
-  lname: Senthilkumar
-
-- fname: Karan
-  lname: Seroy
-
-- fname: Kirtan
-  lname: Shah
-
-- fname: Neelie
-  lname: Shah
-
-- fname: Sachin
-  lname: Sharma
-
-- fname: Saurav
-  lname: Sharma
-
-- fname: Siddharth
-  lname: Sharma
-
-- fname: Matthew
-  lname: Sheh
+- fname: Akshara
+  lname: Kuduvalli
 
 - fname: Alan
   lname: Shi
 
-- fname: Supriya
-  lname: Shingade
-
-- fname: Divya
-  lname: Shridar
-
-- fname: Varshini
-  lname: Shrikanthan
-
-- fname: Ranjit
-  lname: Singh
-
-- fname: Michelle
-  lname: Smith
-
-- fname: Tyler
-  lname: Smithline
-
-- fname: Ninaad
-  lname: Sridharan
-
-- fname: Prasanna
-  lname: Srinivas
-
-- fname: Nitin
-  lname: Subramanian
-
-- fname: Stephen
-  lname: Sun
-
 - fname: Alex
-  lname: Suppiah
+  lname: Ma
 
-- fname: Manik
-  lname: Taneja
+- fname: Ameya
+  lname: Gaitonde
 
-- fname: Saumya
-  lname: Tawakley
+- fname: Andie
+  lname: Liu
 
-- fname: Shruthi
-  lname: Thakuria
+- fname: Andrew
+  lname: Sehr
 
-- fname: Naveen
-  lname: Thomas
+- fname: Andrew
+  lname: Yang
 
-- fname: Abhijit
-  lname: Tirumala
+- fname: Andy
+  lname: Ding
 
-- fname: Naohiro
-  lname: Tojima
-
-- fname: Jocelyn
-  lname: Tseng
-
-- fname: Shaunak
-  lname: Tulshibagwale
-
-- fname: Shonali
-  lname: Vaidya
-
-- fname: Rithin
-  lname: Venkatesh
-
-- fname: Sachin
-  lname: Wadhwa
-
-- fname: Adam
+- fname: Annie
   lname: Wang
 
-- fname: Allen
-  lname: Wang
+- fname: Anshuman
+  lname: Sahu
+
+- fname: Anusha
+  lname: Adira
+
+- fname: Armond
+  lname: Bigler
+
+- fname: Armond
+  lname: Bigler
+
+- fname: Arnav
+  lname: Raut
+
+- fname: Arnav
+  lname: Gupta
+
+- fname: Arun
+  lname: Balaji
+
+- fname: Arya
+  lname: Majjiga
+
+- fname: Ashvin
+  lname: Irrinki
+
+- fname: Bassam
+  lname: Malik
+
+- fname: Brandon
+  lname: Lin
+
+- fname: Charuthi
+  lname: Arul
 
 - fname: Chelina
   lname: Wong
 
+- fname: Chinmay
+  lname: Dandekar
+
+- fname: Christopher
+  lname: Oh
+
+- fname: Connor
+  lname: Nieh
+
+- fname: Daniel
+  lname: Kao
+
+- fname: Deeksha
+  lname: Manjunath
+
+- fname: Deelia
+  lname: Wang
+
+- fname: Derek
+  lname: Zheng
+
+- fname: Dhruv
+  lname: Sanagaram
+
+- fname: Dinesh
+  lname: Thirumavalavan
+
+- fname: Divya
+  lname: Satrawada
+
+- fname: Eric
+  lname: Chang
+
+- fname: Fiona
+  lname: Luo
+
+- fname: Gautham Reddy
+  lname: Gujjula
+
+- fname: Gauthami
+  lname: Yenne
+
+- fname: George
+  lname: Xiao
+
+- fname: Hanna
+  lname: Kotesova
+
+- fname: Hannah
+  lname: Kan
+
+- fname: Harini
+  lname: Arumugam
+
+- fname: Harshitha
+  lname: Pandian
+
+- fname: Heewon
+  lname: Chung
+
+- fname: Hrushikesha
+  lname: Athreya
+
+- fname: Isabella
+  lname: He
+
+- fname: Isha
+  lname: Chakraborty
+
+- fname: Ishan
+  lname: Mitra
+
+- fname: Jainam
+  lname: Doshi
+
+- fname: Jaspreet
+  lname: Singh
+
+- fname: Jatin
+  lname: Soni
+
+- fname: Jeffrey
+  lname: Kim
+
+- fname: Jessica
+  lname: Li
+
+- fname: Jessica
+  lname: Zhao
+
+- fname: Jiayang
+  lname: Liu
+
+- fname: Jocelyn
+  lname: Tseng
+
+- fname: Jonathan
+  lname: Chen
+
+- fname: Joshua
+  lname: Kannankunni
+
+- fname: Juliane
+  lname: Tsai
+
+- fname: Julie
+  lname: Wu
+
+- fname: Katherine
+  lname: Ma
+
+- fname: Katrina
+  lname: Chou
+
+- fname: Kenta
+  lname: Hishiro
+
+- fname: Kevin
+  lname: Lin
+
+- fname: Kyle
+  lname: Kumar
+
+- fname: Lakshmi
+  lname: Talapaneni
+
+- fname: Madison
+  lname: Moore
+
 - fname: Matthew
-  lname: Yang
+  lname: Yuen
+
+- fname: Matthew
+  lname: Sheh
+
+- fname: Meha
+  lname: Gupta
+
+- fname: Michael
+  lname: Lavery
 
 - fname: Michael
   lname: Yang
 
+- fname: Michael
+  lname: Wan
+
+- fname: Mitesh
+  lname: Mylvaganan
+
+- fname: Mohana
+  lname: Nukala
+
+- fname: Muhil
+  lname: Mylvaganan
+
+- fname: Naimisha
+  lname: Adira
+
+- fname: Nandhini
+  lname: Pandurangan
+
+- fname: Natalie
+  lname: Zhou
+
+- fname: Neelagreev
+  lname: Griddalur
+
+- fname: Neha
+  lname: Jagathesan
+
+- fname: Neil
+  lname: Poulo
+
+- fname: Niel
+  lname: Paul
+
+- fname: Nikhil
+  lname: Pitta
+
+- fname: Nikita
+  lname: Shetty
+
+- fname: Niranjan
+  lname: Bhatia
+
+- fname: Pragya
+  lname: Kallanagoudar
+
+- fname: Pranav
+  lname: Reddy
+
+- fname: Rachel
+  lname: Jiang
+
+- fname: Raivat
+  lname: Alwar
+
+- fname: Ranya
+  lname: Pendyala
+
+- fname: Ravi
+  lname: Gadgil
+
+- fname: Ravi
+  lname: Bhatt
+
+- fname: Reagan
+  lname: Haines
+
+- fname: Reedit
+  lname: Shahriar
+
+- fname: Richa
+  lname: Kale
+
+- fname: Rithin
+  lname: Venkatesh
+
+- fname: Ritvik
+  lname: Dutta
+
+- fname: Rohan
+  lname: Shah
+
+- fname: Ryan
+  lname: Li
+
+- fname: Ryan
+  lname: Han
+
+- fname: Saadiq
+  lname: Shaikh
+
+- fname: Sachin
+  lname: Dasari
+
+- fname: Saicharan
+  lname: Bandikallu
+
+- fname: Samantha
+  lname: Dunn
+
+- fname: Sameer
+  lname: Kapur
+
+- fname: Sarthak
+  lname: Kamat
+
+- fname: Serena
+  lname: Yip
+
+- fname: Seth
+  lname: Berger
+
+- fname: Shreyas
+  lname: Deshpande
+
+- fname: Siri
+  lname: Konanoor
+
+- fname: Siya
+  lname: Digra
+
+- fname: Somya
+  lname: Shah
+
 - fname: Sophie
   lname: Ye
 
-- fname: Brendan
-  lname: Yu
+- fname: Soumil
+  lname: Gupta
 
-- fname: George
-  lname: Yuan
+- fname: Sreyas
+  lname: Dhulipala
 
-- fname: Jason
-  lname: Zhang
+- fname: Sruthi
+  lname: Mikkilineni
 
-- fname: Tom
-  lname: Zhang
+- fname: Stanley
+  lname: Tzeng
 
-- fname: Ray
-  lname: Zhou
+- fname: Steven
+  lname: Long
+
+- fname: Suraj
+  lname: Mathashery
+
+- fname: Tej
+  lname: Nair
+
+- fname: Thomas
+  lname: Nguyen
+
+- fname: Tyler
+  lname: Smithline
+
+- fname: Ujwal
+  lname: Jain
+
+- fname: Varun
+  lname: Ayyappan
+
+- fname: Veronica
+  lname: Hui
+
+- fname: Vivek
+  lname: Agarwal
+
+- fname: William
+  lname: Chon
+
+- fname: Yaseen
+  lname: Shady
+
+- fname: Yash
+  lname: Gupta
+
+- fname: Yu
+  lname: Chi
