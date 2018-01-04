@@ -50,5 +50,5 @@ community.
 + [Homestead Robotics](http://homesteadrobotics.com)
 + <!--[-->Cupertino Robotics<!-- ](http://tinorobotics.org) XXX WEBSITE DOWN -->
 
-##Current Members
+## Current Members
 + [Current Members](/about/people/)
