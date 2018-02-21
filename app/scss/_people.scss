@@ -21,21 +21,15 @@
   @include row;
   @include fill-parent;
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+
   .person {
     color: #DDDDDD;
     position: relative;
     float: left;
     width: (100 / $grid-columns) * 2%;
-    &:hover:before {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: block;
-      min-height: 100%;
-      min-width: 100%;
-      background-color: transparentize($light-purple, 0.5);
-      content: ' ';
-    }
     @include media($mobile-vertical-up) {
       width: 50%;
     }
