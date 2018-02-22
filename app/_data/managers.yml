@@ -1,56 +1,72 @@
 -
-  position: Subsystem Lead
-  fname: Rithin
-  lname: Venkatesh
-  grade: 12
+  position: Wiring Manager
+  fname: Divya
+  lname: Satrawada
 -
-  position: Subsystem Lead
-  fname: Tyler
-  lname: Smithline
-  grade: 12
+  position: Basic Code Manager
+  fname: Steven
+  lname: Long
 -
-  position: Subsystem Lead
+  position: Git Manager
+  fname: Aditi
+  lname: Narasimhan
+-
+  position: Media Manager
+  fname: Neel
+  lname: Griddalur
+-
+  position: Media Manager
+  fname: Madison
+  lname: Moore
+-
+  position: Subsystem Manager
+  fname: Veronica
+  lname: Hui
+-
+  position: Subsystem Manager
   fname: Andy
   lname: Ding
-  grade: 12
-# -
-#   position: Software Development Lead, LIDAR Team Lead
-#   fname: Heather
-#   lname: Baker
-#   grade: 12
-# Upgraded to officer
-# -
-#   position: Vision Processing Lead
-#   fname: Michael
-#   lname: Wan
-#   grade: 11
-# -
-#   position: Wiring Lead
-#   fname: Sankalp
-#   lname: Agrawal
-#   grade: 12
 -
-  position: Strategy/Scouting Lead
-  fname: Nidhin
-  lname: Madhu
-  grade: 12
+  position: Subsystem Manager
+  fname: Saicharan
+  lname: Bandikallu
 -
-  position: Finance Lead
+  position: Subsystem Manager
+  fname: Vivek
+  lname: Agarwal
+-
+  position: Subsystem Manager
+  fname: Tyler
+  lname: Smithline
+-
+  position: Subsystem Manager
+  fname: Rithin
+  lname: Venkatesh
+-
+  position: Subsystem Manager
+  fname: Pavan
+  lname: Kalla
+-
+  position: Subsystem Manager
+  fname: Chelina
+  lname: Wong
+-
+  position: Subsystem Manager
+  fname: Mitesh
+  lname: Mylvaganan
+-
+  position: Subsystem Manager
+  fname: Hrushikesha
+  lname: Athreya
+-
+  position: Subsystem Manager
   fname: Arnav
   lname: Gupta
-  grade: 12
-# -
-#   position: LIDAR Student Lead, Subsystem Lead, Coordinator of Engineering Protocol
-#   fname: Josephine
-#   lname: Koe
-#   grade: 12
 -
-  position: Ohana Program Coordinator
-  fname: Hannah
-  lname: Kan
-  grade: 12
+  position: Subsystem Manager
+  fname: Hanna
+  lname: Kotesova
 -
   position: Webmaster
   fname: Tej
   lname: Nair
-  grade: 10
