@@ -16,7 +16,7 @@ layout: null
 
 # Sponsors
 
-  {% for sponsor in site.data.sponsors.current %}{{ sponsor.name }}
+  {% for sponsor in site.data.sponsors %}{{ sponsor.name }}
   {% endfor %}
 
 # Webdev Team

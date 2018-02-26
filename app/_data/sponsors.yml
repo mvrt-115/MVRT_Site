@@ -1,108 +1,80 @@
-current:
-  -
-    name: Apple
-    id: apple  
-    url: http://www.apple.com/
-  -
-    name: Brin Wocicki Foundation
-    id: brin
-    url: https://fdo.foundationcenter.org/grantmaker-profile?key=RINF001
-  -
-    name: Pinnacle Manufacturing
-    id: pinnacle  
-    url: http://team-pinnacle.com/
-  -
-    name: Abbott Fund
-    id: abbott  
-    url: http://www.abbottfund.org/
-  -  
-    name: PayPal 
-    id: paypal  
-    url: https://www.paypal.com/
-  - 
-    name: Scaleway 
-    id: scaleway 
-    url: https://www.scaleway.com/
-  - 
-    name: Logitech
-    id: logitech  
-    url: http://www.logitech.com/en-us
-  - 
-    name: Microsoft
-    id: microsoft
-    url: https://www.microsoft.com
-  -
-    name: Solidworks
-    id: solidworks
-    url: https://www.solidworks.com/
-  -
-    name: HSC Electronic Supply
-    id: hsc  
-    url: http://www.halted.com/
-  -
-    name: Sticker Mule
-    id: sticker  
-    url: https://www.stickermule.com/
-  -
-    name: Autodesk
-    id: autodesk
-    url: http://www.autodesk.com/
-  -
-    name: Cupertino Rotary Club
-    id: cupertino
-    url: http://portal.clubrunner.ca/3794
-  -
-    name: Fremont Union High Schools Foundation
-    id: fuhs
-    url: http://fuhsfoundation.org/
-  - 
-    name: Western Digital
-    id: wd
-    url: http://www.wdc.com/en/
-  -
-    name: Intuitive Surgical
-    id: intuitive
-    url: http://www.intuitivesurgical.com/
-  -
-    name: Qualcomm
-    id: qualcomm
-    url: http://www.qualcomm.com/
-
-machineshops:
-  -
-    name: De Anza College
-    id: deanza
-    url: http://www.deanza.edu/
-  -
-    name: Chemical Safety Technology
-    id: kemsafe
-    url: http://www.kemsafe.com/
-
-past:
-  -
-    name: NASA
-    id: nasa
-    url: http://www.nasa.gov/
-  -
-    name: Texas Instruments
-    id: ti
-    url: http://www.ti.com/
-  -
-    name: Northrop Grumman
-    id: northrop
-    url: http://www.northropgrumman.com/
-
-donors:
-  - The Laitinen Family
-  - Ted Shinta
-  - The Pennebaker Family
-  - The Yan Family
-  - The He Family
-  - The Cunningham Family
-  - The Sandler Family
-  - The Hedge Family
-  - The Muthaiah Family
-  - The Muthaiah Family
-  - The Bronstein Family
-  - The Rajamani Family
-
+-
+  name: Abbott Fund
+  id: abbott
+  url: http://www.abbottfund.org/
+-
+  name: Ace Hardware
+  id: acehardware
+  url: http://www.acehardware.com/home/index.jsp
+-
+  name: Autodesk
+  id: autodesk
+  url: http://www.autodesk.com/
+-
+  name: Boeing
+  id: boeing
+  url: http://www.boeing.com/
+-
+  name: Boudin
+  id: boudin
+  url: https://boudinbakery.com/
+-
+  name: Colony Landscape
+  id: colony
+  url: http://colonylandscape.com/
+-
+  name: Fremont Union High Schools Foundation
+  id: fuhs
+  url: http://fuhsfoundation.org/
+-
+  name: Google
+  id: google
+  url: https://www.google.com/
+-
+  name: HSC Electronic Supply
+  id: hsc
+  url: http://www.halted.com/
+-
+  name: Intel
+  id: intel
+  url: https://www.intel.com/content/www/us/en/homepage.html
+-
+  name: Intuitive Surgical
+  id: intuitive
+  url: http://www.intuitivesurgical.com/
+-
+  name: Microsoft
+  id: microsoft
+  url: https://www.microsoft.com
+-
+  name: Pinnacle Manufacturing
+  id: pinnacle
+  url: http://team-pinnacle.com/
+-
+  name: PostNet
+  id: postnet
+  url: https://www.postnet.com/
+-
+  name: Rotary Club of Cupertino
+  id: cupertino
+  url: http://portal.clubrunner.ca/3794
+-
+  name: Scaleway
+  id: scaleway
+  url: https://www.scaleway.com/
+-
+  name: Solidwize
+  id: solidwize
+  url: https://solidwize.com/
+-
+  name: Solidworks
+  id: solidworks
+  url: https://www.solidworks.com/
+-
+  name: Sticker Mule
+  id: sticker
+  url: https://www.stickermule.com/
+-
+  name: Western Digital
+  id: wd
+  url: http://www.wdc.com/en/

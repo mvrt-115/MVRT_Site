@@ -46,6 +46,6 @@ categories: ['index', 'home']
 <section id="sponsors" class="sponsors">
   <h2>Our Sponsors</h2>
   <ul class="home-sponsors-list">
-    {% for sponsor in site.data.sponsors.current %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
+    {% for sponsor in site.data.sponsors %}<li><a rel="nofollow" href="{{ sponsor.url }}"><img src="/img/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}"></a></li>{% endfor %}
   </ul>
 </section>
