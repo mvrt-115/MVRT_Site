@@ -13,10 +13,6 @@
     <link rel="stylesheet" href="/css/main.css">
     <!-- endbuild -->
 
-    {% if page.categories contains 'page-blog' %}
-    {% include feed.html rel="alternate" %}
-    {% endif %}
-
   </head>
   <body {% if page.categories %}class="{{ page.categories | join: ' ' }}"{% endif %}>
 

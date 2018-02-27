@@ -31,12 +31,8 @@ var paths = {
   'projectleads': '/about/people/', // TODO project leads section?
   'mentors': '/about/people/mentors/',
   'divisions': '/about/#divisions',
-  'blog': '/blog/',
 
   'joinmvrt2': '/join/',
-  'bulletin': '/blog/',
-  'events': '/blog/',
-  'newsletters': '/blog/',
   'calendar': '/members/calendar/',
   'parents': '/members/parents/',
   'scholarships': '/members/scholarships/',
@@ -70,4 +66,3 @@ function redirect () {
   var path = location.search.toLowerCase().replace(/^\?/, '')
   if (paths[path]) location.href = paths[path]
 }
-

@@ -5,7 +5,6 @@ var $ = require('jquery')
   , doc = require('./document')
   , redirect = require('./redirect')
   , nav = require('./nav')
-  , blog = require('./blog')
 
 $(function () {
   redirect()
@@ -14,5 +13,4 @@ $(function () {
   dynamic.init()
   if ($('.gallery').length) gallery.init()
   doc.init()
-  blog.init()
 })
