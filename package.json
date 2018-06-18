@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gulp",
     "dev": "gulp serve",
-    "preinstall": "bundle install && bower install"
+    "preinstall": "bundle install && npm i bower && bower install"
   },
   "browserify": {
     "transform": [
