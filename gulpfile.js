@@ -16,7 +16,6 @@ var gulp = require('gulp')
   , buffer = require('vinyl-buffer')
   , browserSync = require('browser-sync')
   , reload = browserSync.reload
-  , runSequence = require('run-sequence')
   , exec = require('child_process').exec
 
 var paths = {
@@ -149,17 +148,6 @@ gulp.task('clean', function (done) {
   done()
 })
 
-gulp.task('production', gulp.parallel(['clean']), function (cb) {
-  production = true
-  runSequence(
-    'jshint',
-    ['css', 'js', 'jekyll', 'copy'],
-    'html',
-    'img',
-    cb
-  )
-})
-
 gulp.task('jshint', function () {
   return gulp.src('app/js/**/*.js')
     .pipe($.jshint())
@@ -168,7 +156,7 @@ gulp.task('jshint', function () {
 })
 
 // development serve
-gulp.task('serve', gulp.parallel(['jekyll', 'css', 'js']), function () {
+gulp.task('serve', gulp.parallel('jekyll', 'css', 'js', function () {
   browserSync.init({
     server: {
       baseDir: ['.jekyll', '.tmp', 'app'],
@@ -181,17 +169,32 @@ gulp.task('serve', gulp.parallel(['jekyll', 'css', 'js']), function () {
     '_config.yml',
     'app/**/*.{html,yml,md,mkd,markdown,json}',
     '!app/_bower_components/**/*'
-  ], ['jekyll', reload])
-  gulp.watch([paths.css + '/**/*.scss'], ['css'])
-  gulp.watch(['app/js/**/*.js'], ['jshint'])
+  ], gulp.series('jekyll', reload))
+  gulp.watch([paths.css + '/**/*.scss'], gulp.series('css'))
+  gulp.watch(['app/js/**/*.js'], gulp.series('jshint'))
   // browserify watches the javascripts
 
+}))
+
+gulp.task('set-production', function (cb) {
+  production = true
+  cb()
 })
 
+gulp.task('production',
+  gulp.series(
+    'set-production',
+    'clean',
+    'jshint',
+    gulp.parallel('css', 'js', 'jekyll', 'copy'),
+    'html',
+    'img'
+  )
+)
 
 // serve production stuff
 // DONT USE ON SERVER...I think
-gulp.task('serve:dist', gulp.parallel(['production']), function () {
+gulp.task('serve:dist', gulp.series('production', function () {
   browserSync.init({
     server: {
       baseDir: 'dist'
@@ -199,7 +202,7 @@ gulp.task('serve:dist', gulp.parallel(['production']), function () {
     port: 4000,
     notify: false
   })
-})
+}))
 
 
-gulp.task('default', gulp.parallel(['production']))
+gulp.task('default', gulp.series('production'))
