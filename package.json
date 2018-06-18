@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "description": "Yeoman workflow for mvrt-website",
   "scripts": {
-    "build": "./node_modules/.bin/gulp",
-    "dev": "./node_modules/.bin/gulp serve",
+    "build": "gulp",
+    "dev": "gulp serve",
     "preinstall": "bundle install && bower install"
   },
   "browserify": {
@@ -34,19 +34,20 @@
   "dependencies": {},
   "devDependencies": {
     "async": "^2.0.1",
-    "browser-sync": "^2.14.0",
-    "browserify": "^13.1.0",
+    "bower": "^1.8.4",
+    "browser-sync": "^2.24.4",
+    "browserify": "^16.1.0",
     "browserify-shim": "^3.8.2",
     "concurrent-transform": "^1.0.0",
     "dateformat": "^1.0.11",
-    "del": "^2.2.2",
+    "del": "^3.0.0",
     "github-api": "^2.3.0",
-    "gulp": "^3.8.10",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-filter": "^4.0.0",
     "gulp-if": "^2.0.1",
     "gulp-image-resize": "^0.13.0",
-    "gulp-imagemin": "^3.0.3",
+    "gulp-imagemin": "^4.1.0",
     "gulp-jshint": "^2.0.1",
     "gulp-load-plugins": "^1.2.4",
     "gulp-minify-css": "^1.2.4",
@@ -56,14 +57,14 @@
     "gulp-rev-replace": "^0.4.3",
     "gulp-ruby-sass": "^2.1.0",
     "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^1.3.0",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-streamify": "1.0.2",
     "gulp-svgmin": "^1.0.0",
     "gulp-uglify": "^2.0.0",
-    "gulp-useref": "^3.1.0",
+    "gulp-useref": "^3.1.5",
     "gulp-util": "^3.0.1",
     "gulp-watch": "^4.3.9",
-    "imagemin-pngquant": "^5.0.0",
+    "imagemin-pngquant": "^5.1.0",
     "jquery": "^3.1.0",
     "js-yaml": "^3.2.5",
     "jshint": "^2.9.2",
@@ -74,7 +75,7 @@
     "to-slug-case": "^1.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.0.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.11.0"
   },
   "engines": {
     "node": ">=0.10.0"

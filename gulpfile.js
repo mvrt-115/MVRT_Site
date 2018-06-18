@@ -29,40 +29,6 @@ var paths = {
 
 var production = false // set true if in production mode
 
-// development serve
-gulp.task('serve', ['jekyll', 'css', 'js'], function () {
-  browserSync.init({
-    server: {
-      baseDir: ['.jekyll', '.tmp', 'app'],
-    },
-    port: 4000
-  })
-
-  // watch and recompiles files
-  gulp.watch([
-    '_config.yml',
-    'app/**/*.{html,yml,md,mkd,markdown,json}',
-    '!app/_bower_components/**/*'
-  ], ['jekyll', reload])
-  gulp.watch([paths.css + '/**/*.scss'], ['css'])
-  gulp.watch(['app/js/**/*.js'], ['jshint'])
-  // browserify watches the javascripts
-
-})
-
-
-// serve production stuff
-// DONT USE ON SERVER...I think
-gulp.task('serve:dist', ['production'], function () {
-  browserSync.init({
-    server: {
-      baseDir: 'dist'
-    },
-    port: 4000,
-    notify: false
-  })
-})
-
 // scss -> autoprefixer -> good ol' css
 gulp.task('css', function () {
   var options = { bundleExec: true, require: ['bourbon', 'neat'] }
@@ -177,7 +143,13 @@ gulp.task('copy', function () {
     .pipe(gulp.dest('dist'))
 })
 
-gulp.task('production', ['clean'], function (cb) {
+// clean
+gulp.task('clean', function (done) {
+  del.sync(['.tmp', '.jekyll', 'dist'])
+  done()
+})
+
+gulp.task('production', gulp.parallel(['clean']), function (cb) {
   production = true
   runSequence(
     'jshint',
@@ -188,12 +160,6 @@ gulp.task('production', ['clean'], function (cb) {
   )
 })
 
-// clean
-gulp.task('clean', function (done) {
-  del.sync(['.tmp', '.jekyll', 'dist'])
-  done()
-})
-
 gulp.task('jshint', function () {
   return gulp.src('app/js/**/*.js')
     .pipe($.jshint())
@@ -201,5 +167,39 @@ gulp.task('jshint', function () {
     .pipe($.if(!browserSync.active, $.jshint.reporter('fail'))) // http://bit.ly/14lPNoj
 })
 
+// development serve
+gulp.task('serve', gulp.parallel(['jekyll', 'css', 'js']), function () {
+  browserSync.init({
+    server: {
+      baseDir: ['.jekyll', '.tmp', 'app'],
+    },
+    port: 4000
+  })
 
-gulp.task('default', ['production'])
+  // watch and recompiles files
+  gulp.watch([
+    '_config.yml',
+    'app/**/*.{html,yml,md,mkd,markdown,json}',
+    '!app/_bower_components/**/*'
+  ], ['jekyll', reload])
+  gulp.watch([paths.css + '/**/*.scss'], ['css'])
+  gulp.watch(['app/js/**/*.js'], ['jshint'])
+  // browserify watches the javascripts
+
+})
+
+
+// serve production stuff
+// DONT USE ON SERVER...I think
+gulp.task('serve:dist', gulp.parallel(['production']), function () {
+  browserSync.init({
+    server: {
+      baseDir: 'dist'
+    },
+    port: 4000,
+    notify: false
+  })
+})
+
+
+gulp.task('default', gulp.parallel(['production']))

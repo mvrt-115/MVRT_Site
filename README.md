@@ -14,10 +14,8 @@ $ git clone http://github.com/mvrt-115/MVRT_Site.git
 #### 2. Install Prerequisites
 
  + NodeJS
- + Gulp ``npm install -g gulp``
  + Ruby
  + Bundler ``gem install bundler``
- + Bower ``npm install -g bower` `
  + [GraphicsMagick](http://www.graphicsmagick.org)
  + `` bundle install `` & ``bower install``
 
