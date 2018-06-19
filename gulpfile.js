@@ -169,7 +169,10 @@ gulp.task('serve', gulp.parallel('jekyll', 'css', 'js', function () {
     '_config.yml',
     'app/**/*.{html,yml,md,mkd,markdown,json}',
     '!app/_bower_components/**/*'
-  ], gulp.series('jekyll', reload))
+  ], gulp.series('jekyll', cb => {
+    reload()
+    cb()
+  }))
   gulp.watch([paths.css + '/**/*.scss'], gulp.series('css'))
   gulp.watch(['app/js/**/*.js'], gulp.series('jshint'))
   // browserify watches the javascripts
