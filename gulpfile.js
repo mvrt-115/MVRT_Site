@@ -26,10 +26,23 @@ var paths = {
   js: ['./app/js/index.js'] // browserify
 }
 
+// wraps sync function for async
+function wrap(fn) {
+  return cb => {
+    let ret;
+    try {
+      ret = fn();
+    } catch (e) {
+      return cb(e)
+    }
+    return cb(null, ret);
+  }
+}
+
 var production = false // set true if in production mode
 
 // scss -> autoprefixer -> good ol' css
-gulp.task('css', function () {
+gulp.task('css', () => {
   var options = { bundleExec: true, require: ['bourbon', 'neat'] }
   options.sourcemap = production ? false : true
   return $.sass(paths.css, options)
@@ -42,7 +55,7 @@ gulp.task('css', function () {
 })
 
 // javascripts with browserify
-gulp.task('js', function () {
+gulp.task('js', () => {
   var bOptions = { entries: [paths.js], debug: true }
   var b = production ? browserify(bOptions) :
     watchify(browserify(bOptions), watchify.args)
@@ -62,16 +75,16 @@ gulp.task('js', function () {
 })
 
 // jekyll
-gulp.task('jekyll', function (done) {
+gulp.task('jekyll', function (cb) {
   if (production) {
-    exec('bundle exec jekyll build --source app --config _config.yml,_config.build.yml --destination dist', done)
+    exec('bundle exec jekyll build --source app --config _config.yml,_config.build.yml --destination dist', cb)
   } else {
-    exec('bundle exec jekyll build --source app --config _config.yml --destination .jekyll', done)
+    exec('bundle exec jekyll build --source app --config _config.yml --destination .jekyll', cb)
   }
 })
 
 // Compiles HTML
-gulp.task('html', function () {
+gulp.task('html', () => {
 
   var jsFilter = $.filter('**/*.js', {restore: true})
     , cssFilter = $.filter('**/*.css', {restore: true})
@@ -102,7 +115,7 @@ gulp.task('html', function () {
 })
 
 // Revs images, replace links in other files
-gulp.task('img', function () {
+gulp.task('img', () => {
 
   var imgFilter = $.filter('**/*.{jpg,png,gif,svg,webp}', {restore: true})
 
@@ -137,18 +150,17 @@ gulp.task('img', function () {
 })
 
 // copies stuff
-gulp.task('copy', function () {
+gulp.task('copy', () => {
   return gulp.src('app/img/**/*', { base: 'app' })
     .pipe(gulp.dest('dist'))
 })
 
 // clean
-gulp.task('clean', function (done) {
-  del.sync(['.tmp', '.jekyll', 'dist'])
-  done()
+gulp.task('clean', () => {
+  return del(['.tmp', '.jekyll', 'dist'])
 })
 
-gulp.task('jshint', function () {
+gulp.task('jshint', () => {
   return gulp.src('app/js/**/*.js')
     .pipe($.jshint())
     .pipe($.jshint.reporter(require('jshint-stylish')))
@@ -156,7 +168,7 @@ gulp.task('jshint', function () {
 })
 
 // development serve
-gulp.task('serve', gulp.parallel('jekyll', 'css', 'js', function () {
+gulp.task('serve', gulp.series(gulp.parallel('jekyll', 'css', 'js'), () => {
   browserSync.init({
     server: {
       baseDir: ['.jekyll', '.tmp', 'app'],
@@ -169,24 +181,16 @@ gulp.task('serve', gulp.parallel('jekyll', 'css', 'js', function () {
     '_config.yml',
     'app/**/*.{html,yml,md,mkd,markdown,json}',
     '!app/_bower_components/**/*'
-  ], gulp.series('jekyll', cb => {
-    reload()
-    cb()
-  }))
+  ], gulp.series('jekyll', wrap(reload)))
   gulp.watch([paths.css + '/**/*.scss'], gulp.series('css'))
   gulp.watch(['app/js/**/*.js'], gulp.series('jshint'))
   // browserify watches the javascripts
 
 }))
 
-gulp.task('set-production', function (cb) {
-  production = true
-  cb()
-})
-
 gulp.task('production',
   gulp.series(
-    'set-production',
+    wrap(() => production = true),
     'clean',
     'jshint',
     gulp.parallel('css', 'js', 'jekyll', 'copy'),
@@ -197,7 +201,7 @@ gulp.task('production',
 
 // serve production stuff
 // DONT USE ON SERVER...I think
-gulp.task('serve:dist', gulp.series('production', function () {
+gulp.task('serve:dist', gulp.series('production', () => {
   browserSync.init({
     server: {
       baseDir: 'dist'
