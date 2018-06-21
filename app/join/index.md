@@ -6,15 +6,19 @@ categories: ['join']
 hero: /img/hero/join.jpg
 ---
 
-Registration for the 2017-2018 season is **closed**.
+Signups for our 2018 HeadStart mailing list are now **open**!
 <!-- There are [three easy steps](#join-us) to becoming a member of MVRT.
 **The deadline for completing all parts is October 30th.** -->
 
-## Interested in joining one of our FLL teams for the 2017-2018 season?
+## Interested in registering for our HeadStart summer camp?
+
+*[Contact mvrt@mvrt.com and we'll add you to our email list.](mailto:mvrt@mvrt.com)*
+
+## Interested in joining one of our FLL teams for the 2018-2019 season?
 
 *[Learn more here.](/join/fll/)*
 
-## Are you interested in joining our team for the 2017-2018 season?
+## Are you interested in joining our team for the 2018-2019 season?
 
 *[Learn more here.](/join/headstart/)*
 
