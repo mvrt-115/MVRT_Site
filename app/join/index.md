@@ -12,7 +12,7 @@ Signups for our 2018 HeadStart mailing list are now **open**!
 
 ## Interested in registering for our HeadStart summer camp?
 
-*[Contact mvrt@mvrt.com and we'll add you to our email list.](mailto:mvrt@mvrt.com)*
+*[Register through our online form here.](https://mvrt115.typeform.com/to/W6xCUS)*
 
 ## Interested in joining one of our FLL teams for the 2018-2019 season?
 
