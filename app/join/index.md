@@ -6,13 +6,13 @@ categories: ['join']
 hero: /img/hero/join.jpg
 ---
 
-Signups for our 2018 HeadStart mailing list are now **open**!
+Registration for the team is **closed**, but will reopen in the fall.
 <!-- There are [three easy steps](#join-us) to becoming a member of MVRT.
 **The deadline for completing all parts is October 30th.** -->
 
 ## Interested in registering for our HeadStart summer camp?
 
-*[Register through our online form here.](https://mvrt115.typeform.com/to/W6xCUS)*
+*[Learn more here.](/join/headstart)*
 
 ## Interested in joining one of our FLL teams for the 2018-2019 season?
 
@@ -20,7 +20,7 @@ Signups for our 2018 HeadStart mailing list are now **open**!
 
 ## Are you interested in joining our team for the 2018-2019 season?
 
-*[Learn more here.](/join/headstart/)*
+*[Learn more here.](#join-us)*
 
 -----
 
@@ -30,17 +30,17 @@ The Monta Vista Robotics Team competes in the annual FIRST Robotics Competition,
 *Learn more about our team [here.](/about)*
 
 ### Registration Timeline & Major Events
-*A complete calendar of events is available [here.](/events)*
+*A complete calendar of events is available [here.](/events) Many dates are still TBD*
 
-- Sept 14: Information Meeting in F108, lunchtime (tentative)
+<!-- - Sept 14: Information Meeting in F108, lunchtime (tentative)
 - **Sept 19: Rookie Trainings begin**
 - *Sept 24-25: Chezy Champs offseason event @ Bellarmine College Prep*
 - Sept 21: Parents Night in F108, 6:30 PM (tentative)
 - **October 1st: Forms Due**
-- *Oct 7-8: CalGames offseason event @ Fremont HS*
-- **Jan 7: FRC Kickoff** *(Build Season: Jan 7 – Feb 21)*
-- Late March, Early April: Utah & Silicon Valley Regionals (dates TBD)
-- April 19-22: FIRST Championships @ Houston, TX (TBD)
+- *Oct 7-8: CalGames offseason event @ Fremont HS* -->
+- **Jan 5: FRC Kickoff** *(Build Season: Jan 7 – Feb 21)*
+<!-- - Late March, Early April: Utah & Silicon Valley Regionals (dates TBD)
+- April 19-22: FIRST Championships @ Houston, TX (TBD) -->
 
 ### Finances
 MVRT runs on an annual budget of $50,000, and $70,000 in years when we attend the Championships. This includes $9,000 for FIRST and tournament registrations ($14,000 including Champs), and additional costs for parts, travel, tools and supplies. Although grants and sponsorships subsidize significant amounts of these expenses, we ask for a tax-deductible donation of $135 for the year. If a student wishes to become a member of MVRT and cannot afford part or all of the requested membership donation, scholarships are available. Please contact the team president at president@mvrt.com, or one of the mentors. Checks can be made out to “MV ASB”, with “MVRT” in the memo.
@@ -53,7 +53,7 @@ MVRT runs on an annual budget of $50,000, and $70,000 in years when we attend th
 #### 1. Fill out the [online application][1].
 <br>
 
-#### 2. Print out, complete, and sign the [Membership Agreement & Medical Form][2].
+#### 2. Print out, complete, and sign the [Medical Agreement][2].
 
 Turn forms in to any MVRT Officer, or stop by at one of our meetings.
 
